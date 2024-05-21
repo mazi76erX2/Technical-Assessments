@@ -1,0 +1,8 @@
+To run the Roomba rules program:
+    - in your terminal (While you're in the folder), type:
+        - npm install 
+        - npm run dev 
+
+    - Open your browser and go to http://localhost:3000/
+    - Click on the Randomize button to populate the grid with random dirty spots 
+    - Click on the Simulate button to clean the grid and see the resultston to clean the grid and see the results

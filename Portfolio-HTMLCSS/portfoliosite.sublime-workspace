@@ -1,0 +1,918 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Post",
+				"PostManager"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"aut",
+				"auto_now_add"
+			],
+			[
+				"mode",
+				"models.BooleanField"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"dja",
+				"django.conf\t(workflow.txt)"
+			],
+			[
+				"url",
+				"urlify"
+			],
+			[
+				"slug",
+				"slug"
+			],
+			[
+				"crete",
+				"create_slug"
+			],
+			[
+				"cre",
+				"create\t(urls.py)"
+			],
+			[
+				"new",
+				"new_slug"
+			],
+			[
+				"slu",
+				"slugify"
+			],
+			[
+				"obj",
+				"objects\t(views.py)"
+			],
+			[
+				"pre",
+				"pre_save_post_receiver"
+			],
+			[
+				"fi",
+				"filename"
+			],
+			[
+				"upl",
+				"upload_location"
+			],
+			[
+				"MED",
+				"MEDIA_URL\t(urls.py)"
+			],
+			[
+				"q",
+				"queryset"
+			],
+			[
+				"tie",
+				"timestamp\t(models.py)"
+			],
+			[
+				"col-sm",
+				"col-sm-6 \tBootstrap 4 Class"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"mes",
+				"messages\t(workflow.txt)"
+			],
+			[
+				"con",
+				"contrib\t(urls.py)"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"forms",
+				"FORCE_SCRIPT_NAME"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"list",
+				"list_filter\tstatement"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"auto",
+				"auto_now_add\tparam"
+			],
+			[
+				"model",
+				"models\tmodule"
+			],
+			[
+				"switc",
+				"switchMenuToActive"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"na",
+				"names"
+			],
+			[
+				"f",
+				"firstLetter"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"hi",
+				"hidden-md"
+			],
+			[
+				"tex",
+				"text-align-last"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"h",
+				"header\tTag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"font",
+				"justify-content"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/a.html",
+			"settings":
+			{
+				"buffer_size": 11049,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nAnaconda\n--------\n\n  \n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n                                       The Sublime Text 3 Python IDE\n  \n  \n  Anaconda v2.1.29\n  ================\n  \n  Welcome to new anaconda v2.1.29, what can do you find in this minor release?\n  \n  ## Fixes\n      - Fix MyPy settings for silent imports\n\n\nMarkdownPreview\n---------------\n\n  # Changes\n  \n  ## 2.2.0\n  \n  - Add basic GitLab support.\n  - Add per parser support for JavaScript and CSS configurations. Please see documentation to learn the new format.\n  \n  ## 2.1.2\n  \n  - Don't allow live reload on save if using GitHub parser with no OAuth.\n  \n  ## 2.1.1\n  \n  - Revert `autoNumber` set to `all` in MathJax config.\n  - Revert alignment left of MathJax display equations as the default has always been center prior to 2.0 releases.\n  \n  ## 2.1.0\n  \n  - Add support for KaTeX math.\n  - Ensure MathJax properly looks for `\\begin{env}...\\end{env}`.\n  - Unified menu.\n  \n  ## 2.0.3\n  \n  - MathJax should only scan for `arithmatex` classes in HTML.\n  \n  ## 2.0.2\n  \n  - Code highlighting should have guessing disabled by default.\n  - Fix failure when code highlighting has guessing enabled, but the user specified a language name which has no lexer.\n  \n  ## 2.0.1\n  \n  - Fix missing code highlight extension.\n  - Fix build command failing.\n  \n  ## 2.0.0\n  \n  Please read documentation as there have been big changes in this version which may require updates to your personal settings.\n  \n  * Do not vendor Python Markdown. Python Markdown will be acquired via the current markdown dependency.\n  \n  * Python Markdown configuration changes:\n  \n      * No more defining settings as `extension(option1=a,option2=b)`. Options will be defined as a dictionary.\n      * You will have to define the full extension name: `markdown.extensions.codehilite`. This will allow you to import any extension you want outside of Markdown Preview.\n      * New line to `<br>` conversion has been dropped from GitHub emulation as GitHub no longer does this. Ref issue #374.\n  \n  * Originally a couple pymdownx-extension extensions were ported over to this plugin to give a GitHub-ish feel to Markdown, these are no longer be included directly, but are included as a dependency. This will provide the latest versions, and also provide new extensions previously not included. Ref issue #378.\n  \n  * Drop ST2 so we no longer have to provide specially crafted Python Markdown versions when we try to upgrade.\n  \n  * Improve yaml front matter parsing: see issue #392.\n  \n  * Better UML JavaScript injection.\n  \n  * Link contributors in readme.\n  \n  * Remove \"magic\" Pygments configuration. User will now explicitly configure Pygments CSS injection separately.\n  \n  * Require explicit parser name moving forward instead of default, but provide a deprecation path for the short term.\n  \n  * Fix GitHub header ID generation. GitHub only lowercases ASCII chars.\n  \n  * Ensure default parser is Python Markdown, and enable auto-reload by default.\n  \n  * Hopefully better documentation.\n  \n  * Make flake8 compatible.\n  \n  * Fix outdated links.\n  \n  * Remove MathJax and UML option in favor of a more generalized solution via the pre-existing `css` option.\n  \n  * Remove `embed_css_for_sublime_output` option in favor of more generalized `include_head` option.\n  \n  ## 1.4.3\n  \n  * Fix issue where Chrome prevents live reload.\n  \n  ## 1.4.0\n  \n  * `css` setting can now be an array and contain multiple CSS files (see settings file for more info).\n  * Updated GitHub style to latest.\n  \n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * MultiMarkdown specific settings have been removed.  MultiMarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for GitHub.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *GitHub Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changelog file for both developers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n",
+			"settings":
+			{
+				"buffer_size": 5179,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/main.css",
+			"settings":
+			{
+				"buffer_size": 12545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/icon.css",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/slick.css",
+			"settings":
+			{
+				"buffer_size": 1729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/slick-theme.css",
+			"settings":
+			{
+				"buffer_size": 3135,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/animate.css",
+			"settings":
+			{
+				"buffer_size": 52789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 144416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/main.js",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 330.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"help(int)",
+			"a = 1",
+			"python",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mazi7/Downloads/Ryan Maugin_files"
+	],
+	"file_history":
+	[
+		"/C/Users/mazi7/Documents/Programming/Portfolio Site/index.html",
+		"/C/Users/mazi7/Downloads/Ryan Maugin_files/Weatherly.png",
+		"/C/Users/mazi7/Downloads/Ryan Maugin_files/ustwo_user_testing2.jpg",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templates/post_list.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/views.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/form.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/models.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templates/post_detail.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Coding Entrepreneurs/try-django-19-2e140665355611a54725eb9804655de6ae6276e7/src/posts/views.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Coding Entrepreneurs/try-django-19-2e140665355611a54725eb9804655de6ae6276e7/src/templates/post_list.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Coding Entrepreneurs/try-django-19-2e140665355611a54725eb9804655de6ae6276e7/src/templates/post_detail.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/workflow.txt",
+		"/C/Users/mazi7/Downloads/api.php",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templatetags/urlify.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templatetags/__init__.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templates/messages_display.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/blog/settings.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templates/base.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/urls.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templates/post_form.html",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/static/css/base.css",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/static_cdn/css/base.css",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/blog/urls.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Coding Entrepreneurs/try-django-19-2e140665355611a54725eb9804655de6ae6276e7/src/posts/models.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Coding Entrepreneurs/try-django-19-2e140665355611a54725eb9804655de6ae6276e7/src/posts/urls.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/migrations/0001_initial.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Coding Entrepreneurs/try-django-19-c6455a94391723caa306fbfccfac50a761e79cea/src/templates/post_list.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML, CSS and Javascript/fullstack-course4-master/examples/Lecture25/index.html",
+		"/C/Users/mazi7/Documents/Programming/CSS packages/bootstrap-4.0.0/docs/4.0/content/code.md",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/templates/index.html",
+		"/H/Django Project/work_flow2.txt",
+		"/C/Users/mazi7/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/posts/admin.py",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/crud.md",
+		"/C/Users/mazi7/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Program Files/Sublime Text 3/Packages/Python.sublime-package",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/requirements.txt.txt",
+		"/C/Users/mazi7/Documents/Programming/Projects/Blog/src/manage.py",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod5_solution/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod5_solution/js/ajax-utils.js",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture37/before/css/styles.css",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture37/before/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod3_solution/css/styles.css",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod3_solution/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod2_solution/css/styles.css",
+		"/C/wamp64/www/North_Tutors/wordpress/wp-content/themes/eightlaw-lite/index.php",
+		"/C/wamp64/www/North_Tutors/wordpress/wp-content/themes/eightlaw-lite/style.css",
+		"/C/wamp64/www/North_Tutors/wordpress/wp-content/themes/eightlaw-lite/Physical Science",
+		"/C/wamp64/www/Complete_Catering/wp-config.php",
+		"/C/Users/mazi7/Documents/Worpress Sites/North Tutors/tutorrates.html",
+		"/C/wamp64/www/North_Tutors/wordpress/wp-content/themes/eightlaw-lite/footer.php",
+		"/C/Users/mazi7/Documents/Worpress Sites/North Tutors/price.html",
+		"/C/wamp64/logs/mysql.log",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod2_solution/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture32/after/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture30/after/css/styles.css",
+		"/C/Users/mazi7/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture30/after/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture28/README.txt",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture27/README.txt",
+		"/C/Users/mazi7/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mazi7/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture18/font-size-after.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture19/box-model-after.html",
+		"/C/Users/mazi7/Documents/Worpress Sites/Complete Catering/CompleteCatering.txt",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture25/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture25/css/bootstrap.css",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture21/floating-after.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/site/index.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture25/css/styles.css",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/site/css/style.css",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture18/styling-text-after.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/site/index2.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture25/css/bootstrap.min.css",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture26/grid-after.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture25/css/bootstrap.min.css.map",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/CSS/Lecture 21 Positioning Elements by Floating.mp4",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/fullstack-course4-master/examples/Lecture17/specificity.html",
+		"/C/Users/mazi7/Documents/Computer Science Courses/HTML/Assignments/Coursera-HTML-CSS-JS/mod2_solution/some.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"classification",
+			"js",
+			"main",
+			".js",
+			".css",
+			"Ryan%20Maugin_files",
+			"<i class",
+			"<i c",
+			"<i>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/a.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"SL.28.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"SL.40.region_keys":
+							[
+							],
+							"auto_indent": false,
+							"default_dir": "C:\\Users\\mazi7\\Documents\\Programming\\Portfolio Site",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"tab_width": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/comingSoonWindow.jpg",
+					"semi_transient": true,
+					"stack_index": 4,
+					"type": "image"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"SL.30.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Monokai Soda (SL).tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/icon.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"SL.31.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Monokai Soda (SL).tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/slick.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.32.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Monokai Soda (SL).tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/slick-theme.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.33.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Monokai Soda (SL).tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/animate.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.34.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Monokai Soda (SL).tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 144416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.35.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material Monokai Soda (SL).tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/mazi7/Downloads/Ryan Maugin_files/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.36.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "portfoliosite.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
