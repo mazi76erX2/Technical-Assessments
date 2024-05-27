@@ -2,12 +2,12 @@ import glob
 import re
 
 for filename in glob.glob('./input/*'):
-with open(filename, 'r') as f_in:
-    lines = f_in.readlines()
+    with open(filename, 'r') as f_in:
+        lines = f_in.readlines()
 
-    output_filename1 = f'output_1.txt'
-    output_filename2 = f'output_2.txt'
-    output_filename3 = f'output_3.txt'
+        output_filename1 = f'output_1.txt'
+        output_filename2 = f'output_2.txt'
+        output_filename3 = f'output_3.txt'
 
 with open(output_filename1, 'a') as f_out1, open(output_filename2, 'a') as f_out2, open(output_filename3, 'a') as f_out3:
     for line in lines:
