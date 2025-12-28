@@ -1,0 +1,16 @@
+{
+    "python.testing.pytestArgs": [],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "pylint.args": [
+        "--rcfile=setup.cfg"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.isort": "explicit",
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    }
+}

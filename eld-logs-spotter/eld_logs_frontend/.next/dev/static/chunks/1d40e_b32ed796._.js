@@ -1,0 +1,18112 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "mergeClasses",
+    ()=>mergeClasses,
+    "toKebabCase",
+    ()=>toKebabCase
+]);
+const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
+const mergeClasses = (...classes)=>classes.filter((className, index, array)=>{
+        return Boolean(className) && className.trim() !== "" && array.indexOf(className) === index;
+    }).join(" ").trim();
+;
+ //# sourceMappingURL=utils.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>defaultAttributes
+]);
+var defaultAttributes = {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+};
+;
+ //# sourceMappingURL=defaultAttributes.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Icon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$defaultAttributes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
+;
+;
+;
+const Icon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"])(({ color = "currentColor", size = 24, strokeWidth = 2, absoluteStrokeWidth, className = "", children, iconNode, ...rest }, ref)=>{
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createElement"])("svg", {
+        ref,
+        ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$defaultAttributes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        width: size,
+        height: size,
+        stroke: color,
+        strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeClasses"])("lucide", className),
+        ...rest
+    }, [
+        ...iconNode.map(([tag, attrs])=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createElement"])(tag, attrs)),
+        ...Array.isArray(children) ? children : [
+            children
+        ]
+    ]);
+});
+;
+ //# sourceMappingURL=Icon.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>createLucideIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$Icon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)");
+;
+;
+;
+const createLucideIcon = (iconName, iconNode)=>{
+    const Component = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$Icon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            ref,
+            iconNode,
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeClasses"])(`lucide-${(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toKebabCase"])(iconName)}`, className),
+            ...props
+        }));
+    Component.displayName = `${iconName}`;
+    return Component;
+};
+;
+ //# sourceMappingURL=createLucideIcon.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/history.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>History
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const History = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("History", [
+    [
+        "path",
+        {
+            d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8",
+            key: "1357e3"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M3 3v5h5",
+            key: "1xhq8a"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M12 7v5l4 2",
+            key: "1fdv2h"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=history.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/history.js [app-client] (ecmascript) <export default as History>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "History",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$history$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$history$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/history.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/search.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Search
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Search = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Search", [
+    [
+        "circle",
+        {
+            cx: "11",
+            cy: "11",
+            r: "8",
+            key: "4ej97u"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m21 21-4.3-4.3",
+            key: "1qie3q"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=search.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/search.js [app-client] (ecmascript) <export default as Search>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Search",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/search.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/truck.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Truck
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Truck = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Truck", [
+    [
+        "path",
+        {
+            d: "M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2",
+            key: "wrbu53"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M15 18H9",
+            key: "1lyqi6"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14",
+            key: "lysw3i"
+        }
+    ],
+    [
+        "circle",
+        {
+            cx: "17",
+            cy: "18",
+            r: "2",
+            key: "332jqn"
+        }
+    ],
+    [
+        "circle",
+        {
+            cx: "7",
+            cy: "18",
+            r: "2",
+            key: "19iecd"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=truck.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/truck.js [app-client] (ecmascript) <export default as Truck>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Truck",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$truck$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$truck$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/truck.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/compose-refs/src/composeRefs.tsx
+__turbopack_context__.s([
+    "composeRefs",
+    ()=>composeRefs,
+    "useComposedRefs",
+    ()=>useComposedRefs
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+function setRef(ref, value) {
+    if (typeof ref === "function") {
+        return ref(value);
+    } else if (ref !== null && ref !== void 0) {
+        ref.current = value;
+    }
+}
+function composeRefs(...refs) {
+    return (node)=>{
+        let hasCleanup = false;
+        const cleanups = refs.map((ref)=>{
+            const cleanup = setRef(ref, node);
+            if (!hasCleanup && typeof cleanup == "function") {
+                hasCleanup = true;
+            }
+            return cleanup;
+        });
+        if (hasCleanup) {
+            return ()=>{
+                for(let i = 0; i < cleanups.length; i++){
+                    const cleanup = cleanups[i];
+                    if (typeof cleanup == "function") {
+                        cleanup();
+                    } else {
+                        setRef(refs[i], null);
+                    }
+                }
+            };
+        }
+    };
+}
+function useComposedRefs(...refs) {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"](composeRefs(...refs), refs);
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/slot/src/Slot.tsx
+__turbopack_context__.s([
+    "Root",
+    ()=>Root,
+    "Slot",
+    ()=>Slot,
+    "Slottable",
+    ()=>Slottable
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+;
+;
+;
+var Slot = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { children, ...slotProps } = props;
+    const childrenArray = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].toArray(children);
+    const slottable = childrenArray.find(isSlottable);
+    if (slottable) {
+        const newElement = slottable.props.children;
+        const newChildren = childrenArray.map((child)=>{
+            if (child === slottable) {
+                if (__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].count(newElement) > 1) return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].only(null);
+                return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](newElement) ? newElement.props.children : null;
+            } else {
+                return child;
+            }
+        });
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(SlotClone, {
+            ...slotProps,
+            ref: forwardedRef,
+            children: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](newElement) ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](newElement, void 0, newChildren) : null
+        });
+    }
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(SlotClone, {
+        ...slotProps,
+        ref: forwardedRef,
+        children
+    });
+});
+Slot.displayName = "Slot";
+var SlotClone = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { children, ...slotProps } = props;
+    if (__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](children)) {
+        const childrenRef = getElementRef(children);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](children, {
+            ...mergeProps(slotProps, children.props),
+            // @ts-ignore
+            ref: forwardedRef ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeRefs"])(forwardedRef, childrenRef) : childrenRef
+        });
+    }
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].count(children) > 1 ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].only(null) : null;
+});
+SlotClone.displayName = "SlotClone";
+var Slottable = ({ children })=>{
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children
+    });
+};
+function isSlottable(child) {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidElement"](child) && child.type === Slottable;
+}
+function mergeProps(slotProps, childProps) {
+    const overrideProps = {
+        ...childProps
+    };
+    for(const propName in childProps){
+        const slotPropValue = slotProps[propName];
+        const childPropValue = childProps[propName];
+        const isHandler = /^on[A-Z]/.test(propName);
+        if (isHandler) {
+            if (slotPropValue && childPropValue) {
+                overrideProps[propName] = (...args)=>{
+                    childPropValue(...args);
+                    slotPropValue(...args);
+                };
+            } else if (slotPropValue) {
+                overrideProps[propName] = slotPropValue;
+            }
+        } else if (propName === "style") {
+            overrideProps[propName] = {
+                ...slotPropValue,
+                ...childPropValue
+            };
+        } else if (propName === "className") {
+            overrideProps[propName] = [
+                slotPropValue,
+                childPropValue
+            ].filter(Boolean).join(" ");
+        }
+    }
+    return {
+        ...slotProps,
+        ...overrideProps
+    };
+}
+function getElementRef(element) {
+    let getter = Object.getOwnPropertyDescriptor(element.props, "ref")?.get;
+    let mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+    if (mayWarn) {
+        return element.ref;
+    }
+    getter = Object.getOwnPropertyDescriptor(element, "ref")?.get;
+    mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+    if (mayWarn) {
+        return element.props.ref;
+    }
+    return element.props.ref || element.ref;
+}
+var Root = Slot;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "clsx",
+    ()=>clsx,
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+function r(e) {
+    var t, f, n = "";
+    if ("string" == typeof e || "number" == typeof e) n += e;
+    else if ("object" == typeof e) if (Array.isArray(e)) {
+        var o = e.length;
+        for(t = 0; t < o; t++)e[t] && (f = r(e[t])) && (n && (n += " "), n += f);
+    } else for(f in e)e[f] && (n && (n += " "), n += f);
+    return n;
+}
+function clsx() {
+    for(var e, t, f = 0, n = "", o = arguments.length; f < o; f++)(e = arguments[f]) && (t = r(e)) && (n && (n += " "), n += t);
+    return n;
+}
+const __TURBOPACK__default__export__ = clsx;
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/class-variance-authority/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Copyright 2022 Joe Bell. All rights reserved.
+ *
+ * This file is licensed to you under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR REPRESENTATIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */ __turbopack_context__.s([
+    "cva",
+    ()=>cva,
+    "cx",
+    ()=>cx
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/clsx/dist/clsx.mjs [app-client] (ecmascript)");
+;
+const falsyToString = (value)=>typeof value === "boolean" ? `${value}` : value === 0 ? "0" : value;
+const cx = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["clsx"];
+const cva = (base, config)=>(props)=>{
+        var _config_compoundVariants;
+        if ((config === null || config === void 0 ? void 0 : config.variants) == null) return cx(base, props === null || props === void 0 ? void 0 : props.class, props === null || props === void 0 ? void 0 : props.className);
+        const { variants, defaultVariants } = config;
+        const getVariantClassNames = Object.keys(variants).map((variant)=>{
+            const variantProp = props === null || props === void 0 ? void 0 : props[variant];
+            const defaultVariantProp = defaultVariants === null || defaultVariants === void 0 ? void 0 : defaultVariants[variant];
+            if (variantProp === null) return null;
+            const variantKey = falsyToString(variantProp) || falsyToString(defaultVariantProp);
+            return variants[variant][variantKey];
+        });
+        const propsWithoutUndefined = props && Object.entries(props).reduce((acc, param)=>{
+            let [key, value] = param;
+            if (value === undefined) {
+                return acc;
+            }
+            acc[key] = value;
+            return acc;
+        }, {});
+        const getCompoundVariantClassNames = config === null || config === void 0 ? void 0 : (_config_compoundVariants = config.compoundVariants) === null || _config_compoundVariants === void 0 ? void 0 : _config_compoundVariants.reduce((acc, param)=>{
+            let { class: cvClass, className: cvClassName, ...compoundVariantOptions } = param;
+            return Object.entries(compoundVariantOptions).every((param)=>{
+                let [key, value] = param;
+                return Array.isArray(value) ? value.includes({
+                    ...defaultVariants,
+                    ...propsWithoutUndefined
+                }[key]) : ({
+                    ...defaultVariants,
+                    ...propsWithoutUndefined
+                })[key] === value;
+            }) ? [
+                ...acc,
+                cvClass,
+                cvClassName
+            ] : acc;
+        }, []);
+        return cx(base, getVariantClassNames, getCompoundVariantClassNames, props === null || props === void 0 ? void 0 : props.class, props === null || props === void 0 ? void 0 : props.className);
+    };
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/tailwind-merge/dist/bundle-mjs.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Concatenates two arrays faster than the array spread operator.
+ */ __turbopack_context__.s([
+    "createTailwindMerge",
+    ()=>createTailwindMerge,
+    "extendTailwindMerge",
+    ()=>extendTailwindMerge,
+    "fromTheme",
+    ()=>fromTheme,
+    "getDefaultConfig",
+    ()=>getDefaultConfig,
+    "mergeConfigs",
+    ()=>mergeConfigs,
+    "twJoin",
+    ()=>twJoin,
+    "twMerge",
+    ()=>twMerge,
+    "validators",
+    ()=>validators
+]);
+const concatArrays = (array1, array2)=>{
+    // Pre-allocate for better V8 optimization
+    const combinedArray = new Array(array1.length + array2.length);
+    for(let i = 0; i < array1.length; i++){
+        combinedArray[i] = array1[i];
+    }
+    for(let i = 0; i < array2.length; i++){
+        combinedArray[array1.length + i] = array2[i];
+    }
+    return combinedArray;
+};
+// Factory function ensures consistent object shapes
+const createClassValidatorObject = (classGroupId, validator)=>({
+        classGroupId,
+        validator
+    });
+// Factory ensures consistent ClassPartObject shape
+const createClassPartObject = (nextPart = new Map(), validators = null, classGroupId)=>({
+        nextPart,
+        validators,
+        classGroupId
+    });
+const CLASS_PART_SEPARATOR = '-';
+const EMPTY_CONFLICTS = [];
+// I use two dots here because one dot is used as prefix for class groups in plugins
+const ARBITRARY_PROPERTY_PREFIX = 'arbitrary..';
+const createClassGroupUtils = (config)=>{
+    const classMap = createClassMap(config);
+    const { conflictingClassGroups, conflictingClassGroupModifiers } = config;
+    const getClassGroupId = (className)=>{
+        if (className.startsWith('[') && className.endsWith(']')) {
+            return getGroupIdForArbitraryProperty(className);
+        }
+        const classParts = className.split(CLASS_PART_SEPARATOR);
+        // Classes like `-inset-1` produce an empty string as first classPart. We assume that classes for negative values are used correctly and skip it.
+        const startIndex = classParts[0] === '' && classParts.length > 1 ? 1 : 0;
+        return getGroupRecursive(classParts, startIndex, classMap);
+    };
+    const getConflictingClassGroupIds = (classGroupId, hasPostfixModifier)=>{
+        if (hasPostfixModifier) {
+            const modifierConflicts = conflictingClassGroupModifiers[classGroupId];
+            const baseConflicts = conflictingClassGroups[classGroupId];
+            if (modifierConflicts) {
+                if (baseConflicts) {
+                    // Merge base conflicts with modifier conflicts
+                    return concatArrays(baseConflicts, modifierConflicts);
+                }
+                // Only modifier conflicts
+                return modifierConflicts;
+            }
+            // Fall back to without postfix if no modifier conflicts
+            return baseConflicts || EMPTY_CONFLICTS;
+        }
+        return conflictingClassGroups[classGroupId] || EMPTY_CONFLICTS;
+    };
+    return {
+        getClassGroupId,
+        getConflictingClassGroupIds
+    };
+};
+const getGroupRecursive = (classParts, startIndex, classPartObject)=>{
+    const classPathsLength = classParts.length - startIndex;
+    if (classPathsLength === 0) {
+        return classPartObject.classGroupId;
+    }
+    const currentClassPart = classParts[startIndex];
+    const nextClassPartObject = classPartObject.nextPart.get(currentClassPart);
+    if (nextClassPartObject) {
+        const result = getGroupRecursive(classParts, startIndex + 1, nextClassPartObject);
+        if (result) return result;
+    }
+    const validators = classPartObject.validators;
+    if (validators === null) {
+        return undefined;
+    }
+    // Build classRest string efficiently by joining from startIndex onwards
+    const classRest = startIndex === 0 ? classParts.join(CLASS_PART_SEPARATOR) : classParts.slice(startIndex).join(CLASS_PART_SEPARATOR);
+    const validatorsLength = validators.length;
+    for(let i = 0; i < validatorsLength; i++){
+        const validatorObj = validators[i];
+        if (validatorObj.validator(classRest)) {
+            return validatorObj.classGroupId;
+        }
+    }
+    return undefined;
+};
+/**
+ * Get the class group ID for an arbitrary property.
+ *
+ * @param className - The class name to get the group ID for. Is expected to be string starting with `[` and ending with `]`.
+ */ const getGroupIdForArbitraryProperty = (className)=>className.slice(1, -1).indexOf(':') === -1 ? undefined : (()=>{
+        const content = className.slice(1, -1);
+        const colonIndex = content.indexOf(':');
+        const property = content.slice(0, colonIndex);
+        return property ? ARBITRARY_PROPERTY_PREFIX + property : undefined;
+    })();
+/**
+ * Exported for testing only
+ */ const createClassMap = (config)=>{
+    const { theme, classGroups } = config;
+    return processClassGroups(classGroups, theme);
+};
+// Split into separate functions to maintain monomorphic call sites
+const processClassGroups = (classGroups, theme)=>{
+    const classMap = createClassPartObject();
+    for(const classGroupId in classGroups){
+        const group = classGroups[classGroupId];
+        processClassesRecursively(group, classMap, classGroupId, theme);
+    }
+    return classMap;
+};
+const processClassesRecursively = (classGroup, classPartObject, classGroupId, theme)=>{
+    const len = classGroup.length;
+    for(let i = 0; i < len; i++){
+        const classDefinition = classGroup[i];
+        processClassDefinition(classDefinition, classPartObject, classGroupId, theme);
+    }
+};
+// Split into separate functions for each type to maintain monomorphic call sites
+const processClassDefinition = (classDefinition, classPartObject, classGroupId, theme)=>{
+    if (typeof classDefinition === 'string') {
+        processStringDefinition(classDefinition, classPartObject, classGroupId);
+        return;
+    }
+    if (typeof classDefinition === 'function') {
+        processFunctionDefinition(classDefinition, classPartObject, classGroupId, theme);
+        return;
+    }
+    processObjectDefinition(classDefinition, classPartObject, classGroupId, theme);
+};
+const processStringDefinition = (classDefinition, classPartObject, classGroupId)=>{
+    const classPartObjectToEdit = classDefinition === '' ? classPartObject : getPart(classPartObject, classDefinition);
+    classPartObjectToEdit.classGroupId = classGroupId;
+};
+const processFunctionDefinition = (classDefinition, classPartObject, classGroupId, theme)=>{
+    if (isThemeGetter(classDefinition)) {
+        processClassesRecursively(classDefinition(theme), classPartObject, classGroupId, theme);
+        return;
+    }
+    if (classPartObject.validators === null) {
+        classPartObject.validators = [];
+    }
+    classPartObject.validators.push(createClassValidatorObject(classGroupId, classDefinition));
+};
+const processObjectDefinition = (classDefinition, classPartObject, classGroupId, theme)=>{
+    const entries = Object.entries(classDefinition);
+    const len = entries.length;
+    for(let i = 0; i < len; i++){
+        const [key, value] = entries[i];
+        processClassesRecursively(value, getPart(classPartObject, key), classGroupId, theme);
+    }
+};
+const getPart = (classPartObject, path)=>{
+    let current = classPartObject;
+    const parts = path.split(CLASS_PART_SEPARATOR);
+    const len = parts.length;
+    for(let i = 0; i < len; i++){
+        const part = parts[i];
+        let next = current.nextPart.get(part);
+        if (!next) {
+            next = createClassPartObject();
+            current.nextPart.set(part, next);
+        }
+        current = next;
+    }
+    return current;
+};
+// Type guard maintains monomorphic check
+const isThemeGetter = (func)=>'isThemeGetter' in func && func.isThemeGetter === true;
+// LRU cache implementation using plain objects for simplicity
+const createLruCache = (maxCacheSize)=>{
+    if (maxCacheSize < 1) {
+        return {
+            get: ()=>undefined,
+            set: ()=>{}
+        };
+    }
+    let cacheSize = 0;
+    let cache = Object.create(null);
+    let previousCache = Object.create(null);
+    const update = (key, value)=>{
+        cache[key] = value;
+        cacheSize++;
+        if (cacheSize > maxCacheSize) {
+            cacheSize = 0;
+            previousCache = cache;
+            cache = Object.create(null);
+        }
+    };
+    return {
+        get (key) {
+            let value = cache[key];
+            if (value !== undefined) {
+                return value;
+            }
+            if ((value = previousCache[key]) !== undefined) {
+                update(key, value);
+                return value;
+            }
+        },
+        set (key, value) {
+            if (key in cache) {
+                cache[key] = value;
+            } else {
+                update(key, value);
+            }
+        }
+    };
+};
+const IMPORTANT_MODIFIER = '!';
+const MODIFIER_SEPARATOR = ':';
+const EMPTY_MODIFIERS = [];
+// Pre-allocated result object shape for consistency
+const createResultObject = (modifiers, hasImportantModifier, baseClassName, maybePostfixModifierPosition, isExternal)=>({
+        modifiers,
+        hasImportantModifier,
+        baseClassName,
+        maybePostfixModifierPosition,
+        isExternal
+    });
+const createParseClassName = (config)=>{
+    const { prefix, experimentalParseClassName } = config;
+    /**
+   * Parse class name into parts.
+   *
+   * Inspired by `splitAtTopLevelOnly` used in Tailwind CSS
+   * @see https://github.com/tailwindlabs/tailwindcss/blob/v3.2.2/src/util/splitAtTopLevelOnly.js
+   */ let parseClassName = (className)=>{
+        // Use simple array with push for better performance
+        const modifiers = [];
+        let bracketDepth = 0;
+        let parenDepth = 0;
+        let modifierStart = 0;
+        let postfixModifierPosition;
+        const len = className.length;
+        for(let index = 0; index < len; index++){
+            const currentCharacter = className[index];
+            if (bracketDepth === 0 && parenDepth === 0) {
+                if (currentCharacter === MODIFIER_SEPARATOR) {
+                    modifiers.push(className.slice(modifierStart, index));
+                    modifierStart = index + 1;
+                    continue;
+                }
+                if (currentCharacter === '/') {
+                    postfixModifierPosition = index;
+                    continue;
+                }
+            }
+            if (currentCharacter === '[') bracketDepth++;
+            else if (currentCharacter === ']') bracketDepth--;
+            else if (currentCharacter === '(') parenDepth++;
+            else if (currentCharacter === ')') parenDepth--;
+        }
+        const baseClassNameWithImportantModifier = modifiers.length === 0 ? className : className.slice(modifierStart);
+        // Inline important modifier check
+        let baseClassName = baseClassNameWithImportantModifier;
+        let hasImportantModifier = false;
+        if (baseClassNameWithImportantModifier.endsWith(IMPORTANT_MODIFIER)) {
+            baseClassName = baseClassNameWithImportantModifier.slice(0, -1);
+            hasImportantModifier = true;
+        } else if (/**
+     * In Tailwind CSS v3 the important modifier was at the start of the base class name. This is still supported for legacy reasons.
+     * @see https://github.com/dcastil/tailwind-merge/issues/513#issuecomment-2614029864
+     */ baseClassNameWithImportantModifier.startsWith(IMPORTANT_MODIFIER)) {
+            baseClassName = baseClassNameWithImportantModifier.slice(1);
+            hasImportantModifier = true;
+        }
+        const maybePostfixModifierPosition = postfixModifierPosition && postfixModifierPosition > modifierStart ? postfixModifierPosition - modifierStart : undefined;
+        return createResultObject(modifiers, hasImportantModifier, baseClassName, maybePostfixModifierPosition);
+    };
+    if (prefix) {
+        const fullPrefix = prefix + MODIFIER_SEPARATOR;
+        const parseClassNameOriginal = parseClassName;
+        parseClassName = (className)=>className.startsWith(fullPrefix) ? parseClassNameOriginal(className.slice(fullPrefix.length)) : createResultObject(EMPTY_MODIFIERS, false, className, undefined, true);
+    }
+    if (experimentalParseClassName) {
+        const parseClassNameOriginal = parseClassName;
+        parseClassName = (className)=>experimentalParseClassName({
+                className,
+                parseClassName: parseClassNameOriginal
+            });
+    }
+    return parseClassName;
+};
+/**
+ * Sorts modifiers according to following schema:
+ * - Predefined modifiers are sorted alphabetically
+ * - When an arbitrary variant appears, it must be preserved which modifiers are before and after it
+ */ const createSortModifiers = (config)=>{
+    // Pre-compute weights for all known modifiers for O(1) comparison
+    const modifierWeights = new Map();
+    // Assign weights to sensitive modifiers (highest priority, but preserve order)
+    config.orderSensitiveModifiers.forEach((mod, index)=>{
+        modifierWeights.set(mod, 1000000 + index); // High weights for sensitive mods
+    });
+    return (modifiers)=>{
+        const result = [];
+        let currentSegment = [];
+        // Process modifiers in one pass
+        for(let i = 0; i < modifiers.length; i++){
+            const modifier = modifiers[i];
+            // Check if modifier is sensitive (starts with '[' or in orderSensitiveModifiers)
+            const isArbitrary = modifier[0] === '[';
+            const isOrderSensitive = modifierWeights.has(modifier);
+            if (isArbitrary || isOrderSensitive) {
+                // Sort and flush current segment alphabetically
+                if (currentSegment.length > 0) {
+                    currentSegment.sort();
+                    result.push(...currentSegment);
+                    currentSegment = [];
+                }
+                result.push(modifier);
+            } else {
+                // Regular modifier - add to current segment for batch sorting
+                currentSegment.push(modifier);
+            }
+        }
+        // Sort and add any remaining segment items
+        if (currentSegment.length > 0) {
+            currentSegment.sort();
+            result.push(...currentSegment);
+        }
+        return result;
+    };
+};
+const createConfigUtils = (config)=>({
+        cache: createLruCache(config.cacheSize),
+        parseClassName: createParseClassName(config),
+        sortModifiers: createSortModifiers(config),
+        ...createClassGroupUtils(config)
+    });
+const SPLIT_CLASSES_REGEX = /\s+/;
+const mergeClassList = (classList, configUtils)=>{
+    const { parseClassName, getClassGroupId, getConflictingClassGroupIds, sortModifiers } = configUtils;
+    /**
+   * Set of classGroupIds in following format:
+   * `{importantModifier}{variantModifiers}{classGroupId}`
+   * @example 'float'
+   * @example 'hover:focus:bg-color'
+   * @example 'md:!pr'
+   */ const classGroupsInConflict = [];
+    const classNames = classList.trim().split(SPLIT_CLASSES_REGEX);
+    let result = '';
+    for(let index = classNames.length - 1; index >= 0; index -= 1){
+        const originalClassName = classNames[index];
+        const { isExternal, modifiers, hasImportantModifier, baseClassName, maybePostfixModifierPosition } = parseClassName(originalClassName);
+        if (isExternal) {
+            result = originalClassName + (result.length > 0 ? ' ' + result : result);
+            continue;
+        }
+        let hasPostfixModifier = !!maybePostfixModifierPosition;
+        let classGroupId = getClassGroupId(hasPostfixModifier ? baseClassName.substring(0, maybePostfixModifierPosition) : baseClassName);
+        if (!classGroupId) {
+            if (!hasPostfixModifier) {
+                // Not a Tailwind class
+                result = originalClassName + (result.length > 0 ? ' ' + result : result);
+                continue;
+            }
+            classGroupId = getClassGroupId(baseClassName);
+            if (!classGroupId) {
+                // Not a Tailwind class
+                result = originalClassName + (result.length > 0 ? ' ' + result : result);
+                continue;
+            }
+            hasPostfixModifier = false;
+        }
+        // Fast path: skip sorting for empty or single modifier
+        const variantModifier = modifiers.length === 0 ? '' : modifiers.length === 1 ? modifiers[0] : sortModifiers(modifiers).join(':');
+        const modifierId = hasImportantModifier ? variantModifier + IMPORTANT_MODIFIER : variantModifier;
+        const classId = modifierId + classGroupId;
+        if (classGroupsInConflict.indexOf(classId) > -1) {
+            continue;
+        }
+        classGroupsInConflict.push(classId);
+        const conflictGroups = getConflictingClassGroupIds(classGroupId, hasPostfixModifier);
+        for(let i = 0; i < conflictGroups.length; ++i){
+            const group = conflictGroups[i];
+            classGroupsInConflict.push(modifierId + group);
+        }
+        // Tailwind class not in conflict
+        result = originalClassName + (result.length > 0 ? ' ' + result : result);
+    }
+    return result;
+};
+/**
+ * The code in this file is copied from https://github.com/lukeed/clsx and modified to suit the needs of tailwind-merge better.
+ *
+ * Specifically:
+ * - Runtime code from https://github.com/lukeed/clsx/blob/v1.2.1/src/index.js
+ * - TypeScript types from https://github.com/lukeed/clsx/blob/v1.2.1/clsx.d.ts
+ *
+ * Original code has MIT license: Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
+ */ const twJoin = (...classLists)=>{
+    let index = 0;
+    let argument;
+    let resolvedValue;
+    let string = '';
+    while(index < classLists.length){
+        if (argument = classLists[index++]) {
+            if (resolvedValue = toValue(argument)) {
+                string && (string += ' ');
+                string += resolvedValue;
+            }
+        }
+    }
+    return string;
+};
+const toValue = (mix)=>{
+    // Fast path for strings
+    if (typeof mix === 'string') {
+        return mix;
+    }
+    let resolvedValue;
+    let string = '';
+    for(let k = 0; k < mix.length; k++){
+        if (mix[k]) {
+            if (resolvedValue = toValue(mix[k])) {
+                string && (string += ' ');
+                string += resolvedValue;
+            }
+        }
+    }
+    return string;
+};
+const createTailwindMerge = (createConfigFirst, ...createConfigRest)=>{
+    let configUtils;
+    let cacheGet;
+    let cacheSet;
+    let functionToCall;
+    const initTailwindMerge = (classList)=>{
+        const config = createConfigRest.reduce((previousConfig, createConfigCurrent)=>createConfigCurrent(previousConfig), createConfigFirst());
+        configUtils = createConfigUtils(config);
+        cacheGet = configUtils.cache.get;
+        cacheSet = configUtils.cache.set;
+        functionToCall = tailwindMerge;
+        return tailwindMerge(classList);
+    };
+    const tailwindMerge = (classList)=>{
+        const cachedResult = cacheGet(classList);
+        if (cachedResult) {
+            return cachedResult;
+        }
+        const result = mergeClassList(classList, configUtils);
+        cacheSet(classList, result);
+        return result;
+    };
+    functionToCall = initTailwindMerge;
+    return (...args)=>functionToCall(twJoin(...args));
+};
+const fallbackThemeArr = [];
+const fromTheme = (key)=>{
+    const themeGetter = (theme)=>theme[key] || fallbackThemeArr;
+    themeGetter.isThemeGetter = true;
+    return themeGetter;
+};
+const arbitraryValueRegex = /^\[(?:(\w[\w-]*):)?(.+)\]$/i;
+const arbitraryVariableRegex = /^\((?:(\w[\w-]*):)?(.+)\)$/i;
+const fractionRegex = /^\d+\/\d+$/;
+const tshirtUnitRegex = /^(\d+(\.\d+)?)?(xs|sm|md|lg|xl)$/;
+const lengthUnitRegex = /\d+(%|px|r?em|[sdl]?v([hwib]|min|max)|pt|pc|in|cm|mm|cap|ch|ex|r?lh|cq(w|h|i|b|min|max))|\b(calc|min|max|clamp)\(.+\)|^0$/;
+const colorFunctionRegex = /^(rgba?|hsla?|hwb|(ok)?(lab|lch)|color-mix)\(.+\)$/;
+// Shadow always begins with x and y offset separated by underscore optionally prepended by inset
+const shadowRegex = /^(inset_)?-?((\d+)?\.?(\d+)[a-z]+|0)_-?((\d+)?\.?(\d+)[a-z]+|0)/;
+const imageRegex = /^(url|image|image-set|cross-fade|element|(repeating-)?(linear|radial|conic)-gradient)\(.+\)$/;
+const isFraction = (value)=>fractionRegex.test(value);
+const isNumber = (value)=>!!value && !Number.isNaN(Number(value));
+const isInteger = (value)=>!!value && Number.isInteger(Number(value));
+const isPercent = (value)=>value.endsWith('%') && isNumber(value.slice(0, -1));
+const isTshirtSize = (value)=>tshirtUnitRegex.test(value);
+const isAny = ()=>true;
+const isLengthOnly = (value)=>// `colorFunctionRegex` check is necessary because color functions can have percentages in them which which would be incorrectly classified as lengths.
+    // For example, `hsl(0 0% 0%)` would be classified as a length without this check.
+    // I could also use lookbehind assertion in `lengthUnitRegex` but that isn't supported widely enough.
+    lengthUnitRegex.test(value) && !colorFunctionRegex.test(value);
+const isNever = ()=>false;
+const isShadow = (value)=>shadowRegex.test(value);
+const isImage = (value)=>imageRegex.test(value);
+const isAnyNonArbitrary = (value)=>!isArbitraryValue(value) && !isArbitraryVariable(value);
+const isArbitrarySize = (value)=>getIsArbitraryValue(value, isLabelSize, isNever);
+const isArbitraryValue = (value)=>arbitraryValueRegex.test(value);
+const isArbitraryLength = (value)=>getIsArbitraryValue(value, isLabelLength, isLengthOnly);
+const isArbitraryNumber = (value)=>getIsArbitraryValue(value, isLabelNumber, isNumber);
+const isArbitraryPosition = (value)=>getIsArbitraryValue(value, isLabelPosition, isNever);
+const isArbitraryImage = (value)=>getIsArbitraryValue(value, isLabelImage, isImage);
+const isArbitraryShadow = (value)=>getIsArbitraryValue(value, isLabelShadow, isShadow);
+const isArbitraryVariable = (value)=>arbitraryVariableRegex.test(value);
+const isArbitraryVariableLength = (value)=>getIsArbitraryVariable(value, isLabelLength);
+const isArbitraryVariableFamilyName = (value)=>getIsArbitraryVariable(value, isLabelFamilyName);
+const isArbitraryVariablePosition = (value)=>getIsArbitraryVariable(value, isLabelPosition);
+const isArbitraryVariableSize = (value)=>getIsArbitraryVariable(value, isLabelSize);
+const isArbitraryVariableImage = (value)=>getIsArbitraryVariable(value, isLabelImage);
+const isArbitraryVariableShadow = (value)=>getIsArbitraryVariable(value, isLabelShadow, true);
+// Helpers
+const getIsArbitraryValue = (value, testLabel, testValue)=>{
+    const result = arbitraryValueRegex.exec(value);
+    if (result) {
+        if (result[1]) {
+            return testLabel(result[1]);
+        }
+        return testValue(result[2]);
+    }
+    return false;
+};
+const getIsArbitraryVariable = (value, testLabel, shouldMatchNoLabel = false)=>{
+    const result = arbitraryVariableRegex.exec(value);
+    if (result) {
+        if (result[1]) {
+            return testLabel(result[1]);
+        }
+        return shouldMatchNoLabel;
+    }
+    return false;
+};
+// Labels
+const isLabelPosition = (label)=>label === 'position' || label === 'percentage';
+const isLabelImage = (label)=>label === 'image' || label === 'url';
+const isLabelSize = (label)=>label === 'length' || label === 'size' || label === 'bg-size';
+const isLabelLength = (label)=>label === 'length';
+const isLabelNumber = (label)=>label === 'number';
+const isLabelFamilyName = (label)=>label === 'family-name';
+const isLabelShadow = (label)=>label === 'shadow';
+const validators = /*#__PURE__*/ Object.defineProperty({
+    __proto__: null,
+    isAny,
+    isAnyNonArbitrary,
+    isArbitraryImage,
+    isArbitraryLength,
+    isArbitraryNumber,
+    isArbitraryPosition,
+    isArbitraryShadow,
+    isArbitrarySize,
+    isArbitraryValue,
+    isArbitraryVariable,
+    isArbitraryVariableFamilyName,
+    isArbitraryVariableImage,
+    isArbitraryVariableLength,
+    isArbitraryVariablePosition,
+    isArbitraryVariableShadow,
+    isArbitraryVariableSize,
+    isFraction,
+    isInteger,
+    isNumber,
+    isPercent,
+    isTshirtSize
+}, Symbol.toStringTag, {
+    value: 'Module'
+});
+const getDefaultConfig = ()=>{
+    /**
+   * Theme getters for theme variable namespaces
+   * @see https://tailwindcss.com/docs/theme#theme-variable-namespaces
+   */ /***/ const themeColor = fromTheme('color');
+    const themeFont = fromTheme('font');
+    const themeText = fromTheme('text');
+    const themeFontWeight = fromTheme('font-weight');
+    const themeTracking = fromTheme('tracking');
+    const themeLeading = fromTheme('leading');
+    const themeBreakpoint = fromTheme('breakpoint');
+    const themeContainer = fromTheme('container');
+    const themeSpacing = fromTheme('spacing');
+    const themeRadius = fromTheme('radius');
+    const themeShadow = fromTheme('shadow');
+    const themeInsetShadow = fromTheme('inset-shadow');
+    const themeTextShadow = fromTheme('text-shadow');
+    const themeDropShadow = fromTheme('drop-shadow');
+    const themeBlur = fromTheme('blur');
+    const themePerspective = fromTheme('perspective');
+    const themeAspect = fromTheme('aspect');
+    const themeEase = fromTheme('ease');
+    const themeAnimate = fromTheme('animate');
+    /**
+   * Helpers to avoid repeating the same scales
+   *
+   * We use functions that create a new array every time they're called instead of static arrays.
+   * This ensures that users who modify any scale by mutating the array (e.g. with `array.push(element)`) don't accidentally mutate arrays in other parts of the config.
+   */ /***/ const scaleBreak = ()=>[
+            'auto',
+            'avoid',
+            'all',
+            'avoid-page',
+            'page',
+            'left',
+            'right',
+            'column'
+        ];
+    const scalePosition = ()=>[
+            'center',
+            'top',
+            'bottom',
+            'left',
+            'right',
+            'top-left',
+            // Deprecated since Tailwind CSS v4.1.0, see https://github.com/tailwindlabs/tailwindcss/pull/17378
+            'left-top',
+            'top-right',
+            // Deprecated since Tailwind CSS v4.1.0, see https://github.com/tailwindlabs/tailwindcss/pull/17378
+            'right-top',
+            'bottom-right',
+            // Deprecated since Tailwind CSS v4.1.0, see https://github.com/tailwindlabs/tailwindcss/pull/17378
+            'right-bottom',
+            'bottom-left',
+            // Deprecated since Tailwind CSS v4.1.0, see https://github.com/tailwindlabs/tailwindcss/pull/17378
+            'left-bottom'
+        ];
+    const scalePositionWithArbitrary = ()=>[
+            ...scalePosition(),
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleOverflow = ()=>[
+            'auto',
+            'hidden',
+            'clip',
+            'visible',
+            'scroll'
+        ];
+    const scaleOverscroll = ()=>[
+            'auto',
+            'contain',
+            'none'
+        ];
+    const scaleUnambiguousSpacing = ()=>[
+            isArbitraryVariable,
+            isArbitraryValue,
+            themeSpacing
+        ];
+    const scaleInset = ()=>[
+            isFraction,
+            'full',
+            'auto',
+            ...scaleUnambiguousSpacing()
+        ];
+    const scaleGridTemplateColsRows = ()=>[
+            isInteger,
+            'none',
+            'subgrid',
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleGridColRowStartAndEnd = ()=>[
+            'auto',
+            {
+                span: [
+                    'full',
+                    isInteger,
+                    isArbitraryVariable,
+                    isArbitraryValue
+                ]
+            },
+            isInteger,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleGridColRowStartOrEnd = ()=>[
+            isInteger,
+            'auto',
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleGridAutoColsRows = ()=>[
+            'auto',
+            'min',
+            'max',
+            'fr',
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleAlignPrimaryAxis = ()=>[
+            'start',
+            'end',
+            'center',
+            'between',
+            'around',
+            'evenly',
+            'stretch',
+            'baseline',
+            'center-safe',
+            'end-safe'
+        ];
+    const scaleAlignSecondaryAxis = ()=>[
+            'start',
+            'end',
+            'center',
+            'stretch',
+            'center-safe',
+            'end-safe'
+        ];
+    const scaleMargin = ()=>[
+            'auto',
+            ...scaleUnambiguousSpacing()
+        ];
+    const scaleSizing = ()=>[
+            isFraction,
+            'auto',
+            'full',
+            'dvw',
+            'dvh',
+            'lvw',
+            'lvh',
+            'svw',
+            'svh',
+            'min',
+            'max',
+            'fit',
+            ...scaleUnambiguousSpacing()
+        ];
+    const scaleColor = ()=>[
+            themeColor,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleBgPosition = ()=>[
+            ...scalePosition(),
+            isArbitraryVariablePosition,
+            isArbitraryPosition,
+            {
+                position: [
+                    isArbitraryVariable,
+                    isArbitraryValue
+                ]
+            }
+        ];
+    const scaleBgRepeat = ()=>[
+            'no-repeat',
+            {
+                repeat: [
+                    '',
+                    'x',
+                    'y',
+                    'space',
+                    'round'
+                ]
+            }
+        ];
+    const scaleBgSize = ()=>[
+            'auto',
+            'cover',
+            'contain',
+            isArbitraryVariableSize,
+            isArbitrarySize,
+            {
+                size: [
+                    isArbitraryVariable,
+                    isArbitraryValue
+                ]
+            }
+        ];
+    const scaleGradientStopPosition = ()=>[
+            isPercent,
+            isArbitraryVariableLength,
+            isArbitraryLength
+        ];
+    const scaleRadius = ()=>[
+            // Deprecated since Tailwind CSS v4.0.0
+            '',
+            'none',
+            'full',
+            themeRadius,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleBorderWidth = ()=>[
+            '',
+            isNumber,
+            isArbitraryVariableLength,
+            isArbitraryLength
+        ];
+    const scaleLineStyle = ()=>[
+            'solid',
+            'dashed',
+            'dotted',
+            'double'
+        ];
+    const scaleBlendMode = ()=>[
+            'normal',
+            'multiply',
+            'screen',
+            'overlay',
+            'darken',
+            'lighten',
+            'color-dodge',
+            'color-burn',
+            'hard-light',
+            'soft-light',
+            'difference',
+            'exclusion',
+            'hue',
+            'saturation',
+            'color',
+            'luminosity'
+        ];
+    const scaleMaskImagePosition = ()=>[
+            isNumber,
+            isPercent,
+            isArbitraryVariablePosition,
+            isArbitraryPosition
+        ];
+    const scaleBlur = ()=>[
+            // Deprecated since Tailwind CSS v4.0.0
+            '',
+            'none',
+            themeBlur,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleRotate = ()=>[
+            'none',
+            isNumber,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleScale = ()=>[
+            'none',
+            isNumber,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleSkew = ()=>[
+            isNumber,
+            isArbitraryVariable,
+            isArbitraryValue
+        ];
+    const scaleTranslate = ()=>[
+            isFraction,
+            'full',
+            ...scaleUnambiguousSpacing()
+        ];
+    return {
+        cacheSize: 500,
+        theme: {
+            animate: [
+                'spin',
+                'ping',
+                'pulse',
+                'bounce'
+            ],
+            aspect: [
+                'video'
+            ],
+            blur: [
+                isTshirtSize
+            ],
+            breakpoint: [
+                isTshirtSize
+            ],
+            color: [
+                isAny
+            ],
+            container: [
+                isTshirtSize
+            ],
+            'drop-shadow': [
+                isTshirtSize
+            ],
+            ease: [
+                'in',
+                'out',
+                'in-out'
+            ],
+            font: [
+                isAnyNonArbitrary
+            ],
+            'font-weight': [
+                'thin',
+                'extralight',
+                'light',
+                'normal',
+                'medium',
+                'semibold',
+                'bold',
+                'extrabold',
+                'black'
+            ],
+            'inset-shadow': [
+                isTshirtSize
+            ],
+            leading: [
+                'none',
+                'tight',
+                'snug',
+                'normal',
+                'relaxed',
+                'loose'
+            ],
+            perspective: [
+                'dramatic',
+                'near',
+                'normal',
+                'midrange',
+                'distant',
+                'none'
+            ],
+            radius: [
+                isTshirtSize
+            ],
+            shadow: [
+                isTshirtSize
+            ],
+            spacing: [
+                'px',
+                isNumber
+            ],
+            text: [
+                isTshirtSize
+            ],
+            'text-shadow': [
+                isTshirtSize
+            ],
+            tracking: [
+                'tighter',
+                'tight',
+                'normal',
+                'wide',
+                'wider',
+                'widest'
+            ]
+        },
+        classGroups: {
+            // --------------
+            // --- Layout ---
+            // --------------
+            /**
+       * Aspect Ratio
+       * @see https://tailwindcss.com/docs/aspect-ratio
+       */ aspect: [
+                {
+                    aspect: [
+                        'auto',
+                        'square',
+                        isFraction,
+                        isArbitraryValue,
+                        isArbitraryVariable,
+                        themeAspect
+                    ]
+                }
+            ],
+            /**
+       * Container
+       * @see https://tailwindcss.com/docs/container
+       * @deprecated since Tailwind CSS v4.0.0
+       */ container: [
+                'container'
+            ],
+            /**
+       * Columns
+       * @see https://tailwindcss.com/docs/columns
+       */ columns: [
+                {
+                    columns: [
+                        isNumber,
+                        isArbitraryValue,
+                        isArbitraryVariable,
+                        themeContainer
+                    ]
+                }
+            ],
+            /**
+       * Break After
+       * @see https://tailwindcss.com/docs/break-after
+       */ 'break-after': [
+                {
+                    'break-after': scaleBreak()
+                }
+            ],
+            /**
+       * Break Before
+       * @see https://tailwindcss.com/docs/break-before
+       */ 'break-before': [
+                {
+                    'break-before': scaleBreak()
+                }
+            ],
+            /**
+       * Break Inside
+       * @see https://tailwindcss.com/docs/break-inside
+       */ 'break-inside': [
+                {
+                    'break-inside': [
+                        'auto',
+                        'avoid',
+                        'avoid-page',
+                        'avoid-column'
+                    ]
+                }
+            ],
+            /**
+       * Box Decoration Break
+       * @see https://tailwindcss.com/docs/box-decoration-break
+       */ 'box-decoration': [
+                {
+                    'box-decoration': [
+                        'slice',
+                        'clone'
+                    ]
+                }
+            ],
+            /**
+       * Box Sizing
+       * @see https://tailwindcss.com/docs/box-sizing
+       */ box: [
+                {
+                    box: [
+                        'border',
+                        'content'
+                    ]
+                }
+            ],
+            /**
+       * Display
+       * @see https://tailwindcss.com/docs/display
+       */ display: [
+                'block',
+                'inline-block',
+                'inline',
+                'flex',
+                'inline-flex',
+                'table',
+                'inline-table',
+                'table-caption',
+                'table-cell',
+                'table-column',
+                'table-column-group',
+                'table-footer-group',
+                'table-header-group',
+                'table-row-group',
+                'table-row',
+                'flow-root',
+                'grid',
+                'inline-grid',
+                'contents',
+                'list-item',
+                'hidden'
+            ],
+            /**
+       * Screen Reader Only
+       * @see https://tailwindcss.com/docs/display#screen-reader-only
+       */ sr: [
+                'sr-only',
+                'not-sr-only'
+            ],
+            /**
+       * Floats
+       * @see https://tailwindcss.com/docs/float
+       */ float: [
+                {
+                    float: [
+                        'right',
+                        'left',
+                        'none',
+                        'start',
+                        'end'
+                    ]
+                }
+            ],
+            /**
+       * Clear
+       * @see https://tailwindcss.com/docs/clear
+       */ clear: [
+                {
+                    clear: [
+                        'left',
+                        'right',
+                        'both',
+                        'none',
+                        'start',
+                        'end'
+                    ]
+                }
+            ],
+            /**
+       * Isolation
+       * @see https://tailwindcss.com/docs/isolation
+       */ isolation: [
+                'isolate',
+                'isolation-auto'
+            ],
+            /**
+       * Object Fit
+       * @see https://tailwindcss.com/docs/object-fit
+       */ 'object-fit': [
+                {
+                    object: [
+                        'contain',
+                        'cover',
+                        'fill',
+                        'none',
+                        'scale-down'
+                    ]
+                }
+            ],
+            /**
+       * Object Position
+       * @see https://tailwindcss.com/docs/object-position
+       */ 'object-position': [
+                {
+                    object: scalePositionWithArbitrary()
+                }
+            ],
+            /**
+       * Overflow
+       * @see https://tailwindcss.com/docs/overflow
+       */ overflow: [
+                {
+                    overflow: scaleOverflow()
+                }
+            ],
+            /**
+       * Overflow X
+       * @see https://tailwindcss.com/docs/overflow
+       */ 'overflow-x': [
+                {
+                    'overflow-x': scaleOverflow()
+                }
+            ],
+            /**
+       * Overflow Y
+       * @see https://tailwindcss.com/docs/overflow
+       */ 'overflow-y': [
+                {
+                    'overflow-y': scaleOverflow()
+                }
+            ],
+            /**
+       * Overscroll Behavior
+       * @see https://tailwindcss.com/docs/overscroll-behavior
+       */ overscroll: [
+                {
+                    overscroll: scaleOverscroll()
+                }
+            ],
+            /**
+       * Overscroll Behavior X
+       * @see https://tailwindcss.com/docs/overscroll-behavior
+       */ 'overscroll-x': [
+                {
+                    'overscroll-x': scaleOverscroll()
+                }
+            ],
+            /**
+       * Overscroll Behavior Y
+       * @see https://tailwindcss.com/docs/overscroll-behavior
+       */ 'overscroll-y': [
+                {
+                    'overscroll-y': scaleOverscroll()
+                }
+            ],
+            /**
+       * Position
+       * @see https://tailwindcss.com/docs/position
+       */ position: [
+                'static',
+                'fixed',
+                'absolute',
+                'relative',
+                'sticky'
+            ],
+            /**
+       * Top / Right / Bottom / Left
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ inset: [
+                {
+                    inset: scaleInset()
+                }
+            ],
+            /**
+       * Right / Left
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ 'inset-x': [
+                {
+                    'inset-x': scaleInset()
+                }
+            ],
+            /**
+       * Top / Bottom
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ 'inset-y': [
+                {
+                    'inset-y': scaleInset()
+                }
+            ],
+            /**
+       * Start
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ start: [
+                {
+                    start: scaleInset()
+                }
+            ],
+            /**
+       * End
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ end: [
+                {
+                    end: scaleInset()
+                }
+            ],
+            /**
+       * Top
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ top: [
+                {
+                    top: scaleInset()
+                }
+            ],
+            /**
+       * Right
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ right: [
+                {
+                    right: scaleInset()
+                }
+            ],
+            /**
+       * Bottom
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ bottom: [
+                {
+                    bottom: scaleInset()
+                }
+            ],
+            /**
+       * Left
+       * @see https://tailwindcss.com/docs/top-right-bottom-left
+       */ left: [
+                {
+                    left: scaleInset()
+                }
+            ],
+            /**
+       * Visibility
+       * @see https://tailwindcss.com/docs/visibility
+       */ visibility: [
+                'visible',
+                'invisible',
+                'collapse'
+            ],
+            /**
+       * Z-Index
+       * @see https://tailwindcss.com/docs/z-index
+       */ z: [
+                {
+                    z: [
+                        isInteger,
+                        'auto',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            // ------------------------
+            // --- Flexbox and Grid ---
+            // ------------------------
+            /**
+       * Flex Basis
+       * @see https://tailwindcss.com/docs/flex-basis
+       */ basis: [
+                {
+                    basis: [
+                        isFraction,
+                        'full',
+                        'auto',
+                        themeContainer,
+                        ...scaleUnambiguousSpacing()
+                    ]
+                }
+            ],
+            /**
+       * Flex Direction
+       * @see https://tailwindcss.com/docs/flex-direction
+       */ 'flex-direction': [
+                {
+                    flex: [
+                        'row',
+                        'row-reverse',
+                        'col',
+                        'col-reverse'
+                    ]
+                }
+            ],
+            /**
+       * Flex Wrap
+       * @see https://tailwindcss.com/docs/flex-wrap
+       */ 'flex-wrap': [
+                {
+                    flex: [
+                        'nowrap',
+                        'wrap',
+                        'wrap-reverse'
+                    ]
+                }
+            ],
+            /**
+       * Flex
+       * @see https://tailwindcss.com/docs/flex
+       */ flex: [
+                {
+                    flex: [
+                        isNumber,
+                        isFraction,
+                        'auto',
+                        'initial',
+                        'none',
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Flex Grow
+       * @see https://tailwindcss.com/docs/flex-grow
+       */ grow: [
+                {
+                    grow: [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Flex Shrink
+       * @see https://tailwindcss.com/docs/flex-shrink
+       */ shrink: [
+                {
+                    shrink: [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Order
+       * @see https://tailwindcss.com/docs/order
+       */ order: [
+                {
+                    order: [
+                        isInteger,
+                        'first',
+                        'last',
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Grid Template Columns
+       * @see https://tailwindcss.com/docs/grid-template-columns
+       */ 'grid-cols': [
+                {
+                    'grid-cols': scaleGridTemplateColsRows()
+                }
+            ],
+            /**
+       * Grid Column Start / End
+       * @see https://tailwindcss.com/docs/grid-column
+       */ 'col-start-end': [
+                {
+                    col: scaleGridColRowStartAndEnd()
+                }
+            ],
+            /**
+       * Grid Column Start
+       * @see https://tailwindcss.com/docs/grid-column
+       */ 'col-start': [
+                {
+                    'col-start': scaleGridColRowStartOrEnd()
+                }
+            ],
+            /**
+       * Grid Column End
+       * @see https://tailwindcss.com/docs/grid-column
+       */ 'col-end': [
+                {
+                    'col-end': scaleGridColRowStartOrEnd()
+                }
+            ],
+            /**
+       * Grid Template Rows
+       * @see https://tailwindcss.com/docs/grid-template-rows
+       */ 'grid-rows': [
+                {
+                    'grid-rows': scaleGridTemplateColsRows()
+                }
+            ],
+            /**
+       * Grid Row Start / End
+       * @see https://tailwindcss.com/docs/grid-row
+       */ 'row-start-end': [
+                {
+                    row: scaleGridColRowStartAndEnd()
+                }
+            ],
+            /**
+       * Grid Row Start
+       * @see https://tailwindcss.com/docs/grid-row
+       */ 'row-start': [
+                {
+                    'row-start': scaleGridColRowStartOrEnd()
+                }
+            ],
+            /**
+       * Grid Row End
+       * @see https://tailwindcss.com/docs/grid-row
+       */ 'row-end': [
+                {
+                    'row-end': scaleGridColRowStartOrEnd()
+                }
+            ],
+            /**
+       * Grid Auto Flow
+       * @see https://tailwindcss.com/docs/grid-auto-flow
+       */ 'grid-flow': [
+                {
+                    'grid-flow': [
+                        'row',
+                        'col',
+                        'dense',
+                        'row-dense',
+                        'col-dense'
+                    ]
+                }
+            ],
+            /**
+       * Grid Auto Columns
+       * @see https://tailwindcss.com/docs/grid-auto-columns
+       */ 'auto-cols': [
+                {
+                    'auto-cols': scaleGridAutoColsRows()
+                }
+            ],
+            /**
+       * Grid Auto Rows
+       * @see https://tailwindcss.com/docs/grid-auto-rows
+       */ 'auto-rows': [
+                {
+                    'auto-rows': scaleGridAutoColsRows()
+                }
+            ],
+            /**
+       * Gap
+       * @see https://tailwindcss.com/docs/gap
+       */ gap: [
+                {
+                    gap: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Gap X
+       * @see https://tailwindcss.com/docs/gap
+       */ 'gap-x': [
+                {
+                    'gap-x': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Gap Y
+       * @see https://tailwindcss.com/docs/gap
+       */ 'gap-y': [
+                {
+                    'gap-y': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Justify Content
+       * @see https://tailwindcss.com/docs/justify-content
+       */ 'justify-content': [
+                {
+                    justify: [
+                        ...scaleAlignPrimaryAxis(),
+                        'normal'
+                    ]
+                }
+            ],
+            /**
+       * Justify Items
+       * @see https://tailwindcss.com/docs/justify-items
+       */ 'justify-items': [
+                {
+                    'justify-items': [
+                        ...scaleAlignSecondaryAxis(),
+                        'normal'
+                    ]
+                }
+            ],
+            /**
+       * Justify Self
+       * @see https://tailwindcss.com/docs/justify-self
+       */ 'justify-self': [
+                {
+                    'justify-self': [
+                        'auto',
+                        ...scaleAlignSecondaryAxis()
+                    ]
+                }
+            ],
+            /**
+       * Align Content
+       * @see https://tailwindcss.com/docs/align-content
+       */ 'align-content': [
+                {
+                    content: [
+                        'normal',
+                        ...scaleAlignPrimaryAxis()
+                    ]
+                }
+            ],
+            /**
+       * Align Items
+       * @see https://tailwindcss.com/docs/align-items
+       */ 'align-items': [
+                {
+                    items: [
+                        ...scaleAlignSecondaryAxis(),
+                        {
+                            baseline: [
+                                '',
+                                'last'
+                            ]
+                        }
+                    ]
+                }
+            ],
+            /**
+       * Align Self
+       * @see https://tailwindcss.com/docs/align-self
+       */ 'align-self': [
+                {
+                    self: [
+                        'auto',
+                        ...scaleAlignSecondaryAxis(),
+                        {
+                            baseline: [
+                                '',
+                                'last'
+                            ]
+                        }
+                    ]
+                }
+            ],
+            /**
+       * Place Content
+       * @see https://tailwindcss.com/docs/place-content
+       */ 'place-content': [
+                {
+                    'place-content': scaleAlignPrimaryAxis()
+                }
+            ],
+            /**
+       * Place Items
+       * @see https://tailwindcss.com/docs/place-items
+       */ 'place-items': [
+                {
+                    'place-items': [
+                        ...scaleAlignSecondaryAxis(),
+                        'baseline'
+                    ]
+                }
+            ],
+            /**
+       * Place Self
+       * @see https://tailwindcss.com/docs/place-self
+       */ 'place-self': [
+                {
+                    'place-self': [
+                        'auto',
+                        ...scaleAlignSecondaryAxis()
+                    ]
+                }
+            ],
+            // Spacing
+            /**
+       * Padding
+       * @see https://tailwindcss.com/docs/padding
+       */ p: [
+                {
+                    p: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding X
+       * @see https://tailwindcss.com/docs/padding
+       */ px: [
+                {
+                    px: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding Y
+       * @see https://tailwindcss.com/docs/padding
+       */ py: [
+                {
+                    py: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding Start
+       * @see https://tailwindcss.com/docs/padding
+       */ ps: [
+                {
+                    ps: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding End
+       * @see https://tailwindcss.com/docs/padding
+       */ pe: [
+                {
+                    pe: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding Top
+       * @see https://tailwindcss.com/docs/padding
+       */ pt: [
+                {
+                    pt: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding Right
+       * @see https://tailwindcss.com/docs/padding
+       */ pr: [
+                {
+                    pr: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding Bottom
+       * @see https://tailwindcss.com/docs/padding
+       */ pb: [
+                {
+                    pb: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Padding Left
+       * @see https://tailwindcss.com/docs/padding
+       */ pl: [
+                {
+                    pl: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Margin
+       * @see https://tailwindcss.com/docs/margin
+       */ m: [
+                {
+                    m: scaleMargin()
+                }
+            ],
+            /**
+       * Margin X
+       * @see https://tailwindcss.com/docs/margin
+       */ mx: [
+                {
+                    mx: scaleMargin()
+                }
+            ],
+            /**
+       * Margin Y
+       * @see https://tailwindcss.com/docs/margin
+       */ my: [
+                {
+                    my: scaleMargin()
+                }
+            ],
+            /**
+       * Margin Start
+       * @see https://tailwindcss.com/docs/margin
+       */ ms: [
+                {
+                    ms: scaleMargin()
+                }
+            ],
+            /**
+       * Margin End
+       * @see https://tailwindcss.com/docs/margin
+       */ me: [
+                {
+                    me: scaleMargin()
+                }
+            ],
+            /**
+       * Margin Top
+       * @see https://tailwindcss.com/docs/margin
+       */ mt: [
+                {
+                    mt: scaleMargin()
+                }
+            ],
+            /**
+       * Margin Right
+       * @see https://tailwindcss.com/docs/margin
+       */ mr: [
+                {
+                    mr: scaleMargin()
+                }
+            ],
+            /**
+       * Margin Bottom
+       * @see https://tailwindcss.com/docs/margin
+       */ mb: [
+                {
+                    mb: scaleMargin()
+                }
+            ],
+            /**
+       * Margin Left
+       * @see https://tailwindcss.com/docs/margin
+       */ ml: [
+                {
+                    ml: scaleMargin()
+                }
+            ],
+            /**
+       * Space Between X
+       * @see https://tailwindcss.com/docs/margin#adding-space-between-children
+       */ 'space-x': [
+                {
+                    'space-x': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Space Between X Reverse
+       * @see https://tailwindcss.com/docs/margin#adding-space-between-children
+       */ 'space-x-reverse': [
+                'space-x-reverse'
+            ],
+            /**
+       * Space Between Y
+       * @see https://tailwindcss.com/docs/margin#adding-space-between-children
+       */ 'space-y': [
+                {
+                    'space-y': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Space Between Y Reverse
+       * @see https://tailwindcss.com/docs/margin#adding-space-between-children
+       */ 'space-y-reverse': [
+                'space-y-reverse'
+            ],
+            // --------------
+            // --- Sizing ---
+            // --------------
+            /**
+       * Size
+       * @see https://tailwindcss.com/docs/width#setting-both-width-and-height
+       */ size: [
+                {
+                    size: scaleSizing()
+                }
+            ],
+            /**
+       * Width
+       * @see https://tailwindcss.com/docs/width
+       */ w: [
+                {
+                    w: [
+                        themeContainer,
+                        'screen',
+                        ...scaleSizing()
+                    ]
+                }
+            ],
+            /**
+       * Min-Width
+       * @see https://tailwindcss.com/docs/min-width
+       */ 'min-w': [
+                {
+                    'min-w': [
+                        themeContainer,
+                        'screen',
+                        /** Deprecated. @see https://github.com/tailwindlabs/tailwindcss.com/issues/2027#issuecomment-2620152757 */ 'none',
+                        ...scaleSizing()
+                    ]
+                }
+            ],
+            /**
+       * Max-Width
+       * @see https://tailwindcss.com/docs/max-width
+       */ 'max-w': [
+                {
+                    'max-w': [
+                        themeContainer,
+                        'screen',
+                        'none',
+                        /** Deprecated since Tailwind CSS v4.0.0. @see https://github.com/tailwindlabs/tailwindcss.com/issues/2027#issuecomment-2620152757 */ 'prose',
+                        /** Deprecated since Tailwind CSS v4.0.0. @see https://github.com/tailwindlabs/tailwindcss.com/issues/2027#issuecomment-2620152757 */ {
+                            screen: [
+                                themeBreakpoint
+                            ]
+                        },
+                        ...scaleSizing()
+                    ]
+                }
+            ],
+            /**
+       * Height
+       * @see https://tailwindcss.com/docs/height
+       */ h: [
+                {
+                    h: [
+                        'screen',
+                        'lh',
+                        ...scaleSizing()
+                    ]
+                }
+            ],
+            /**
+       * Min-Height
+       * @see https://tailwindcss.com/docs/min-height
+       */ 'min-h': [
+                {
+                    'min-h': [
+                        'screen',
+                        'lh',
+                        'none',
+                        ...scaleSizing()
+                    ]
+                }
+            ],
+            /**
+       * Max-Height
+       * @see https://tailwindcss.com/docs/max-height
+       */ 'max-h': [
+                {
+                    'max-h': [
+                        'screen',
+                        'lh',
+                        ...scaleSizing()
+                    ]
+                }
+            ],
+            // ------------------
+            // --- Typography ---
+            // ------------------
+            /**
+       * Font Size
+       * @see https://tailwindcss.com/docs/font-size
+       */ 'font-size': [
+                {
+                    text: [
+                        'base',
+                        themeText,
+                        isArbitraryVariableLength,
+                        isArbitraryLength
+                    ]
+                }
+            ],
+            /**
+       * Font Smoothing
+       * @see https://tailwindcss.com/docs/font-smoothing
+       */ 'font-smoothing': [
+                'antialiased',
+                'subpixel-antialiased'
+            ],
+            /**
+       * Font Style
+       * @see https://tailwindcss.com/docs/font-style
+       */ 'font-style': [
+                'italic',
+                'not-italic'
+            ],
+            /**
+       * Font Weight
+       * @see https://tailwindcss.com/docs/font-weight
+       */ 'font-weight': [
+                {
+                    font: [
+                        themeFontWeight,
+                        isArbitraryVariable,
+                        isArbitraryNumber
+                    ]
+                }
+            ],
+            /**
+       * Font Stretch
+       * @see https://tailwindcss.com/docs/font-stretch
+       */ 'font-stretch': [
+                {
+                    'font-stretch': [
+                        'ultra-condensed',
+                        'extra-condensed',
+                        'condensed',
+                        'semi-condensed',
+                        'normal',
+                        'semi-expanded',
+                        'expanded',
+                        'extra-expanded',
+                        'ultra-expanded',
+                        isPercent,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Font Family
+       * @see https://tailwindcss.com/docs/font-family
+       */ 'font-family': [
+                {
+                    font: [
+                        isArbitraryVariableFamilyName,
+                        isArbitraryValue,
+                        themeFont
+                    ]
+                }
+            ],
+            /**
+       * Font Variant Numeric
+       * @see https://tailwindcss.com/docs/font-variant-numeric
+       */ 'fvn-normal': [
+                'normal-nums'
+            ],
+            /**
+       * Font Variant Numeric
+       * @see https://tailwindcss.com/docs/font-variant-numeric
+       */ 'fvn-ordinal': [
+                'ordinal'
+            ],
+            /**
+       * Font Variant Numeric
+       * @see https://tailwindcss.com/docs/font-variant-numeric
+       */ 'fvn-slashed-zero': [
+                'slashed-zero'
+            ],
+            /**
+       * Font Variant Numeric
+       * @see https://tailwindcss.com/docs/font-variant-numeric
+       */ 'fvn-figure': [
+                'lining-nums',
+                'oldstyle-nums'
+            ],
+            /**
+       * Font Variant Numeric
+       * @see https://tailwindcss.com/docs/font-variant-numeric
+       */ 'fvn-spacing': [
+                'proportional-nums',
+                'tabular-nums'
+            ],
+            /**
+       * Font Variant Numeric
+       * @see https://tailwindcss.com/docs/font-variant-numeric
+       */ 'fvn-fraction': [
+                'diagonal-fractions',
+                'stacked-fractions'
+            ],
+            /**
+       * Letter Spacing
+       * @see https://tailwindcss.com/docs/letter-spacing
+       */ tracking: [
+                {
+                    tracking: [
+                        themeTracking,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Line Clamp
+       * @see https://tailwindcss.com/docs/line-clamp
+       */ 'line-clamp': [
+                {
+                    'line-clamp': [
+                        isNumber,
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryNumber
+                    ]
+                }
+            ],
+            /**
+       * Line Height
+       * @see https://tailwindcss.com/docs/line-height
+       */ leading: [
+                {
+                    leading: [
+                        /** Deprecated since Tailwind CSS v4.0.0. @see https://github.com/tailwindlabs/tailwindcss.com/issues/2027#issuecomment-2620152757 */ themeLeading,
+                        ...scaleUnambiguousSpacing()
+                    ]
+                }
+            ],
+            /**
+       * List Style Image
+       * @see https://tailwindcss.com/docs/list-style-image
+       */ 'list-image': [
+                {
+                    'list-image': [
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * List Style Position
+       * @see https://tailwindcss.com/docs/list-style-position
+       */ 'list-style-position': [
+                {
+                    list: [
+                        'inside',
+                        'outside'
+                    ]
+                }
+            ],
+            /**
+       * List Style Type
+       * @see https://tailwindcss.com/docs/list-style-type
+       */ 'list-style-type': [
+                {
+                    list: [
+                        'disc',
+                        'decimal',
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Text Alignment
+       * @see https://tailwindcss.com/docs/text-align
+       */ 'text-alignment': [
+                {
+                    text: [
+                        'left',
+                        'center',
+                        'right',
+                        'justify',
+                        'start',
+                        'end'
+                    ]
+                }
+            ],
+            /**
+       * Placeholder Color
+       * @deprecated since Tailwind CSS v3.0.0
+       * @see https://v3.tailwindcss.com/docs/placeholder-color
+       */ 'placeholder-color': [
+                {
+                    placeholder: scaleColor()
+                }
+            ],
+            /**
+       * Text Color
+       * @see https://tailwindcss.com/docs/text-color
+       */ 'text-color': [
+                {
+                    text: scaleColor()
+                }
+            ],
+            /**
+       * Text Decoration
+       * @see https://tailwindcss.com/docs/text-decoration
+       */ 'text-decoration': [
+                'underline',
+                'overline',
+                'line-through',
+                'no-underline'
+            ],
+            /**
+       * Text Decoration Style
+       * @see https://tailwindcss.com/docs/text-decoration-style
+       */ 'text-decoration-style': [
+                {
+                    decoration: [
+                        ...scaleLineStyle(),
+                        'wavy'
+                    ]
+                }
+            ],
+            /**
+       * Text Decoration Thickness
+       * @see https://tailwindcss.com/docs/text-decoration-thickness
+       */ 'text-decoration-thickness': [
+                {
+                    decoration: [
+                        isNumber,
+                        'from-font',
+                        'auto',
+                        isArbitraryVariable,
+                        isArbitraryLength
+                    ]
+                }
+            ],
+            /**
+       * Text Decoration Color
+       * @see https://tailwindcss.com/docs/text-decoration-color
+       */ 'text-decoration-color': [
+                {
+                    decoration: scaleColor()
+                }
+            ],
+            /**
+       * Text Underline Offset
+       * @see https://tailwindcss.com/docs/text-underline-offset
+       */ 'underline-offset': [
+                {
+                    'underline-offset': [
+                        isNumber,
+                        'auto',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Text Transform
+       * @see https://tailwindcss.com/docs/text-transform
+       */ 'text-transform': [
+                'uppercase',
+                'lowercase',
+                'capitalize',
+                'normal-case'
+            ],
+            /**
+       * Text Overflow
+       * @see https://tailwindcss.com/docs/text-overflow
+       */ 'text-overflow': [
+                'truncate',
+                'text-ellipsis',
+                'text-clip'
+            ],
+            /**
+       * Text Wrap
+       * @see https://tailwindcss.com/docs/text-wrap
+       */ 'text-wrap': [
+                {
+                    text: [
+                        'wrap',
+                        'nowrap',
+                        'balance',
+                        'pretty'
+                    ]
+                }
+            ],
+            /**
+       * Text Indent
+       * @see https://tailwindcss.com/docs/text-indent
+       */ indent: [
+                {
+                    indent: scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Vertical Alignment
+       * @see https://tailwindcss.com/docs/vertical-align
+       */ 'vertical-align': [
+                {
+                    align: [
+                        'baseline',
+                        'top',
+                        'middle',
+                        'bottom',
+                        'text-top',
+                        'text-bottom',
+                        'sub',
+                        'super',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Whitespace
+       * @see https://tailwindcss.com/docs/whitespace
+       */ whitespace: [
+                {
+                    whitespace: [
+                        'normal',
+                        'nowrap',
+                        'pre',
+                        'pre-line',
+                        'pre-wrap',
+                        'break-spaces'
+                    ]
+                }
+            ],
+            /**
+       * Word Break
+       * @see https://tailwindcss.com/docs/word-break
+       */ break: [
+                {
+                    break: [
+                        'normal',
+                        'words',
+                        'all',
+                        'keep'
+                    ]
+                }
+            ],
+            /**
+       * Overflow Wrap
+       * @see https://tailwindcss.com/docs/overflow-wrap
+       */ wrap: [
+                {
+                    wrap: [
+                        'break-word',
+                        'anywhere',
+                        'normal'
+                    ]
+                }
+            ],
+            /**
+       * Hyphens
+       * @see https://tailwindcss.com/docs/hyphens
+       */ hyphens: [
+                {
+                    hyphens: [
+                        'none',
+                        'manual',
+                        'auto'
+                    ]
+                }
+            ],
+            /**
+       * Content
+       * @see https://tailwindcss.com/docs/content
+       */ content: [
+                {
+                    content: [
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            // -------------------
+            // --- Backgrounds ---
+            // -------------------
+            /**
+       * Background Attachment
+       * @see https://tailwindcss.com/docs/background-attachment
+       */ 'bg-attachment': [
+                {
+                    bg: [
+                        'fixed',
+                        'local',
+                        'scroll'
+                    ]
+                }
+            ],
+            /**
+       * Background Clip
+       * @see https://tailwindcss.com/docs/background-clip
+       */ 'bg-clip': [
+                {
+                    'bg-clip': [
+                        'border',
+                        'padding',
+                        'content',
+                        'text'
+                    ]
+                }
+            ],
+            /**
+       * Background Origin
+       * @see https://tailwindcss.com/docs/background-origin
+       */ 'bg-origin': [
+                {
+                    'bg-origin': [
+                        'border',
+                        'padding',
+                        'content'
+                    ]
+                }
+            ],
+            /**
+       * Background Position
+       * @see https://tailwindcss.com/docs/background-position
+       */ 'bg-position': [
+                {
+                    bg: scaleBgPosition()
+                }
+            ],
+            /**
+       * Background Repeat
+       * @see https://tailwindcss.com/docs/background-repeat
+       */ 'bg-repeat': [
+                {
+                    bg: scaleBgRepeat()
+                }
+            ],
+            /**
+       * Background Size
+       * @see https://tailwindcss.com/docs/background-size
+       */ 'bg-size': [
+                {
+                    bg: scaleBgSize()
+                }
+            ],
+            /**
+       * Background Image
+       * @see https://tailwindcss.com/docs/background-image
+       */ 'bg-image': [
+                {
+                    bg: [
+                        'none',
+                        {
+                            linear: [
+                                {
+                                    to: [
+                                        't',
+                                        'tr',
+                                        'r',
+                                        'br',
+                                        'b',
+                                        'bl',
+                                        'l',
+                                        'tl'
+                                    ]
+                                },
+                                isInteger,
+                                isArbitraryVariable,
+                                isArbitraryValue
+                            ],
+                            radial: [
+                                '',
+                                isArbitraryVariable,
+                                isArbitraryValue
+                            ],
+                            conic: [
+                                isInteger,
+                                isArbitraryVariable,
+                                isArbitraryValue
+                            ]
+                        },
+                        isArbitraryVariableImage,
+                        isArbitraryImage
+                    ]
+                }
+            ],
+            /**
+       * Background Color
+       * @see https://tailwindcss.com/docs/background-color
+       */ 'bg-color': [
+                {
+                    bg: scaleColor()
+                }
+            ],
+            /**
+       * Gradient Color Stops From Position
+       * @see https://tailwindcss.com/docs/gradient-color-stops
+       */ 'gradient-from-pos': [
+                {
+                    from: scaleGradientStopPosition()
+                }
+            ],
+            /**
+       * Gradient Color Stops Via Position
+       * @see https://tailwindcss.com/docs/gradient-color-stops
+       */ 'gradient-via-pos': [
+                {
+                    via: scaleGradientStopPosition()
+                }
+            ],
+            /**
+       * Gradient Color Stops To Position
+       * @see https://tailwindcss.com/docs/gradient-color-stops
+       */ 'gradient-to-pos': [
+                {
+                    to: scaleGradientStopPosition()
+                }
+            ],
+            /**
+       * Gradient Color Stops From
+       * @see https://tailwindcss.com/docs/gradient-color-stops
+       */ 'gradient-from': [
+                {
+                    from: scaleColor()
+                }
+            ],
+            /**
+       * Gradient Color Stops Via
+       * @see https://tailwindcss.com/docs/gradient-color-stops
+       */ 'gradient-via': [
+                {
+                    via: scaleColor()
+                }
+            ],
+            /**
+       * Gradient Color Stops To
+       * @see https://tailwindcss.com/docs/gradient-color-stops
+       */ 'gradient-to': [
+                {
+                    to: scaleColor()
+                }
+            ],
+            // ---------------
+            // --- Borders ---
+            // ---------------
+            /**
+       * Border Radius
+       * @see https://tailwindcss.com/docs/border-radius
+       */ rounded: [
+                {
+                    rounded: scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Start
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-s': [
+                {
+                    'rounded-s': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius End
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-e': [
+                {
+                    'rounded-e': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Top
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-t': [
+                {
+                    'rounded-t': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Right
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-r': [
+                {
+                    'rounded-r': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Bottom
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-b': [
+                {
+                    'rounded-b': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Left
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-l': [
+                {
+                    'rounded-l': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Start Start
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-ss': [
+                {
+                    'rounded-ss': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Start End
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-se': [
+                {
+                    'rounded-se': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius End End
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-ee': [
+                {
+                    'rounded-ee': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius End Start
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-es': [
+                {
+                    'rounded-es': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Top Left
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-tl': [
+                {
+                    'rounded-tl': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Top Right
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-tr': [
+                {
+                    'rounded-tr': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Bottom Right
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-br': [
+                {
+                    'rounded-br': scaleRadius()
+                }
+            ],
+            /**
+       * Border Radius Bottom Left
+       * @see https://tailwindcss.com/docs/border-radius
+       */ 'rounded-bl': [
+                {
+                    'rounded-bl': scaleRadius()
+                }
+            ],
+            /**
+       * Border Width
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w': [
+                {
+                    border: scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width X
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-x': [
+                {
+                    'border-x': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width Y
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-y': [
+                {
+                    'border-y': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width Start
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-s': [
+                {
+                    'border-s': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width End
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-e': [
+                {
+                    'border-e': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width Top
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-t': [
+                {
+                    'border-t': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width Right
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-r': [
+                {
+                    'border-r': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width Bottom
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-b': [
+                {
+                    'border-b': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Border Width Left
+       * @see https://tailwindcss.com/docs/border-width
+       */ 'border-w-l': [
+                {
+                    'border-l': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Divide Width X
+       * @see https://tailwindcss.com/docs/border-width#between-children
+       */ 'divide-x': [
+                {
+                    'divide-x': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Divide Width X Reverse
+       * @see https://tailwindcss.com/docs/border-width#between-children
+       */ 'divide-x-reverse': [
+                'divide-x-reverse'
+            ],
+            /**
+       * Divide Width Y
+       * @see https://tailwindcss.com/docs/border-width#between-children
+       */ 'divide-y': [
+                {
+                    'divide-y': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Divide Width Y Reverse
+       * @see https://tailwindcss.com/docs/border-width#between-children
+       */ 'divide-y-reverse': [
+                'divide-y-reverse'
+            ],
+            /**
+       * Border Style
+       * @see https://tailwindcss.com/docs/border-style
+       */ 'border-style': [
+                {
+                    border: [
+                        ...scaleLineStyle(),
+                        'hidden',
+                        'none'
+                    ]
+                }
+            ],
+            /**
+       * Divide Style
+       * @see https://tailwindcss.com/docs/border-style#setting-the-divider-style
+       */ 'divide-style': [
+                {
+                    divide: [
+                        ...scaleLineStyle(),
+                        'hidden',
+                        'none'
+                    ]
+                }
+            ],
+            /**
+       * Border Color
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color': [
+                {
+                    border: scaleColor()
+                }
+            ],
+            /**
+       * Border Color X
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-x': [
+                {
+                    'border-x': scaleColor()
+                }
+            ],
+            /**
+       * Border Color Y
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-y': [
+                {
+                    'border-y': scaleColor()
+                }
+            ],
+            /**
+       * Border Color S
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-s': [
+                {
+                    'border-s': scaleColor()
+                }
+            ],
+            /**
+       * Border Color E
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-e': [
+                {
+                    'border-e': scaleColor()
+                }
+            ],
+            /**
+       * Border Color Top
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-t': [
+                {
+                    'border-t': scaleColor()
+                }
+            ],
+            /**
+       * Border Color Right
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-r': [
+                {
+                    'border-r': scaleColor()
+                }
+            ],
+            /**
+       * Border Color Bottom
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-b': [
+                {
+                    'border-b': scaleColor()
+                }
+            ],
+            /**
+       * Border Color Left
+       * @see https://tailwindcss.com/docs/border-color
+       */ 'border-color-l': [
+                {
+                    'border-l': scaleColor()
+                }
+            ],
+            /**
+       * Divide Color
+       * @see https://tailwindcss.com/docs/divide-color
+       */ 'divide-color': [
+                {
+                    divide: scaleColor()
+                }
+            ],
+            /**
+       * Outline Style
+       * @see https://tailwindcss.com/docs/outline-style
+       */ 'outline-style': [
+                {
+                    outline: [
+                        ...scaleLineStyle(),
+                        'none',
+                        'hidden'
+                    ]
+                }
+            ],
+            /**
+       * Outline Offset
+       * @see https://tailwindcss.com/docs/outline-offset
+       */ 'outline-offset': [
+                {
+                    'outline-offset': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Outline Width
+       * @see https://tailwindcss.com/docs/outline-width
+       */ 'outline-w': [
+                {
+                    outline: [
+                        '',
+                        isNumber,
+                        isArbitraryVariableLength,
+                        isArbitraryLength
+                    ]
+                }
+            ],
+            /**
+       * Outline Color
+       * @see https://tailwindcss.com/docs/outline-color
+       */ 'outline-color': [
+                {
+                    outline: scaleColor()
+                }
+            ],
+            // ---------------
+            // --- Effects ---
+            // ---------------
+            /**
+       * Box Shadow
+       * @see https://tailwindcss.com/docs/box-shadow
+       */ shadow: [
+                {
+                    shadow: [
+                        // Deprecated since Tailwind CSS v4.0.0
+                        '',
+                        'none',
+                        themeShadow,
+                        isArbitraryVariableShadow,
+                        isArbitraryShadow
+                    ]
+                }
+            ],
+            /**
+       * Box Shadow Color
+       * @see https://tailwindcss.com/docs/box-shadow#setting-the-shadow-color
+       */ 'shadow-color': [
+                {
+                    shadow: scaleColor()
+                }
+            ],
+            /**
+       * Inset Box Shadow
+       * @see https://tailwindcss.com/docs/box-shadow#adding-an-inset-shadow
+       */ 'inset-shadow': [
+                {
+                    'inset-shadow': [
+                        'none',
+                        themeInsetShadow,
+                        isArbitraryVariableShadow,
+                        isArbitraryShadow
+                    ]
+                }
+            ],
+            /**
+       * Inset Box Shadow Color
+       * @see https://tailwindcss.com/docs/box-shadow#setting-the-inset-shadow-color
+       */ 'inset-shadow-color': [
+                {
+                    'inset-shadow': scaleColor()
+                }
+            ],
+            /**
+       * Ring Width
+       * @see https://tailwindcss.com/docs/box-shadow#adding-a-ring
+       */ 'ring-w': [
+                {
+                    ring: scaleBorderWidth()
+                }
+            ],
+            /**
+       * Ring Width Inset
+       * @see https://v3.tailwindcss.com/docs/ring-width#inset-rings
+       * @deprecated since Tailwind CSS v4.0.0
+       * @see https://github.com/tailwindlabs/tailwindcss/blob/v4.0.0/packages/tailwindcss/src/utilities.ts#L4158
+       */ 'ring-w-inset': [
+                'ring-inset'
+            ],
+            /**
+       * Ring Color
+       * @see https://tailwindcss.com/docs/box-shadow#setting-the-ring-color
+       */ 'ring-color': [
+                {
+                    ring: scaleColor()
+                }
+            ],
+            /**
+       * Ring Offset Width
+       * @see https://v3.tailwindcss.com/docs/ring-offset-width
+       * @deprecated since Tailwind CSS v4.0.0
+       * @see https://github.com/tailwindlabs/tailwindcss/blob/v4.0.0/packages/tailwindcss/src/utilities.ts#L4158
+       */ 'ring-offset-w': [
+                {
+                    'ring-offset': [
+                        isNumber,
+                        isArbitraryLength
+                    ]
+                }
+            ],
+            /**
+       * Ring Offset Color
+       * @see https://v3.tailwindcss.com/docs/ring-offset-color
+       * @deprecated since Tailwind CSS v4.0.0
+       * @see https://github.com/tailwindlabs/tailwindcss/blob/v4.0.0/packages/tailwindcss/src/utilities.ts#L4158
+       */ 'ring-offset-color': [
+                {
+                    'ring-offset': scaleColor()
+                }
+            ],
+            /**
+       * Inset Ring Width
+       * @see https://tailwindcss.com/docs/box-shadow#adding-an-inset-ring
+       */ 'inset-ring-w': [
+                {
+                    'inset-ring': scaleBorderWidth()
+                }
+            ],
+            /**
+       * Inset Ring Color
+       * @see https://tailwindcss.com/docs/box-shadow#setting-the-inset-ring-color
+       */ 'inset-ring-color': [
+                {
+                    'inset-ring': scaleColor()
+                }
+            ],
+            /**
+       * Text Shadow
+       * @see https://tailwindcss.com/docs/text-shadow
+       */ 'text-shadow': [
+                {
+                    'text-shadow': [
+                        'none',
+                        themeTextShadow,
+                        isArbitraryVariableShadow,
+                        isArbitraryShadow
+                    ]
+                }
+            ],
+            /**
+       * Text Shadow Color
+       * @see https://tailwindcss.com/docs/text-shadow#setting-the-shadow-color
+       */ 'text-shadow-color': [
+                {
+                    'text-shadow': scaleColor()
+                }
+            ],
+            /**
+       * Opacity
+       * @see https://tailwindcss.com/docs/opacity
+       */ opacity: [
+                {
+                    opacity: [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Mix Blend Mode
+       * @see https://tailwindcss.com/docs/mix-blend-mode
+       */ 'mix-blend': [
+                {
+                    'mix-blend': [
+                        ...scaleBlendMode(),
+                        'plus-darker',
+                        'plus-lighter'
+                    ]
+                }
+            ],
+            /**
+       * Background Blend Mode
+       * @see https://tailwindcss.com/docs/background-blend-mode
+       */ 'bg-blend': [
+                {
+                    'bg-blend': scaleBlendMode()
+                }
+            ],
+            /**
+       * Mask Clip
+       * @see https://tailwindcss.com/docs/mask-clip
+       */ 'mask-clip': [
+                {
+                    'mask-clip': [
+                        'border',
+                        'padding',
+                        'content',
+                        'fill',
+                        'stroke',
+                        'view'
+                    ]
+                },
+                'mask-no-clip'
+            ],
+            /**
+       * Mask Composite
+       * @see https://tailwindcss.com/docs/mask-composite
+       */ 'mask-composite': [
+                {
+                    mask: [
+                        'add',
+                        'subtract',
+                        'intersect',
+                        'exclude'
+                    ]
+                }
+            ],
+            /**
+       * Mask Image
+       * @see https://tailwindcss.com/docs/mask-image
+       */ 'mask-image-linear-pos': [
+                {
+                    'mask-linear': [
+                        isNumber
+                    ]
+                }
+            ],
+            'mask-image-linear-from-pos': [
+                {
+                    'mask-linear-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-linear-to-pos': [
+                {
+                    'mask-linear-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-linear-from-color': [
+                {
+                    'mask-linear-from': scaleColor()
+                }
+            ],
+            'mask-image-linear-to-color': [
+                {
+                    'mask-linear-to': scaleColor()
+                }
+            ],
+            'mask-image-t-from-pos': [
+                {
+                    'mask-t-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-t-to-pos': [
+                {
+                    'mask-t-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-t-from-color': [
+                {
+                    'mask-t-from': scaleColor()
+                }
+            ],
+            'mask-image-t-to-color': [
+                {
+                    'mask-t-to': scaleColor()
+                }
+            ],
+            'mask-image-r-from-pos': [
+                {
+                    'mask-r-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-r-to-pos': [
+                {
+                    'mask-r-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-r-from-color': [
+                {
+                    'mask-r-from': scaleColor()
+                }
+            ],
+            'mask-image-r-to-color': [
+                {
+                    'mask-r-to': scaleColor()
+                }
+            ],
+            'mask-image-b-from-pos': [
+                {
+                    'mask-b-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-b-to-pos': [
+                {
+                    'mask-b-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-b-from-color': [
+                {
+                    'mask-b-from': scaleColor()
+                }
+            ],
+            'mask-image-b-to-color': [
+                {
+                    'mask-b-to': scaleColor()
+                }
+            ],
+            'mask-image-l-from-pos': [
+                {
+                    'mask-l-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-l-to-pos': [
+                {
+                    'mask-l-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-l-from-color': [
+                {
+                    'mask-l-from': scaleColor()
+                }
+            ],
+            'mask-image-l-to-color': [
+                {
+                    'mask-l-to': scaleColor()
+                }
+            ],
+            'mask-image-x-from-pos': [
+                {
+                    'mask-x-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-x-to-pos': [
+                {
+                    'mask-x-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-x-from-color': [
+                {
+                    'mask-x-from': scaleColor()
+                }
+            ],
+            'mask-image-x-to-color': [
+                {
+                    'mask-x-to': scaleColor()
+                }
+            ],
+            'mask-image-y-from-pos': [
+                {
+                    'mask-y-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-y-to-pos': [
+                {
+                    'mask-y-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-y-from-color': [
+                {
+                    'mask-y-from': scaleColor()
+                }
+            ],
+            'mask-image-y-to-color': [
+                {
+                    'mask-y-to': scaleColor()
+                }
+            ],
+            'mask-image-radial': [
+                {
+                    'mask-radial': [
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            'mask-image-radial-from-pos': [
+                {
+                    'mask-radial-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-radial-to-pos': [
+                {
+                    'mask-radial-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-radial-from-color': [
+                {
+                    'mask-radial-from': scaleColor()
+                }
+            ],
+            'mask-image-radial-to-color': [
+                {
+                    'mask-radial-to': scaleColor()
+                }
+            ],
+            'mask-image-radial-shape': [
+                {
+                    'mask-radial': [
+                        'circle',
+                        'ellipse'
+                    ]
+                }
+            ],
+            'mask-image-radial-size': [
+                {
+                    'mask-radial': [
+                        {
+                            closest: [
+                                'side',
+                                'corner'
+                            ],
+                            farthest: [
+                                'side',
+                                'corner'
+                            ]
+                        }
+                    ]
+                }
+            ],
+            'mask-image-radial-pos': [
+                {
+                    'mask-radial-at': scalePosition()
+                }
+            ],
+            'mask-image-conic-pos': [
+                {
+                    'mask-conic': [
+                        isNumber
+                    ]
+                }
+            ],
+            'mask-image-conic-from-pos': [
+                {
+                    'mask-conic-from': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-conic-to-pos': [
+                {
+                    'mask-conic-to': scaleMaskImagePosition()
+                }
+            ],
+            'mask-image-conic-from-color': [
+                {
+                    'mask-conic-from': scaleColor()
+                }
+            ],
+            'mask-image-conic-to-color': [
+                {
+                    'mask-conic-to': scaleColor()
+                }
+            ],
+            /**
+       * Mask Mode
+       * @see https://tailwindcss.com/docs/mask-mode
+       */ 'mask-mode': [
+                {
+                    mask: [
+                        'alpha',
+                        'luminance',
+                        'match'
+                    ]
+                }
+            ],
+            /**
+       * Mask Origin
+       * @see https://tailwindcss.com/docs/mask-origin
+       */ 'mask-origin': [
+                {
+                    'mask-origin': [
+                        'border',
+                        'padding',
+                        'content',
+                        'fill',
+                        'stroke',
+                        'view'
+                    ]
+                }
+            ],
+            /**
+       * Mask Position
+       * @see https://tailwindcss.com/docs/mask-position
+       */ 'mask-position': [
+                {
+                    mask: scaleBgPosition()
+                }
+            ],
+            /**
+       * Mask Repeat
+       * @see https://tailwindcss.com/docs/mask-repeat
+       */ 'mask-repeat': [
+                {
+                    mask: scaleBgRepeat()
+                }
+            ],
+            /**
+       * Mask Size
+       * @see https://tailwindcss.com/docs/mask-size
+       */ 'mask-size': [
+                {
+                    mask: scaleBgSize()
+                }
+            ],
+            /**
+       * Mask Type
+       * @see https://tailwindcss.com/docs/mask-type
+       */ 'mask-type': [
+                {
+                    'mask-type': [
+                        'alpha',
+                        'luminance'
+                    ]
+                }
+            ],
+            /**
+       * Mask Image
+       * @see https://tailwindcss.com/docs/mask-image
+       */ 'mask-image': [
+                {
+                    mask: [
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            // ---------------
+            // --- Filters ---
+            // ---------------
+            /**
+       * Filter
+       * @see https://tailwindcss.com/docs/filter
+       */ filter: [
+                {
+                    filter: [
+                        // Deprecated since Tailwind CSS v3.0.0
+                        '',
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Blur
+       * @see https://tailwindcss.com/docs/blur
+       */ blur: [
+                {
+                    blur: scaleBlur()
+                }
+            ],
+            /**
+       * Brightness
+       * @see https://tailwindcss.com/docs/brightness
+       */ brightness: [
+                {
+                    brightness: [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Contrast
+       * @see https://tailwindcss.com/docs/contrast
+       */ contrast: [
+                {
+                    contrast: [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Drop Shadow
+       * @see https://tailwindcss.com/docs/drop-shadow
+       */ 'drop-shadow': [
+                {
+                    'drop-shadow': [
+                        // Deprecated since Tailwind CSS v4.0.0
+                        '',
+                        'none',
+                        themeDropShadow,
+                        isArbitraryVariableShadow,
+                        isArbitraryShadow
+                    ]
+                }
+            ],
+            /**
+       * Drop Shadow Color
+       * @see https://tailwindcss.com/docs/filter-drop-shadow#setting-the-shadow-color
+       */ 'drop-shadow-color': [
+                {
+                    'drop-shadow': scaleColor()
+                }
+            ],
+            /**
+       * Grayscale
+       * @see https://tailwindcss.com/docs/grayscale
+       */ grayscale: [
+                {
+                    grayscale: [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Hue Rotate
+       * @see https://tailwindcss.com/docs/hue-rotate
+       */ 'hue-rotate': [
+                {
+                    'hue-rotate': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Invert
+       * @see https://tailwindcss.com/docs/invert
+       */ invert: [
+                {
+                    invert: [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Saturate
+       * @see https://tailwindcss.com/docs/saturate
+       */ saturate: [
+                {
+                    saturate: [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Sepia
+       * @see https://tailwindcss.com/docs/sepia
+       */ sepia: [
+                {
+                    sepia: [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Filter
+       * @see https://tailwindcss.com/docs/backdrop-filter
+       */ 'backdrop-filter': [
+                {
+                    'backdrop-filter': [
+                        // Deprecated since Tailwind CSS v3.0.0
+                        '',
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Blur
+       * @see https://tailwindcss.com/docs/backdrop-blur
+       */ 'backdrop-blur': [
+                {
+                    'backdrop-blur': scaleBlur()
+                }
+            ],
+            /**
+       * Backdrop Brightness
+       * @see https://tailwindcss.com/docs/backdrop-brightness
+       */ 'backdrop-brightness': [
+                {
+                    'backdrop-brightness': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Contrast
+       * @see https://tailwindcss.com/docs/backdrop-contrast
+       */ 'backdrop-contrast': [
+                {
+                    'backdrop-contrast': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Grayscale
+       * @see https://tailwindcss.com/docs/backdrop-grayscale
+       */ 'backdrop-grayscale': [
+                {
+                    'backdrop-grayscale': [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Hue Rotate
+       * @see https://tailwindcss.com/docs/backdrop-hue-rotate
+       */ 'backdrop-hue-rotate': [
+                {
+                    'backdrop-hue-rotate': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Invert
+       * @see https://tailwindcss.com/docs/backdrop-invert
+       */ 'backdrop-invert': [
+                {
+                    'backdrop-invert': [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Opacity
+       * @see https://tailwindcss.com/docs/backdrop-opacity
+       */ 'backdrop-opacity': [
+                {
+                    'backdrop-opacity': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Saturate
+       * @see https://tailwindcss.com/docs/backdrop-saturate
+       */ 'backdrop-saturate': [
+                {
+                    'backdrop-saturate': [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Backdrop Sepia
+       * @see https://tailwindcss.com/docs/backdrop-sepia
+       */ 'backdrop-sepia': [
+                {
+                    'backdrop-sepia': [
+                        '',
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            // --------------
+            // --- Tables ---
+            // --------------
+            /**
+       * Border Collapse
+       * @see https://tailwindcss.com/docs/border-collapse
+       */ 'border-collapse': [
+                {
+                    border: [
+                        'collapse',
+                        'separate'
+                    ]
+                }
+            ],
+            /**
+       * Border Spacing
+       * @see https://tailwindcss.com/docs/border-spacing
+       */ 'border-spacing': [
+                {
+                    'border-spacing': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Border Spacing X
+       * @see https://tailwindcss.com/docs/border-spacing
+       */ 'border-spacing-x': [
+                {
+                    'border-spacing-x': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Border Spacing Y
+       * @see https://tailwindcss.com/docs/border-spacing
+       */ 'border-spacing-y': [
+                {
+                    'border-spacing-y': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Table Layout
+       * @see https://tailwindcss.com/docs/table-layout
+       */ 'table-layout': [
+                {
+                    table: [
+                        'auto',
+                        'fixed'
+                    ]
+                }
+            ],
+            /**
+       * Caption Side
+       * @see https://tailwindcss.com/docs/caption-side
+       */ caption: [
+                {
+                    caption: [
+                        'top',
+                        'bottom'
+                    ]
+                }
+            ],
+            // ---------------------------------
+            // --- Transitions and Animation ---
+            // ---------------------------------
+            /**
+       * Transition Property
+       * @see https://tailwindcss.com/docs/transition-property
+       */ transition: [
+                {
+                    transition: [
+                        '',
+                        'all',
+                        'colors',
+                        'opacity',
+                        'shadow',
+                        'transform',
+                        'none',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Transition Behavior
+       * @see https://tailwindcss.com/docs/transition-behavior
+       */ 'transition-behavior': [
+                {
+                    transition: [
+                        'normal',
+                        'discrete'
+                    ]
+                }
+            ],
+            /**
+       * Transition Duration
+       * @see https://tailwindcss.com/docs/transition-duration
+       */ duration: [
+                {
+                    duration: [
+                        isNumber,
+                        'initial',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Transition Timing Function
+       * @see https://tailwindcss.com/docs/transition-timing-function
+       */ ease: [
+                {
+                    ease: [
+                        'linear',
+                        'initial',
+                        themeEase,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Transition Delay
+       * @see https://tailwindcss.com/docs/transition-delay
+       */ delay: [
+                {
+                    delay: [
+                        isNumber,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Animation
+       * @see https://tailwindcss.com/docs/animation
+       */ animate: [
+                {
+                    animate: [
+                        'none',
+                        themeAnimate,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            // ------------------
+            // --- Transforms ---
+            // ------------------
+            /**
+       * Backface Visibility
+       * @see https://tailwindcss.com/docs/backface-visibility
+       */ backface: [
+                {
+                    backface: [
+                        'hidden',
+                        'visible'
+                    ]
+                }
+            ],
+            /**
+       * Perspective
+       * @see https://tailwindcss.com/docs/perspective
+       */ perspective: [
+                {
+                    perspective: [
+                        themePerspective,
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Perspective Origin
+       * @see https://tailwindcss.com/docs/perspective-origin
+       */ 'perspective-origin': [
+                {
+                    'perspective-origin': scalePositionWithArbitrary()
+                }
+            ],
+            /**
+       * Rotate
+       * @see https://tailwindcss.com/docs/rotate
+       */ rotate: [
+                {
+                    rotate: scaleRotate()
+                }
+            ],
+            /**
+       * Rotate X
+       * @see https://tailwindcss.com/docs/rotate
+       */ 'rotate-x': [
+                {
+                    'rotate-x': scaleRotate()
+                }
+            ],
+            /**
+       * Rotate Y
+       * @see https://tailwindcss.com/docs/rotate
+       */ 'rotate-y': [
+                {
+                    'rotate-y': scaleRotate()
+                }
+            ],
+            /**
+       * Rotate Z
+       * @see https://tailwindcss.com/docs/rotate
+       */ 'rotate-z': [
+                {
+                    'rotate-z': scaleRotate()
+                }
+            ],
+            /**
+       * Scale
+       * @see https://tailwindcss.com/docs/scale
+       */ scale: [
+                {
+                    scale: scaleScale()
+                }
+            ],
+            /**
+       * Scale X
+       * @see https://tailwindcss.com/docs/scale
+       */ 'scale-x': [
+                {
+                    'scale-x': scaleScale()
+                }
+            ],
+            /**
+       * Scale Y
+       * @see https://tailwindcss.com/docs/scale
+       */ 'scale-y': [
+                {
+                    'scale-y': scaleScale()
+                }
+            ],
+            /**
+       * Scale Z
+       * @see https://tailwindcss.com/docs/scale
+       */ 'scale-z': [
+                {
+                    'scale-z': scaleScale()
+                }
+            ],
+            /**
+       * Scale 3D
+       * @see https://tailwindcss.com/docs/scale
+       */ 'scale-3d': [
+                'scale-3d'
+            ],
+            /**
+       * Skew
+       * @see https://tailwindcss.com/docs/skew
+       */ skew: [
+                {
+                    skew: scaleSkew()
+                }
+            ],
+            /**
+       * Skew X
+       * @see https://tailwindcss.com/docs/skew
+       */ 'skew-x': [
+                {
+                    'skew-x': scaleSkew()
+                }
+            ],
+            /**
+       * Skew Y
+       * @see https://tailwindcss.com/docs/skew
+       */ 'skew-y': [
+                {
+                    'skew-y': scaleSkew()
+                }
+            ],
+            /**
+       * Transform
+       * @see https://tailwindcss.com/docs/transform
+       */ transform: [
+                {
+                    transform: [
+                        isArbitraryVariable,
+                        isArbitraryValue,
+                        '',
+                        'none',
+                        'gpu',
+                        'cpu'
+                    ]
+                }
+            ],
+            /**
+       * Transform Origin
+       * @see https://tailwindcss.com/docs/transform-origin
+       */ 'transform-origin': [
+                {
+                    origin: scalePositionWithArbitrary()
+                }
+            ],
+            /**
+       * Transform Style
+       * @see https://tailwindcss.com/docs/transform-style
+       */ 'transform-style': [
+                {
+                    transform: [
+                        '3d',
+                        'flat'
+                    ]
+                }
+            ],
+            /**
+       * Translate
+       * @see https://tailwindcss.com/docs/translate
+       */ translate: [
+                {
+                    translate: scaleTranslate()
+                }
+            ],
+            /**
+       * Translate X
+       * @see https://tailwindcss.com/docs/translate
+       */ 'translate-x': [
+                {
+                    'translate-x': scaleTranslate()
+                }
+            ],
+            /**
+       * Translate Y
+       * @see https://tailwindcss.com/docs/translate
+       */ 'translate-y': [
+                {
+                    'translate-y': scaleTranslate()
+                }
+            ],
+            /**
+       * Translate Z
+       * @see https://tailwindcss.com/docs/translate
+       */ 'translate-z': [
+                {
+                    'translate-z': scaleTranslate()
+                }
+            ],
+            /**
+       * Translate None
+       * @see https://tailwindcss.com/docs/translate
+       */ 'translate-none': [
+                'translate-none'
+            ],
+            // ---------------------
+            // --- Interactivity ---
+            // ---------------------
+            /**
+       * Accent Color
+       * @see https://tailwindcss.com/docs/accent-color
+       */ accent: [
+                {
+                    accent: scaleColor()
+                }
+            ],
+            /**
+       * Appearance
+       * @see https://tailwindcss.com/docs/appearance
+       */ appearance: [
+                {
+                    appearance: [
+                        'none',
+                        'auto'
+                    ]
+                }
+            ],
+            /**
+       * Caret Color
+       * @see https://tailwindcss.com/docs/just-in-time-mode#caret-color-utilities
+       */ 'caret-color': [
+                {
+                    caret: scaleColor()
+                }
+            ],
+            /**
+       * Color Scheme
+       * @see https://tailwindcss.com/docs/color-scheme
+       */ 'color-scheme': [
+                {
+                    scheme: [
+                        'normal',
+                        'dark',
+                        'light',
+                        'light-dark',
+                        'only-dark',
+                        'only-light'
+                    ]
+                }
+            ],
+            /**
+       * Cursor
+       * @see https://tailwindcss.com/docs/cursor
+       */ cursor: [
+                {
+                    cursor: [
+                        'auto',
+                        'default',
+                        'pointer',
+                        'wait',
+                        'text',
+                        'move',
+                        'help',
+                        'not-allowed',
+                        'none',
+                        'context-menu',
+                        'progress',
+                        'cell',
+                        'crosshair',
+                        'vertical-text',
+                        'alias',
+                        'copy',
+                        'no-drop',
+                        'grab',
+                        'grabbing',
+                        'all-scroll',
+                        'col-resize',
+                        'row-resize',
+                        'n-resize',
+                        'e-resize',
+                        's-resize',
+                        'w-resize',
+                        'ne-resize',
+                        'nw-resize',
+                        'se-resize',
+                        'sw-resize',
+                        'ew-resize',
+                        'ns-resize',
+                        'nesw-resize',
+                        'nwse-resize',
+                        'zoom-in',
+                        'zoom-out',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            /**
+       * Field Sizing
+       * @see https://tailwindcss.com/docs/field-sizing
+       */ 'field-sizing': [
+                {
+                    'field-sizing': [
+                        'fixed',
+                        'content'
+                    ]
+                }
+            ],
+            /**
+       * Pointer Events
+       * @see https://tailwindcss.com/docs/pointer-events
+       */ 'pointer-events': [
+                {
+                    'pointer-events': [
+                        'auto',
+                        'none'
+                    ]
+                }
+            ],
+            /**
+       * Resize
+       * @see https://tailwindcss.com/docs/resize
+       */ resize: [
+                {
+                    resize: [
+                        'none',
+                        '',
+                        'y',
+                        'x'
+                    ]
+                }
+            ],
+            /**
+       * Scroll Behavior
+       * @see https://tailwindcss.com/docs/scroll-behavior
+       */ 'scroll-behavior': [
+                {
+                    scroll: [
+                        'auto',
+                        'smooth'
+                    ]
+                }
+            ],
+            /**
+       * Scroll Margin
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-m': [
+                {
+                    'scroll-m': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin X
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-mx': [
+                {
+                    'scroll-mx': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin Y
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-my': [
+                {
+                    'scroll-my': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin Start
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-ms': [
+                {
+                    'scroll-ms': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin End
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-me': [
+                {
+                    'scroll-me': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin Top
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-mt': [
+                {
+                    'scroll-mt': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin Right
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-mr': [
+                {
+                    'scroll-mr': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin Bottom
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-mb': [
+                {
+                    'scroll-mb': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Margin Left
+       * @see https://tailwindcss.com/docs/scroll-margin
+       */ 'scroll-ml': [
+                {
+                    'scroll-ml': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-p': [
+                {
+                    'scroll-p': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding X
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-px': [
+                {
+                    'scroll-px': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding Y
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-py': [
+                {
+                    'scroll-py': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding Start
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-ps': [
+                {
+                    'scroll-ps': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding End
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-pe': [
+                {
+                    'scroll-pe': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding Top
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-pt': [
+                {
+                    'scroll-pt': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding Right
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-pr': [
+                {
+                    'scroll-pr': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding Bottom
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-pb': [
+                {
+                    'scroll-pb': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Padding Left
+       * @see https://tailwindcss.com/docs/scroll-padding
+       */ 'scroll-pl': [
+                {
+                    'scroll-pl': scaleUnambiguousSpacing()
+                }
+            ],
+            /**
+       * Scroll Snap Align
+       * @see https://tailwindcss.com/docs/scroll-snap-align
+       */ 'snap-align': [
+                {
+                    snap: [
+                        'start',
+                        'end',
+                        'center',
+                        'align-none'
+                    ]
+                }
+            ],
+            /**
+       * Scroll Snap Stop
+       * @see https://tailwindcss.com/docs/scroll-snap-stop
+       */ 'snap-stop': [
+                {
+                    snap: [
+                        'normal',
+                        'always'
+                    ]
+                }
+            ],
+            /**
+       * Scroll Snap Type
+       * @see https://tailwindcss.com/docs/scroll-snap-type
+       */ 'snap-type': [
+                {
+                    snap: [
+                        'none',
+                        'x',
+                        'y',
+                        'both'
+                    ]
+                }
+            ],
+            /**
+       * Scroll Snap Type Strictness
+       * @see https://tailwindcss.com/docs/scroll-snap-type
+       */ 'snap-strictness': [
+                {
+                    snap: [
+                        'mandatory',
+                        'proximity'
+                    ]
+                }
+            ],
+            /**
+       * Touch Action
+       * @see https://tailwindcss.com/docs/touch-action
+       */ touch: [
+                {
+                    touch: [
+                        'auto',
+                        'none',
+                        'manipulation'
+                    ]
+                }
+            ],
+            /**
+       * Touch Action X
+       * @see https://tailwindcss.com/docs/touch-action
+       */ 'touch-x': [
+                {
+                    'touch-pan': [
+                        'x',
+                        'left',
+                        'right'
+                    ]
+                }
+            ],
+            /**
+       * Touch Action Y
+       * @see https://tailwindcss.com/docs/touch-action
+       */ 'touch-y': [
+                {
+                    'touch-pan': [
+                        'y',
+                        'up',
+                        'down'
+                    ]
+                }
+            ],
+            /**
+       * Touch Action Pinch Zoom
+       * @see https://tailwindcss.com/docs/touch-action
+       */ 'touch-pz': [
+                'touch-pinch-zoom'
+            ],
+            /**
+       * User Select
+       * @see https://tailwindcss.com/docs/user-select
+       */ select: [
+                {
+                    select: [
+                        'none',
+                        'text',
+                        'all',
+                        'auto'
+                    ]
+                }
+            ],
+            /**
+       * Will Change
+       * @see https://tailwindcss.com/docs/will-change
+       */ 'will-change': [
+                {
+                    'will-change': [
+                        'auto',
+                        'scroll',
+                        'contents',
+                        'transform',
+                        isArbitraryVariable,
+                        isArbitraryValue
+                    ]
+                }
+            ],
+            // -----------
+            // --- SVG ---
+            // -----------
+            /**
+       * Fill
+       * @see https://tailwindcss.com/docs/fill
+       */ fill: [
+                {
+                    fill: [
+                        'none',
+                        ...scaleColor()
+                    ]
+                }
+            ],
+            /**
+       * Stroke Width
+       * @see https://tailwindcss.com/docs/stroke-width
+       */ 'stroke-w': [
+                {
+                    stroke: [
+                        isNumber,
+                        isArbitraryVariableLength,
+                        isArbitraryLength,
+                        isArbitraryNumber
+                    ]
+                }
+            ],
+            /**
+       * Stroke
+       * @see https://tailwindcss.com/docs/stroke
+       */ stroke: [
+                {
+                    stroke: [
+                        'none',
+                        ...scaleColor()
+                    ]
+                }
+            ],
+            // ---------------------
+            // --- Accessibility ---
+            // ---------------------
+            /**
+       * Forced Color Adjust
+       * @see https://tailwindcss.com/docs/forced-color-adjust
+       */ 'forced-color-adjust': [
+                {
+                    'forced-color-adjust': [
+                        'auto',
+                        'none'
+                    ]
+                }
+            ]
+        },
+        conflictingClassGroups: {
+            overflow: [
+                'overflow-x',
+                'overflow-y'
+            ],
+            overscroll: [
+                'overscroll-x',
+                'overscroll-y'
+            ],
+            inset: [
+                'inset-x',
+                'inset-y',
+                'start',
+                'end',
+                'top',
+                'right',
+                'bottom',
+                'left'
+            ],
+            'inset-x': [
+                'right',
+                'left'
+            ],
+            'inset-y': [
+                'top',
+                'bottom'
+            ],
+            flex: [
+                'basis',
+                'grow',
+                'shrink'
+            ],
+            gap: [
+                'gap-x',
+                'gap-y'
+            ],
+            p: [
+                'px',
+                'py',
+                'ps',
+                'pe',
+                'pt',
+                'pr',
+                'pb',
+                'pl'
+            ],
+            px: [
+                'pr',
+                'pl'
+            ],
+            py: [
+                'pt',
+                'pb'
+            ],
+            m: [
+                'mx',
+                'my',
+                'ms',
+                'me',
+                'mt',
+                'mr',
+                'mb',
+                'ml'
+            ],
+            mx: [
+                'mr',
+                'ml'
+            ],
+            my: [
+                'mt',
+                'mb'
+            ],
+            size: [
+                'w',
+                'h'
+            ],
+            'font-size': [
+                'leading'
+            ],
+            'fvn-normal': [
+                'fvn-ordinal',
+                'fvn-slashed-zero',
+                'fvn-figure',
+                'fvn-spacing',
+                'fvn-fraction'
+            ],
+            'fvn-ordinal': [
+                'fvn-normal'
+            ],
+            'fvn-slashed-zero': [
+                'fvn-normal'
+            ],
+            'fvn-figure': [
+                'fvn-normal'
+            ],
+            'fvn-spacing': [
+                'fvn-normal'
+            ],
+            'fvn-fraction': [
+                'fvn-normal'
+            ],
+            'line-clamp': [
+                'display',
+                'overflow'
+            ],
+            rounded: [
+                'rounded-s',
+                'rounded-e',
+                'rounded-t',
+                'rounded-r',
+                'rounded-b',
+                'rounded-l',
+                'rounded-ss',
+                'rounded-se',
+                'rounded-ee',
+                'rounded-es',
+                'rounded-tl',
+                'rounded-tr',
+                'rounded-br',
+                'rounded-bl'
+            ],
+            'rounded-s': [
+                'rounded-ss',
+                'rounded-es'
+            ],
+            'rounded-e': [
+                'rounded-se',
+                'rounded-ee'
+            ],
+            'rounded-t': [
+                'rounded-tl',
+                'rounded-tr'
+            ],
+            'rounded-r': [
+                'rounded-tr',
+                'rounded-br'
+            ],
+            'rounded-b': [
+                'rounded-br',
+                'rounded-bl'
+            ],
+            'rounded-l': [
+                'rounded-tl',
+                'rounded-bl'
+            ],
+            'border-spacing': [
+                'border-spacing-x',
+                'border-spacing-y'
+            ],
+            'border-w': [
+                'border-w-x',
+                'border-w-y',
+                'border-w-s',
+                'border-w-e',
+                'border-w-t',
+                'border-w-r',
+                'border-w-b',
+                'border-w-l'
+            ],
+            'border-w-x': [
+                'border-w-r',
+                'border-w-l'
+            ],
+            'border-w-y': [
+                'border-w-t',
+                'border-w-b'
+            ],
+            'border-color': [
+                'border-color-x',
+                'border-color-y',
+                'border-color-s',
+                'border-color-e',
+                'border-color-t',
+                'border-color-r',
+                'border-color-b',
+                'border-color-l'
+            ],
+            'border-color-x': [
+                'border-color-r',
+                'border-color-l'
+            ],
+            'border-color-y': [
+                'border-color-t',
+                'border-color-b'
+            ],
+            translate: [
+                'translate-x',
+                'translate-y',
+                'translate-none'
+            ],
+            'translate-none': [
+                'translate',
+                'translate-x',
+                'translate-y',
+                'translate-z'
+            ],
+            'scroll-m': [
+                'scroll-mx',
+                'scroll-my',
+                'scroll-ms',
+                'scroll-me',
+                'scroll-mt',
+                'scroll-mr',
+                'scroll-mb',
+                'scroll-ml'
+            ],
+            'scroll-mx': [
+                'scroll-mr',
+                'scroll-ml'
+            ],
+            'scroll-my': [
+                'scroll-mt',
+                'scroll-mb'
+            ],
+            'scroll-p': [
+                'scroll-px',
+                'scroll-py',
+                'scroll-ps',
+                'scroll-pe',
+                'scroll-pt',
+                'scroll-pr',
+                'scroll-pb',
+                'scroll-pl'
+            ],
+            'scroll-px': [
+                'scroll-pr',
+                'scroll-pl'
+            ],
+            'scroll-py': [
+                'scroll-pt',
+                'scroll-pb'
+            ],
+            touch: [
+                'touch-x',
+                'touch-y',
+                'touch-pz'
+            ],
+            'touch-x': [
+                'touch'
+            ],
+            'touch-y': [
+                'touch'
+            ],
+            'touch-pz': [
+                'touch'
+            ]
+        },
+        conflictingClassGroupModifiers: {
+            'font-size': [
+                'leading'
+            ]
+        },
+        orderSensitiveModifiers: [
+            '*',
+            '**',
+            'after',
+            'backdrop',
+            'before',
+            'details-content',
+            'file',
+            'first-letter',
+            'first-line',
+            'marker',
+            'placeholder',
+            'selection'
+        ]
+    };
+};
+/**
+ * @param baseConfig Config where other config will be merged into. This object will be mutated.
+ * @param configExtension Partial config to merge into the `baseConfig`.
+ */ const mergeConfigs = (baseConfig, { cacheSize, prefix, experimentalParseClassName, extend = {}, override = {} })=>{
+    overrideProperty(baseConfig, 'cacheSize', cacheSize);
+    overrideProperty(baseConfig, 'prefix', prefix);
+    overrideProperty(baseConfig, 'experimentalParseClassName', experimentalParseClassName);
+    overrideConfigProperties(baseConfig.theme, override.theme);
+    overrideConfigProperties(baseConfig.classGroups, override.classGroups);
+    overrideConfigProperties(baseConfig.conflictingClassGroups, override.conflictingClassGroups);
+    overrideConfigProperties(baseConfig.conflictingClassGroupModifiers, override.conflictingClassGroupModifiers);
+    overrideProperty(baseConfig, 'orderSensitiveModifiers', override.orderSensitiveModifiers);
+    mergeConfigProperties(baseConfig.theme, extend.theme);
+    mergeConfigProperties(baseConfig.classGroups, extend.classGroups);
+    mergeConfigProperties(baseConfig.conflictingClassGroups, extend.conflictingClassGroups);
+    mergeConfigProperties(baseConfig.conflictingClassGroupModifiers, extend.conflictingClassGroupModifiers);
+    mergeArrayProperties(baseConfig, extend, 'orderSensitiveModifiers');
+    return baseConfig;
+};
+const overrideProperty = (baseObject, overrideKey, overrideValue)=>{
+    if (overrideValue !== undefined) {
+        baseObject[overrideKey] = overrideValue;
+    }
+};
+const overrideConfigProperties = (baseObject, overrideObject)=>{
+    if (overrideObject) {
+        for(const key in overrideObject){
+            overrideProperty(baseObject, key, overrideObject[key]);
+        }
+    }
+};
+const mergeConfigProperties = (baseObject, mergeObject)=>{
+    if (mergeObject) {
+        for(const key in mergeObject){
+            mergeArrayProperties(baseObject, mergeObject, key);
+        }
+    }
+};
+const mergeArrayProperties = (baseObject, mergeObject, key)=>{
+    const mergeValue = mergeObject[key];
+    if (mergeValue !== undefined) {
+        baseObject[key] = baseObject[key] ? baseObject[key].concat(mergeValue) : mergeValue;
+    }
+};
+const extendTailwindMerge = (configExtension, ...createConfig)=>typeof configExtension === 'function' ? createTailwindMerge(getDefaultConfig, configExtension, ...createConfig) : createTailwindMerge(()=>mergeConfigs(getDefaultConfig(), configExtension), ...createConfig);
+const twMerge = /*#__PURE__*/ createTailwindMerge(getDefaultConfig);
+;
+ //# sourceMappingURL=bundle-mjs.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/primitive/src/Primitive.tsx
+__turbopack_context__.s([
+    "Primitive",
+    ()=>Primitive,
+    "Root",
+    ()=>Root,
+    "dispatchDiscreteCustomEvent",
+    ()=>dispatchDiscreteCustomEvent
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+;
+;
+;
+;
+var NODES = [
+    "a",
+    "button",
+    "div",
+    "form",
+    "h2",
+    "h3",
+    "img",
+    "input",
+    "label",
+    "li",
+    "nav",
+    "ol",
+    "p",
+    "span",
+    "svg",
+    "ul"
+];
+var Primitive = NODES.reduce((primitive, node)=>{
+    const Node = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+        const { asChild, ...primitiveProps } = props;
+        const Comp = asChild ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slot"] : node;
+        if (typeof window !== "undefined") {
+            window[Symbol.for("radix-ui")] = true;
+        }
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Comp, {
+            ...primitiveProps,
+            ref: forwardedRef
+        });
+    });
+    Node.displayName = `Primitive.${node}`;
+    return {
+        ...primitive,
+        [node]: Node
+    };
+}, {});
+function dispatchDiscreteCustomEvent(target, event) {
+    if (target) __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["flushSync"](()=>target.dispatchEvent(event));
+}
+var Root = Primitive;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/use-layout-effect/src/useLayoutEffect.tsx
+__turbopack_context__.s([
+    "useLayoutEffect",
+    ()=>useLayoutEffect2
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var useLayoutEffect2 = Boolean(globalThis?.document) ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"] : ()=>{};
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-presence/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Presence",
+    ()=>Presence
+]);
+// packages/react/presence/src/Presence.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+function useStateMachine(initialState, machine) {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducer"]({
+        "useStateMachine.useReducer": (state, event)=>{
+            const nextState = machine[state][event];
+            return nextState ?? state;
+        }
+    }["useStateMachine.useReducer"], initialState);
+}
+// packages/react/presence/src/Presence.tsx
+var Presence = (props)=>{
+    const { present, children } = props;
+    const presence = usePresence(present);
+    const child = typeof children === "function" ? children({
+        present: presence.isPresent
+    }) : __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Children"].only(children);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(presence.ref, getElementRef(child));
+    const forceMount = typeof children === "function";
+    return forceMount || presence.isPresent ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cloneElement"](child, {
+        ref
+    }) : null;
+};
+Presence.displayName = "Presence";
+function usePresence(present) {
+    const [node, setNode] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]();
+    const stylesRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]({});
+    const prevPresentRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](present);
+    const prevAnimationNameRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]("none");
+    const initialState = present ? "mounted" : "unmounted";
+    const [state, send] = useStateMachine(initialState, {
+        mounted: {
+            UNMOUNT: "unmounted",
+            ANIMATION_OUT: "unmountSuspended"
+        },
+        unmountSuspended: {
+            MOUNT: "mounted",
+            ANIMATION_END: "unmounted"
+        },
+        unmounted: {
+            MOUNT: "mounted"
+        }
+    });
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "usePresence.useEffect": ()=>{
+            const currentAnimationName = getAnimationName(stylesRef.current);
+            prevAnimationNameRef.current = state === "mounted" ? currentAnimationName : "none";
+        }
+    }["usePresence.useEffect"], [
+        state
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"])({
+        "usePresence.useLayoutEffect": ()=>{
+            const styles = stylesRef.current;
+            const wasPresent = prevPresentRef.current;
+            const hasPresentChanged = wasPresent !== present;
+            if (hasPresentChanged) {
+                const prevAnimationName = prevAnimationNameRef.current;
+                const currentAnimationName = getAnimationName(styles);
+                if (present) {
+                    send("MOUNT");
+                } else if (currentAnimationName === "none" || styles?.display === "none") {
+                    send("UNMOUNT");
+                } else {
+                    const isAnimating = prevAnimationName !== currentAnimationName;
+                    if (wasPresent && isAnimating) {
+                        send("ANIMATION_OUT");
+                    } else {
+                        send("UNMOUNT");
+                    }
+                }
+                prevPresentRef.current = present;
+            }
+        }
+    }["usePresence.useLayoutEffect"], [
+        present,
+        send
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"])({
+        "usePresence.useLayoutEffect": ()=>{
+            if (node) {
+                let timeoutId;
+                const ownerWindow = node.ownerDocument.defaultView ?? window;
+                const handleAnimationEnd = {
+                    "usePresence.useLayoutEffect.handleAnimationEnd": (event)=>{
+                        const currentAnimationName = getAnimationName(stylesRef.current);
+                        const isCurrentAnimation = currentAnimationName.includes(event.animationName);
+                        if (event.target === node && isCurrentAnimation) {
+                            send("ANIMATION_END");
+                            if (!prevPresentRef.current) {
+                                const currentFillMode = node.style.animationFillMode;
+                                node.style.animationFillMode = "forwards";
+                                timeoutId = ownerWindow.setTimeout({
+                                    "usePresence.useLayoutEffect.handleAnimationEnd": ()=>{
+                                        if (node.style.animationFillMode === "forwards") {
+                                            node.style.animationFillMode = currentFillMode;
+                                        }
+                                    }
+                                }["usePresence.useLayoutEffect.handleAnimationEnd"]);
+                            }
+                        }
+                    }
+                }["usePresence.useLayoutEffect.handleAnimationEnd"];
+                const handleAnimationStart = {
+                    "usePresence.useLayoutEffect.handleAnimationStart": (event)=>{
+                        if (event.target === node) {
+                            prevAnimationNameRef.current = getAnimationName(stylesRef.current);
+                        }
+                    }
+                }["usePresence.useLayoutEffect.handleAnimationStart"];
+                node.addEventListener("animationstart", handleAnimationStart);
+                node.addEventListener("animationcancel", handleAnimationEnd);
+                node.addEventListener("animationend", handleAnimationEnd);
+                return ({
+                    "usePresence.useLayoutEffect": ()=>{
+                        ownerWindow.clearTimeout(timeoutId);
+                        node.removeEventListener("animationstart", handleAnimationStart);
+                        node.removeEventListener("animationcancel", handleAnimationEnd);
+                        node.removeEventListener("animationend", handleAnimationEnd);
+                    }
+                })["usePresence.useLayoutEffect"];
+            } else {
+                send("ANIMATION_END");
+            }
+        }
+    }["usePresence.useLayoutEffect"], [
+        node,
+        send
+    ]);
+    return {
+        isPresent: [
+            "mounted",
+            "unmountSuspended"
+        ].includes(state),
+        ref: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+            "usePresence.useCallback": (node2)=>{
+                if (node2) stylesRef.current = getComputedStyle(node2);
+                setNode(node2);
+            }
+        }["usePresence.useCallback"], [])
+    };
+}
+function getAnimationName(styles) {
+    return styles?.animationName || "none";
+}
+function getElementRef(element) {
+    let getter = Object.getOwnPropertyDescriptor(element.props, "ref")?.get;
+    let mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+    if (mayWarn) {
+        return element.ref;
+    }
+    getter = Object.getOwnPropertyDescriptor(element, "ref")?.get;
+    mayWarn = getter && "isReactWarning" in getter && getter.isReactWarning;
+    if (mayWarn) {
+        return element.props.ref;
+    }
+    return element.props.ref || element.ref;
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-context/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/context/src/createContext.tsx
+__turbopack_context__.s([
+    "createContext",
+    ()=>createContext2,
+    "createContextScope",
+    ()=>createContextScope
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+;
+;
+function createContext2(rootComponentName, defaultContext) {
+    const Context = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"](defaultContext);
+    const Provider = (props)=>{
+        const { children, ...context } = props;
+        const value = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+            "createContext2.Provider.useMemo[value]": ()=>context
+        }["createContext2.Provider.useMemo[value]"], Object.values(context));
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Context.Provider, {
+            value,
+            children
+        });
+    };
+    Provider.displayName = rootComponentName + "Provider";
+    function useContext2(consumerName) {
+        const context = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](Context);
+        if (context) return context;
+        if (defaultContext !== void 0) return defaultContext;
+        throw new Error(`\`${consumerName}\` must be used within \`${rootComponentName}\``);
+    }
+    return [
+        Provider,
+        useContext2
+    ];
+}
+function createContextScope(scopeName, createContextScopeDeps = []) {
+    let defaultContexts = [];
+    function createContext3(rootComponentName, defaultContext) {
+        const BaseContext = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"](defaultContext);
+        const index = defaultContexts.length;
+        defaultContexts = [
+            ...defaultContexts,
+            defaultContext
+        ];
+        const Provider = (props)=>{
+            const { scope, children, ...context } = props;
+            const Context = scope?.[scopeName]?.[index] || BaseContext;
+            const value = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+                "createContextScope.createContext3.Provider.useMemo[value]": ()=>context
+            }["createContextScope.createContext3.Provider.useMemo[value]"], Object.values(context));
+            return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Context.Provider, {
+                value,
+                children
+            });
+        };
+        Provider.displayName = rootComponentName + "Provider";
+        function useContext2(consumerName, scope) {
+            const Context = scope?.[scopeName]?.[index] || BaseContext;
+            const context = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](Context);
+            if (context) return context;
+            if (defaultContext !== void 0) return defaultContext;
+            throw new Error(`\`${consumerName}\` must be used within \`${rootComponentName}\``);
+        }
+        return [
+            Provider,
+            useContext2
+        ];
+    }
+    const createScope = ()=>{
+        const scopeContexts = defaultContexts.map((defaultContext)=>{
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"](defaultContext);
+        });
+        return function useScope(scope) {
+            const contexts = scope?.[scopeName] || scopeContexts;
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+                "createContextScope.createScope.useScope.useMemo": ()=>({
+                        [`__scope${scopeName}`]: {
+                            ...scope,
+                            [scopeName]: contexts
+                        }
+                    })
+            }["createContextScope.createScope.useScope.useMemo"], [
+                scope,
+                contexts
+            ]);
+        };
+    };
+    createScope.scopeName = scopeName;
+    return [
+        createContext3,
+        composeContextScopes(createScope, ...createContextScopeDeps)
+    ];
+}
+function composeContextScopes(...scopes) {
+    const baseScope = scopes[0];
+    if (scopes.length === 1) return baseScope;
+    const createScope = ()=>{
+        const scopeHooks = scopes.map((createScope2)=>({
+                useScope: createScope2(),
+                scopeName: createScope2.scopeName
+            }));
+        return function useComposedScopes(overrideScopes) {
+            const nextScopes = scopeHooks.reduce((nextScopes2, { useScope, scopeName })=>{
+                const scopeProps = useScope(overrideScopes);
+                const currentScope = scopeProps[`__scope${scopeName}`];
+                return {
+                    ...nextScopes2,
+                    ...currentScope
+                };
+            }, {});
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+                "composeContextScopes.createScope.useComposedScopes.useMemo": ()=>({
+                        [`__scope${baseScope.scopeName}`]: nextScopes
+                    })
+            }["composeContextScopes.createScope.useComposedScopes.useMemo"], [
+                nextScopes
+            ]);
+        };
+    };
+    createScope.scopeName = baseScope.scopeName;
+    return createScope;
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/use-callback-ref/src/useCallbackRef.tsx
+__turbopack_context__.s([
+    "useCallbackRef",
+    ()=>useCallbackRef
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+function useCallbackRef(callback) {
+    const callbackRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](callback);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useCallbackRef.useEffect": ()=>{
+            callbackRef.current = callback;
+        }
+    }["useCallbackRef.useEffect"]);
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "useCallbackRef.useMemo": ()=>({
+                "useCallbackRef.useMemo": (...args)=>callbackRef.current?.(...args)
+            })["useCallbackRef.useMemo"]
+    }["useCallbackRef.useMemo"], []);
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-direction/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/direction/src/Direction.tsx
+__turbopack_context__.s([
+    "DirectionProvider",
+    ()=>DirectionProvider,
+    "Provider",
+    ()=>Provider,
+    "useDirection",
+    ()=>useDirection
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+;
+;
+var DirectionContext = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"](void 0);
+var DirectionProvider = (props)=>{
+    const { dir, children } = props;
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(DirectionContext.Provider, {
+        value: dir,
+        children
+    });
+};
+function useDirection(localDir) {
+    const globalDir = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](DirectionContext);
+    return localDir || globalDir || "ltr";
+}
+var Provider = DirectionProvider;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/number/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/core/number/src/number.ts
+__turbopack_context__.s([
+    "clamp",
+    ()=>clamp
+]);
+function clamp(value, [min, max]) {
+    return Math.min(max, Math.max(min, value));
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/primitive/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/core/primitive/src/primitive.tsx
+__turbopack_context__.s([
+    "composeEventHandlers",
+    ()=>composeEventHandlers
+]);
+function composeEventHandlers(originalEventHandler, ourEventHandler, { checkForDefaultPrevented = true } = {}) {
+    return function handleEvent(event) {
+        originalEventHandler?.(event);
+        if (checkForDefaultPrevented === false || !event.defaultPrevented) {
+            return ourEventHandler?.(event);
+        }
+    };
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-scroll-area/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Corner",
+    ()=>Corner,
+    "Root",
+    ()=>Root,
+    "ScrollArea",
+    ()=>ScrollArea,
+    "ScrollAreaCorner",
+    ()=>ScrollAreaCorner,
+    "ScrollAreaScrollbar",
+    ()=>ScrollAreaScrollbar,
+    "ScrollAreaThumb",
+    ()=>ScrollAreaThumb,
+    "ScrollAreaViewport",
+    ()=>ScrollAreaViewport,
+    "Scrollbar",
+    ()=>Scrollbar,
+    "Thumb",
+    ()=>Thumb,
+    "Viewport",
+    ()=>Viewport,
+    "createScrollAreaScope",
+    ()=>createScrollAreaScope
+]);
+// packages/react/scroll-area/src/ScrollArea.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-presence/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-context/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$direction$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-direction/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$number$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/number/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/primitive/dist/index.mjs [app-client] (ecmascript)");
+// packages/react/scroll-area/src/ScrollArea.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function useStateMachine(initialState, machine) {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducer"]({
+        "useStateMachine.useReducer": (state, event)=>{
+            const nextState = machine[state][event];
+            return nextState ?? state;
+        }
+    }["useStateMachine.useReducer"], initialState);
+}
+;
+var SCROLL_AREA_NAME = "ScrollArea";
+var [createScrollAreaContext, createScrollAreaScope] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContextScope"])(SCROLL_AREA_NAME);
+var [ScrollAreaProvider, useScrollAreaContext] = createScrollAreaContext(SCROLL_AREA_NAME);
+var ScrollArea = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeScrollArea, type = "hover", dir, scrollHideDelay = 600, ...scrollAreaProps } = props;
+    const [scrollArea, setScrollArea] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const [viewport, setViewport] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const [content, setContent] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const [scrollbarX, setScrollbarX] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const [scrollbarY, setScrollbarY] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const [cornerWidth, setCornerWidth] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](0);
+    const [cornerHeight, setCornerHeight] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](0);
+    const [scrollbarXEnabled, setScrollbarXEnabled] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [scrollbarYEnabled, setScrollbarYEnabled] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, {
+        "ScrollArea.useComposedRefs[composedRefs]": (node)=>setScrollArea(node)
+    }["ScrollArea.useComposedRefs[composedRefs]"]);
+    const direction = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$direction$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useDirection"])(dir);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaProvider, {
+        scope: __scopeScrollArea,
+        type,
+        dir: direction,
+        scrollHideDelay,
+        scrollArea,
+        viewport,
+        onViewportChange: setViewport,
+        content,
+        onContentChange: setContent,
+        scrollbarX,
+        onScrollbarXChange: setScrollbarX,
+        scrollbarXEnabled,
+        onScrollbarXEnabledChange: setScrollbarXEnabled,
+        scrollbarY,
+        onScrollbarYChange: setScrollbarY,
+        scrollbarYEnabled,
+        onScrollbarYEnabledChange: setScrollbarYEnabled,
+        onCornerWidthChange: setCornerWidth,
+        onCornerHeightChange: setCornerHeight,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+            dir: direction,
+            ...scrollAreaProps,
+            ref: composedRefs,
+            style: {
+                position: "relative",
+                // Pass corner sizes as CSS vars to reduce re-renders of context consumers
+                ["--radix-scroll-area-corner-width"]: cornerWidth + "px",
+                ["--radix-scroll-area-corner-height"]: cornerHeight + "px",
+                ...props.style
+            }
+        })
+    });
+});
+ScrollArea.displayName = SCROLL_AREA_NAME;
+var VIEWPORT_NAME = "ScrollAreaViewport";
+var ScrollAreaViewport = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeScrollArea, children, nonce, ...viewportProps } = props;
+    const context = useScrollAreaContext(VIEWPORT_NAME, __scopeScrollArea);
+    const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, ref, context.onViewportChange);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("style", {
+                dangerouslySetInnerHTML: {
+                    __html: `[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}`
+                },
+                nonce
+            }),
+            /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+                "data-radix-scroll-area-viewport": "",
+                ...viewportProps,
+                ref: composedRefs,
+                style: {
+                    /**
+             * We don't support `visible` because the intention is to have at least one scrollbar
+             * if this component is used and `visible` will behave like `auto` in that case
+             * https://developer.mozilla.org/en-US/docs/Web/CSS/overflow#description
+             *
+             * We don't handle `auto` because the intention is for the native implementation
+             * to be hidden if using this component. We just want to ensure the node is scrollable
+             * so could have used either `scroll` or `auto` here. We picked `scroll` to prevent
+             * the browser from having to work out whether to render native scrollbars or not,
+             * we tell it to with the intention of hiding them in CSS.
+             */ overflowX: context.scrollbarXEnabled ? "scroll" : "hidden",
+                    overflowY: context.scrollbarYEnabled ? "scroll" : "hidden",
+                    ...props.style
+                },
+                children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])("div", {
+                    ref: context.onContentChange,
+                    style: {
+                        minWidth: "100%",
+                        display: "table"
+                    },
+                    children
+                })
+            })
+        ]
+    });
+});
+ScrollAreaViewport.displayName = VIEWPORT_NAME;
+var SCROLLBAR_NAME = "ScrollAreaScrollbar";
+var ScrollAreaScrollbar = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { forceMount, ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const { onScrollbarXEnabledChange, onScrollbarYEnabledChange } = context;
+    const isHorizontal = props.orientation === "horizontal";
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbar.useEffect": ()=>{
+            isHorizontal ? onScrollbarXEnabledChange(true) : onScrollbarYEnabledChange(true);
+            return ({
+                "ScrollAreaScrollbar.useEffect": ()=>{
+                    isHorizontal ? onScrollbarXEnabledChange(false) : onScrollbarYEnabledChange(false);
+                }
+            })["ScrollAreaScrollbar.useEffect"];
+        }
+    }["ScrollAreaScrollbar.useEffect"], [
+        isHorizontal,
+        onScrollbarXEnabledChange,
+        onScrollbarYEnabledChange
+    ]);
+    return context.type === "hover" ? /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarHover, {
+        ...scrollbarProps,
+        ref: forwardedRef,
+        forceMount
+    }) : context.type === "scroll" ? /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarScroll, {
+        ...scrollbarProps,
+        ref: forwardedRef,
+        forceMount
+    }) : context.type === "auto" ? /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarAuto, {
+        ...scrollbarProps,
+        ref: forwardedRef,
+        forceMount
+    }) : context.type === "always" ? /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarVisible, {
+        ...scrollbarProps,
+        ref: forwardedRef
+    }) : null;
+});
+ScrollAreaScrollbar.displayName = SCROLLBAR_NAME;
+var ScrollAreaScrollbarHover = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { forceMount, ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const [visible, setVisible] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbarHover.useEffect": ()=>{
+            const scrollArea = context.scrollArea;
+            let hideTimer = 0;
+            if (scrollArea) {
+                const handlePointerEnter = {
+                    "ScrollAreaScrollbarHover.useEffect.handlePointerEnter": ()=>{
+                        window.clearTimeout(hideTimer);
+                        setVisible(true);
+                    }
+                }["ScrollAreaScrollbarHover.useEffect.handlePointerEnter"];
+                const handlePointerLeave = {
+                    "ScrollAreaScrollbarHover.useEffect.handlePointerLeave": ()=>{
+                        hideTimer = window.setTimeout({
+                            "ScrollAreaScrollbarHover.useEffect.handlePointerLeave": ()=>setVisible(false)
+                        }["ScrollAreaScrollbarHover.useEffect.handlePointerLeave"], context.scrollHideDelay);
+                    }
+                }["ScrollAreaScrollbarHover.useEffect.handlePointerLeave"];
+                scrollArea.addEventListener("pointerenter", handlePointerEnter);
+                scrollArea.addEventListener("pointerleave", handlePointerLeave);
+                return ({
+                    "ScrollAreaScrollbarHover.useEffect": ()=>{
+                        window.clearTimeout(hideTimer);
+                        scrollArea.removeEventListener("pointerenter", handlePointerEnter);
+                        scrollArea.removeEventListener("pointerleave", handlePointerLeave);
+                    }
+                })["ScrollAreaScrollbarHover.useEffect"];
+            }
+        }
+    }["ScrollAreaScrollbarHover.useEffect"], [
+        context.scrollArea,
+        context.scrollHideDelay
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Presence"], {
+        present: forceMount || visible,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarAuto, {
+            "data-state": visible ? "visible" : "hidden",
+            ...scrollbarProps,
+            ref: forwardedRef
+        })
+    });
+});
+var ScrollAreaScrollbarScroll = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { forceMount, ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const isHorizontal = props.orientation === "horizontal";
+    const debounceScrollEnd = useDebounceCallback({
+        "ScrollAreaScrollbarScroll.useDebounceCallback[debounceScrollEnd]": ()=>send("SCROLL_END")
+    }["ScrollAreaScrollbarScroll.useDebounceCallback[debounceScrollEnd]"], 100);
+    const [state, send] = useStateMachine("hidden", {
+        hidden: {
+            SCROLL: "scrolling"
+        },
+        scrolling: {
+            SCROLL_END: "idle",
+            POINTER_ENTER: "interacting"
+        },
+        interacting: {
+            SCROLL: "interacting",
+            POINTER_LEAVE: "idle"
+        },
+        idle: {
+            HIDE: "hidden",
+            SCROLL: "scrolling",
+            POINTER_ENTER: "interacting"
+        }
+    });
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbarScroll.useEffect": ()=>{
+            if (state === "idle") {
+                const hideTimer = window.setTimeout({
+                    "ScrollAreaScrollbarScroll.useEffect.hideTimer": ()=>send("HIDE")
+                }["ScrollAreaScrollbarScroll.useEffect.hideTimer"], context.scrollHideDelay);
+                return ({
+                    "ScrollAreaScrollbarScroll.useEffect": ()=>window.clearTimeout(hideTimer)
+                })["ScrollAreaScrollbarScroll.useEffect"];
+            }
+        }
+    }["ScrollAreaScrollbarScroll.useEffect"], [
+        state,
+        context.scrollHideDelay,
+        send
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbarScroll.useEffect": ()=>{
+            const viewport = context.viewport;
+            const scrollDirection = isHorizontal ? "scrollLeft" : "scrollTop";
+            if (viewport) {
+                let prevScrollPos = viewport[scrollDirection];
+                const handleScroll = {
+                    "ScrollAreaScrollbarScroll.useEffect.handleScroll": ()=>{
+                        const scrollPos = viewport[scrollDirection];
+                        const hasScrollInDirectionChanged = prevScrollPos !== scrollPos;
+                        if (hasScrollInDirectionChanged) {
+                            send("SCROLL");
+                            debounceScrollEnd();
+                        }
+                        prevScrollPos = scrollPos;
+                    }
+                }["ScrollAreaScrollbarScroll.useEffect.handleScroll"];
+                viewport.addEventListener("scroll", handleScroll);
+                return ({
+                    "ScrollAreaScrollbarScroll.useEffect": ()=>viewport.removeEventListener("scroll", handleScroll)
+                })["ScrollAreaScrollbarScroll.useEffect"];
+            }
+        }
+    }["ScrollAreaScrollbarScroll.useEffect"], [
+        context.viewport,
+        isHorizontal,
+        send,
+        debounceScrollEnd
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Presence"], {
+        present: forceMount || state !== "hidden",
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarVisible, {
+            "data-state": state === "hidden" ? "hidden" : "visible",
+            ...scrollbarProps,
+            ref: forwardedRef,
+            onPointerEnter: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerEnter, ()=>send("POINTER_ENTER")),
+            onPointerLeave: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerLeave, ()=>send("POINTER_LEAVE"))
+        })
+    });
+});
+var ScrollAreaScrollbarAuto = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const { forceMount, ...scrollbarProps } = props;
+    const [visible, setVisible] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const isHorizontal = props.orientation === "horizontal";
+    const handleResize = useDebounceCallback({
+        "ScrollAreaScrollbarAuto.useDebounceCallback[handleResize]": ()=>{
+            if (context.viewport) {
+                const isOverflowX = context.viewport.offsetWidth < context.viewport.scrollWidth;
+                const isOverflowY = context.viewport.offsetHeight < context.viewport.scrollHeight;
+                setVisible(isHorizontal ? isOverflowX : isOverflowY);
+            }
+        }
+    }["ScrollAreaScrollbarAuto.useDebounceCallback[handleResize]"], 10);
+    useResizeObserver(context.viewport, handleResize);
+    useResizeObserver(context.content, handleResize);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Presence"], {
+        present: forceMount || visible,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarVisible, {
+            "data-state": visible ? "visible" : "hidden",
+            ...scrollbarProps,
+            ref: forwardedRef
+        })
+    });
+});
+var ScrollAreaScrollbarVisible = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { orientation = "vertical", ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const thumbRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const pointerOffsetRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](0);
+    const [sizes, setSizes] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({
+        content: 0,
+        viewport: 0,
+        scrollbar: {
+            size: 0,
+            paddingStart: 0,
+            paddingEnd: 0
+        }
+    });
+    const thumbRatio = getThumbRatio(sizes.viewport, sizes.content);
+    const commonProps = {
+        ...scrollbarProps,
+        sizes,
+        onSizesChange: setSizes,
+        hasThumb: Boolean(thumbRatio > 0 && thumbRatio < 1),
+        onThumbChange: (thumb)=>thumbRef.current = thumb,
+        onThumbPointerUp: ()=>pointerOffsetRef.current = 0,
+        onThumbPointerDown: (pointerPos)=>pointerOffsetRef.current = pointerPos
+    };
+    function getScrollPosition(pointerPos, dir) {
+        return getScrollPositionFromPointer(pointerPos, pointerOffsetRef.current, sizes, dir);
+    }
+    if (orientation === "horizontal") {
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarX, {
+            ...commonProps,
+            ref: forwardedRef,
+            onThumbPositionChange: ()=>{
+                if (context.viewport && thumbRef.current) {
+                    const scrollPos = context.viewport.scrollLeft;
+                    const offset = getThumbOffsetFromScroll(scrollPos, sizes, context.dir);
+                    thumbRef.current.style.transform = `translate3d(${offset}px, 0, 0)`;
+                }
+            },
+            onWheelScroll: (scrollPos)=>{
+                if (context.viewport) context.viewport.scrollLeft = scrollPos;
+            },
+            onDragScroll: (pointerPos)=>{
+                if (context.viewport) {
+                    context.viewport.scrollLeft = getScrollPosition(pointerPos, context.dir);
+                }
+            }
+        });
+    }
+    if (orientation === "vertical") {
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarY, {
+            ...commonProps,
+            ref: forwardedRef,
+            onThumbPositionChange: ()=>{
+                if (context.viewport && thumbRef.current) {
+                    const scrollPos = context.viewport.scrollTop;
+                    const offset = getThumbOffsetFromScroll(scrollPos, sizes);
+                    thumbRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
+                }
+            },
+            onWheelScroll: (scrollPos)=>{
+                if (context.viewport) context.viewport.scrollTop = scrollPos;
+            },
+            onDragScroll: (pointerPos)=>{
+                if (context.viewport) context.viewport.scrollTop = getScrollPosition(pointerPos);
+            }
+        });
+    }
+    return null;
+});
+var ScrollAreaScrollbarX = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { sizes, onSizesChange, ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const [computedStyle, setComputedStyle] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]();
+    const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const composeRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, ref, context.onScrollbarXChange);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbarX.useEffect": ()=>{
+            if (ref.current) setComputedStyle(getComputedStyle(ref.current));
+        }
+    }["ScrollAreaScrollbarX.useEffect"], [
+        ref
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarImpl, {
+        "data-orientation": "horizontal",
+        ...scrollbarProps,
+        ref: composeRefs,
+        sizes,
+        style: {
+            bottom: 0,
+            left: context.dir === "rtl" ? "var(--radix-scroll-area-corner-width)" : 0,
+            right: context.dir === "ltr" ? "var(--radix-scroll-area-corner-width)" : 0,
+            ["--radix-scroll-area-thumb-width"]: getThumbSize(sizes) + "px",
+            ...props.style
+        },
+        onThumbPointerDown: (pointerPos)=>props.onThumbPointerDown(pointerPos.x),
+        onDragScroll: (pointerPos)=>props.onDragScroll(pointerPos.x),
+        onWheelScroll: (event, maxScrollPos)=>{
+            if (context.viewport) {
+                const scrollPos = context.viewport.scrollLeft + event.deltaX;
+                props.onWheelScroll(scrollPos);
+                if (isScrollingWithinScrollbarBounds(scrollPos, maxScrollPos)) {
+                    event.preventDefault();
+                }
+            }
+        },
+        onResize: ()=>{
+            if (ref.current && context.viewport && computedStyle) {
+                onSizesChange({
+                    content: context.viewport.scrollWidth,
+                    viewport: context.viewport.offsetWidth,
+                    scrollbar: {
+                        size: ref.current.clientWidth,
+                        paddingStart: toInt(computedStyle.paddingLeft),
+                        paddingEnd: toInt(computedStyle.paddingRight)
+                    }
+                });
+            }
+        }
+    });
+});
+var ScrollAreaScrollbarY = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { sizes, onSizesChange, ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, props.__scopeScrollArea);
+    const [computedStyle, setComputedStyle] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]();
+    const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const composeRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, ref, context.onScrollbarYChange);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbarY.useEffect": ()=>{
+            if (ref.current) setComputedStyle(getComputedStyle(ref.current));
+        }
+    }["ScrollAreaScrollbarY.useEffect"], [
+        ref
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaScrollbarImpl, {
+        "data-orientation": "vertical",
+        ...scrollbarProps,
+        ref: composeRefs,
+        sizes,
+        style: {
+            top: 0,
+            right: context.dir === "ltr" ? 0 : void 0,
+            left: context.dir === "rtl" ? 0 : void 0,
+            bottom: "var(--radix-scroll-area-corner-height)",
+            ["--radix-scroll-area-thumb-height"]: getThumbSize(sizes) + "px",
+            ...props.style
+        },
+        onThumbPointerDown: (pointerPos)=>props.onThumbPointerDown(pointerPos.y),
+        onDragScroll: (pointerPos)=>props.onDragScroll(pointerPos.y),
+        onWheelScroll: (event, maxScrollPos)=>{
+            if (context.viewport) {
+                const scrollPos = context.viewport.scrollTop + event.deltaY;
+                props.onWheelScroll(scrollPos);
+                if (isScrollingWithinScrollbarBounds(scrollPos, maxScrollPos)) {
+                    event.preventDefault();
+                }
+            }
+        },
+        onResize: ()=>{
+            if (ref.current && context.viewport && computedStyle) {
+                onSizesChange({
+                    content: context.viewport.scrollHeight,
+                    viewport: context.viewport.offsetHeight,
+                    scrollbar: {
+                        size: ref.current.clientHeight,
+                        paddingStart: toInt(computedStyle.paddingTop),
+                        paddingEnd: toInt(computedStyle.paddingBottom)
+                    }
+                });
+            }
+        }
+    });
+});
+var [ScrollbarProvider, useScrollbarContext] = createScrollAreaContext(SCROLLBAR_NAME);
+var ScrollAreaScrollbarImpl = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeScrollArea, sizes, hasThumb, onThumbChange, onThumbPointerUp, onThumbPointerDown, onThumbPositionChange, onDragScroll, onWheelScroll, onResize, ...scrollbarProps } = props;
+    const context = useScrollAreaContext(SCROLLBAR_NAME, __scopeScrollArea);
+    const [scrollbar, setScrollbar] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const composeRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, {
+        "ScrollAreaScrollbarImpl.useComposedRefs[composeRefs]": (node)=>setScrollbar(node)
+    }["ScrollAreaScrollbarImpl.useComposedRefs[composeRefs]"]);
+    const rectRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const prevWebkitUserSelectRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]("");
+    const viewport = context.viewport;
+    const maxScrollPos = sizes.content - sizes.viewport;
+    const handleWheelScroll = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onWheelScroll);
+    const handleThumbPositionChange = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onThumbPositionChange);
+    const handleResize = useDebounceCallback(onResize, 10);
+    function handleDragScroll(event) {
+        if (rectRef.current) {
+            const x = event.clientX - rectRef.current.left;
+            const y = event.clientY - rectRef.current.top;
+            onDragScroll({
+                x,
+                y
+            });
+        }
+    }
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaScrollbarImpl.useEffect": ()=>{
+            const handleWheel = {
+                "ScrollAreaScrollbarImpl.useEffect.handleWheel": (event)=>{
+                    const element = event.target;
+                    const isScrollbarWheel = scrollbar?.contains(element);
+                    if (isScrollbarWheel) handleWheelScroll(event, maxScrollPos);
+                }
+            }["ScrollAreaScrollbarImpl.useEffect.handleWheel"];
+            document.addEventListener("wheel", handleWheel, {
+                passive: false
+            });
+            return ({
+                "ScrollAreaScrollbarImpl.useEffect": ()=>document.removeEventListener("wheel", handleWheel, {
+                        passive: false
+                    })
+            })["ScrollAreaScrollbarImpl.useEffect"];
+        }
+    }["ScrollAreaScrollbarImpl.useEffect"], [
+        viewport,
+        scrollbar,
+        maxScrollPos,
+        handleWheelScroll
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"](handleThumbPositionChange, [
+        sizes,
+        handleThumbPositionChange
+    ]);
+    useResizeObserver(scrollbar, handleResize);
+    useResizeObserver(context.content, handleResize);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollbarProvider, {
+        scope: __scopeScrollArea,
+        scrollbar,
+        hasThumb,
+        onThumbChange: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onThumbChange),
+        onThumbPointerUp: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onThumbPointerUp),
+        onThumbPositionChange: handleThumbPositionChange,
+        onThumbPointerDown: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onThumbPointerDown),
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+            ...scrollbarProps,
+            ref: composeRefs,
+            style: {
+                position: "absolute",
+                ...scrollbarProps.style
+            },
+            onPointerDown: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerDown, (event)=>{
+                const mainPointer = 0;
+                if (event.button === mainPointer) {
+                    const element = event.target;
+                    element.setPointerCapture(event.pointerId);
+                    rectRef.current = scrollbar.getBoundingClientRect();
+                    prevWebkitUserSelectRef.current = document.body.style.webkitUserSelect;
+                    document.body.style.webkitUserSelect = "none";
+                    if (context.viewport) context.viewport.style.scrollBehavior = "auto";
+                    handleDragScroll(event);
+                }
+            }),
+            onPointerMove: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerMove, handleDragScroll),
+            onPointerUp: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerUp, (event)=>{
+                const element = event.target;
+                if (element.hasPointerCapture(event.pointerId)) {
+                    element.releasePointerCapture(event.pointerId);
+                }
+                document.body.style.webkitUserSelect = prevWebkitUserSelectRef.current;
+                if (context.viewport) context.viewport.style.scrollBehavior = "";
+                rectRef.current = null;
+            })
+        })
+    });
+});
+var THUMB_NAME = "ScrollAreaThumb";
+var ScrollAreaThumb = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { forceMount, ...thumbProps } = props;
+    const scrollbarContext = useScrollbarContext(THUMB_NAME, props.__scopeScrollArea);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Presence"], {
+        present: forceMount || scrollbarContext.hasThumb,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaThumbImpl, {
+            ref: forwardedRef,
+            ...thumbProps
+        })
+    });
+});
+var ScrollAreaThumbImpl = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeScrollArea, style, ...thumbProps } = props;
+    const scrollAreaContext = useScrollAreaContext(THUMB_NAME, __scopeScrollArea);
+    const scrollbarContext = useScrollbarContext(THUMB_NAME, __scopeScrollArea);
+    const { onThumbPositionChange } = scrollbarContext;
+    const composedRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, {
+        "ScrollAreaThumbImpl.useComposedRefs[composedRef]": (node)=>scrollbarContext.onThumbChange(node)
+    }["ScrollAreaThumbImpl.useComposedRefs[composedRef]"]);
+    const removeUnlinkedScrollListenerRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](void 0);
+    const debounceScrollEnd = useDebounceCallback({
+        "ScrollAreaThumbImpl.useDebounceCallback[debounceScrollEnd]": ()=>{
+            if (removeUnlinkedScrollListenerRef.current) {
+                removeUnlinkedScrollListenerRef.current();
+                removeUnlinkedScrollListenerRef.current = void 0;
+            }
+        }
+    }["ScrollAreaThumbImpl.useDebounceCallback[debounceScrollEnd]"], 100);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ScrollAreaThumbImpl.useEffect": ()=>{
+            const viewport = scrollAreaContext.viewport;
+            if (viewport) {
+                const handleScroll = {
+                    "ScrollAreaThumbImpl.useEffect.handleScroll": ()=>{
+                        debounceScrollEnd();
+                        if (!removeUnlinkedScrollListenerRef.current) {
+                            const listener = addUnlinkedScrollListener(viewport, onThumbPositionChange);
+                            removeUnlinkedScrollListenerRef.current = listener;
+                            onThumbPositionChange();
+                        }
+                    }
+                }["ScrollAreaThumbImpl.useEffect.handleScroll"];
+                onThumbPositionChange();
+                viewport.addEventListener("scroll", handleScroll);
+                return ({
+                    "ScrollAreaThumbImpl.useEffect": ()=>viewport.removeEventListener("scroll", handleScroll)
+                })["ScrollAreaThumbImpl.useEffect"];
+            }
+        }
+    }["ScrollAreaThumbImpl.useEffect"], [
+        scrollAreaContext.viewport,
+        debounceScrollEnd,
+        onThumbPositionChange
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        "data-state": scrollbarContext.hasThumb ? "visible" : "hidden",
+        ...thumbProps,
+        ref: composedRef,
+        style: {
+            width: "var(--radix-scroll-area-thumb-width)",
+            height: "var(--radix-scroll-area-thumb-height)",
+            ...style
+        },
+        onPointerDownCapture: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerDownCapture, (event)=>{
+            const thumb = event.target;
+            const thumbRect = thumb.getBoundingClientRect();
+            const x = event.clientX - thumbRect.left;
+            const y = event.clientY - thumbRect.top;
+            scrollbarContext.onThumbPointerDown({
+                x,
+                y
+            });
+        }),
+        onPointerUp: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerUp, scrollbarContext.onThumbPointerUp)
+    });
+});
+ScrollAreaThumb.displayName = THUMB_NAME;
+var CORNER_NAME = "ScrollAreaCorner";
+var ScrollAreaCorner = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const context = useScrollAreaContext(CORNER_NAME, props.__scopeScrollArea);
+    const hasBothScrollbarsVisible = Boolean(context.scrollbarX && context.scrollbarY);
+    const hasCorner = context.type !== "scroll" && hasBothScrollbarsVisible;
+    return hasCorner ? /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ScrollAreaCornerImpl, {
+        ...props,
+        ref: forwardedRef
+    }) : null;
+});
+ScrollAreaCorner.displayName = CORNER_NAME;
+var ScrollAreaCornerImpl = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeScrollArea, ...cornerProps } = props;
+    const context = useScrollAreaContext(CORNER_NAME, __scopeScrollArea);
+    const [width, setWidth] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](0);
+    const [height, setHeight] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](0);
+    const hasSize = Boolean(width && height);
+    useResizeObserver(context.scrollbarX, {
+        "ScrollAreaCornerImpl.useResizeObserver": ()=>{
+            const height2 = context.scrollbarX?.offsetHeight || 0;
+            context.onCornerHeightChange(height2);
+            setHeight(height2);
+        }
+    }["ScrollAreaCornerImpl.useResizeObserver"]);
+    useResizeObserver(context.scrollbarY, {
+        "ScrollAreaCornerImpl.useResizeObserver": ()=>{
+            const width2 = context.scrollbarY?.offsetWidth || 0;
+            context.onCornerWidthChange(width2);
+            setWidth(width2);
+        }
+    }["ScrollAreaCornerImpl.useResizeObserver"]);
+    return hasSize ? /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        ...cornerProps,
+        ref: forwardedRef,
+        style: {
+            width,
+            height,
+            position: "absolute",
+            right: context.dir === "ltr" ? 0 : void 0,
+            left: context.dir === "rtl" ? 0 : void 0,
+            bottom: 0,
+            ...props.style
+        }
+    }) : null;
+});
+function toInt(value) {
+    return value ? parseInt(value, 10) : 0;
+}
+function getThumbRatio(viewportSize, contentSize) {
+    const ratio = viewportSize / contentSize;
+    return isNaN(ratio) ? 0 : ratio;
+}
+function getThumbSize(sizes) {
+    const ratio = getThumbRatio(sizes.viewport, sizes.content);
+    const scrollbarPadding = sizes.scrollbar.paddingStart + sizes.scrollbar.paddingEnd;
+    const thumbSize = (sizes.scrollbar.size - scrollbarPadding) * ratio;
+    return Math.max(thumbSize, 18);
+}
+function getScrollPositionFromPointer(pointerPos, pointerOffset, sizes, dir = "ltr") {
+    const thumbSizePx = getThumbSize(sizes);
+    const thumbCenter = thumbSizePx / 2;
+    const offset = pointerOffset || thumbCenter;
+    const thumbOffsetFromEnd = thumbSizePx - offset;
+    const minPointerPos = sizes.scrollbar.paddingStart + offset;
+    const maxPointerPos = sizes.scrollbar.size - sizes.scrollbar.paddingEnd - thumbOffsetFromEnd;
+    const maxScrollPos = sizes.content - sizes.viewport;
+    const scrollRange = dir === "ltr" ? [
+        0,
+        maxScrollPos
+    ] : [
+        maxScrollPos * -1,
+        0
+    ];
+    const interpolate = linearScale([
+        minPointerPos,
+        maxPointerPos
+    ], scrollRange);
+    return interpolate(pointerPos);
+}
+function getThumbOffsetFromScroll(scrollPos, sizes, dir = "ltr") {
+    const thumbSizePx = getThumbSize(sizes);
+    const scrollbarPadding = sizes.scrollbar.paddingStart + sizes.scrollbar.paddingEnd;
+    const scrollbar = sizes.scrollbar.size - scrollbarPadding;
+    const maxScrollPos = sizes.content - sizes.viewport;
+    const maxThumbPos = scrollbar - thumbSizePx;
+    const scrollClampRange = dir === "ltr" ? [
+        0,
+        maxScrollPos
+    ] : [
+        maxScrollPos * -1,
+        0
+    ];
+    const scrollWithoutMomentum = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$number$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["clamp"])(scrollPos, scrollClampRange);
+    const interpolate = linearScale([
+        0,
+        maxScrollPos
+    ], [
+        0,
+        maxThumbPos
+    ]);
+    return interpolate(scrollWithoutMomentum);
+}
+function linearScale(input, output) {
+    return (value)=>{
+        if (input[0] === input[1] || output[0] === output[1]) return output[0];
+        const ratio = (output[1] - output[0]) / (input[1] - input[0]);
+        return output[0] + ratio * (value - input[0]);
+    };
+}
+function isScrollingWithinScrollbarBounds(scrollPos, maxScrollPos) {
+    return scrollPos > 0 && scrollPos < maxScrollPos;
+}
+var addUnlinkedScrollListener = (node, handler = ()=>{})=>{
+    let prevPosition = {
+        left: node.scrollLeft,
+        top: node.scrollTop
+    };
+    let rAF = 0;
+    (function loop() {
+        const position = {
+            left: node.scrollLeft,
+            top: node.scrollTop
+        };
+        const isHorizontalScroll = prevPosition.left !== position.left;
+        const isVerticalScroll = prevPosition.top !== position.top;
+        if (isHorizontalScroll || isVerticalScroll) handler();
+        prevPosition = position;
+        rAF = window.requestAnimationFrame(loop);
+    })();
+    return ()=>window.cancelAnimationFrame(rAF);
+};
+function useDebounceCallback(callback, delay) {
+    const handleCallback = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(callback);
+    const debounceTimerRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](0);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useDebounceCallback.useEffect": ()=>({
+                "useDebounceCallback.useEffect": ()=>window.clearTimeout(debounceTimerRef.current)
+            })["useDebounceCallback.useEffect"]
+    }["useDebounceCallback.useEffect"], []);
+    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "useDebounceCallback.useCallback": ()=>{
+            window.clearTimeout(debounceTimerRef.current);
+            debounceTimerRef.current = window.setTimeout(handleCallback, delay);
+        }
+    }["useDebounceCallback.useCallback"], [
+        handleCallback,
+        delay
+    ]);
+}
+function useResizeObserver(element, onResize) {
+    const handleResize = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onResize);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"])({
+        "useResizeObserver.useLayoutEffect": ()=>{
+            let rAF = 0;
+            if (element) {
+                const resizeObserver = new ResizeObserver({
+                    "useResizeObserver.useLayoutEffect": ()=>{
+                        cancelAnimationFrame(rAF);
+                        rAF = window.requestAnimationFrame(handleResize);
+                    }
+                }["useResizeObserver.useLayoutEffect"]);
+                resizeObserver.observe(element);
+                return ({
+                    "useResizeObserver.useLayoutEffect": ()=>{
+                        window.cancelAnimationFrame(rAF);
+                        resizeObserver.unobserve(element);
+                    }
+                })["useResizeObserver.useLayoutEffect"];
+            }
+        }
+    }["useResizeObserver.useLayoutEffect"], [
+        element,
+        handleResize
+    ]);
+}
+var Root = ScrollArea;
+var Viewport = ScrollAreaViewport;
+var Scrollbar = ScrollAreaScrollbar;
+var Thumb = ScrollAreaThumb;
+var Corner = ScrollAreaCorner;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-collection/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "createCollection",
+    ()=>createCollection
+]);
+// packages/react/collection/src/Collection.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-context/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-slot/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+function createCollection(name) {
+    const PROVIDER_NAME = name + "CollectionProvider";
+    const [createCollectionContext, createCollectionScope] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContextScope"])(PROVIDER_NAME);
+    const [CollectionProviderImpl, useCollectionContext] = createCollectionContext(PROVIDER_NAME, {
+        collectionRef: {
+            current: null
+        },
+        itemMap: /* @__PURE__ */ new Map()
+    });
+    const CollectionProvider = (props)=>{
+        const { scope, children } = props;
+        const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useRef(null);
+        const itemMap = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useRef(/* @__PURE__ */ new Map()).current;
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(CollectionProviderImpl, {
+            scope,
+            itemMap,
+            collectionRef: ref,
+            children
+        });
+    };
+    CollectionProvider.displayName = PROVIDER_NAME;
+    const COLLECTION_SLOT_NAME = name + "CollectionSlot";
+    const CollectionSlot = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].forwardRef((props, forwardedRef)=>{
+        const { scope, children } = props;
+        const context = useCollectionContext(COLLECTION_SLOT_NAME, scope);
+        const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, context.collectionRef);
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slot"], {
+            ref: composedRefs,
+            children
+        });
+    });
+    CollectionSlot.displayName = COLLECTION_SLOT_NAME;
+    const ITEM_SLOT_NAME = name + "CollectionItemSlot";
+    const ITEM_DATA_ATTR = "data-radix-collection-item";
+    const CollectionItemSlot = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].forwardRef((props, forwardedRef)=>{
+        const { scope, children, ...itemData } = props;
+        const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useRef(null);
+        const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, ref);
+        const context = useCollectionContext(ITEM_SLOT_NAME, scope);
+        __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useEffect({
+            "createCollection.CollectionItemSlot.useEffect": ()=>{
+                context.itemMap.set(ref, {
+                    ref,
+                    ...itemData
+                });
+                return ({
+                    "createCollection.CollectionItemSlot.useEffect": ()=>void context.itemMap.delete(ref)
+                })["createCollection.CollectionItemSlot.useEffect"];
+            }
+        }["createCollection.CollectionItemSlot.useEffect"]);
+        return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slot"], {
+            ...{
+                [ITEM_DATA_ATTR]: ""
+            },
+            ref: composedRefs,
+            children
+        });
+    });
+    CollectionItemSlot.displayName = ITEM_SLOT_NAME;
+    function useCollection(scope) {
+        const context = useCollectionContext(name + "CollectionConsumer", scope);
+        const getItems = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].useCallback({
+            "createCollection.useCollection.useCallback[getItems]": ()=>{
+                const collectionNode = context.collectionRef.current;
+                if (!collectionNode) return [];
+                const orderedNodes = Array.from(collectionNode.querySelectorAll(`[${ITEM_DATA_ATTR}]`));
+                const items = Array.from(context.itemMap.values());
+                const orderedItems = items.sort({
+                    "createCollection.useCollection.useCallback[getItems].orderedItems": (a, b)=>orderedNodes.indexOf(a.ref.current) - orderedNodes.indexOf(b.ref.current)
+                }["createCollection.useCollection.useCallback[getItems].orderedItems"]);
+                return orderedItems;
+            }
+        }["createCollection.useCollection.useCallback[getItems]"], [
+            context.collectionRef,
+            context.itemMap
+        ]);
+        return getItems;
+    }
+    return [
+        {
+            Provider: CollectionProvider,
+            Slot: CollectionSlot,
+            ItemSlot: CollectionItemSlot
+        },
+        useCollection,
+        createCollectionScope
+    ];
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-escape-keydown/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/use-escape-keydown/src/useEscapeKeydown.tsx
+__turbopack_context__.s([
+    "useEscapeKeydown",
+    ()=>useEscapeKeydown
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
+;
+;
+function useEscapeKeydown(onEscapeKeyDownProp, ownerDocument = globalThis?.document) {
+    const onEscapeKeyDown = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onEscapeKeyDownProp);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useEscapeKeydown.useEffect": ()=>{
+            const handleKeyDown = {
+                "useEscapeKeydown.useEffect.handleKeyDown": (event)=>{
+                    if (event.key === "Escape") {
+                        onEscapeKeyDown(event);
+                    }
+                }
+            }["useEscapeKeydown.useEffect.handleKeyDown"];
+            ownerDocument.addEventListener("keydown", handleKeyDown, {
+                capture: true
+            });
+            return ({
+                "useEscapeKeydown.useEffect": ()=>ownerDocument.removeEventListener("keydown", handleKeyDown, {
+                        capture: true
+                    })
+            })["useEscapeKeydown.useEffect"];
+        }
+    }["useEscapeKeydown.useEffect"], [
+        onEscapeKeyDown,
+        ownerDocument
+    ]);
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Branch",
+    ()=>Branch,
+    "DismissableLayer",
+    ()=>DismissableLayer,
+    "DismissableLayerBranch",
+    ()=>DismissableLayerBranch,
+    "Root",
+    ()=>Root
+]);
+// packages/react/dismissable-layer/src/DismissableLayer.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$escape$2d$keydown$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-escape-keydown/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+var DISMISSABLE_LAYER_NAME = "DismissableLayer";
+var CONTEXT_UPDATE = "dismissableLayer.update";
+var POINTER_DOWN_OUTSIDE = "dismissableLayer.pointerDownOutside";
+var FOCUS_OUTSIDE = "dismissableLayer.focusOutside";
+var originalBodyPointerEvents;
+var DismissableLayerContext = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"]({
+    layers: /* @__PURE__ */ new Set(),
+    layersWithOutsidePointerEventsDisabled: /* @__PURE__ */ new Set(),
+    branches: /* @__PURE__ */ new Set()
+});
+var DismissableLayer = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { disableOutsidePointerEvents = false, onEscapeKeyDown, onPointerDownOutside, onFocusOutside, onInteractOutside, onDismiss, ...layerProps } = props;
+    const context = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](DismissableLayerContext);
+    const [node, setNode] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const ownerDocument = node?.ownerDocument ?? globalThis?.document;
+    const [, force] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({});
+    const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, {
+        "DismissableLayer.useComposedRefs[composedRefs]": (node2)=>setNode(node2)
+    }["DismissableLayer.useComposedRefs[composedRefs]"]);
+    const layers = Array.from(context.layers);
+    const [highestLayerWithOutsidePointerEventsDisabled] = [
+        ...context.layersWithOutsidePointerEventsDisabled
+    ].slice(-1);
+    const highestLayerWithOutsidePointerEventsDisabledIndex = layers.indexOf(highestLayerWithOutsidePointerEventsDisabled);
+    const index = node ? layers.indexOf(node) : -1;
+    const isBodyPointerEventsDisabled = context.layersWithOutsidePointerEventsDisabled.size > 0;
+    const isPointerEventsEnabled = index >= highestLayerWithOutsidePointerEventsDisabledIndex;
+    const pointerDownOutside = usePointerDownOutside({
+        "DismissableLayer.usePointerDownOutside[pointerDownOutside]": (event)=>{
+            const target = event.target;
+            const isPointerDownOnBranch = [
+                ...context.branches
+            ].some({
+                "DismissableLayer.usePointerDownOutside[pointerDownOutside].isPointerDownOnBranch": (branch)=>branch.contains(target)
+            }["DismissableLayer.usePointerDownOutside[pointerDownOutside].isPointerDownOnBranch"]);
+            if (!isPointerEventsEnabled || isPointerDownOnBranch) return;
+            onPointerDownOutside?.(event);
+            onInteractOutside?.(event);
+            if (!event.defaultPrevented) onDismiss?.();
+        }
+    }["DismissableLayer.usePointerDownOutside[pointerDownOutside]"], ownerDocument);
+    const focusOutside = useFocusOutside({
+        "DismissableLayer.useFocusOutside[focusOutside]": (event)=>{
+            const target = event.target;
+            const isFocusInBranch = [
+                ...context.branches
+            ].some({
+                "DismissableLayer.useFocusOutside[focusOutside].isFocusInBranch": (branch)=>branch.contains(target)
+            }["DismissableLayer.useFocusOutside[focusOutside].isFocusInBranch"]);
+            if (isFocusInBranch) return;
+            onFocusOutside?.(event);
+            onInteractOutside?.(event);
+            if (!event.defaultPrevented) onDismiss?.();
+        }
+    }["DismissableLayer.useFocusOutside[focusOutside]"], ownerDocument);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$escape$2d$keydown$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEscapeKeydown"])({
+        "DismissableLayer.useEscapeKeydown": (event)=>{
+            const isHighestLayer = index === context.layers.size - 1;
+            if (!isHighestLayer) return;
+            onEscapeKeyDown?.(event);
+            if (!event.defaultPrevented && onDismiss) {
+                event.preventDefault();
+                onDismiss();
+            }
+        }
+    }["DismissableLayer.useEscapeKeydown"], ownerDocument);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "DismissableLayer.useEffect": ()=>{
+            if (!node) return;
+            if (disableOutsidePointerEvents) {
+                if (context.layersWithOutsidePointerEventsDisabled.size === 0) {
+                    originalBodyPointerEvents = ownerDocument.body.style.pointerEvents;
+                    ownerDocument.body.style.pointerEvents = "none";
+                }
+                context.layersWithOutsidePointerEventsDisabled.add(node);
+            }
+            context.layers.add(node);
+            dispatchUpdate();
+            return ({
+                "DismissableLayer.useEffect": ()=>{
+                    if (disableOutsidePointerEvents && context.layersWithOutsidePointerEventsDisabled.size === 1) {
+                        ownerDocument.body.style.pointerEvents = originalBodyPointerEvents;
+                    }
+                }
+            })["DismissableLayer.useEffect"];
+        }
+    }["DismissableLayer.useEffect"], [
+        node,
+        ownerDocument,
+        disableOutsidePointerEvents,
+        context
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "DismissableLayer.useEffect": ()=>{
+            return ({
+                "DismissableLayer.useEffect": ()=>{
+                    if (!node) return;
+                    context.layers.delete(node);
+                    context.layersWithOutsidePointerEventsDisabled.delete(node);
+                    dispatchUpdate();
+                }
+            })["DismissableLayer.useEffect"];
+        }
+    }["DismissableLayer.useEffect"], [
+        node,
+        context
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "DismissableLayer.useEffect": ()=>{
+            const handleUpdate = {
+                "DismissableLayer.useEffect.handleUpdate": ()=>force({})
+            }["DismissableLayer.useEffect.handleUpdate"];
+            document.addEventListener(CONTEXT_UPDATE, handleUpdate);
+            return ({
+                "DismissableLayer.useEffect": ()=>document.removeEventListener(CONTEXT_UPDATE, handleUpdate)
+            })["DismissableLayer.useEffect"];
+        }
+    }["DismissableLayer.useEffect"], []);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        ...layerProps,
+        ref: composedRefs,
+        style: {
+            pointerEvents: isBodyPointerEventsDisabled ? isPointerEventsEnabled ? "auto" : "none" : void 0,
+            ...props.style
+        },
+        onFocusCapture: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onFocusCapture, focusOutside.onFocusCapture),
+        onBlurCapture: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onBlurCapture, focusOutside.onBlurCapture),
+        onPointerDownCapture: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerDownCapture, pointerDownOutside.onPointerDownCapture)
+    });
+});
+DismissableLayer.displayName = DISMISSABLE_LAYER_NAME;
+var BRANCH_NAME = "DismissableLayerBranch";
+var DismissableLayerBranch = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const context = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](DismissableLayerContext);
+    const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, ref);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "DismissableLayerBranch.useEffect": ()=>{
+            const node = ref.current;
+            if (node) {
+                context.branches.add(node);
+                return ({
+                    "DismissableLayerBranch.useEffect": ()=>{
+                        context.branches.delete(node);
+                    }
+                })["DismissableLayerBranch.useEffect"];
+            }
+        }
+    }["DismissableLayerBranch.useEffect"], [
+        context.branches
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        ...props,
+        ref: composedRefs
+    });
+});
+DismissableLayerBranch.displayName = BRANCH_NAME;
+function usePointerDownOutside(onPointerDownOutside, ownerDocument = globalThis?.document) {
+    const handlePointerDownOutside = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onPointerDownOutside);
+    const isPointerInsideReactTreeRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    const handleClickRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"]({
+        "usePointerDownOutside.useRef[handleClickRef]": ()=>{}
+    }["usePointerDownOutside.useRef[handleClickRef]"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "usePointerDownOutside.useEffect": ()=>{
+            const handlePointerDown = {
+                "usePointerDownOutside.useEffect.handlePointerDown": (event)=>{
+                    if (event.target && !isPointerInsideReactTreeRef.current) {
+                        let handleAndDispatchPointerDownOutsideEvent2 = {
+                            "usePointerDownOutside.useEffect.handlePointerDown.handleAndDispatchPointerDownOutsideEvent2": function() {
+                                handleAndDispatchCustomEvent(POINTER_DOWN_OUTSIDE, handlePointerDownOutside, eventDetail, {
+                                    discrete: true
+                                });
+                            }
+                        }["usePointerDownOutside.useEffect.handlePointerDown.handleAndDispatchPointerDownOutsideEvent2"];
+                        var handleAndDispatchPointerDownOutsideEvent = handleAndDispatchPointerDownOutsideEvent2;
+                        const eventDetail = {
+                            originalEvent: event
+                        };
+                        if (event.pointerType === "touch") {
+                            ownerDocument.removeEventListener("click", handleClickRef.current);
+                            handleClickRef.current = handleAndDispatchPointerDownOutsideEvent2;
+                            ownerDocument.addEventListener("click", handleClickRef.current, {
+                                once: true
+                            });
+                        } else {
+                            handleAndDispatchPointerDownOutsideEvent2();
+                        }
+                    } else {
+                        ownerDocument.removeEventListener("click", handleClickRef.current);
+                    }
+                    isPointerInsideReactTreeRef.current = false;
+                }
+            }["usePointerDownOutside.useEffect.handlePointerDown"];
+            const timerId = window.setTimeout({
+                "usePointerDownOutside.useEffect.timerId": ()=>{
+                    ownerDocument.addEventListener("pointerdown", handlePointerDown);
+                }
+            }["usePointerDownOutside.useEffect.timerId"], 0);
+            return ({
+                "usePointerDownOutside.useEffect": ()=>{
+                    window.clearTimeout(timerId);
+                    ownerDocument.removeEventListener("pointerdown", handlePointerDown);
+                    ownerDocument.removeEventListener("click", handleClickRef.current);
+                }
+            })["usePointerDownOutside.useEffect"];
+        }
+    }["usePointerDownOutside.useEffect"], [
+        ownerDocument,
+        handlePointerDownOutside
+    ]);
+    return {
+        // ensures we check React component tree (not just DOM tree)
+        onPointerDownCapture: ()=>isPointerInsideReactTreeRef.current = true
+    };
+}
+function useFocusOutside(onFocusOutside, ownerDocument = globalThis?.document) {
+    const handleFocusOutside = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onFocusOutside);
+    const isFocusInsideReactTreeRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useFocusOutside.useEffect": ()=>{
+            const handleFocus = {
+                "useFocusOutside.useEffect.handleFocus": (event)=>{
+                    if (event.target && !isFocusInsideReactTreeRef.current) {
+                        const eventDetail = {
+                            originalEvent: event
+                        };
+                        handleAndDispatchCustomEvent(FOCUS_OUTSIDE, handleFocusOutside, eventDetail, {
+                            discrete: false
+                        });
+                    }
+                }
+            }["useFocusOutside.useEffect.handleFocus"];
+            ownerDocument.addEventListener("focusin", handleFocus);
+            return ({
+                "useFocusOutside.useEffect": ()=>ownerDocument.removeEventListener("focusin", handleFocus)
+            })["useFocusOutside.useEffect"];
+        }
+    }["useFocusOutside.useEffect"], [
+        ownerDocument,
+        handleFocusOutside
+    ]);
+    return {
+        onFocusCapture: ()=>isFocusInsideReactTreeRef.current = true,
+        onBlurCapture: ()=>isFocusInsideReactTreeRef.current = false
+    };
+}
+function dispatchUpdate() {
+    const event = new CustomEvent(CONTEXT_UPDATE);
+    document.dispatchEvent(event);
+}
+function handleAndDispatchCustomEvent(name, handler, detail, { discrete }) {
+    const target = detail.originalEvent.target;
+    const event = new CustomEvent(name, {
+        bubbles: false,
+        cancelable: true,
+        detail
+    });
+    if (handler) target.addEventListener(name, handler, {
+        once: true
+    });
+    if (discrete) {
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["dispatchDiscreteCustomEvent"])(target, event);
+    } else {
+        target.dispatchEvent(event);
+    }
+}
+var Root = DismissableLayer;
+var Branch = DismissableLayerBranch;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-portal/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Portal",
+    ()=>Portal,
+    "Root",
+    ()=>Root
+]);
+// packages/react/portal/src/Portal.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+var PORTAL_NAME = "Portal";
+var Portal = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { container: containerProp, ...portalProps } = props;
+    const [mounted, setMounted] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"])({
+        "Portal.useLayoutEffect": ()=>setMounted(true)
+    }["Portal.useLayoutEffect"], []);
+    const container = containerProp || mounted && globalThis?.document?.body;
+    return container ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createPortal(/* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        ...portalProps,
+        ref: forwardedRef
+    }), container) : null;
+});
+Portal.displayName = PORTAL_NAME;
+var Root = Portal;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/use-controllable-state/src/useControllableState.tsx
+__turbopack_context__.s([
+    "useControllableState",
+    ()=>useControllableState
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
+;
+;
+function useControllableState({ prop, defaultProp, onChange = ()=>{} }) {
+    const [uncontrolledProp, setUncontrolledProp] = useUncontrolledState({
+        defaultProp,
+        onChange
+    });
+    const isControlled = prop !== void 0;
+    const value = isControlled ? prop : uncontrolledProp;
+    const handleChange = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onChange);
+    const setValue = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "useControllableState.useCallback[setValue]": (nextValue)=>{
+            if (isControlled) {
+                const setter = nextValue;
+                const value2 = typeof nextValue === "function" ? setter(prop) : nextValue;
+                if (value2 !== prop) handleChange(value2);
+            } else {
+                setUncontrolledProp(nextValue);
+            }
+        }
+    }["useControllableState.useCallback[setValue]"], [
+        isControlled,
+        prop,
+        setUncontrolledProp,
+        handleChange
+    ]);
+    return [
+        value,
+        setValue
+    ];
+}
+function useUncontrolledState({ defaultProp, onChange }) {
+    const uncontrolledState = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](defaultProp);
+    const [value] = uncontrolledState;
+    const prevValueRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](value);
+    const handleChange = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(onChange);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useUncontrolledState.useEffect": ()=>{
+            if (prevValueRef.current !== value) {
+                handleChange(value);
+                prevValueRef.current = value;
+            }
+        }
+    }["useUncontrolledState.useEffect"], [
+        value,
+        prevValueRef,
+        handleChange
+    ]);
+    return uncontrolledState;
+}
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-visually-hidden/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// packages/react/visually-hidden/src/VisuallyHidden.tsx
+__turbopack_context__.s([
+    "Root",
+    ()=>Root,
+    "VisuallyHidden",
+    ()=>VisuallyHidden
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+;
+;
+;
+var NAME = "VisuallyHidden";
+var VisuallyHidden = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].span, {
+        ...props,
+        ref: forwardedRef,
+        style: {
+            // See: https://github.com/twbs/bootstrap/blob/main/scss/mixins/_visually-hidden.scss
+            position: "absolute",
+            border: 0,
+            width: 1,
+            height: 1,
+            padding: 0,
+            margin: -1,
+            overflow: "hidden",
+            clip: "rect(0, 0, 0, 0)",
+            whiteSpace: "nowrap",
+            wordWrap: "normal",
+            ...props.style
+        }
+    });
+});
+VisuallyHidden.displayName = NAME;
+var Root = VisuallyHidden;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-toast/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Action",
+    ()=>Action,
+    "Close",
+    ()=>Close,
+    "Description",
+    ()=>Description,
+    "Provider",
+    ()=>Provider,
+    "Root",
+    ()=>Root2,
+    "Title",
+    ()=>Title,
+    "Toast",
+    ()=>Toast,
+    "ToastAction",
+    ()=>ToastAction,
+    "ToastClose",
+    ()=>ToastClose,
+    "ToastDescription",
+    ()=>ToastDescription,
+    "ToastProvider",
+    ()=>ToastProvider,
+    "ToastTitle",
+    ()=>ToastTitle,
+    "ToastViewport",
+    ()=>ToastViewport,
+    "Viewport",
+    ()=>Viewport,
+    "createToastScope",
+    ()=>createToastScope
+]);
+// packages/react/toast/src/Toast.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-compose-refs/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$collection$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-collection/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-context/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$dismissable$2d$layer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$portal$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-portal/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-presence/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$controllable$2d$state$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$visually$2d$hidden$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-visually-hidden/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+var PROVIDER_NAME = "ToastProvider";
+var [Collection, useCollection, createCollectionScope] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$collection$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createCollection"])("Toast");
+var [createToastContext, createToastScope] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContextScope"])("Toast", [
+    createCollectionScope
+]);
+var [ToastProviderProvider, useToastProviderContext] = createToastContext(PROVIDER_NAME);
+var ToastProvider = (props)=>{
+    const { __scopeToast, label = "Notification", duration = 5e3, swipeDirection = "right", swipeThreshold = 50, children } = props;
+    const [viewport, setViewport] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const [toastCount, setToastCount] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](0);
+    const isFocusedToastEscapeKeyDownRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    const isClosePausedRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](false);
+    if (!label.trim()) {
+        console.error(`Invalid prop \`label\` supplied to \`${PROVIDER_NAME}\`. Expected non-empty \`string\`.`);
+    }
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Collection.Provider, {
+        scope: __scopeToast,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastProviderProvider, {
+            scope: __scopeToast,
+            label,
+            duration,
+            swipeDirection,
+            swipeThreshold,
+            toastCount,
+            viewport,
+            onViewportChange: setViewport,
+            onToastAdd: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+                "ToastProvider.useCallback": ()=>setToastCount({
+                        "ToastProvider.useCallback": (prevCount)=>prevCount + 1
+                    }["ToastProvider.useCallback"])
+            }["ToastProvider.useCallback"], []),
+            onToastRemove: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+                "ToastProvider.useCallback": ()=>setToastCount({
+                        "ToastProvider.useCallback": (prevCount)=>prevCount - 1
+                    }["ToastProvider.useCallback"])
+            }["ToastProvider.useCallback"], []),
+            isFocusedToastEscapeKeyDownRef,
+            isClosePausedRef,
+            children
+        })
+    });
+};
+ToastProvider.displayName = PROVIDER_NAME;
+var VIEWPORT_NAME = "ToastViewport";
+var VIEWPORT_DEFAULT_HOTKEY = [
+    "F8"
+];
+var VIEWPORT_PAUSE = "toast.viewportPause";
+var VIEWPORT_RESUME = "toast.viewportResume";
+var ToastViewport = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, hotkey = VIEWPORT_DEFAULT_HOTKEY, label = "Notifications ({hotkey})", ...viewportProps } = props;
+    const context = useToastProviderContext(VIEWPORT_NAME, __scopeToast);
+    const getItems = useCollection(__scopeToast);
+    const wrapperRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const headFocusProxyRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const tailFocusProxyRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const ref = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, ref, context.onViewportChange);
+    const hotkeyLabel = hotkey.join("+").replace(/Key/g, "").replace(/Digit/g, "");
+    const hasToasts = context.toastCount > 0;
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastViewport.useEffect": ()=>{
+            const handleKeyDown = {
+                "ToastViewport.useEffect.handleKeyDown": (event)=>{
+                    const isHotkeyPressed = hotkey.length !== 0 && hotkey.every({
+                        "ToastViewport.useEffect.handleKeyDown": (key)=>event[key] || event.code === key
+                    }["ToastViewport.useEffect.handleKeyDown"]);
+                    if (isHotkeyPressed) ref.current?.focus();
+                }
+            }["ToastViewport.useEffect.handleKeyDown"];
+            document.addEventListener("keydown", handleKeyDown);
+            return ({
+                "ToastViewport.useEffect": ()=>document.removeEventListener("keydown", handleKeyDown)
+            })["ToastViewport.useEffect"];
+        }
+    }["ToastViewport.useEffect"], [
+        hotkey
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastViewport.useEffect": ()=>{
+            const wrapper = wrapperRef.current;
+            const viewport = ref.current;
+            if (hasToasts && wrapper && viewport) {
+                const handlePause = {
+                    "ToastViewport.useEffect.handlePause": ()=>{
+                        if (!context.isClosePausedRef.current) {
+                            const pauseEvent = new CustomEvent(VIEWPORT_PAUSE);
+                            viewport.dispatchEvent(pauseEvent);
+                            context.isClosePausedRef.current = true;
+                        }
+                    }
+                }["ToastViewport.useEffect.handlePause"];
+                const handleResume = {
+                    "ToastViewport.useEffect.handleResume": ()=>{
+                        if (context.isClosePausedRef.current) {
+                            const resumeEvent = new CustomEvent(VIEWPORT_RESUME);
+                            viewport.dispatchEvent(resumeEvent);
+                            context.isClosePausedRef.current = false;
+                        }
+                    }
+                }["ToastViewport.useEffect.handleResume"];
+                const handleFocusOutResume = {
+                    "ToastViewport.useEffect.handleFocusOutResume": (event)=>{
+                        const isFocusMovingOutside = !wrapper.contains(event.relatedTarget);
+                        if (isFocusMovingOutside) handleResume();
+                    }
+                }["ToastViewport.useEffect.handleFocusOutResume"];
+                const handlePointerLeaveResume = {
+                    "ToastViewport.useEffect.handlePointerLeaveResume": ()=>{
+                        const isFocusInside = wrapper.contains(document.activeElement);
+                        if (!isFocusInside) handleResume();
+                    }
+                }["ToastViewport.useEffect.handlePointerLeaveResume"];
+                wrapper.addEventListener("focusin", handlePause);
+                wrapper.addEventListener("focusout", handleFocusOutResume);
+                wrapper.addEventListener("pointermove", handlePause);
+                wrapper.addEventListener("pointerleave", handlePointerLeaveResume);
+                window.addEventListener("blur", handlePause);
+                window.addEventListener("focus", handleResume);
+                return ({
+                    "ToastViewport.useEffect": ()=>{
+                        wrapper.removeEventListener("focusin", handlePause);
+                        wrapper.removeEventListener("focusout", handleFocusOutResume);
+                        wrapper.removeEventListener("pointermove", handlePause);
+                        wrapper.removeEventListener("pointerleave", handlePointerLeaveResume);
+                        window.removeEventListener("blur", handlePause);
+                        window.removeEventListener("focus", handleResume);
+                    }
+                })["ToastViewport.useEffect"];
+            }
+        }
+    }["ToastViewport.useEffect"], [
+        hasToasts,
+        context.isClosePausedRef
+    ]);
+    const getSortedTabbableCandidates = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "ToastViewport.useCallback[getSortedTabbableCandidates]": ({ tabbingDirection })=>{
+            const toastItems = getItems();
+            const tabbableCandidates = toastItems.map({
+                "ToastViewport.useCallback[getSortedTabbableCandidates].tabbableCandidates": (toastItem)=>{
+                    const toastNode = toastItem.ref.current;
+                    const toastTabbableCandidates = [
+                        toastNode,
+                        ...getTabbableCandidates(toastNode)
+                    ];
+                    return tabbingDirection === "forwards" ? toastTabbableCandidates : toastTabbableCandidates.reverse();
+                }
+            }["ToastViewport.useCallback[getSortedTabbableCandidates].tabbableCandidates"]);
+            return (tabbingDirection === "forwards" ? tabbableCandidates.reverse() : tabbableCandidates).flat();
+        }
+    }["ToastViewport.useCallback[getSortedTabbableCandidates]"], [
+        getItems
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastViewport.useEffect": ()=>{
+            const viewport = ref.current;
+            if (viewport) {
+                const handleKeyDown = {
+                    "ToastViewport.useEffect.handleKeyDown": (event)=>{
+                        const isMetaKey = event.altKey || event.ctrlKey || event.metaKey;
+                        const isTabKey = event.key === "Tab" && !isMetaKey;
+                        if (isTabKey) {
+                            const focusedElement = document.activeElement;
+                            const isTabbingBackwards = event.shiftKey;
+                            const targetIsViewport = event.target === viewport;
+                            if (targetIsViewport && isTabbingBackwards) {
+                                headFocusProxyRef.current?.focus();
+                                return;
+                            }
+                            const tabbingDirection = isTabbingBackwards ? "backwards" : "forwards";
+                            const sortedCandidates = getSortedTabbableCandidates({
+                                tabbingDirection
+                            });
+                            const index = sortedCandidates.findIndex({
+                                "ToastViewport.useEffect.handleKeyDown.index": (candidate)=>candidate === focusedElement
+                            }["ToastViewport.useEffect.handleKeyDown.index"]);
+                            if (focusFirst(sortedCandidates.slice(index + 1))) {
+                                event.preventDefault();
+                            } else {
+                                isTabbingBackwards ? headFocusProxyRef.current?.focus() : tailFocusProxyRef.current?.focus();
+                            }
+                        }
+                    }
+                }["ToastViewport.useEffect.handleKeyDown"];
+                viewport.addEventListener("keydown", handleKeyDown);
+                return ({
+                    "ToastViewport.useEffect": ()=>viewport.removeEventListener("keydown", handleKeyDown)
+                })["ToastViewport.useEffect"];
+            }
+        }
+    }["ToastViewport.useEffect"], [
+        getItems,
+        getSortedTabbableCandidates
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$dismissable$2d$layer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Branch"], {
+        ref: wrapperRef,
+        role: "region",
+        "aria-label": label.replace("{hotkey}", hotkeyLabel),
+        tabIndex: -1,
+        style: {
+            pointerEvents: hasToasts ? void 0 : "none"
+        },
+        children: [
+            hasToasts && /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(FocusProxy, {
+                ref: headFocusProxyRef,
+                onFocusFromOutsideViewport: ()=>{
+                    const tabbableCandidates = getSortedTabbableCandidates({
+                        tabbingDirection: "forwards"
+                    });
+                    focusFirst(tabbableCandidates);
+                }
+            }),
+            /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Collection.Slot, {
+                scope: __scopeToast,
+                children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].ol, {
+                    tabIndex: -1,
+                    ...viewportProps,
+                    ref: composedRefs
+                })
+            }),
+            hasToasts && /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(FocusProxy, {
+                ref: tailFocusProxyRef,
+                onFocusFromOutsideViewport: ()=>{
+                    const tabbableCandidates = getSortedTabbableCandidates({
+                        tabbingDirection: "backwards"
+                    });
+                    focusFirst(tabbableCandidates);
+                }
+            })
+        ]
+    });
+});
+ToastViewport.displayName = VIEWPORT_NAME;
+var FOCUS_PROXY_NAME = "ToastFocusProxy";
+var FocusProxy = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, onFocusFromOutsideViewport, ...proxyProps } = props;
+    const context = useToastProviderContext(FOCUS_PROXY_NAME, __scopeToast);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$visually$2d$hidden$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["VisuallyHidden"], {
+        "aria-hidden": true,
+        tabIndex: 0,
+        ...proxyProps,
+        ref: forwardedRef,
+        style: {
+            position: "fixed"
+        },
+        onFocus: (event)=>{
+            const prevFocusedElement = event.relatedTarget;
+            const isFocusFromOutsideViewport = !context.viewport?.contains(prevFocusedElement);
+            if (isFocusFromOutsideViewport) onFocusFromOutsideViewport();
+        }
+    });
+});
+FocusProxy.displayName = FOCUS_PROXY_NAME;
+var TOAST_NAME = "Toast";
+var TOAST_SWIPE_START = "toast.swipeStart";
+var TOAST_SWIPE_MOVE = "toast.swipeMove";
+var TOAST_SWIPE_CANCEL = "toast.swipeCancel";
+var TOAST_SWIPE_END = "toast.swipeEnd";
+var Toast = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { forceMount, open: openProp, defaultOpen, onOpenChange, ...toastProps } = props;
+    const [open = true, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$controllable$2d$state$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useControllableState"])({
+        prop: openProp,
+        defaultProp: defaultOpen,
+        onChange: onOpenChange
+    });
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$presence$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Presence"], {
+        present: forceMount || open,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastImpl, {
+            open,
+            ...toastProps,
+            ref: forwardedRef,
+            onClose: ()=>setOpen(false),
+            onPause: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(props.onPause),
+            onResume: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(props.onResume),
+            onSwipeStart: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onSwipeStart, (event)=>{
+                event.currentTarget.setAttribute("data-swipe", "start");
+            }),
+            onSwipeMove: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onSwipeMove, (event)=>{
+                const { x, y } = event.detail.delta;
+                event.currentTarget.setAttribute("data-swipe", "move");
+                event.currentTarget.style.setProperty("--radix-toast-swipe-move-x", `${x}px`);
+                event.currentTarget.style.setProperty("--radix-toast-swipe-move-y", `${y}px`);
+            }),
+            onSwipeCancel: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onSwipeCancel, (event)=>{
+                event.currentTarget.setAttribute("data-swipe", "cancel");
+                event.currentTarget.style.removeProperty("--radix-toast-swipe-move-x");
+                event.currentTarget.style.removeProperty("--radix-toast-swipe-move-y");
+                event.currentTarget.style.removeProperty("--radix-toast-swipe-end-x");
+                event.currentTarget.style.removeProperty("--radix-toast-swipe-end-y");
+            }),
+            onSwipeEnd: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onSwipeEnd, (event)=>{
+                const { x, y } = event.detail.delta;
+                event.currentTarget.setAttribute("data-swipe", "end");
+                event.currentTarget.style.removeProperty("--radix-toast-swipe-move-x");
+                event.currentTarget.style.removeProperty("--radix-toast-swipe-move-y");
+                event.currentTarget.style.setProperty("--radix-toast-swipe-end-x", `${x}px`);
+                event.currentTarget.style.setProperty("--radix-toast-swipe-end-y", `${y}px`);
+                setOpen(false);
+            })
+        })
+    });
+});
+Toast.displayName = TOAST_NAME;
+var [ToastInteractiveProvider, useToastInteractiveContext] = createToastContext(TOAST_NAME, {
+    onClose () {}
+});
+var ToastImpl = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, type = "foreground", duration: durationProp, open, onClose, onEscapeKeyDown, onPause, onResume, onSwipeStart, onSwipeMove, onSwipeCancel, onSwipeEnd, ...toastProps } = props;
+    const context = useToastProviderContext(TOAST_NAME, __scopeToast);
+    const [node, setNode] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](null);
+    const composedRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$compose$2d$refs$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useComposedRefs"])(forwardedRef, {
+        "ToastImpl.useComposedRefs[composedRefs]": (node2)=>setNode(node2)
+    }["ToastImpl.useComposedRefs[composedRefs]"]);
+    const pointerStartRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const swipeDeltaRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](null);
+    const duration = durationProp || context.duration;
+    const closeTimerStartTimeRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](0);
+    const closeTimerRemainingTimeRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](duration);
+    const closeTimerRef = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"](0);
+    const { onToastAdd, onToastRemove } = context;
+    const handleClose = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])({
+        "ToastImpl.useCallbackRef[handleClose]": ()=>{
+            const isFocusInToast = node?.contains(document.activeElement);
+            if (isFocusInToast) context.viewport?.focus();
+            onClose();
+        }
+    }["ToastImpl.useCallbackRef[handleClose]"]);
+    const startTimer = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "ToastImpl.useCallback[startTimer]": (duration2)=>{
+            if (!duration2 || duration2 === Infinity) return;
+            window.clearTimeout(closeTimerRef.current);
+            closeTimerStartTimeRef.current = /* @__PURE__ */ new Date().getTime();
+            closeTimerRef.current = window.setTimeout(handleClose, duration2);
+        }
+    }["ToastImpl.useCallback[startTimer]"], [
+        handleClose
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastImpl.useEffect": ()=>{
+            const viewport = context.viewport;
+            if (viewport) {
+                const handleResume = {
+                    "ToastImpl.useEffect.handleResume": ()=>{
+                        startTimer(closeTimerRemainingTimeRef.current);
+                        onResume?.();
+                    }
+                }["ToastImpl.useEffect.handleResume"];
+                const handlePause = {
+                    "ToastImpl.useEffect.handlePause": ()=>{
+                        const elapsedTime = /* @__PURE__ */ new Date().getTime() - closeTimerStartTimeRef.current;
+                        closeTimerRemainingTimeRef.current = closeTimerRemainingTimeRef.current - elapsedTime;
+                        window.clearTimeout(closeTimerRef.current);
+                        onPause?.();
+                    }
+                }["ToastImpl.useEffect.handlePause"];
+                viewport.addEventListener(VIEWPORT_PAUSE, handlePause);
+                viewport.addEventListener(VIEWPORT_RESUME, handleResume);
+                return ({
+                    "ToastImpl.useEffect": ()=>{
+                        viewport.removeEventListener(VIEWPORT_PAUSE, handlePause);
+                        viewport.removeEventListener(VIEWPORT_RESUME, handleResume);
+                    }
+                })["ToastImpl.useEffect"];
+            }
+        }
+    }["ToastImpl.useEffect"], [
+        context.viewport,
+        duration,
+        onPause,
+        onResume,
+        startTimer
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastImpl.useEffect": ()=>{
+            if (open && !context.isClosePausedRef.current) startTimer(duration);
+        }
+    }["ToastImpl.useEffect"], [
+        open,
+        duration,
+        context.isClosePausedRef,
+        startTimer
+    ]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastImpl.useEffect": ()=>{
+            onToastAdd();
+            return ({
+                "ToastImpl.useEffect": ()=>onToastRemove()
+            })["ToastImpl.useEffect"];
+        }
+    }["ToastImpl.useEffect"], [
+        onToastAdd,
+        onToastRemove
+    ]);
+    const announceTextContent = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "ToastImpl.useMemo[announceTextContent]": ()=>{
+            return node ? getAnnounceTextContent(node) : null;
+        }
+    }["ToastImpl.useMemo[announceTextContent]"], [
+        node
+    ]);
+    if (!context.viewport) return null;
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            announceTextContent && /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastAnnounce, {
+                __scopeToast,
+                role: "status",
+                "aria-live": type === "foreground" ? "assertive" : "polite",
+                "aria-atomic": true,
+                children: announceTextContent
+            }),
+            /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastInteractiveProvider, {
+                scope: __scopeToast,
+                onClose: handleClose,
+                children: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createPortal"](/* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(Collection.ItemSlot, {
+                    scope: __scopeToast,
+                    children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$dismissable$2d$layer$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Root"], {
+                        asChild: true,
+                        onEscapeKeyDown: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(onEscapeKeyDown, ()=>{
+                            if (!context.isFocusedToastEscapeKeyDownRef.current) handleClose();
+                            context.isFocusedToastEscapeKeyDownRef.current = false;
+                        }),
+                        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].li, {
+                            role: "status",
+                            "aria-live": "off",
+                            "aria-atomic": true,
+                            tabIndex: 0,
+                            "data-state": open ? "open" : "closed",
+                            "data-swipe-direction": context.swipeDirection,
+                            ...toastProps,
+                            ref: composedRefs,
+                            style: {
+                                userSelect: "none",
+                                touchAction: "none",
+                                ...props.style
+                            },
+                            onKeyDown: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onKeyDown, (event)=>{
+                                if (event.key !== "Escape") return;
+                                onEscapeKeyDown?.(event.nativeEvent);
+                                if (!event.nativeEvent.defaultPrevented) {
+                                    context.isFocusedToastEscapeKeyDownRef.current = true;
+                                    handleClose();
+                                }
+                            }),
+                            onPointerDown: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerDown, (event)=>{
+                                if (event.button !== 0) return;
+                                pointerStartRef.current = {
+                                    x: event.clientX,
+                                    y: event.clientY
+                                };
+                            }),
+                            onPointerMove: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerMove, (event)=>{
+                                if (!pointerStartRef.current) return;
+                                const x = event.clientX - pointerStartRef.current.x;
+                                const y = event.clientY - pointerStartRef.current.y;
+                                const hasSwipeMoveStarted = Boolean(swipeDeltaRef.current);
+                                const isHorizontalSwipe = [
+                                    "left",
+                                    "right"
+                                ].includes(context.swipeDirection);
+                                const clamp = [
+                                    "left",
+                                    "up"
+                                ].includes(context.swipeDirection) ? Math.min : Math.max;
+                                const clampedX = isHorizontalSwipe ? clamp(0, x) : 0;
+                                const clampedY = !isHorizontalSwipe ? clamp(0, y) : 0;
+                                const moveStartBuffer = event.pointerType === "touch" ? 10 : 2;
+                                const delta = {
+                                    x: clampedX,
+                                    y: clampedY
+                                };
+                                const eventDetail = {
+                                    originalEvent: event,
+                                    delta
+                                };
+                                if (hasSwipeMoveStarted) {
+                                    swipeDeltaRef.current = delta;
+                                    handleAndDispatchCustomEvent(TOAST_SWIPE_MOVE, onSwipeMove, eventDetail, {
+                                        discrete: false
+                                    });
+                                } else if (isDeltaInDirection(delta, context.swipeDirection, moveStartBuffer)) {
+                                    swipeDeltaRef.current = delta;
+                                    handleAndDispatchCustomEvent(TOAST_SWIPE_START, onSwipeStart, eventDetail, {
+                                        discrete: false
+                                    });
+                                    event.target.setPointerCapture(event.pointerId);
+                                } else if (Math.abs(x) > moveStartBuffer || Math.abs(y) > moveStartBuffer) {
+                                    pointerStartRef.current = null;
+                                }
+                            }),
+                            onPointerUp: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onPointerUp, (event)=>{
+                                const delta = swipeDeltaRef.current;
+                                const target = event.target;
+                                if (target.hasPointerCapture(event.pointerId)) {
+                                    target.releasePointerCapture(event.pointerId);
+                                }
+                                swipeDeltaRef.current = null;
+                                pointerStartRef.current = null;
+                                if (delta) {
+                                    const toast = event.currentTarget;
+                                    const eventDetail = {
+                                        originalEvent: event,
+                                        delta
+                                    };
+                                    if (isDeltaInDirection(delta, context.swipeDirection, context.swipeThreshold)) {
+                                        handleAndDispatchCustomEvent(TOAST_SWIPE_END, onSwipeEnd, eventDetail, {
+                                            discrete: true
+                                        });
+                                    } else {
+                                        handleAndDispatchCustomEvent(TOAST_SWIPE_CANCEL, onSwipeCancel, eventDetail, {
+                                            discrete: true
+                                        });
+                                    }
+                                    toast.addEventListener("click", (event2)=>event2.preventDefault(), {
+                                        once: true
+                                    });
+                                }
+                            })
+                        })
+                    })
+                }), context.viewport)
+            })
+        ]
+    });
+});
+var ToastAnnounce = (props)=>{
+    const { __scopeToast, children, ...announceProps } = props;
+    const context = useToastProviderContext(TOAST_NAME, __scopeToast);
+    const [renderAnnounceText, setRenderAnnounceText] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    const [isAnnounced, setIsAnnounced] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"](false);
+    useNextFrame({
+        "ToastAnnounce.useNextFrame": ()=>setRenderAnnounceText(true)
+    }["ToastAnnounce.useNextFrame"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "ToastAnnounce.useEffect": ()=>{
+            const timer = window.setTimeout({
+                "ToastAnnounce.useEffect.timer": ()=>setIsAnnounced(true)
+            }["ToastAnnounce.useEffect.timer"], 1e3);
+            return ({
+                "ToastAnnounce.useEffect": ()=>window.clearTimeout(timer)
+            })["ToastAnnounce.useEffect"];
+        }
+    }["ToastAnnounce.useEffect"], []);
+    return isAnnounced ? null : /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$portal$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Portal"], {
+        asChild: true,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$visually$2d$hidden$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["VisuallyHidden"], {
+            ...announceProps,
+            children: renderAnnounceText && /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                children: [
+                    context.label,
+                    " ",
+                    children
+                ]
+            })
+        })
+    });
+};
+var TITLE_NAME = "ToastTitle";
+var ToastTitle = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, ...titleProps } = props;
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        ...titleProps,
+        ref: forwardedRef
+    });
+});
+ToastTitle.displayName = TITLE_NAME;
+var DESCRIPTION_NAME = "ToastDescription";
+var ToastDescription = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, ...descriptionProps } = props;
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        ...descriptionProps,
+        ref: forwardedRef
+    });
+});
+ToastDescription.displayName = DESCRIPTION_NAME;
+var ACTION_NAME = "ToastAction";
+var ToastAction = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { altText, ...actionProps } = props;
+    if (!altText.trim()) {
+        console.error(`Invalid prop \`altText\` supplied to \`${ACTION_NAME}\`. Expected non-empty \`string\`.`);
+        return null;
+    }
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastAnnounceExclude, {
+        altText,
+        asChild: true,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastClose, {
+            ...actionProps,
+            ref: forwardedRef
+        })
+    });
+});
+ToastAction.displayName = ACTION_NAME;
+var CLOSE_NAME = "ToastClose";
+var ToastClose = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, ...closeProps } = props;
+    const interactiveContext = useToastInteractiveContext(CLOSE_NAME, __scopeToast);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ToastAnnounceExclude, {
+        asChild: true,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].button, {
+            type: "button",
+            ...closeProps,
+            ref: forwardedRef,
+            onClick: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["composeEventHandlers"])(props.onClick, interactiveContext.onClose)
+        })
+    });
+});
+ToastClose.displayName = CLOSE_NAME;
+var ToastAnnounceExclude = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeToast, altText, ...announceExcludeProps } = props;
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        "data-radix-toast-announce-exclude": "",
+        "data-radix-toast-announce-alt": altText || void 0,
+        ...announceExcludeProps,
+        ref: forwardedRef
+    });
+});
+function getAnnounceTextContent(container) {
+    const textContent = [];
+    const childNodes = Array.from(container.childNodes);
+    childNodes.forEach((node)=>{
+        if (node.nodeType === node.TEXT_NODE && node.textContent) textContent.push(node.textContent);
+        if (isHTMLElement(node)) {
+            const isHidden = node.ariaHidden || node.hidden || node.style.display === "none";
+            const isExcluded = node.dataset.radixToastAnnounceExclude === "";
+            if (!isHidden) {
+                if (isExcluded) {
+                    const altText = node.dataset.radixToastAnnounceAlt;
+                    if (altText) textContent.push(altText);
+                } else {
+                    textContent.push(...getAnnounceTextContent(node));
+                }
+            }
+        }
+    });
+    return textContent;
+}
+function handleAndDispatchCustomEvent(name, handler, detail, { discrete }) {
+    const currentTarget = detail.originalEvent.currentTarget;
+    const event = new CustomEvent(name, {
+        bubbles: true,
+        cancelable: true,
+        detail
+    });
+    if (handler) currentTarget.addEventListener(name, handler, {
+        once: true
+    });
+    if (discrete) {
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["dispatchDiscreteCustomEvent"])(currentTarget, event);
+    } else {
+        currentTarget.dispatchEvent(event);
+    }
+}
+var isDeltaInDirection = (delta, direction, threshold = 0)=>{
+    const deltaX = Math.abs(delta.x);
+    const deltaY = Math.abs(delta.y);
+    const isDeltaX = deltaX > deltaY;
+    if (direction === "left" || direction === "right") {
+        return isDeltaX && deltaX > threshold;
+    } else {
+        return !isDeltaX && deltaY > threshold;
+    }
+};
+function useNextFrame(callback = ()=>{}) {
+    const fn = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$callback$2d$ref$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallbackRef"])(callback);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$use$2d$layout$2d$effect$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"])({
+        "useNextFrame.useLayoutEffect": ()=>{
+            let raf1 = 0;
+            let raf2 = 0;
+            raf1 = window.requestAnimationFrame({
+                "useNextFrame.useLayoutEffect": ()=>raf2 = window.requestAnimationFrame(fn)
+            }["useNextFrame.useLayoutEffect"]);
+            return ({
+                "useNextFrame.useLayoutEffect": ()=>{
+                    window.cancelAnimationFrame(raf1);
+                    window.cancelAnimationFrame(raf2);
+                }
+            })["useNextFrame.useLayoutEffect"];
+        }
+    }["useNextFrame.useLayoutEffect"], [
+        fn
+    ]);
+}
+function isHTMLElement(node) {
+    return node.nodeType === node.ELEMENT_NODE;
+}
+function getTabbableCandidates(container) {
+    const nodes = [];
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_ELEMENT, {
+        acceptNode: (node)=>{
+            const isHiddenInput = node.tagName === "INPUT" && node.type === "hidden";
+            if (node.disabled || node.hidden || isHiddenInput) return NodeFilter.FILTER_SKIP;
+            return node.tabIndex >= 0 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+        }
+    });
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    return nodes;
+}
+function focusFirst(candidates) {
+    const previouslyFocusedElement = document.activeElement;
+    return candidates.some((candidate)=>{
+        if (candidate === previouslyFocusedElement) return true;
+        candidate.focus();
+        return document.activeElement !== previouslyFocusedElement;
+    });
+}
+var Provider = ToastProvider;
+var Viewport = ToastViewport;
+var Root2 = Toast;
+var Title = ToastTitle;
+var Description = ToastDescription;
+var Action = ToastAction;
+var Close = ToastClose;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>X
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const X = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("X", [
+    [
+        "path",
+        {
+            d: "M18 6 6 18",
+            key: "1bl5f8"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m6 6 12 12",
+            key: "d8bk6v"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=x.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "X",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/types.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "isUpdaterFunction",
+    ()=>isUpdaterFunction
+]);
+function isUpdaterFunction(updater) {
+    return typeof updater === "function";
+}
+;
+ //# sourceMappingURL=types.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/store.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Store",
+    ()=>Store
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/scheduler.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/types.js [app-client] (ecmascript)");
+;
+;
+class Store {
+    constructor(initialState, options){
+        this.listeners = /* @__PURE__ */ new Set();
+        this.subscribe = (listener)=>{
+            var _a, _b;
+            this.listeners.add(listener);
+            const unsub = (_b = (_a = this.options) == null ? void 0 : _a.onSubscribe) == null ? void 0 : _b.call(_a, listener, this);
+            return ()=>{
+                this.listeners.delete(listener);
+                unsub == null ? void 0 : unsub();
+            };
+        };
+        this.prevState = initialState;
+        this.state = initialState;
+        this.options = options;
+    }
+    setState(updater) {
+        var _a, _b, _c;
+        this.prevState = this.state;
+        if ((_a = this.options) == null ? void 0 : _a.updateFn) {
+            this.state = this.options.updateFn(this.prevState)(updater);
+        } else {
+            if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isUpdaterFunction"])(updater)) {
+                this.state = updater(this.prevState);
+            } else {
+                this.state = updater;
+            }
+        }
+        (_c = (_b = this.options) == null ? void 0 : _b.onUpdate) == null ? void 0 : _c.call(_b);
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__flush"])(this);
+    }
+}
+;
+ //# sourceMappingURL=store.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/derived.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Derived",
+    ()=>Derived
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$store$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/store.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/scheduler.js [app-client] (ecmascript)");
+;
+;
+class Derived {
+    constructor(options){
+        this.listeners = /* @__PURE__ */ new Set();
+        this._subscriptions = [];
+        this.lastSeenDepValues = [];
+        this.getDepVals = ()=>{
+            const l = this.options.deps.length;
+            const prevDepVals = new Array(l);
+            const currDepVals = new Array(l);
+            for(let i = 0; i < l; i++){
+                const dep = this.options.deps[i];
+                prevDepVals[i] = dep.prevState;
+                currDepVals[i] = dep.state;
+            }
+            this.lastSeenDepValues = currDepVals;
+            return {
+                prevDepVals,
+                currDepVals,
+                prevVal: this.prevState ?? void 0
+            };
+        };
+        this.recompute = ()=>{
+            var _a, _b;
+            this.prevState = this.state;
+            const depVals = this.getDepVals();
+            this.state = this.options.fn(depVals);
+            (_b = (_a = this.options).onUpdate) == null ? void 0 : _b.call(_a);
+        };
+        this.checkIfRecalculationNeededDeeply = ()=>{
+            for (const dep of this.options.deps){
+                if (dep instanceof Derived) {
+                    dep.checkIfRecalculationNeededDeeply();
+                }
+            }
+            let shouldRecompute = false;
+            const lastSeenDepValues = this.lastSeenDepValues;
+            const { currDepVals } = this.getDepVals();
+            for(let i = 0; i < currDepVals.length; i++){
+                if (currDepVals[i] !== lastSeenDepValues[i]) {
+                    shouldRecompute = true;
+                    break;
+                }
+            }
+            if (shouldRecompute) {
+                this.recompute();
+            }
+        };
+        this.mount = ()=>{
+            this.registerOnGraph();
+            this.checkIfRecalculationNeededDeeply();
+            return ()=>{
+                this.unregisterFromGraph();
+                for (const cleanup of this._subscriptions){
+                    cleanup();
+                }
+            };
+        };
+        this.subscribe = (listener)=>{
+            var _a, _b;
+            this.listeners.add(listener);
+            const unsub = (_b = (_a = this.options).onSubscribe) == null ? void 0 : _b.call(_a, listener, this);
+            return ()=>{
+                this.listeners.delete(listener);
+                unsub == null ? void 0 : unsub();
+            };
+        };
+        this.options = options;
+        this.state = options.fn({
+            prevDepVals: void 0,
+            prevVal: void 0,
+            currDepVals: this.getDepVals().currDepVals
+        });
+    }
+    registerOnGraph(deps = this.options.deps) {
+        for (const dep of deps){
+            if (dep instanceof Derived) {
+                dep.registerOnGraph();
+                this.registerOnGraph(dep.options.deps);
+            } else if (dep instanceof __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$store$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Store"]) {
+                let relatedLinkedDerivedVals = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__storeToDerived"].get(dep);
+                if (!relatedLinkedDerivedVals) {
+                    relatedLinkedDerivedVals = /* @__PURE__ */ new Set();
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__storeToDerived"].set(dep, relatedLinkedDerivedVals);
+                }
+                relatedLinkedDerivedVals.add(this);
+                let relatedStores = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__derivedToStore"].get(this);
+                if (!relatedStores) {
+                    relatedStores = /* @__PURE__ */ new Set();
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__derivedToStore"].set(this, relatedStores);
+                }
+                relatedStores.add(dep);
+            }
+        }
+    }
+    unregisterFromGraph(deps = this.options.deps) {
+        for (const dep of deps){
+            if (dep instanceof Derived) {
+                this.unregisterFromGraph(dep.options.deps);
+            } else if (dep instanceof __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$store$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Store"]) {
+                const relatedLinkedDerivedVals = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__storeToDerived"].get(dep);
+                if (relatedLinkedDerivedVals) {
+                    relatedLinkedDerivedVals.delete(this);
+                }
+                const relatedStores = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["__derivedToStore"].get(this);
+                if (relatedStores) {
+                    relatedStores.delete(dep);
+                }
+            }
+        }
+    }
+}
+;
+ //# sourceMappingURL=derived.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/scheduler.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "__depsThatHaveWrittenThisTick",
+    ()=>__depsThatHaveWrittenThisTick,
+    "__derivedToStore",
+    ()=>__derivedToStore,
+    "__flush",
+    ()=>__flush,
+    "__storeToDerived",
+    ()=>__storeToDerived,
+    "batch",
+    ()=>batch
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/derived.js [app-client] (ecmascript)");
+;
+const __storeToDerived = /* @__PURE__ */ new WeakMap();
+const __derivedToStore = /* @__PURE__ */ new WeakMap();
+const __depsThatHaveWrittenThisTick = {
+    current: []
+};
+let __isFlushing = false;
+let __batchDepth = 0;
+const __pendingUpdates = /* @__PURE__ */ new Set();
+const __initialBatchValues = /* @__PURE__ */ new Map();
+function __flush_internals(relatedVals) {
+    const sorted = Array.from(relatedVals).sort((a, b)=>{
+        if (a instanceof __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Derived"] && a.options.deps.includes(b)) return 1;
+        if (b instanceof __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Derived"] && b.options.deps.includes(a)) return -1;
+        return 0;
+    });
+    for (const derived of sorted){
+        if (__depsThatHaveWrittenThisTick.current.includes(derived)) {
+            continue;
+        }
+        __depsThatHaveWrittenThisTick.current.push(derived);
+        derived.recompute();
+        const stores = __derivedToStore.get(derived);
+        if (stores) {
+            for (const store of stores){
+                const relatedLinkedDerivedVals = __storeToDerived.get(store);
+                if (!relatedLinkedDerivedVals) continue;
+                __flush_internals(relatedLinkedDerivedVals);
+            }
+        }
+    }
+}
+function __notifyListeners(store) {
+    const value = {
+        prevVal: store.prevState,
+        currentVal: store.state
+    };
+    for (const listener of store.listeners){
+        listener(value);
+    }
+}
+function __notifyDerivedListeners(derived) {
+    const value = {
+        prevVal: derived.prevState,
+        currentVal: derived.state
+    };
+    for (const listener of derived.listeners){
+        listener(value);
+    }
+}
+function __flush(store) {
+    if (__batchDepth > 0 && !__initialBatchValues.has(store)) {
+        __initialBatchValues.set(store, store.prevState);
+    }
+    __pendingUpdates.add(store);
+    if (__batchDepth > 0) return;
+    if (__isFlushing) return;
+    try {
+        __isFlushing = true;
+        while(__pendingUpdates.size > 0){
+            const stores = Array.from(__pendingUpdates);
+            __pendingUpdates.clear();
+            for (const store2 of stores){
+                const prevState = __initialBatchValues.get(store2) ?? store2.prevState;
+                store2.prevState = prevState;
+                __notifyListeners(store2);
+            }
+            for (const store2 of stores){
+                const derivedVals = __storeToDerived.get(store2);
+                if (!derivedVals) continue;
+                __depsThatHaveWrittenThisTick.current.push(store2);
+                __flush_internals(derivedVals);
+            }
+            for (const store2 of stores){
+                const derivedVals = __storeToDerived.get(store2);
+                if (!derivedVals) continue;
+                for (const derived of derivedVals){
+                    __notifyDerivedListeners(derived);
+                }
+            }
+        }
+    } finally{
+        __isFlushing = false;
+        __depsThatHaveWrittenThisTick.current = [];
+        __initialBatchValues.clear();
+    }
+}
+function batch(fn) {
+    __batchDepth++;
+    try {
+        fn();
+    } finally{
+        __batchDepth--;
+        if (__batchDepth === 0) {
+            const pendingUpdateToFlush = __pendingUpdates.values().next().value;
+            if (pendingUpdateToFlush) {
+                __flush(pendingUpdateToFlush);
+            }
+        }
+    }
+}
+;
+ //# sourceMappingURL=scheduler.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/pacer-lite/dist/lite-throttler.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+//#region src/lite-throttler.ts
+/**
+* A lightweight class that creates a throttled function.
+*
+* This is an alternative to the Throttler in the core @tanstack/pacer package, but is more
+* suitable for libraries and npm packages that need minimal overhead. Unlike the core Throttler,
+* this version does not use TanStack Store for state management, has no devtools integration,
+* and provides only essential throttling functionality.
+*
+* Throttling ensures a function is called at most once within a specified time window.
+* Unlike debouncing which waits for a pause in calls, throttling guarantees consistent
+* execution timing regardless of call frequency.
+*
+* Supports both leading and trailing edge execution:
+* - Leading: Execute immediately on first call (default: true)
+* - Trailing: Execute after wait period if called during throttle (default: true)
+*
+* Features:
+* - Zero dependencies - no external libraries required
+* - Minimal API surface - only essential methods (maybeExecute, flush, cancel)
+* - Simple state management - uses basic private properties instead of reactive stores
+* - Callback support for monitoring execution events
+* - Lightweight - designed for use in npm packages where bundle size matters
+*
+* @example
+* ```ts
+* const throttler = new LiteThrottler((scrollY: number) => {
+*   updateScrollPosition(scrollY);
+* }, {
+*   wait: 100,
+*   onExecute: (args, throttler) => {
+*     console.log('Updated scroll position:', args[0]);
+*   }
+* });
+*
+* // Will execute at most once per 100ms
+* window.addEventListener('scroll', () => {
+*   throttler.maybeExecute(window.scrollY);
+* });
+* ```
+*/ __turbopack_context__.s([
+    "LiteThrottler",
+    ()=>LiteThrottler,
+    "liteThrottle",
+    ()=>liteThrottle
+]);
+var LiteThrottler = class {
+    constructor(fn, options){
+        this.fn = fn;
+        this.options = options;
+        this.lastExecutionTime = 0;
+        this.isPending = false;
+        this.maybeExecute = (...args)=>{
+            const timeSinceLastExecution = Date.now() - this.lastExecutionTime;
+            if (this.options.leading && timeSinceLastExecution >= this.options.wait) this.execute(...args);
+            else {
+                this.lastArgs = args;
+                if (!this.timeoutId && this.options.trailing) {
+                    const timeoutDuration = this.options.wait - timeSinceLastExecution;
+                    this.isPending = true;
+                    this.timeoutId = setTimeout(()=>{
+                        if (this.lastArgs !== void 0) this.execute(...this.lastArgs);
+                    }, timeoutDuration);
+                }
+            }
+        };
+        this.execute = (...args)=>{
+            this.fn(...args);
+            this.options.onExecute?.(args, this);
+            this.lastExecutionTime = Date.now();
+            this.clearTimeout();
+            this.lastArgs = void 0;
+            this.isPending = false;
+        };
+        this.flush = ()=>{
+            if (this.isPending && this.lastArgs) this.execute(...this.lastArgs);
+        };
+        this.cancel = ()=>{
+            this.clearTimeout();
+            this.lastArgs = void 0;
+            this.isPending = false;
+        };
+        this.clearTimeout = ()=>{
+            if (this.timeoutId) {
+                clearTimeout(this.timeoutId);
+                this.timeoutId = void 0;
+            }
+        };
+        if (this.options.leading === void 0 && this.options.trailing === void 0) {
+            this.options.leading = true;
+            this.options.trailing = true;
+        }
+    }
+};
+/**
+* Creates a lightweight throttled function that limits how often the provided function can execute.
+*
+* This is an alternative to the throttle function in the core @tanstack/pacer package, but is more
+* suitable for libraries and npm packages that need minimal overhead. Unlike the core version,
+* this function creates a throttler with no external dependencies, devtools integration, or reactive state.
+*
+* Throttling ensures a function executes at most once within a specified time window,
+* regardless of how many times it is called. This is useful for rate-limiting
+* expensive operations or UI updates.
+*
+* @example
+* ```ts
+* const throttledScroll = liteThrottle(() => {
+*   updateScrollIndicator();
+* }, { wait: 100 });
+*
+* // Will execute at most once per 100ms
+* window.addEventListener('scroll', throttledScroll);
+* ```
+*
+* @example
+* ```ts
+* // Leading edge execution - fires immediately then throttles
+* const throttledResize = liteThrottle(() => {
+*   recalculateLayout();
+* }, { wait: 250, leading: true, trailing: false });
+* ```
+*/ function liteThrottle(fn, options) {
+    return new LiteThrottler(fn, options).maybeExecute;
+}
+;
+ //# sourceMappingURL=lite-throttler.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/devtools-event-client/dist/esm/plugin.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "EventClient",
+    ()=>EventClient
+]);
+class EventClient {
+    #enabled = true;
+    #pluginId;
+    #eventTarget;
+    #debug;
+    #queuedEvents;
+    #connected;
+    #connectIntervalId;
+    #connectEveryMs;
+    #retryCount = 0;
+    #maxRetries = 5;
+    #connecting = false;
+    #failedToConnect = false;
+    #internalEventTarget = null;
+    #onConnected = ()=>{
+        this.debugLog("Connected to event bus");
+        this.#connected = true;
+        this.#connecting = false;
+        this.debugLog("Emitting queued events", this.#queuedEvents);
+        this.#queuedEvents.forEach((event)=>this.emitEventToBus(event));
+        this.#queuedEvents = [];
+        this.stopConnectLoop();
+        this.#eventTarget().removeEventListener("tanstack-connect-success", this.#onConnected);
+    };
+    // fired off right away and then at intervals
+    #retryConnection = ()=>{
+        if (this.#retryCount < this.#maxRetries) {
+            this.#retryCount++;
+            this.dispatchCustomEvent("tanstack-connect", {});
+            return;
+        }
+        this.#eventTarget().removeEventListener("tanstack-connect", this.#retryConnection);
+        this.#failedToConnect = true;
+        this.debugLog("Max retries reached, giving up on connection");
+        this.stopConnectLoop();
+    };
+    // This is run to register connection handlers on first emit attempt
+    #connectFunction = ()=>{
+        if (this.#connecting) return;
+        this.#connecting = true;
+        this.#eventTarget().addEventListener("tanstack-connect-success", this.#onConnected);
+        this.#retryConnection();
+    };
+    constructor({ pluginId, debug = false, enabled = true, reconnectEveryMs = 300 }){
+        this.#pluginId = pluginId;
+        this.#enabled = enabled;
+        this.#eventTarget = this.getGlobalTarget;
+        this.#debug = debug;
+        this.debugLog(" Initializing event subscription for plugin", this.#pluginId);
+        this.#queuedEvents = [];
+        this.#connected = false;
+        this.#failedToConnect = false;
+        this.#connectIntervalId = null;
+        this.#connectEveryMs = reconnectEveryMs;
+    }
+    startConnectLoop() {
+        if (this.#connectIntervalId !== null || this.#connected) return;
+        this.debugLog(`Starting connect loop (every ${this.#connectEveryMs}ms)`);
+        this.#connectIntervalId = setInterval(this.#retryConnection, this.#connectEveryMs);
+    }
+    stopConnectLoop() {
+        this.#connecting = false;
+        if (this.#connectIntervalId === null) {
+            return;
+        }
+        clearInterval(this.#connectIntervalId);
+        this.#connectIntervalId = null;
+        this.#queuedEvents = [];
+        this.debugLog("Stopped connect loop");
+    }
+    debugLog(...args) {
+        if (this.#debug) {
+            console.log(`🌴 [tanstack-devtools:${this.#pluginId}-plugin]`, ...args);
+        }
+    }
+    getGlobalTarget() {
+        if (typeof globalThis !== "undefined" && globalThis.__TANSTACK_EVENT_TARGET__) {
+            this.debugLog("Using global event target");
+            return globalThis.__TANSTACK_EVENT_TARGET__;
+        }
+        if (typeof window !== "undefined" && typeof window.addEventListener !== "undefined") {
+            this.debugLog("Using window as event target");
+            return window;
+        }
+        const eventTarget = typeof EventTarget !== "undefined" ? new EventTarget() : void 0;
+        if (typeof eventTarget === "undefined" || typeof eventTarget.addEventListener === "undefined") {
+            this.debugLog("No event mechanism available, running in non-web environment");
+            return {
+                addEventListener: ()=>{},
+                removeEventListener: ()=>{},
+                dispatchEvent: ()=>false
+            };
+        }
+        this.debugLog("Using new EventTarget as fallback");
+        return eventTarget;
+    }
+    getPluginId() {
+        return this.#pluginId;
+    }
+    dispatchCustomEventShim(eventName, detail) {
+        try {
+            const event = new Event(eventName, {
+                detail
+            });
+            this.#eventTarget().dispatchEvent(event);
+        } catch (e) {
+            this.debugLog("Failed to dispatch shim event");
+        }
+    }
+    dispatchCustomEvent(eventName, detail) {
+        try {
+            this.#eventTarget().dispatchEvent(new CustomEvent(eventName, {
+                detail
+            }));
+        } catch (e) {
+            this.dispatchCustomEventShim(eventName, detail);
+        }
+    }
+    emitEventToBus(event) {
+        this.debugLog("Emitting event to client bus", event);
+        this.dispatchCustomEvent("tanstack-dispatch-event", event);
+    }
+    createEventPayload(eventSuffix, payload) {
+        return {
+            type: `${this.#pluginId}:${eventSuffix}`,
+            payload,
+            pluginId: this.#pluginId
+        };
+    }
+    emit(eventSuffix, payload) {
+        if (!this.#enabled) {
+            this.debugLog("Event bus client is disabled, not emitting event", eventSuffix, payload);
+            return;
+        }
+        if (this.#internalEventTarget) {
+            this.debugLog("Emitting event to internal event target", eventSuffix, payload);
+            this.#internalEventTarget.dispatchEvent(new CustomEvent(`${this.#pluginId}:${eventSuffix}`, {
+                detail: this.createEventPayload(eventSuffix, payload)
+            }));
+        }
+        if (this.#failedToConnect) {
+            this.debugLog("Previously failed to connect, not emitting to bus");
+            return;
+        }
+        if (!this.#connected) {
+            this.debugLog("Bus not available, will be pushed as soon as connected");
+            this.#queuedEvents.push(this.createEventPayload(eventSuffix, payload));
+            if (typeof CustomEvent !== "undefined" && !this.#connecting) {
+                this.#connectFunction();
+                this.startConnectLoop();
+            }
+            return;
+        }
+        return this.emitEventToBus(this.createEventPayload(eventSuffix, payload));
+    }
+    on(eventSuffix, cb, options) {
+        const withEventTarget = options?.withEventTarget ?? false;
+        const eventName = `${this.#pluginId}:${eventSuffix}`;
+        if (withEventTarget) {
+            if (!this.#internalEventTarget) {
+                this.#internalEventTarget = new EventTarget();
+            }
+            this.#internalEventTarget.addEventListener(eventName, (e)=>{
+                cb(e.detail);
+            });
+        }
+        if (!this.#enabled) {
+            this.debugLog("Event bus client is disabled, not registering event", eventName);
+            return ()=>{};
+        }
+        const handler = (e)=>{
+            this.debugLog("Received event from bus", e.detail);
+            cb(e.detail);
+        };
+        this.#eventTarget().addEventListener(eventName, handler);
+        this.debugLog("Registered event to bus", eventName);
+        return ()=>{
+            if (withEventTarget) {
+                this.#internalEventTarget?.removeEventListener(eventName, handler);
+            }
+            this.#eventTarget().removeEventListener(eventName, handler);
+        };
+    }
+    onAll(cb) {
+        if (!this.#enabled) {
+            this.debugLog("Event bus client is disabled, not registering event");
+            return ()=>{};
+        }
+        const handler = (e)=>{
+            const event = e.detail;
+            cb(event);
+        };
+        this.#eventTarget().addEventListener("tanstack-devtools-global", handler);
+        return ()=>this.#eventTarget().removeEventListener("tanstack-devtools-global", handler);
+    }
+    onAllPluginEvents(cb) {
+        if (!this.#enabled) {
+            this.debugLog("Event bus client is disabled, not registering event");
+            return ()=>{};
+        }
+        const handler = (e)=>{
+            const event = e.detail;
+            if (this.#pluginId && event.pluginId !== this.#pluginId) {
+                return;
+            }
+            cb(event);
+        };
+        this.#eventTarget().addEventListener("tanstack-devtools-global", handler);
+        return ()=>this.#eventTarget().removeEventListener("tanstack-devtools-global", handler);
+    }
+}
+;
+ //# sourceMappingURL=plugin.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/EventClient.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "formEventClient",
+    ()=>formEventClient
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$devtools$2d$event$2d$client$2f$dist$2f$esm$2f$plugin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/devtools-event-client/dist/esm/plugin.js [app-client] (ecmascript)");
+;
+class FormEventClient extends __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$devtools$2d$event$2d$client$2f$dist$2f$esm$2f$plugin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EventClient"] {
+    constructor(){
+        super({
+            pluginId: "form-devtools",
+            reconnectEveryMs: 1e3
+        });
+    }
+}
+const formEventClient = new FormEventClient();
+;
+ //# sourceMappingURL=EventClient.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/utils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "concatenatePaths",
+    ()=>concatenatePaths,
+    "createFieldMap",
+    ()=>createFieldMap,
+    "deleteBy",
+    ()=>deleteBy,
+    "determineFieldLevelErrorSourceAndValue",
+    ()=>determineFieldLevelErrorSourceAndValue,
+    "determineFormLevelErrorSourceAndValue",
+    ()=>determineFormLevelErrorSourceAndValue,
+    "evaluate",
+    ()=>evaluate,
+    "functionalUpdate",
+    ()=>functionalUpdate,
+    "getAsyncValidatorArray",
+    ()=>getAsyncValidatorArray,
+    "getBy",
+    ()=>getBy,
+    "getSyncValidatorArray",
+    ()=>getSyncValidatorArray,
+    "isGlobalFormValidationError",
+    ()=>isGlobalFormValidationError,
+    "isNonEmptyArray",
+    ()=>isNonEmptyArray,
+    "makePathArray",
+    ()=>makePathArray,
+    "mergeOpts",
+    ()=>mergeOpts,
+    "setBy",
+    ()=>setBy,
+    "throttleFormState",
+    ()=>throttleFormState,
+    "uuid",
+    ()=>uuid
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$pacer$2d$lite$2f$dist$2f$lite$2d$throttler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/pacer-lite/dist/lite-throttler.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/EventClient.js [app-client] (ecmascript)");
+;
+;
+function functionalUpdate(updater, input) {
+    return typeof updater === "function" ? updater(input) : updater;
+}
+function getBy(obj, path) {
+    const pathObj = makePathArray(path);
+    return pathObj.reduce((current, pathPart)=>{
+        if (current === null) return null;
+        if (typeof current !== "undefined") {
+            return current[pathPart];
+        }
+        return void 0;
+    }, obj);
+}
+function setBy(obj, _path, updater) {
+    const path = makePathArray(_path);
+    function doSet(parent) {
+        if (!path.length) {
+            return functionalUpdate(updater, parent);
+        }
+        const key = path.shift();
+        if (typeof key === "string" || typeof key === "number" && !Array.isArray(parent)) {
+            if (typeof parent === "object") {
+                if (parent === null) {
+                    parent = {};
+                }
+                return {
+                    ...parent,
+                    [key]: doSet(parent[key])
+                };
+            }
+            return {
+                [key]: doSet()
+            };
+        }
+        if (Array.isArray(parent) && typeof key === "number") {
+            const prefix = parent.slice(0, key);
+            return [
+                ...prefix.length ? prefix : new Array(key),
+                doSet(parent[key]),
+                ...parent.slice(key + 1)
+            ];
+        }
+        return [
+            ...new Array(key),
+            doSet()
+        ];
+    }
+    return doSet(obj);
+}
+function deleteBy(obj, _path) {
+    const path = makePathArray(_path);
+    function doDelete(parent) {
+        if (!parent) return;
+        if (path.length === 1) {
+            const finalPath = path[0];
+            if (Array.isArray(parent) && typeof finalPath === "number") {
+                return parent.filter((_, i)=>i !== finalPath);
+            }
+            const { [finalPath]: remove, ...rest } = parent;
+            return rest;
+        }
+        const key = path.shift();
+        if (typeof key === "string" || typeof key === "number" && !Array.isArray(parent)) {
+            if (typeof parent === "object") {
+                return {
+                    ...parent,
+                    [key]: doDelete(parent[key])
+                };
+            }
+        }
+        if (typeof key === "number") {
+            if (Array.isArray(parent)) {
+                if (key >= parent.length) {
+                    return parent;
+                }
+                const prefix = parent.slice(0, key);
+                return [
+                    ...prefix.length ? prefix : new Array(key),
+                    doDelete(parent[key]),
+                    ...parent.slice(key + 1)
+                ];
+            }
+        }
+        throw new Error("It seems we have created an infinite loop in deleteBy. ");
+    }
+    return doDelete(obj);
+}
+const reLineOfOnlyDigits = /^(\d+)$/gm;
+const reDigitsBetweenDots = /\.(\d+)(?=\.)/gm;
+const reStartWithDigitThenDot = /^(\d+)\./gm;
+const reDotWithDigitsToEnd = /\.(\d+$)/gm;
+const reMultipleDots = /\.{2,}/gm;
+const intPrefix = "__int__";
+const intReplace = `${intPrefix}$1`;
+function makePathArray(str) {
+    if (Array.isArray(str)) {
+        return [
+            ...str
+        ];
+    }
+    if (typeof str !== "string") {
+        throw new Error("Path must be a string.");
+    }
+    return str.replace(/(^\[)|]/gm, "").replace(/\[/g, ".").replace(reLineOfOnlyDigits, intReplace).replace(reDigitsBetweenDots, `.${intReplace}.`).replace(reStartWithDigitThenDot, `${intReplace}.`).replace(reDotWithDigitsToEnd, `.${intReplace}`).replace(reMultipleDots, ".").split(".").map((d)=>{
+        if (d.startsWith(intPrefix)) {
+            const numStr = d.substring(intPrefix.length);
+            const num = parseInt(numStr, 10);
+            if (String(num) === numStr) {
+                return num;
+            }
+            return numStr;
+        }
+        return d;
+    });
+}
+function concatenatePaths(path1, path2) {
+    if (path1.length === 0) return path2;
+    if (path2.length === 0) return path1;
+    if (path2.startsWith("[")) {
+        return path1 + path2;
+    }
+    if (path2.startsWith(".")) {
+        return path1 + path2;
+    }
+    return `${path1}.${path2}`;
+}
+function isNonEmptyArray(obj) {
+    return !(Array.isArray(obj) && obj.length === 0);
+}
+function getSyncValidatorArray(cause, options) {
+    const runValidation = (props)=>{
+        return props.validators.filter(Boolean).map((validator)=>{
+            return {
+                cause: validator.cause,
+                validate: validator.fn
+            };
+        });
+    };
+    return options.validationLogic({
+        form: options.form,
+        validators: options.validators,
+        event: {
+            type: cause,
+            async: false
+        },
+        runValidation
+    });
+}
+function getAsyncValidatorArray(cause, options) {
+    const { asyncDebounceMs } = options;
+    const { onBlurAsyncDebounceMs, onChangeAsyncDebounceMs, onDynamicAsyncDebounceMs } = options.validators || {};
+    const defaultDebounceMs = asyncDebounceMs ?? 0;
+    const runValidation = (props)=>{
+        return props.validators.filter(Boolean).map((validator)=>{
+            const validatorCause = validator?.cause || cause;
+            let debounceMs = defaultDebounceMs;
+            switch(validatorCause){
+                case "change":
+                    debounceMs = onChangeAsyncDebounceMs ?? defaultDebounceMs;
+                    break;
+                case "blur":
+                    debounceMs = onBlurAsyncDebounceMs ?? defaultDebounceMs;
+                    break;
+                case "dynamic":
+                    debounceMs = onDynamicAsyncDebounceMs ?? defaultDebounceMs;
+                    break;
+                case "submit":
+                    debounceMs = 0;
+                    break;
+            }
+            if (cause === "submit") {
+                debounceMs = 0;
+            }
+            return {
+                cause: validatorCause,
+                validate: validator.fn,
+                debounceMs
+            };
+        });
+    };
+    return options.validationLogic({
+        form: options.form,
+        validators: options.validators,
+        event: {
+            type: cause,
+            async: true
+        },
+        runValidation
+    });
+}
+const isGlobalFormValidationError = (error)=>{
+    return !!error && typeof error === "object" && "fields" in error;
+};
+function evaluate(objA, objB) {
+    if (Object.is(objA, objB)) {
+        return true;
+    }
+    if (typeof objA !== "object" || objA === null || typeof objB !== "object" || objB === null) {
+        return false;
+    }
+    if (objA instanceof Date && objB instanceof Date) {
+        return objA.getTime() === objB.getTime();
+    }
+    if (objA instanceof Map && objB instanceof Map) {
+        if (objA.size !== objB.size) return false;
+        for (const [k, v] of objA){
+            if (!objB.has(k) || !Object.is(v, objB.get(k))) return false;
+        }
+        return true;
+    }
+    if (objA instanceof Set && objB instanceof Set) {
+        if (objA.size !== objB.size) return false;
+        for (const v of objA){
+            if (!objB.has(v)) return false;
+        }
+        return true;
+    }
+    const keysA = Object.keys(objA);
+    const keysB = Object.keys(objB);
+    if (keysA.length !== keysB.length) {
+        return false;
+    }
+    for (const key of keysA){
+        if (!keysB.includes(key) || !evaluate(objA[key], objB[key])) {
+            return false;
+        }
+    }
+    return true;
+}
+const determineFormLevelErrorSourceAndValue = ({ newFormValidatorError, isPreviousErrorFromFormValidator, previousErrorValue })=>{
+    if (newFormValidatorError) {
+        return {
+            newErrorValue: newFormValidatorError,
+            newSource: "form"
+        };
+    }
+    if (isPreviousErrorFromFormValidator) {
+        return {
+            newErrorValue: void 0,
+            newSource: void 0
+        };
+    }
+    if (previousErrorValue) {
+        return {
+            newErrorValue: previousErrorValue,
+            newSource: "field"
+        };
+    }
+    return {
+        newErrorValue: void 0,
+        newSource: void 0
+    };
+};
+const determineFieldLevelErrorSourceAndValue = ({ formLevelError, fieldLevelError })=>{
+    if (fieldLevelError) {
+        return {
+            newErrorValue: fieldLevelError,
+            newSource: "field"
+        };
+    }
+    if (formLevelError) {
+        return {
+            newErrorValue: formLevelError,
+            newSource: "form"
+        };
+    }
+    return {
+        newErrorValue: void 0,
+        newSource: void 0
+    };
+};
+function createFieldMap(values) {
+    const output = {};
+    for(const key in values){
+        output[key] = key;
+    }
+    return output;
+}
+function mergeOpts(originalOpts, overrides) {
+    if (originalOpts === void 0 || originalOpts === null) {
+        return overrides;
+    }
+    return {
+        ...originalOpts,
+        ...overrides
+    };
+}
+let IDX = 256;
+const HEX = [];
+let BUFFER;
+while(IDX--){
+    HEX[IDX] = (IDX + 256).toString(16).substring(1);
+}
+function uuid() {
+    let i = 0;
+    let num;
+    let out = "";
+    if (!BUFFER || IDX + 16 > 256) {
+        BUFFER = new Array(256);
+        i = 256;
+        while(i--){
+            BUFFER[i] = 256 * Math.random() | 0;
+        }
+        i = 0;
+        IDX = 0;
+    }
+    for(; i < 16; i++){
+        num = BUFFER[IDX + i];
+        if (i === 6) out += HEX[num & 15 | 64];
+        else if (i === 8) out += HEX[num & 63 | 128];
+        else out += HEX[num];
+        if (i & 1 && i > 1 && i < 11) out += "-";
+    }
+    IDX++;
+    return out;
+}
+const throttleFormState = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$pacer$2d$lite$2f$dist$2f$lite$2d$throttler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["liteThrottle"])((form)=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-state", {
+        id: form.formId,
+        state: form.store.state
+    }), {
+    wait: 300
+});
+;
+ //# sourceMappingURL=utils.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/ValidationLogic.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "defaultValidationLogic",
+    ()=>defaultValidationLogic,
+    "revalidateLogic",
+    ()=>revalidateLogic
+]);
+const revalidateLogic = ({ mode = "submit", modeAfterSubmission = "change" } = {})=>(props)=>{
+        const validatorNames = Object.keys(props.validators ?? {});
+        if (validatorNames.length === 0) {
+            return props.runValidation({
+                validators: [],
+                form: props.form
+            });
+        }
+        const dynamicValidator = {
+            fn: props.event.async ? props.validators["onDynamicAsync"] : props.validators["onDynamic"],
+            cause: "dynamic"
+        };
+        const validatorsToAdd = [];
+        const modeToWatch = props.form.state.submissionAttempts === 0 ? mode : modeAfterSubmission;
+        if ([
+            modeToWatch,
+            "submit"
+        ].includes(props.event.type)) {
+            validatorsToAdd.push(dynamicValidator);
+        }
+        let defaultValidators = [];
+        defaultValidationLogic({
+            ...props,
+            runValidation: (vProps)=>{
+                defaultValidators = vProps.validators;
+            }
+        });
+        if (validatorsToAdd.length === 0) {
+            return props.runValidation({
+                validators: defaultValidators,
+                form: props.form
+            });
+        }
+        return props.runValidation({
+            validators: [
+                ...defaultValidators,
+                ...validatorsToAdd
+            ],
+            form: props.form
+        });
+    };
+const defaultValidationLogic = (props)=>{
+    if (!props.validators) {
+        return props.runValidation({
+            validators: [],
+            form: props.form
+        });
+    }
+    const isAsync = props.event.async;
+    const onMountValidator = isAsync ? void 0 : {
+        fn: props.validators.onMount,
+        cause: "mount"
+    };
+    const onChangeValidator = {
+        fn: isAsync ? props.validators.onChangeAsync : props.validators.onChange,
+        cause: "change"
+    };
+    const onBlurValidator = {
+        fn: isAsync ? props.validators.onBlurAsync : props.validators.onBlur,
+        cause: "blur"
+    };
+    const onSubmitValidator = {
+        fn: isAsync ? props.validators.onSubmitAsync : props.validators.onSubmit,
+        cause: "submit"
+    };
+    const onServerValidator = isAsync ? void 0 : {
+        fn: ()=>void 0,
+        cause: "server"
+    };
+    switch(props.event.type){
+        case "mount":
+            {
+                return props.runValidation({
+                    validators: [
+                        onMountValidator
+                    ],
+                    form: props.form
+                });
+            }
+        case "submit":
+            {
+                return props.runValidation({
+                    validators: [
+                        onChangeValidator,
+                        onBlurValidator,
+                        onSubmitValidator,
+                        onServerValidator
+                    ],
+                    form: props.form
+                });
+            }
+        case "server":
+            {
+                return props.runValidation({
+                    validators: [],
+                    form: props.form
+                });
+            }
+        case "blur":
+            {
+                return props.runValidation({
+                    validators: [
+                        onBlurValidator,
+                        onServerValidator
+                    ],
+                    form: props.form
+                });
+            }
+        case "change":
+            {
+                return props.runValidation({
+                    validators: [
+                        onChangeValidator,
+                        onServerValidator
+                    ],
+                    form: props.form
+                });
+            }
+        default:
+            {
+                throw new Error(`Unknown validation event type: ${props.event.type}`);
+            }
+    }
+};
+;
+ //# sourceMappingURL=ValidationLogic.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/standardSchemaValidator.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "isStandardSchemaValidator",
+    ()=>isStandardSchemaValidator,
+    "standardSchemaValidators",
+    ()=>standardSchemaValidators
+]);
+function prefixSchemaToErrors(issues, formValue) {
+    const schema = /* @__PURE__ */ new Map();
+    for (const issue of issues){
+        const issuePath = issue.path ?? [];
+        let currentFormValue = formValue;
+        let path = "";
+        for(let i = 0; i < issuePath.length; i++){
+            const pathSegment = issuePath[i];
+            if (pathSegment === void 0) continue;
+            const segment = typeof pathSegment === "object" ? pathSegment.key : pathSegment;
+            const segmentAsNumber = Number(segment);
+            if (Array.isArray(currentFormValue) && !Number.isNaN(segmentAsNumber)) {
+                path += `[${segmentAsNumber}]`;
+            } else {
+                path += (i > 0 ? "." : "") + String(segment);
+            }
+            if (typeof currentFormValue === "object" && currentFormValue !== null) {
+                currentFormValue = currentFormValue[segment];
+            } else {
+                currentFormValue = void 0;
+            }
+        }
+        schema.set(path, (schema.get(path) ?? []).concat(issue));
+    }
+    return Object.fromEntries(schema);
+}
+const transformFormIssues = (issues, formValue)=>{
+    const schemaErrors = prefixSchemaToErrors(issues, formValue);
+    return {
+        form: schemaErrors,
+        fields: schemaErrors
+    };
+};
+const standardSchemaValidators = {
+    validate ({ value, validationSource }, schema) {
+        const result = schema["~standard"].validate(value);
+        if (result instanceof Promise) {
+            throw new Error("async function passed to sync validator");
+        }
+        if (!result.issues) return;
+        if (validationSource === "field") return result.issues;
+        return transformFormIssues(result.issues, value);
+    },
+    async validateAsync ({ value, validationSource }, schema) {
+        const result = await schema["~standard"].validate(value);
+        if (!result.issues) return;
+        if (validationSource === "field") return result.issues;
+        return transformFormIssues(result.issues, value);
+    }
+};
+const isStandardSchemaValidator = (validator)=>!!validator && "~standard" in validator;
+;
+ //# sourceMappingURL=standardSchemaValidator.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/metaHelper.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "defaultFieldMeta",
+    ()=>defaultFieldMeta,
+    "metaHelper",
+    ()=>metaHelper
+]);
+const defaultFieldMeta = {
+    isValidating: false,
+    isTouched: false,
+    isBlurred: false,
+    isDirty: false,
+    isPristine: true,
+    isValid: true,
+    isDefaultValue: true,
+    errors: [],
+    errorMap: {},
+    errorSourceMap: {}
+};
+function metaHelper(formApi) {
+    function handleArrayMove(field, fromIndex, toIndex) {
+        const affectedFields = getAffectedFields(field, fromIndex, "move", toIndex);
+        const startIndex = Math.min(fromIndex, toIndex);
+        const endIndex = Math.max(fromIndex, toIndex);
+        for(let i = startIndex; i <= endIndex; i++){
+            affectedFields.push(getFieldPath(field, i));
+        }
+        const fromFields = Object.keys(formApi.fieldInfo).reduce((fieldMap, fieldKey)=>{
+            if (fieldKey.startsWith(getFieldPath(field, fromIndex))) {
+                fieldMap.set(fieldKey, formApi.getFieldMeta(fieldKey));
+            }
+            return fieldMap;
+        }, /* @__PURE__ */ new Map());
+        shiftMeta(affectedFields, fromIndex < toIndex ? "up" : "down");
+        Object.keys(formApi.fieldInfo).filter((fieldKey)=>fieldKey.startsWith(getFieldPath(field, toIndex))).forEach((fieldKey)=>{
+            const fromKey = fieldKey.replace(getFieldPath(field, toIndex), getFieldPath(field, fromIndex));
+            const fromMeta = fromFields.get(fromKey);
+            if (fromMeta) {
+                formApi.setFieldMeta(fieldKey, fromMeta);
+            }
+        });
+    }
+    function handleArrayRemove(field, index) {
+        const affectedFields = getAffectedFields(field, index, "remove");
+        shiftMeta(affectedFields, "up");
+    }
+    function handleArraySwap(field, index, secondIndex) {
+        const affectedFields = getAffectedFields(field, index, "swap", secondIndex);
+        affectedFields.forEach((fieldKey)=>{
+            if (!fieldKey.toString().startsWith(getFieldPath(field, index))) {
+                return;
+            }
+            const swappedKey = fieldKey.toString().replace(getFieldPath(field, index), getFieldPath(field, secondIndex));
+            const [meta1, meta2] = [
+                formApi.getFieldMeta(fieldKey),
+                formApi.getFieldMeta(swappedKey)
+            ];
+            if (meta1) formApi.setFieldMeta(swappedKey, meta1);
+            if (meta2) formApi.setFieldMeta(fieldKey, meta2);
+        });
+    }
+    function handleArrayInsert(field, insertIndex) {
+        const affectedFields = getAffectedFields(field, insertIndex, "insert");
+        shiftMeta(affectedFields, "down");
+        affectedFields.forEach((fieldKey)=>{
+            if (fieldKey.toString().startsWith(getFieldPath(field, insertIndex))) {
+                formApi.setFieldMeta(fieldKey, getEmptyFieldMeta());
+            }
+        });
+    }
+    function getFieldPath(field, index) {
+        return `${field}[${index}]`;
+    }
+    function getAffectedFields(field, index, mode, secondIndex) {
+        const affectedFieldKeys = [
+            getFieldPath(field, index)
+        ];
+        switch(mode){
+            case "swap":
+                affectedFieldKeys.push(getFieldPath(field, secondIndex));
+                break;
+            case "move":
+                {
+                    const [startIndex, endIndex] = [
+                        Math.min(index, secondIndex),
+                        Math.max(index, secondIndex)
+                    ];
+                    for(let i = startIndex; i <= endIndex; i++){
+                        affectedFieldKeys.push(getFieldPath(field, i));
+                    }
+                    break;
+                }
+            default:
+                {
+                    const currentValue = formApi.getFieldValue(field);
+                    const fieldItems = Array.isArray(currentValue) ? currentValue.length : 0;
+                    for(let i = index + 1; i < fieldItems; i++){
+                        affectedFieldKeys.push(getFieldPath(field, i));
+                    }
+                    break;
+                }
+        }
+        return Object.keys(formApi.fieldInfo).filter((fieldKey)=>affectedFieldKeys.some((key)=>fieldKey.startsWith(key)));
+    }
+    function updateIndex(fieldKey, direction) {
+        return fieldKey.replace(/\[(\d+)\]/, (_, num)=>{
+            const currIndex = parseInt(num, 10);
+            const newIndex = direction === "up" ? currIndex + 1 : Math.max(0, currIndex - 1);
+            return `[${newIndex}]`;
+        });
+    }
+    function shiftMeta(fields, direction) {
+        const sortedFields = direction === "up" ? fields : [
+            ...fields
+        ].reverse();
+        sortedFields.forEach((fieldKey)=>{
+            const nextFieldKey = updateIndex(fieldKey.toString(), direction);
+            const nextFieldMeta = formApi.getFieldMeta(nextFieldKey);
+            if (nextFieldMeta) {
+                formApi.setFieldMeta(fieldKey, nextFieldMeta);
+            } else {
+                formApi.setFieldMeta(fieldKey, getEmptyFieldMeta());
+            }
+        });
+    }
+    const getEmptyFieldMeta = ()=>defaultFieldMeta;
+    return {
+        handleArrayMove,
+        handleArrayRemove,
+        handleArraySwap,
+        handleArrayInsert
+    };
+}
+;
+ //# sourceMappingURL=metaHelper.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/FormApi.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "FormApi",
+    ()=>FormApi
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/scheduler.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$store$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/store.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/derived.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/ValidationLogic.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/standardSchemaValidator.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/metaHelper.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/EventClient.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+function getDefaultFormState(defaultState) {
+    return {
+        values: defaultState.values ?? {},
+        errorMap: defaultState.errorMap ?? {},
+        fieldMetaBase: defaultState.fieldMetaBase ?? {},
+        isSubmitted: defaultState.isSubmitted ?? false,
+        isSubmitting: defaultState.isSubmitting ?? false,
+        isValidating: defaultState.isValidating ?? false,
+        submissionAttempts: defaultState.submissionAttempts ?? 0,
+        isSubmitSuccessful: defaultState.isSubmitSuccessful ?? false,
+        validationMetaMap: defaultState.validationMetaMap ?? {
+            onChange: void 0,
+            onBlur: void 0,
+            onSubmit: void 0,
+            onMount: void 0,
+            onServer: void 0,
+            onDynamic: void 0
+        }
+    };
+}
+class FormApi {
+    /**
+   * Constructs a new `FormApi` instance with the given form options.
+   */ constructor(opts){
+        this.options = {};
+        this.fieldInfo = {};
+        this.prevTransformArray = [];
+        this.mount = ()=>{
+            const cleanupFieldMetaDerived = this.fieldMetaDerived.mount();
+            const cleanupStoreDerived = this.store.mount();
+            const cleanupDevtoolBroadcast = this.store.subscribe(()=>{
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["throttleFormState"])(this);
+            });
+            const cleanupFormStateListener = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].on("request-form-state", (e)=>{
+                if (e.payload.id === this._formId) {
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-api", {
+                        id: this._formId,
+                        state: this.store.state,
+                        options: this.options
+                    });
+                }
+            });
+            const cleanupFormResetListener = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].on("request-form-reset", (e)=>{
+                if (e.payload.id === this._formId) {
+                    this.reset();
+                }
+            });
+            const cleanupFormForceSubmitListener = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].on("request-form-force-submit", (e)=>{
+                if (e.payload.id === this._formId) {
+                    this._devtoolsSubmissionOverride = true;
+                    this.handleSubmit();
+                    this._devtoolsSubmissionOverride = false;
+                }
+            });
+            const cleanup = ()=>{
+                cleanupFormForceSubmitListener();
+                cleanupFormResetListener();
+                cleanupFormStateListener();
+                cleanupDevtoolBroadcast();
+                cleanupFieldMetaDerived();
+                cleanupStoreDerived();
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-unmounted", {
+                    id: this._formId
+                });
+            };
+            this.options.listeners?.onMount?.({
+                formApi: this
+            });
+            const { onMount } = this.options.validators || {};
+            __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-api", {
+                id: this._formId,
+                state: this.store.state,
+                options: this.options
+            });
+            if (!onMount) return cleanup;
+            this.validateSync("mount");
+            return cleanup;
+        };
+        this.update = (options)=>{
+            if (!options) return;
+            const oldOptions = this.options;
+            this.options = options;
+            const shouldUpdateReeval = !!options.transform?.deps?.some((val, i)=>val !== this.prevTransformArray[i]);
+            const shouldUpdateValues = options.defaultValues && !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(options.defaultValues, oldOptions.defaultValues) && !this.state.isTouched;
+            const shouldUpdateState = !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(options.defaultState, oldOptions.defaultState) && !this.state.isTouched;
+            if (!shouldUpdateValues && !shouldUpdateState && !shouldUpdateReeval) return;
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                this.baseStore.setState(()=>getDefaultFormState(Object.assign({}, this.state, shouldUpdateState ? options.defaultState : {}, shouldUpdateValues ? {
+                        values: options.defaultValues
+                    } : {}, shouldUpdateReeval ? {
+                        _force_re_eval: !this.state._force_re_eval
+                    } : {})));
+            });
+            __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-api", {
+                id: this._formId,
+                state: this.store.state,
+                options: this.options
+            });
+        };
+        this.reset = (values, opts2)=>{
+            const { fieldMeta: currentFieldMeta } = this.state;
+            const fieldMetaBase = this.resetFieldMeta(currentFieldMeta);
+            if (values && !opts2?.keepDefaultValues) {
+                this.options = {
+                    ...this.options,
+                    defaultValues: values
+                };
+            }
+            this.baseStore.setState(()=>getDefaultFormState({
+                    ...this.options.defaultState,
+                    values: values ?? this.options.defaultValues ?? this.options.defaultState?.values,
+                    fieldMetaBase
+                }));
+        };
+        this.validateAllFields = async (cause)=>{
+            const fieldValidationPromises = [];
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                void Object.values(this.fieldInfo).forEach((field)=>{
+                    if (!field.instance) return;
+                    const fieldInstance = field.instance;
+                    fieldValidationPromises.push(// Remember, `validate` is either a sync operation or a promise
+                    Promise.resolve().then(()=>fieldInstance.validate(cause, {
+                            skipFormValidation: true
+                        })));
+                    if (!field.instance.state.meta.isTouched) {
+                        field.instance.setMeta((prev)=>({
+                                ...prev,
+                                isTouched: true
+                            }));
+                    }
+                });
+            });
+            const fieldErrorMapMap = await Promise.all(fieldValidationPromises);
+            return fieldErrorMapMap.flat();
+        };
+        this.validateArrayFieldsStartingFrom = async (field, index, cause)=>{
+            const currentValue = this.getFieldValue(field);
+            const lastIndex = Array.isArray(currentValue) ? Math.max(currentValue.length - 1, 0) : null;
+            const fieldKeysToValidate = [
+                `${field}[${index}]`
+            ];
+            for(let i = index + 1; i <= (lastIndex ?? 0); i++){
+                fieldKeysToValidate.push(`${field}[${i}]`);
+            }
+            const fieldsToValidate = Object.keys(this.fieldInfo).filter((fieldKey)=>fieldKeysToValidate.some((key)=>fieldKey.startsWith(key)));
+            const fieldValidationPromises = [];
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                fieldsToValidate.forEach((nestedField)=>{
+                    fieldValidationPromises.push(Promise.resolve().then(()=>this.validateField(nestedField, cause)));
+                });
+            });
+            const fieldErrorMapMap = await Promise.all(fieldValidationPromises);
+            return fieldErrorMapMap.flat();
+        };
+        this.validateField = (field, cause)=>{
+            const fieldInstance = this.fieldInfo[field]?.instance;
+            if (!fieldInstance) return [];
+            if (!fieldInstance.state.meta.isTouched) {
+                fieldInstance.setMeta((prev)=>({
+                        ...prev,
+                        isTouched: true
+                    }));
+            }
+            return fieldInstance.validate(cause);
+        };
+        this.validateSync = (cause)=>{
+            const validates = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getSyncValidatorArray"])(cause, {
+                ...this.options,
+                form: this,
+                validationLogic: this.options.validationLogic || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultValidationLogic"]
+            });
+            let hasErrored = false;
+            const currentValidationErrorMap = {};
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                for (const validateObj of validates){
+                    if (!validateObj.validate) continue;
+                    const rawError = this.runValidator({
+                        validate: validateObj.validate,
+                        value: {
+                            value: this.state.values,
+                            formApi: this,
+                            validationSource: "form"
+                        },
+                        type: "validate"
+                    });
+                    const { formError, fieldErrors } = normalizeError(rawError);
+                    const errorMapKey = getErrorMapKey(validateObj.cause);
+                    const allFieldsToProcess = /* @__PURE__ */ new Set([
+                        ...Object.keys(this.state.fieldMeta),
+                        ...Object.keys(fieldErrors || {})
+                    ]);
+                    for (const field of allFieldsToProcess){
+                        if (this.baseStore.state.fieldMetaBase[field] === void 0 && !fieldErrors?.[field]) {
+                            continue;
+                        }
+                        const fieldMeta = this.getFieldMeta(field) ?? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultFieldMeta"];
+                        const { errorMap: currentErrorMap, errorSourceMap: currentErrorMapSource } = fieldMeta;
+                        const newFormValidatorError = fieldErrors?.[field];
+                        const { newErrorValue, newSource } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["determineFormLevelErrorSourceAndValue"])({
+                            newFormValidatorError,
+                            isPreviousErrorFromFormValidator: currentErrorMapSource[errorMapKey] === "form",
+                            previousErrorValue: currentErrorMap[errorMapKey]
+                        });
+                        if (newSource === "form") {
+                            currentValidationErrorMap[field] = {
+                                ...currentValidationErrorMap[field],
+                                [errorMapKey]: newFormValidatorError
+                            };
+                        }
+                        if (currentErrorMap[errorMapKey] !== newErrorValue) {
+                            this.setFieldMeta(field, (prev = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultFieldMeta"])=>({
+                                    ...prev,
+                                    errorMap: {
+                                        ...prev.errorMap,
+                                        [errorMapKey]: newErrorValue
+                                    },
+                                    errorSourceMap: {
+                                        ...prev.errorSourceMap,
+                                        [errorMapKey]: newSource
+                                    }
+                                }));
+                        }
+                    }
+                    if (this.state.errorMap?.[errorMapKey] !== formError) {
+                        this.baseStore.setState((prev)=>({
+                                ...prev,
+                                errorMap: {
+                                    ...prev.errorMap,
+                                    [errorMapKey]: formError
+                                }
+                            }));
+                    }
+                    if (formError || fieldErrors) {
+                        hasErrored = true;
+                    }
+                }
+                const submitErrKey = getErrorMapKey("submit");
+                if (// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                this.state.errorMap?.[submitErrKey] && cause !== "submit" && !hasErrored) {
+                    this.baseStore.setState((prev)=>({
+                            ...prev,
+                            errorMap: {
+                                ...prev.errorMap,
+                                [submitErrKey]: void 0
+                            }
+                        }));
+                }
+                const serverErrKey = getErrorMapKey("server");
+                if (// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                this.state.errorMap?.[serverErrKey] && cause !== "server" && !hasErrored) {
+                    this.baseStore.setState((prev)=>({
+                            ...prev,
+                            errorMap: {
+                                ...prev.errorMap,
+                                [serverErrKey]: void 0
+                            }
+                        }));
+                }
+            });
+            return {
+                hasErrored,
+                fieldsErrorMap: currentValidationErrorMap
+            };
+        };
+        this.validateAsync = async (cause)=>{
+            const validates = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getAsyncValidatorArray"])(cause, {
+                ...this.options,
+                form: this,
+                validationLogic: this.options.validationLogic || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultValidationLogic"]
+            });
+            if (!this.state.isFormValidating) {
+                this.baseStore.setState((prev)=>({
+                        ...prev,
+                        isFormValidating: true
+                    }));
+            }
+            const promises = [];
+            let fieldErrorsFromFormValidators;
+            for (const validateObj of validates){
+                if (!validateObj.validate) continue;
+                const key = getErrorMapKey(validateObj.cause);
+                const fieldValidatorMeta = this.state.validationMetaMap[key];
+                fieldValidatorMeta?.lastAbortController.abort();
+                const controller = new AbortController();
+                this.state.validationMetaMap[key] = {
+                    lastAbortController: controller
+                };
+                promises.push(new Promise(async (resolve)=>{
+                    let rawError;
+                    try {
+                        rawError = await new Promise((rawResolve, rawReject)=>{
+                            setTimeout(async ()=>{
+                                if (controller.signal.aborted) return rawResolve(void 0);
+                                try {
+                                    rawResolve(await this.runValidator({
+                                        validate: validateObj.validate,
+                                        value: {
+                                            value: this.state.values,
+                                            formApi: this,
+                                            validationSource: "form",
+                                            signal: controller.signal
+                                        },
+                                        type: "validateAsync"
+                                    }));
+                                } catch (e) {
+                                    rawReject(e);
+                                }
+                            }, validateObj.debounceMs);
+                        });
+                    } catch (e) {
+                        rawError = e;
+                    }
+                    const { formError, fieldErrors: fieldErrorsFromNormalizeError } = normalizeError(rawError);
+                    if (fieldErrorsFromNormalizeError) {
+                        fieldErrorsFromFormValidators = fieldErrorsFromFormValidators ? {
+                            ...fieldErrorsFromFormValidators,
+                            ...fieldErrorsFromNormalizeError
+                        } : fieldErrorsFromNormalizeError;
+                    }
+                    const errorMapKey = getErrorMapKey(validateObj.cause);
+                    for (const field of Object.keys(this.state.fieldMeta)){
+                        if (this.baseStore.state.fieldMetaBase[field] === void 0) {
+                            continue;
+                        }
+                        const fieldMeta = this.getFieldMeta(field);
+                        if (!fieldMeta) continue;
+                        const { errorMap: currentErrorMap, errorSourceMap: currentErrorMapSource } = fieldMeta;
+                        const newFormValidatorError = fieldErrorsFromFormValidators?.[field];
+                        const { newErrorValue, newSource } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["determineFormLevelErrorSourceAndValue"])({
+                            newFormValidatorError,
+                            isPreviousErrorFromFormValidator: // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                            currentErrorMapSource?.[errorMapKey] === "form",
+                            // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                            previousErrorValue: currentErrorMap?.[errorMapKey]
+                        });
+                        if (// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                        currentErrorMap?.[errorMapKey] !== newErrorValue) {
+                            this.setFieldMeta(field, (prev)=>({
+                                    ...prev,
+                                    errorMap: {
+                                        ...prev.errorMap,
+                                        [errorMapKey]: newErrorValue
+                                    },
+                                    errorSourceMap: {
+                                        ...prev.errorSourceMap,
+                                        [errorMapKey]: newSource
+                                    }
+                                }));
+                        }
+                    }
+                    this.baseStore.setState((prev)=>({
+                            ...prev,
+                            errorMap: {
+                                ...prev.errorMap,
+                                [errorMapKey]: formError
+                            }
+                        }));
+                    resolve(fieldErrorsFromFormValidators ? {
+                        fieldErrors: fieldErrorsFromFormValidators,
+                        errorMapKey
+                    } : void 0);
+                }));
+            }
+            let results = [];
+            const fieldsErrorMap = {};
+            if (promises.length) {
+                results = await Promise.all(promises);
+                for (const fieldValidationResult of results){
+                    if (fieldValidationResult?.fieldErrors) {
+                        const { errorMapKey } = fieldValidationResult;
+                        for (const [field, fieldError] of Object.entries(fieldValidationResult.fieldErrors)){
+                            const oldErrorMap = fieldsErrorMap[field] || {};
+                            const newErrorMap = {
+                                ...oldErrorMap,
+                                [errorMapKey]: fieldError
+                            };
+                            fieldsErrorMap[field] = newErrorMap;
+                        }
+                    }
+                }
+            }
+            this.baseStore.setState((prev)=>({
+                    ...prev,
+                    isFormValidating: false
+                }));
+            return fieldsErrorMap;
+        };
+        this.validate = (cause)=>{
+            const { hasErrored, fieldsErrorMap } = this.validateSync(cause);
+            if (hasErrored && !this.options.asyncAlways) {
+                return fieldsErrorMap;
+            }
+            return this.validateAsync(cause);
+        };
+        this._handleSubmit = async (submitMeta)=>{
+            this.baseStore.setState((old)=>({
+                    ...old,
+                    // Submission attempts mark the form as not submitted
+                    isSubmitted: false,
+                    // Count submission attempts
+                    submissionAttempts: old.submissionAttempts + 1,
+                    isSubmitSuccessful: false
+                }));
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                void Object.values(this.fieldInfo).forEach((field)=>{
+                    if (!field.instance) return;
+                    if (!field.instance.state.meta.isTouched) {
+                        field.instance.setMeta((prev)=>({
+                                ...prev,
+                                isTouched: true
+                            }));
+                    }
+                });
+            });
+            const submitMetaArg = submitMeta ?? this.options.onSubmitMeta;
+            if (!this.state.canSubmit && !this._devtoolsSubmissionOverride) {
+                this.options.onSubmitInvalid?.({
+                    value: this.state.values,
+                    formApi: this,
+                    meta: submitMetaArg
+                });
+                return;
+            }
+            this.baseStore.setState((d)=>({
+                    ...d,
+                    isSubmitting: true
+                }));
+            const done = ()=>{
+                this.baseStore.setState((prev)=>({
+                        ...prev,
+                        isSubmitting: false
+                    }));
+            };
+            await this.validateAllFields("submit");
+            if (!this.state.isFieldsValid) {
+                done();
+                this.options.onSubmitInvalid?.({
+                    value: this.state.values,
+                    formApi: this,
+                    meta: submitMetaArg
+                });
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-submission", {
+                    id: this._formId,
+                    submissionAttempt: this.state.submissionAttempts,
+                    successful: false,
+                    stage: "validateAllFields",
+                    errors: Object.values(this.state.fieldMeta).map((meta)=>meta.errors).flat()
+                });
+                return;
+            }
+            await this.validate("submit");
+            if (!this.state.isValid) {
+                done();
+                this.options.onSubmitInvalid?.({
+                    value: this.state.values,
+                    formApi: this,
+                    meta: submitMetaArg
+                });
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-submission", {
+                    id: this._formId,
+                    submissionAttempt: this.state.submissionAttempts,
+                    successful: false,
+                    stage: "validate",
+                    errors: this.state.errors
+                });
+                return;
+            }
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                void Object.values(this.fieldInfo).forEach((field)=>{
+                    field.instance?.options.listeners?.onSubmit?.({
+                        value: field.instance.state.value,
+                        fieldApi: field.instance
+                    });
+                });
+            });
+            this.options.listeners?.onSubmit?.({
+                formApi: this,
+                meta: submitMetaArg
+            });
+            try {
+                await this.options.onSubmit?.({
+                    value: this.state.values,
+                    formApi: this,
+                    meta: submitMetaArg
+                });
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                    this.baseStore.setState((prev)=>({
+                            ...prev,
+                            isSubmitted: true,
+                            isSubmitSuccessful: true
+                        }));
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-submission", {
+                        id: this._formId,
+                        submissionAttempt: this.state.submissionAttempts,
+                        successful: true
+                    });
+                    done();
+                });
+            } catch (err) {
+                this.baseStore.setState((prev)=>({
+                        ...prev,
+                        isSubmitSuccessful: false
+                    }));
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$EventClient$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formEventClient"].emit("form-submission", {
+                    id: this._formId,
+                    submissionAttempt: this.state.submissionAttempts,
+                    successful: false,
+                    stage: "inflight",
+                    onError: err
+                });
+                done();
+                throw err;
+            }
+        };
+        this.getFieldValue = (field)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBy"])(this.state.values, field);
+        this.getFieldMeta = (field)=>{
+            return this.state.fieldMeta[field];
+        };
+        this.getFieldInfo = (field)=>{
+            return this.fieldInfo[field] ||= {
+                instance: null,
+                validationMetaMap: {
+                    onChange: void 0,
+                    onBlur: void 0,
+                    onSubmit: void 0,
+                    onMount: void 0,
+                    onServer: void 0,
+                    onDynamic: void 0
+                }
+            };
+        };
+        this.setFieldMeta = (field, updater)=>{
+            this.baseStore.setState((prev)=>{
+                return {
+                    ...prev,
+                    fieldMetaBase: {
+                        ...prev.fieldMetaBase,
+                        [field]: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["functionalUpdate"])(updater, prev.fieldMetaBase[field])
+                    }
+                };
+            });
+        };
+        this.resetFieldMeta = (fieldMeta)=>{
+            return Object.keys(fieldMeta).reduce((acc, key)=>{
+                const fieldKey = key;
+                acc[fieldKey] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultFieldMeta"];
+                return acc;
+            }, {});
+        };
+        this.setFieldValue = (field, updater, opts2)=>{
+            const dontUpdateMeta = opts2?.dontUpdateMeta ?? false;
+            const dontRunListeners = opts2?.dontRunListeners ?? false;
+            const dontValidate = opts2?.dontValidate ?? false;
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                if (!dontUpdateMeta) {
+                    this.setFieldMeta(field, (prev)=>({
+                            ...prev,
+                            isTouched: true,
+                            isDirty: true,
+                            errorMap: {
+                                // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                                ...prev?.errorMap,
+                                onMount: void 0
+                            }
+                        }));
+                }
+                this.baseStore.setState((prev)=>{
+                    return {
+                        ...prev,
+                        values: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["setBy"])(prev.values, field, updater)
+                    };
+                });
+            });
+            if (!dontRunListeners) {
+                this.getFieldInfo(field).instance?.triggerOnChangeListener();
+            }
+            if (!dontValidate) {
+                this.validateField(field, "change");
+            }
+        };
+        this.deleteField = (field)=>{
+            const subFieldsToDelete = Object.keys(this.fieldInfo).filter((f)=>{
+                const fieldStr = field.toString();
+                return f !== fieldStr && f.startsWith(fieldStr);
+            });
+            const fieldsToDelete = [
+                ...subFieldsToDelete,
+                field
+            ];
+            this.baseStore.setState((prev)=>{
+                const newState = {
+                    ...prev
+                };
+                fieldsToDelete.forEach((f)=>{
+                    newState.values = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["deleteBy"])(newState.values, f);
+                    delete this.fieldInfo[f];
+                    delete newState.fieldMetaBase[f];
+                });
+                return newState;
+            });
+        };
+        this.pushFieldValue = (field, value, options)=>{
+            this.setFieldValue(field, (prev)=>[
+                    ...Array.isArray(prev) ? prev : [],
+                    value
+                ], options);
+        };
+        this.insertFieldValue = async (field, index, value, options)=>{
+            this.setFieldValue(field, (prev)=>{
+                return [
+                    ...prev.slice(0, index),
+                    value,
+                    ...prev.slice(index)
+                ];
+            }, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontValidate: true
+            }));
+            const dontValidate = options?.dontValidate ?? false;
+            if (!dontValidate) {
+                await this.validateField(field, "change");
+            }
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["metaHelper"])(this).handleArrayInsert(field, index);
+            if (!dontValidate) {
+                await this.validateArrayFieldsStartingFrom(field, index, "change");
+            }
+        };
+        this.replaceFieldValue = async (field, index, value, options)=>{
+            this.setFieldValue(field, (prev)=>{
+                return prev.map((d, i)=>i === index ? value : d);
+            }, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontValidate: true
+            }));
+            const dontValidate = options?.dontValidate ?? false;
+            if (!dontValidate) {
+                await this.validateField(field, "change");
+                await this.validateArrayFieldsStartingFrom(field, index, "change");
+            }
+        };
+        this.removeFieldValue = async (field, index, options)=>{
+            const fieldValue = this.getFieldValue(field);
+            const lastIndex = Array.isArray(fieldValue) ? Math.max(fieldValue.length - 1, 0) : null;
+            this.setFieldValue(field, (prev)=>{
+                return prev.filter((_d, i)=>i !== index);
+            }, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontValidate: true
+            }));
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["metaHelper"])(this).handleArrayRemove(field, index);
+            if (lastIndex !== null) {
+                const start = `${field}[${lastIndex}]`;
+                this.deleteField(start);
+            }
+            const dontValidate = options?.dontValidate ?? false;
+            if (!dontValidate) {
+                await this.validateField(field, "change");
+                await this.validateArrayFieldsStartingFrom(field, index, "change");
+            }
+        };
+        this.swapFieldValues = (field, index1, index2, options)=>{
+            this.setFieldValue(field, (prev)=>{
+                const prev1 = prev[index1];
+                const prev2 = prev[index2];
+                return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["setBy"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["setBy"])(prev, `${index1}`, prev2), `${index2}`, prev1);
+            }, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontValidate: true
+            }));
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["metaHelper"])(this).handleArraySwap(field, index1, index2);
+            const dontValidate = options?.dontValidate ?? false;
+            if (!dontValidate) {
+                this.validateField(field, "change");
+                this.validateField(`${field}[${index1}]`, "change");
+                this.validateField(`${field}[${index2}]`, "change");
+            }
+        };
+        this.moveFieldValues = (field, index1, index2, options)=>{
+            this.setFieldValue(field, (prev)=>{
+                const next = [
+                    ...prev
+                ];
+                next.splice(index2, 0, next.splice(index1, 1)[0]);
+                return next;
+            }, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontValidate: true
+            }));
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["metaHelper"])(this).handleArrayMove(field, index1, index2);
+            const dontValidate = options?.dontValidate ?? false;
+            if (!dontValidate) {
+                this.validateField(field, "change");
+                this.validateField(`${field}[${index1}]`, "change");
+                this.validateField(`${field}[${index2}]`, "change");
+            }
+        };
+        this.clearFieldValues = (field, options)=>{
+            const fieldValue = this.getFieldValue(field);
+            const lastIndex = Array.isArray(fieldValue) ? Math.max(fieldValue.length - 1, 0) : null;
+            this.setFieldValue(field, [], (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontValidate: true
+            }));
+            if (lastIndex !== null) {
+                for(let i = 0; i <= lastIndex; i++){
+                    const fieldKey = `${field}[${i}]`;
+                    this.deleteField(fieldKey);
+                }
+            }
+            const dontValidate = options?.dontValidate ?? false;
+            if (!dontValidate) {
+                this.validateField(field, "change");
+            }
+        };
+        this.resetField = (field)=>{
+            this.baseStore.setState((prev)=>{
+                return {
+                    ...prev,
+                    fieldMetaBase: {
+                        ...prev.fieldMetaBase,
+                        [field]: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultFieldMeta"]
+                    },
+                    values: this.options.defaultValues ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["setBy"])(prev.values, field, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBy"])(this.options.defaultValues, field)) : prev.values
+                };
+            });
+        };
+        this.setErrorMap = (errorMap)=>{
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                Object.entries(errorMap).forEach(([key, value])=>{
+                    const errorMapKey = key;
+                    if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isGlobalFormValidationError"])(value)) {
+                        const { formError, fieldErrors } = normalizeError(value);
+                        for (const fieldName of Object.keys(this.fieldInfo)){
+                            const fieldMeta = this.getFieldMeta(fieldName);
+                            if (!fieldMeta) continue;
+                            this.setFieldMeta(fieldName, (prev)=>({
+                                    ...prev,
+                                    errorMap: {
+                                        ...prev.errorMap,
+                                        [errorMapKey]: fieldErrors?.[fieldName]
+                                    },
+                                    errorSourceMap: {
+                                        ...prev.errorSourceMap,
+                                        [errorMapKey]: "form"
+                                    }
+                                }));
+                        }
+                        this.baseStore.setState((prev)=>({
+                                ...prev,
+                                errorMap: {
+                                    ...prev.errorMap,
+                                    [errorMapKey]: formError
+                                }
+                            }));
+                    } else {
+                        this.baseStore.setState((prev)=>({
+                                ...prev,
+                                errorMap: {
+                                    ...prev.errorMap,
+                                    [errorMapKey]: value
+                                }
+                            }));
+                    }
+                });
+            });
+        };
+        this.getAllErrors = ()=>{
+            return {
+                form: {
+                    errors: this.state.errors,
+                    errorMap: this.state.errorMap
+                },
+                fields: Object.entries(this.state.fieldMeta).reduce((acc, [fieldName, fieldMeta])=>{
+                    if (Object.keys(fieldMeta).length && fieldMeta.errors.length) {
+                        acc[fieldName] = {
+                            errors: fieldMeta.errors,
+                            errorMap: fieldMeta.errorMap
+                        };
+                    }
+                    return acc;
+                }, {})
+            };
+        };
+        this.parseValuesWithSchema = (schema)=>{
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["standardSchemaValidators"].validate({
+                value: this.state.values,
+                validationSource: "form"
+            }, schema);
+        };
+        this.parseValuesWithSchemaAsync = (schema)=>{
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["standardSchemaValidators"].validateAsync({
+                value: this.state.values,
+                validationSource: "form"
+            }, schema);
+        };
+        this.timeoutIds = {
+            validations: {},
+            listeners: {},
+            formListeners: {}
+        };
+        this._formId = opts?.formId ?? (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["uuid"])();
+        this._devtoolsSubmissionOverride = false;
+        this.baseStore = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$store$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Store"](getDefaultFormState({
+            ...opts?.defaultState,
+            values: opts?.defaultValues ?? opts?.defaultState?.values
+        }));
+        this.fieldMetaDerived = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Derived"]({
+            deps: [
+                this.baseStore
+            ],
+            fn: ({ prevDepVals, currDepVals, prevVal: _prevVal })=>{
+                const prevVal = _prevVal;
+                const prevBaseStore = prevDepVals?.[0];
+                const currBaseStore = currDepVals[0];
+                let originalMetaCount = 0;
+                const fieldMeta = {};
+                for (const fieldName of Object.keys(currBaseStore.fieldMetaBase)){
+                    const currBaseMeta = currBaseStore.fieldMetaBase[fieldName];
+                    const prevBaseMeta = prevBaseStore?.fieldMetaBase[fieldName];
+                    const prevFieldInfo = prevVal?.[fieldName];
+                    const curFieldVal = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBy"])(currBaseStore.values, fieldName);
+                    let fieldErrors = prevFieldInfo?.errors;
+                    if (!prevBaseMeta || currBaseMeta.errorMap !== prevBaseMeta.errorMap) {
+                        fieldErrors = Object.values(currBaseMeta.errorMap ?? {}).filter((val)=>val !== void 0);
+                        const fieldInstance = this.getFieldInfo(fieldName)?.instance;
+                        if (fieldInstance && !fieldInstance.options.disableErrorFlat) {
+                            fieldErrors = fieldErrors.flat(1);
+                        }
+                    }
+                    const isFieldValid = !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isNonEmptyArray"])(fieldErrors);
+                    const isFieldPristine = !currBaseMeta.isDirty;
+                    const isDefaultValue = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(curFieldVal, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBy"])(this.options.defaultValues, fieldName)) || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(curFieldVal, // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                    this.getFieldInfo(fieldName)?.instance?.options.defaultValue);
+                    if (prevFieldInfo && prevFieldInfo.isPristine === isFieldPristine && prevFieldInfo.isValid === isFieldValid && prevFieldInfo.isDefaultValue === isDefaultValue && prevFieldInfo.errors === fieldErrors && currBaseMeta === prevBaseMeta) {
+                        fieldMeta[fieldName] = prevFieldInfo;
+                        originalMetaCount++;
+                        continue;
+                    }
+                    fieldMeta[fieldName] = {
+                        ...currBaseMeta,
+                        errors: fieldErrors ?? [],
+                        isPristine: isFieldPristine,
+                        isValid: isFieldValid,
+                        isDefaultValue
+                    };
+                }
+                if (!Object.keys(currBaseStore.fieldMetaBase).length) return fieldMeta;
+                if (prevVal && originalMetaCount === Object.keys(currBaseStore.fieldMetaBase).length) {
+                    return prevVal;
+                }
+                return fieldMeta;
+            }
+        });
+        this.store = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Derived"]({
+            deps: [
+                this.baseStore,
+                this.fieldMetaDerived
+            ],
+            fn: ({ prevDepVals, currDepVals, prevVal: _prevVal })=>{
+                const prevVal = _prevVal;
+                const prevBaseStore = prevDepVals?.[0];
+                const currBaseStore = currDepVals[0];
+                const currFieldMeta = currDepVals[1];
+                const fieldMetaValues = Object.values(currFieldMeta).filter(Boolean);
+                const isFieldsValidating = fieldMetaValues.some((field)=>field.isValidating);
+                const isFieldsValid = fieldMetaValues.every((field)=>field.isValid);
+                const isTouched = fieldMetaValues.some((field)=>field.isTouched);
+                const isBlurred = fieldMetaValues.some((field)=>field.isBlurred);
+                const isDefaultValue = fieldMetaValues.every((field)=>field.isDefaultValue);
+                const shouldInvalidateOnMount = // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                isTouched && currBaseStore.errorMap?.onMount;
+                const isDirty = fieldMetaValues.some((field)=>field.isDirty);
+                const isPristine = !isDirty;
+                const hasOnMountError = Boolean(// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                currBaseStore.errorMap?.onMount || // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                fieldMetaValues.some((f)=>f?.errorMap?.onMount));
+                const isValidating = !!isFieldsValidating;
+                let errors = prevVal?.errors ?? [];
+                if (!prevBaseStore || currBaseStore.errorMap !== prevBaseStore.errorMap) {
+                    errors = Object.values(currBaseStore.errorMap).reduce((prev, curr)=>{
+                        if (curr === void 0) return prev;
+                        if (curr && (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isGlobalFormValidationError"])(curr)) {
+                            prev.push(curr.form);
+                            return prev;
+                        }
+                        prev.push(curr);
+                        return prev;
+                    }, []);
+                }
+                const isFormValid = errors.length === 0;
+                const isValid = isFieldsValid && isFormValid;
+                const submitInvalid = this.options.canSubmitWhenInvalid ?? false;
+                const canSubmit = currBaseStore.submissionAttempts === 0 && !isTouched && !hasOnMountError || !isValidating && !currBaseStore.isSubmitting && isValid || submitInvalid;
+                let errorMap = currBaseStore.errorMap;
+                if (shouldInvalidateOnMount) {
+                    errors = errors.filter((err)=>err !== currBaseStore.errorMap.onMount);
+                    errorMap = Object.assign(errorMap, {
+                        onMount: void 0
+                    });
+                }
+                if (prevVal && prevBaseStore && prevVal.errorMap === errorMap && prevVal.fieldMeta === this.fieldMetaDerived.state && prevVal.errors === errors && prevVal.isFieldsValidating === isFieldsValidating && prevVal.isFieldsValid === isFieldsValid && prevVal.isFormValid === isFormValid && prevVal.isValid === isValid && prevVal.canSubmit === canSubmit && prevVal.isTouched === isTouched && prevVal.isBlurred === isBlurred && prevVal.isPristine === isPristine && prevVal.isDefaultValue === isDefaultValue && prevVal.isDirty === isDirty && (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(prevBaseStore, currBaseStore)) {
+                    return prevVal;
+                }
+                let state = {
+                    ...currBaseStore,
+                    errorMap,
+                    fieldMeta: this.fieldMetaDerived.state,
+                    errors,
+                    isFieldsValidating,
+                    isFieldsValid,
+                    isFormValid,
+                    isValid,
+                    canSubmit,
+                    isTouched,
+                    isBlurred,
+                    isPristine,
+                    isDefaultValue,
+                    isDirty
+                };
+                const transformArray = this.options.transform?.deps ?? [];
+                const shouldTransform = transformArray.length !== this.prevTransformArray.length || transformArray.some((val, i)=>val !== this.prevTransformArray[i]);
+                if (shouldTransform) {
+                    const newObj = Object.assign({}, this, {
+                        state
+                    });
+                    this.options.transform?.fn(newObj);
+                    state = newObj.state;
+                    this.prevTransformArray = transformArray;
+                }
+                return state;
+            }
+        });
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.update(opts || {});
+    }
+    get state() {
+        return this.store.state;
+    }
+    get formId() {
+        return this._formId;
+    }
+    /**
+   * @private
+   */ runValidator(props) {
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isStandardSchemaValidator"])(props.validate)) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["standardSchemaValidators"][props.type](props.value, props.validate);
+        }
+        return props.validate(props.value);
+    }
+    handleSubmit(submitMeta) {
+        return this._handleSubmit(submitMeta);
+    }
+}
+function normalizeError(rawError) {
+    if (rawError) {
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isGlobalFormValidationError"])(rawError)) {
+            const formError = normalizeError(rawError.form).formError;
+            const fieldErrors = rawError.fields;
+            return {
+                formError,
+                fieldErrors
+            };
+        }
+        return {
+            formError: rawError
+        };
+    }
+    return {
+        formError: void 0
+    };
+}
+function getErrorMapKey(cause) {
+    switch(cause){
+        case "submit":
+            return "onSubmit";
+        case "blur":
+            return "onBlur";
+        case "mount":
+            return "onMount";
+        case "server":
+            return "onServer";
+        case "dynamic":
+            return "onDynamic";
+        case "change":
+        default:
+            return "onChange";
+    }
+}
+;
+ //# sourceMappingURL=FormApi.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+/**
+ * @license React
+ * use-sync-external-store-shim.development.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+"use strict";
+"production" !== ("TURBOPACK compile-time value", "development") && function() {
+    function is(x, y) {
+        return x === y && (0 !== x || 1 / x === 1 / y) || x !== x && y !== y;
+    }
+    function useSyncExternalStore$2(subscribe, getSnapshot) {
+        didWarnOld18Alpha || void 0 === React.startTransition || (didWarnOld18Alpha = !0, console.error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release."));
+        var value = getSnapshot();
+        if (!didWarnUncachedGetSnapshot) {
+            var cachedValue = getSnapshot();
+            objectIs(value, cachedValue) || (console.error("The result of getSnapshot should be cached to avoid an infinite loop"), didWarnUncachedGetSnapshot = !0);
+        }
+        cachedValue = useState({
+            inst: {
+                value: value,
+                getSnapshot: getSnapshot
+            }
+        });
+        var inst = cachedValue[0].inst, forceUpdate = cachedValue[1];
+        useLayoutEffect({
+            "useSyncExternalStore$2.useLayoutEffect": function() {
+                inst.value = value;
+                inst.getSnapshot = getSnapshot;
+                checkIfSnapshotChanged(inst) && forceUpdate({
+                    inst: inst
+                });
+            }
+        }["useSyncExternalStore$2.useLayoutEffect"], [
+            subscribe,
+            value,
+            getSnapshot
+        ]);
+        useEffect({
+            "useSyncExternalStore$2.useEffect": function() {
+                checkIfSnapshotChanged(inst) && forceUpdate({
+                    inst: inst
+                });
+                return subscribe({
+                    "useSyncExternalStore$2.useEffect": function() {
+                        checkIfSnapshotChanged(inst) && forceUpdate({
+                            inst: inst
+                        });
+                    }
+                }["useSyncExternalStore$2.useEffect"]);
+            }
+        }["useSyncExternalStore$2.useEffect"], [
+            subscribe
+        ]);
+        useDebugValue(value);
+        return value;
+    }
+    function checkIfSnapshotChanged(inst) {
+        var latestGetSnapshot = inst.getSnapshot;
+        inst = inst.value;
+        try {
+            var nextValue = latestGetSnapshot();
+            return !objectIs(inst, nextValue);
+        } catch (error) {
+            return !0;
+        }
+    }
+    function useSyncExternalStore$1(subscribe, getSnapshot) {
+        return getSnapshot();
+    }
+    "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
+    var React = __turbopack_context__.r("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"), objectIs = "function" === typeof Object.is ? Object.is : is, useState = React.useState, useEffect = React.useEffect, useLayoutEffect = React.useLayoutEffect, useDebugValue = React.useDebugValue, didWarnOld18Alpha = !1, didWarnUncachedGetSnapshot = !1, shim = "undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement ? useSyncExternalStore$1 : useSyncExternalStore$2;
+    exports.useSyncExternalStore = void 0 !== React.useSyncExternalStore ? React.useSyncExternalStore : shim;
+    "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
+}();
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/shim/index.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+'use strict';
+if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+;
+else {
+    module.exports = __turbopack_context__.r("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js [app-client] (ecmascript)");
+}
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+/**
+ * @license React
+ * use-sync-external-store-shim/with-selector.development.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+"use strict";
+"production" !== ("TURBOPACK compile-time value", "development") && function() {
+    function is(x, y) {
+        return x === y && (0 !== x || 1 / x === 1 / y) || x !== x && y !== y;
+    }
+    "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
+    var React = __turbopack_context__.r("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)"), shim = __turbopack_context__.r("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/shim/index.js [app-client] (ecmascript)"), objectIs = "function" === typeof Object.is ? Object.is : is, useSyncExternalStore = shim.useSyncExternalStore, useRef = React.useRef, useEffect = React.useEffect, useMemo = React.useMemo, useDebugValue = React.useDebugValue;
+    exports.useSyncExternalStoreWithSelector = function(subscribe, getSnapshot, getServerSnapshot, selector, isEqual) {
+        var instRef = useRef(null);
+        if (null === instRef.current) {
+            var inst = {
+                hasValue: !1,
+                value: null
+            };
+            instRef.current = inst;
+        } else inst = instRef.current;
+        instRef = useMemo(function() {
+            function memoizedSelector(nextSnapshot) {
+                if (!hasMemo) {
+                    hasMemo = !0;
+                    memoizedSnapshot = nextSnapshot;
+                    nextSnapshot = selector(nextSnapshot);
+                    if (void 0 !== isEqual && inst.hasValue) {
+                        var currentSelection = inst.value;
+                        if (isEqual(currentSelection, nextSnapshot)) return memoizedSelection = currentSelection;
+                    }
+                    return memoizedSelection = nextSnapshot;
+                }
+                currentSelection = memoizedSelection;
+                if (objectIs(memoizedSnapshot, nextSnapshot)) return currentSelection;
+                var nextSelection = selector(nextSnapshot);
+                if (void 0 !== isEqual && isEqual(currentSelection, nextSelection)) return memoizedSnapshot = nextSnapshot, currentSelection;
+                memoizedSnapshot = nextSnapshot;
+                return memoizedSelection = nextSelection;
+            }
+            var hasMemo = !1, memoizedSnapshot, memoizedSelection, maybeGetServerSnapshot = void 0 === getServerSnapshot ? null : getServerSnapshot;
+            return [
+                function() {
+                    return memoizedSelector(getSnapshot());
+                },
+                null === maybeGetServerSnapshot ? void 0 : function() {
+                    return memoizedSelector(maybeGetServerSnapshot());
+                }
+            ];
+        }, [
+            getSnapshot,
+            getServerSnapshot,
+            selector,
+            isEqual
+        ]);
+        var value = useSyncExternalStore(subscribe, instRef[0], instRef[1]);
+        useEffect(function() {
+            inst.hasValue = !0;
+            inst.value = value;
+        }, [
+            value
+        ]);
+        useDebugValue(value);
+        return value;
+    };
+    "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
+}();
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/shim/with-selector.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+'use strict';
+if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+;
+else {
+    module.exports = __turbopack_context__.r("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js [app-client] (ecmascript)");
+}
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/node_modules/@tanstack/react-store/dist/esm/index.js [app-client] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "shallow",
+    ()=>shallow,
+    "useStore",
+    ()=>useStore
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$use$2d$sync$2d$external$2d$store$2f$shim$2f$with$2d$selector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/use-sync-external-store/shim/with-selector.js [app-client] (ecmascript)");
+;
+;
+function useStore(store, selector = (d)=>d, options = {}) {
+    const equal = options.equal ?? shallow;
+    const slice = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$use$2d$sync$2d$external$2d$store$2f$shim$2f$with$2d$selector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSyncExternalStoreWithSelector"])(store.subscribe, {
+        "useStore.useSyncExternalStoreWithSelector[slice]": ()=>store.state
+    }["useStore.useSyncExternalStoreWithSelector[slice]"], {
+        "useStore.useSyncExternalStoreWithSelector[slice]": ()=>store.state
+    }["useStore.useSyncExternalStoreWithSelector[slice]"], selector, equal);
+    return slice;
+}
+function shallow(objA, objB) {
+    if (Object.is(objA, objB)) {
+        return true;
+    }
+    if (typeof objA !== "object" || objA === null || typeof objB !== "object" || objB === null) {
+        return false;
+    }
+    if (objA instanceof Map && objB instanceof Map) {
+        if (objA.size !== objB.size) return false;
+        for (const [k, v] of objA){
+            if (!objB.has(k) || !Object.is(v, objB.get(k))) return false;
+        }
+        return true;
+    }
+    if (objA instanceof Set && objB instanceof Set) {
+        if (objA.size !== objB.size) return false;
+        for (const v of objA){
+            if (!objB.has(v)) return false;
+        }
+        return true;
+    }
+    if (objA instanceof Date && objB instanceof Date) {
+        if (objA.getTime() !== objB.getTime()) return false;
+        return true;
+    }
+    const keysA = getOwnKeys(objA);
+    if (keysA.length !== getOwnKeys(objB).length) {
+        return false;
+    }
+    for(let i = 0; i < keysA.length; i++){
+        if (!Object.prototype.hasOwnProperty.call(objB, keysA[i]) || !Object.is(objA[keysA[i]], objB[keysA[i]])) {
+            return false;
+        }
+    }
+    return true;
+}
+function getOwnKeys(obj) {
+    return Object.keys(obj).concat(Object.getOwnPropertySymbols(obj));
+}
+;
+ //# sourceMappingURL=index.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/FieldApi.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "FieldApi",
+    ()=>FieldApi
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/scheduler.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/store/dist/esm/derived.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/standardSchemaValidator.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/metaHelper.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/ValidationLogic.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+class FieldApi {
+    /**
+   * Initializes a new `FieldApi` instance.
+   */ constructor(opts){
+        this.options = {};
+        this.mount = ()=>{
+            const cleanup = this.store.mount();
+            if (this.options.defaultValue !== void 0 && !this.getMeta().isTouched) {
+                this.form.setFieldValue(this.name, this.options.defaultValue, {
+                    dontUpdateMeta: true
+                });
+            }
+            const info = this.getInfo();
+            info.instance = this;
+            this.update(this.options);
+            const { onMount } = this.options.validators || {};
+            if (onMount) {
+                const error = this.runValidator({
+                    validate: onMount,
+                    value: {
+                        value: this.state.value,
+                        fieldApi: this,
+                        validationSource: "field"
+                    },
+                    type: "validate"
+                });
+                if (error) {
+                    this.setMeta((prev)=>({
+                            ...prev,
+                            // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                            errorMap: {
+                                ...prev?.errorMap,
+                                onMount: error
+                            },
+                            errorSourceMap: {
+                                // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                                ...prev?.errorSourceMap,
+                                onMount: "field"
+                            }
+                        }));
+                }
+            }
+            this.options.listeners?.onMount?.({
+                value: this.state.value,
+                fieldApi: this
+            });
+            return cleanup;
+        };
+        this.update = (opts2)=>{
+            this.options = opts2;
+            this.name = opts2.name;
+            if (!this.state.meta.isTouched && this.options.defaultValue !== void 0) {
+                const formField = this.form.getFieldValue(this.name);
+                if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(formField, opts2.defaultValue)) {
+                    this.form.setFieldValue(this.name, opts2.defaultValue, {
+                        dontUpdateMeta: true,
+                        dontValidate: true,
+                        dontRunListeners: true
+                    });
+                }
+            }
+            if (!this.form.getFieldMeta(this.name)) {
+                this.form.setFieldMeta(this.name, this.state.meta);
+            }
+        };
+        this.getValue = ()=>{
+            return this.form.getFieldValue(this.name);
+        };
+        this.setValue = (updater, options)=>{
+            this.form.setFieldValue(this.name, updater, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true,
+                dontValidate: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+            if (!options?.dontValidate) {
+                this.validate("change");
+            }
+        };
+        this.getMeta = ()=>this.store.state.meta;
+        this.setMeta = (updater)=>this.form.setFieldMeta(this.name, updater);
+        this.getInfo = ()=>this.form.getFieldInfo(this.name);
+        this.pushValue = (value, options)=>{
+            this.form.pushFieldValue(this.name, value, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.insertValue = (index, value, options)=>{
+            this.form.insertFieldValue(this.name, index, value, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.replaceValue = (index, value, options)=>{
+            this.form.replaceFieldValue(this.name, index, value, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.removeValue = (index, options)=>{
+            this.form.removeFieldValue(this.name, index, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.swapValues = (aIndex, bIndex, options)=>{
+            this.form.swapFieldValues(this.name, aIndex, bIndex, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.moveValue = (aIndex, bIndex, options)=>{
+            this.form.moveFieldValues(this.name, aIndex, bIndex, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.clearValues = (options)=>{
+            this.form.clearFieldValues(this.name, (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mergeOpts"])(options, {
+                dontRunListeners: true
+            }));
+            if (!options?.dontRunListeners) {
+                this.triggerOnChangeListener();
+            }
+        };
+        this.getLinkedFields = (cause)=>{
+            const fields = Object.values(this.form.fieldInfo);
+            const linkedFields = [];
+            for (const field of fields){
+                if (!field.instance) continue;
+                const { onChangeListenTo, onBlurListenTo } = field.instance.options.validators || {};
+                if (cause === "change" && onChangeListenTo?.includes(this.name)) {
+                    linkedFields.push(field.instance);
+                }
+                if (cause === "blur" && onBlurListenTo?.includes(this.name)) {
+                    linkedFields.push(field.instance);
+                }
+            }
+            return linkedFields;
+        };
+        this.validateSync = (cause, errorFromForm)=>{
+            const validates = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getSyncValidatorArray"])(cause, {
+                ...this.options,
+                form: this.form,
+                validationLogic: this.form.options.validationLogic || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultValidationLogic"]
+            });
+            const linkedFields = this.getLinkedFields(cause);
+            const linkedFieldValidates = linkedFields.reduce((acc, field)=>{
+                const fieldValidates = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getSyncValidatorArray"])(cause, {
+                    ...field.options,
+                    form: field.form,
+                    validationLogic: field.form.options.validationLogic || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultValidationLogic"]
+                });
+                fieldValidates.forEach((validate)=>{
+                    validate.field = field;
+                });
+                return acc.concat(fieldValidates);
+            }, []);
+            let hasErrored = false;
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$scheduler$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["batch"])(()=>{
+                const validateFieldFn = (field, validateObj)=>{
+                    const errorMapKey = getErrorMapKey(validateObj.cause);
+                    const fieldLevelError = validateObj.validate ? normalizeError(field.runValidator({
+                        validate: validateObj.validate,
+                        value: {
+                            value: field.store.state.value,
+                            validationSource: "field",
+                            fieldApi: field
+                        },
+                        type: "validate"
+                    })) : void 0;
+                    const formLevelError = errorFromForm[errorMapKey];
+                    const { newErrorValue, newSource } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["determineFieldLevelErrorSourceAndValue"])({
+                        formLevelError,
+                        fieldLevelError
+                    });
+                    if (field.state.meta.errorMap?.[errorMapKey] !== newErrorValue) {
+                        field.setMeta((prev)=>({
+                                ...prev,
+                                errorMap: {
+                                    ...prev.errorMap,
+                                    [errorMapKey]: newErrorValue
+                                },
+                                errorSourceMap: {
+                                    ...prev.errorSourceMap,
+                                    [errorMapKey]: newSource
+                                }
+                            }));
+                    }
+                    if (newErrorValue) {
+                        hasErrored = true;
+                    }
+                };
+                for (const validateObj of validates){
+                    validateFieldFn(this, validateObj);
+                }
+                for (const fieldValitateObj of linkedFieldValidates){
+                    if (!fieldValitateObj.validate) continue;
+                    validateFieldFn(fieldValitateObj.field, fieldValitateObj);
+                }
+            });
+            const submitErrKey = getErrorMapKey("submit");
+            if (// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+            this.state.meta.errorMap?.[submitErrKey] && cause !== "submit" && !hasErrored) {
+                this.setMeta((prev)=>({
+                        ...prev,
+                        errorMap: {
+                            ...prev.errorMap,
+                            [submitErrKey]: void 0
+                        },
+                        errorSourceMap: {
+                            ...prev.errorSourceMap,
+                            [submitErrKey]: void 0
+                        }
+                    }));
+            }
+            return {
+                hasErrored
+            };
+        };
+        this.validateAsync = async (cause, formValidationResultPromise)=>{
+            const validates = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getAsyncValidatorArray"])(cause, {
+                ...this.options,
+                form: this.form,
+                validationLogic: this.form.options.validationLogic || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultValidationLogic"]
+            });
+            const asyncFormValidationResults = await formValidationResultPromise;
+            const linkedFields = this.getLinkedFields(cause);
+            const linkedFieldValidates = linkedFields.reduce((acc, field)=>{
+                const fieldValidates = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getAsyncValidatorArray"])(cause, {
+                    ...field.options,
+                    form: field.form,
+                    validationLogic: field.form.options.validationLogic || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$ValidationLogic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultValidationLogic"]
+                });
+                fieldValidates.forEach((validate)=>{
+                    validate.field = field;
+                });
+                return acc.concat(fieldValidates);
+            }, []);
+            const validatesPromises = [];
+            const linkedPromises = [];
+            const hasAsyncValidators = validates.some((v)=>v.validate) || linkedFieldValidates.some((v)=>v.validate);
+            if (hasAsyncValidators) {
+                if (!this.state.meta.isValidating) {
+                    this.setMeta((prev)=>({
+                            ...prev,
+                            isValidating: true
+                        }));
+                }
+                for (const linkedField of linkedFields){
+                    linkedField.setMeta((prev)=>({
+                            ...prev,
+                            isValidating: true
+                        }));
+                }
+            }
+            const validateFieldAsyncFn = (field, validateObj, promises)=>{
+                const errorMapKey = getErrorMapKey(validateObj.cause);
+                const fieldValidatorMeta = field.getInfo().validationMetaMap[errorMapKey];
+                fieldValidatorMeta?.lastAbortController.abort();
+                const controller = new AbortController();
+                this.getInfo().validationMetaMap[errorMapKey] = {
+                    lastAbortController: controller
+                };
+                promises.push(new Promise(async (resolve)=>{
+                    let rawError;
+                    try {
+                        rawError = await new Promise((rawResolve, rawReject)=>{
+                            if (this.timeoutIds.validations[validateObj.cause]) {
+                                clearTimeout(this.timeoutIds.validations[validateObj.cause]);
+                            }
+                            this.timeoutIds.validations[validateObj.cause] = setTimeout(async ()=>{
+                                if (controller.signal.aborted) return rawResolve(void 0);
+                                try {
+                                    rawResolve(await this.runValidator({
+                                        validate: validateObj.validate,
+                                        value: {
+                                            value: field.store.state.value,
+                                            fieldApi: field,
+                                            signal: controller.signal,
+                                            validationSource: "field"
+                                        },
+                                        type: "validateAsync"
+                                    }));
+                                } catch (e) {
+                                    rawReject(e);
+                                }
+                            }, validateObj.debounceMs);
+                        });
+                    } catch (e) {
+                        rawError = e;
+                    }
+                    if (controller.signal.aborted) return resolve(void 0);
+                    const fieldLevelError = normalizeError(rawError);
+                    const formLevelError = asyncFormValidationResults[this.name]?.[errorMapKey];
+                    const { newErrorValue, newSource } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["determineFieldLevelErrorSourceAndValue"])({
+                        formLevelError,
+                        fieldLevelError
+                    });
+                    field.setMeta((prev)=>{
+                        return {
+                            ...prev,
+                            errorMap: {
+                                // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                                ...prev?.errorMap,
+                                [errorMapKey]: newErrorValue
+                            },
+                            errorSourceMap: {
+                                ...prev.errorSourceMap,
+                                [errorMapKey]: newSource
+                            }
+                        };
+                    });
+                    resolve(newErrorValue);
+                }));
+            };
+            for (const validateObj of validates){
+                if (!validateObj.validate) continue;
+                validateFieldAsyncFn(this, validateObj, validatesPromises);
+            }
+            for (const fieldValitateObj of linkedFieldValidates){
+                if (!fieldValitateObj.validate) continue;
+                validateFieldAsyncFn(fieldValitateObj.field, fieldValitateObj, linkedPromises);
+            }
+            let results = [];
+            if (validatesPromises.length || linkedPromises.length) {
+                results = await Promise.all(validatesPromises);
+                await Promise.all(linkedPromises);
+            }
+            if (hasAsyncValidators) {
+                this.setMeta((prev)=>({
+                        ...prev,
+                        isValidating: false
+                    }));
+                for (const linkedField of linkedFields){
+                    linkedField.setMeta((prev)=>({
+                            ...prev,
+                            isValidating: false
+                        }));
+                }
+            }
+            return results.filter(Boolean);
+        };
+        this.validate = (cause, opts2)=>{
+            if (!this.state.meta.isTouched) return [];
+            const { fieldsErrorMap } = opts2?.skipFormValidation ? {
+                fieldsErrorMap: {}
+            } : this.form.validateSync(cause);
+            const { hasErrored } = this.validateSync(cause, fieldsErrorMap[this.name] ?? {});
+            if (hasErrored && !this.options.asyncAlways) {
+                this.getInfo().validationMetaMap[getErrorMapKey(cause)]?.lastAbortController.abort();
+                return this.state.meta.errors;
+            }
+            const formValidationResultPromise = opts2?.skipFormValidation ? Promise.resolve({}) : this.form.validateAsync(cause);
+            return this.validateAsync(cause, formValidationResultPromise);
+        };
+        this.handleChange = (updater)=>{
+            this.setValue(updater);
+        };
+        this.handleBlur = ()=>{
+            const prevTouched = this.state.meta.isTouched;
+            if (!prevTouched) {
+                this.setMeta((prev)=>({
+                        ...prev,
+                        isTouched: true
+                    }));
+            }
+            if (!this.state.meta.isBlurred) {
+                this.setMeta((prev)=>({
+                        ...prev,
+                        isBlurred: true
+                    }));
+            }
+            this.validate("blur");
+            this.triggerOnBlurListener();
+        };
+        this.setErrorMap = (errorMap)=>{
+            this.setMeta((prev)=>({
+                    ...prev,
+                    errorMap: {
+                        ...prev.errorMap,
+                        ...errorMap
+                    }
+                }));
+        };
+        this.parseValueWithSchema = (schema)=>{
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["standardSchemaValidators"].validate({
+                value: this.state.value,
+                validationSource: "field"
+            }, schema);
+        };
+        this.parseValueWithSchemaAsync = (schema)=>{
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["standardSchemaValidators"].validateAsync({
+                value: this.state.value,
+                validationSource: "field"
+            }, schema);
+        };
+        this.triggerOnChangeListener = ()=>{
+            const formDebounceMs = this.form.options.listeners?.onChangeDebounceMs;
+            if (formDebounceMs && formDebounceMs > 0) {
+                if (this.timeoutIds.formListeners.change) {
+                    clearTimeout(this.timeoutIds.formListeners.change);
+                }
+                this.timeoutIds.formListeners.change = setTimeout(()=>{
+                    this.form.options.listeners?.onChange?.({
+                        formApi: this.form,
+                        fieldApi: this
+                    });
+                }, formDebounceMs);
+            } else {
+                this.form.options.listeners?.onChange?.({
+                    formApi: this.form,
+                    fieldApi: this
+                });
+            }
+            const fieldDebounceMs = this.options.listeners?.onChangeDebounceMs;
+            if (fieldDebounceMs && fieldDebounceMs > 0) {
+                if (this.timeoutIds.listeners.change) {
+                    clearTimeout(this.timeoutIds.listeners.change);
+                }
+                this.timeoutIds.listeners.change = setTimeout(()=>{
+                    this.options.listeners?.onChange?.({
+                        value: this.state.value,
+                        fieldApi: this
+                    });
+                }, fieldDebounceMs);
+            } else {
+                this.options.listeners?.onChange?.({
+                    value: this.state.value,
+                    fieldApi: this
+                });
+            }
+        };
+        this.form = opts.form;
+        this.name = opts.name;
+        this.options = opts;
+        this.timeoutIds = {
+            validations: {},
+            listeners: {},
+            formListeners: {}
+        };
+        this.store = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$store$2f$dist$2f$esm$2f$derived$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Derived"]({
+            deps: [
+                this.form.store
+            ],
+            fn: ()=>{
+                const meta = this.form.getFieldMeta(this.name) ?? {
+                    ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$metaHelper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultFieldMeta"],
+                    ...opts.defaultMeta
+                };
+                let value = this.form.getFieldValue(this.name);
+                if (!meta.isTouched && value === void 0 && this.options.defaultValue !== void 0 && !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["evaluate"])(value, this.options.defaultValue)) {
+                    value = this.options.defaultValue;
+                }
+                return {
+                    value,
+                    meta
+                };
+            }
+        });
+    }
+    /**
+   * The current field state.
+   */ get state() {
+        return this.store.state;
+    }
+    /**
+   * @private
+   */ runValidator(props) {
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isStandardSchemaValidator"])(props.validate)) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$standardSchemaValidator$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["standardSchemaValidators"][props.type](props.value, props.validate);
+        }
+        return props.validate(props.value);
+    }
+    triggerOnBlurListener() {
+        const formDebounceMs = this.form.options.listeners?.onBlurDebounceMs;
+        if (formDebounceMs && formDebounceMs > 0) {
+            if (this.timeoutIds.formListeners.blur) {
+                clearTimeout(this.timeoutIds.formListeners.blur);
+            }
+            this.timeoutIds.formListeners.blur = setTimeout(()=>{
+                this.form.options.listeners?.onBlur?.({
+                    formApi: this.form,
+                    fieldApi: this
+                });
+            }, formDebounceMs);
+        } else {
+            this.form.options.listeners?.onBlur?.({
+                formApi: this.form,
+                fieldApi: this
+            });
+        }
+        const fieldDebounceMs = this.options.listeners?.onBlurDebounceMs;
+        if (fieldDebounceMs && fieldDebounceMs > 0) {
+            if (this.timeoutIds.listeners.blur) {
+                clearTimeout(this.timeoutIds.listeners.blur);
+            }
+            this.timeoutIds.listeners.blur = setTimeout(()=>{
+                this.options.listeners?.onBlur?.({
+                    value: this.state.value,
+                    fieldApi: this
+                });
+            }, fieldDebounceMs);
+        } else {
+            this.options.listeners?.onBlur?.({
+                value: this.state.value,
+                fieldApi: this
+            });
+        }
+    }
+}
+function normalizeError(rawError) {
+    if (rawError) {
+        return rawError;
+    }
+    return void 0;
+}
+function getErrorMapKey(cause) {
+    switch(cause){
+        case "submit":
+            return "onSubmit";
+        case "blur":
+            return "onBlur";
+        case "mount":
+            return "onMount";
+        case "server":
+            return "onServer";
+        case "dynamic":
+            return "onDynamic";
+        case "change":
+        default:
+            return "onChange";
+    }
+}
+;
+ //# sourceMappingURL=FieldApi.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useIsomorphicLayoutEffect.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useIsomorphicLayoutEffect",
+    ()=>useIsomorphicLayoutEffect
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"] : __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"];
+;
+ //# sourceMappingURL=useIsomorphicLayoutEffect.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useField.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Field",
+    ()=>Field,
+    "useField",
+    ()=>useField
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/node_modules/@tanstack/react-store/dist/esm/index.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$FieldApi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/FieldApi.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useIsomorphicLayoutEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useIsomorphicLayoutEffect.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+function useField(opts) {
+    const [prevOptions, setPrevOptions] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        "useField.useState": ()=>({
+                form: opts.form,
+                name: opts.name
+            })
+    }["useField.useState"]);
+    const [fieldApi, setFieldApi] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        "useField.useState": ()=>{
+            return new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$FieldApi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FieldApi"]({
+                ...opts
+            });
+        }
+    }["useField.useState"]);
+    if (prevOptions.form !== opts.form || prevOptions.name !== opts.name) {
+        setFieldApi(new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$FieldApi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FieldApi"]({
+            ...opts
+        }));
+        setPrevOptions({
+            form: opts.form,
+            name: opts.name
+        });
+    }
+    const reactiveStateValue = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, opts.mode === "array" ? ({
+        "useField.useStore[reactiveStateValue]": (state)=>Object.keys(state.value ?? []).length
+    })["useField.useStore[reactiveStateValue]"] : ({
+        "useField.useStore[reactiveStateValue]": (state)=>state.value
+    })["useField.useStore[reactiveStateValue]"]);
+    const reactiveMetaIsTouched = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, {
+        "useField.useStore[reactiveMetaIsTouched]": (state)=>state.meta.isTouched
+    }["useField.useStore[reactiveMetaIsTouched]"]);
+    const reactiveMetaIsBlurred = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, {
+        "useField.useStore[reactiveMetaIsBlurred]": (state)=>state.meta.isBlurred
+    }["useField.useStore[reactiveMetaIsBlurred]"]);
+    const reactiveMetaIsDirty = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, {
+        "useField.useStore[reactiveMetaIsDirty]": (state)=>state.meta.isDirty
+    }["useField.useStore[reactiveMetaIsDirty]"]);
+    const reactiveMetaErrorMap = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, {
+        "useField.useStore[reactiveMetaErrorMap]": (state)=>state.meta.errorMap
+    }["useField.useStore[reactiveMetaErrorMap]"]);
+    const reactiveMetaErrorSourceMap = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, {
+        "useField.useStore[reactiveMetaErrorSourceMap]": (state)=>state.meta.errorSourceMap
+    }["useField.useStore[reactiveMetaErrorSourceMap]"]);
+    const reactiveMetaIsValidating = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(fieldApi.store, {
+        "useField.useStore[reactiveMetaIsValidating]": (state)=>state.meta.isValidating
+    }["useField.useStore[reactiveMetaIsValidating]"]);
+    const extendedFieldApi = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "useField.useMemo[extendedFieldApi]": ()=>{
+            const reactiveFieldApi = {
+                ...fieldApi,
+                get state () {
+                    return {
+                        // For array mode, reactiveStateValue is the length (for reactivity tracking),
+                        // so we need to get the actual value from fieldApi
+                        value: opts.mode === "array" ? fieldApi.state.value : reactiveStateValue,
+                        get meta () {
+                            return {
+                                ...fieldApi.state.meta,
+                                isTouched: reactiveMetaIsTouched,
+                                isBlurred: reactiveMetaIsBlurred,
+                                isDirty: reactiveMetaIsDirty,
+                                errorMap: reactiveMetaErrorMap,
+                                errorSourceMap: reactiveMetaErrorSourceMap,
+                                isValidating: reactiveMetaIsValidating
+                            };
+                        }
+                    };
+                }
+            };
+            const extendedApi = reactiveFieldApi;
+            extendedApi.Field = Field;
+            return extendedApi;
+        }
+    }["useField.useMemo[extendedFieldApi]"], [
+        fieldApi,
+        opts.mode,
+        reactiveStateValue,
+        reactiveMetaIsTouched,
+        reactiveMetaIsBlurred,
+        reactiveMetaIsDirty,
+        reactiveMetaErrorMap,
+        reactiveMetaErrorSourceMap,
+        reactiveMetaIsValidating
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useIsomorphicLayoutEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsomorphicLayoutEffect"])(fieldApi.mount, [
+        fieldApi
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useIsomorphicLayoutEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsomorphicLayoutEffect"])({
+        "useField.useIsomorphicLayoutEffect": ()=>{
+            fieldApi.update(opts);
+        }
+    }["useField.useIsomorphicLayoutEffect"]);
+    return extendedFieldApi;
+}
+const Field = ({ children, ...fieldOptions })=>{
+    const fieldApi = useField(fieldOptions);
+    const jsxToDisplay = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "useMemo[jsxToDisplay]": ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["functionalUpdate"])(children, fieldApi)
+    }["useMemo[jsxToDisplay]"], [
+        children,
+        fieldApi
+    ]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: jsxToDisplay
+    });
+};
+;
+ //# sourceMappingURL=useField.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useUUID.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useUUID",
+    ()=>useUUID
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/utils.js [app-client] (ecmascript)");
+;
+;
+function useUUID() {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        "useUUID.useState": ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["uuid"])()
+    }["useUUID.useState"])[0];
+}
+;
+ //# sourceMappingURL=useUUID.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useFormId.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useFormId",
+    ()=>useFormId
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useUUID$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useUUID.js [app-client] (ecmascript)");
+;
+;
+const useFormId = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["version"].split(".")[0] === "17" ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useUUID$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useUUID"] : __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useId"];
+;
+ //# sourceMappingURL=useFormId.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useForm.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useForm",
+    ()=>useForm
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$FormApi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/FormApi.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/form-core/dist/esm/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/node_modules/@tanstack/react-store/dist/esm/index.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useField.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useIsomorphicLayoutEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useIsomorphicLayoutEffect.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useFormId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-form/dist/esm/useFormId.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+function LocalSubscribe({ form, selector, children }) {
+    const data = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$node_modules$2f40$tanstack$2f$react$2d$store$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["useStore"])(form.store, selector);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["functionalUpdate"])(children, data)
+    });
+}
+function useForm(opts) {
+    const fallbackFormId = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useFormId$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useFormId"])();
+    const [prevFormId, setPrevFormId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(opts?.formId);
+    const [formApi, setFormApi] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        "useForm.useState": ()=>{
+            return new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$FormApi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FormApi"]({
+                ...opts,
+                formId: opts?.formId ?? fallbackFormId
+            });
+        }
+    }["useForm.useState"]);
+    if (prevFormId !== opts?.formId) {
+        const formId = opts?.formId ?? fallbackFormId;
+        setFormApi(new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$form$2d$core$2f$dist$2f$esm$2f$FormApi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FormApi"]({
+            ...opts,
+            formId
+        }));
+        setPrevFormId(formId);
+    }
+    const extendedFormApi = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "useForm.useMemo[extendedFormApi]": ()=>{
+            const extendedApi = {
+                ...formApi,
+                handleSubmit: {
+                    "useForm.useMemo[extendedFormApi]": (...props)=>{
+                        return formApi._handleSubmit(...props);
+                    }
+                }["useForm.useMemo[extendedFormApi]"],
+                // We must add all `get`ters from `core`'s `FormApi` here, as otherwise the spread operator won't catch those
+                get formId () {
+                    return formApi._formId;
+                },
+                get state () {
+                    return formApi.store.state;
+                }
+            };
+            extendedApi.Field = function APIField(props) {
+                return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Field"], {
+                    ...props,
+                    form: formApi
+                });
+            };
+            extendedApi.Subscribe = function Subscribe(props) {
+                return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(LocalSubscribe, {
+                    form: formApi,
+                    selector: props.selector,
+                    children: props.children
+                });
+            };
+            return extendedApi;
+        }
+    }["useForm.useMemo[extendedFormApi]"], [
+        formApi
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useIsomorphicLayoutEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsomorphicLayoutEffect"])(formApi.mount, []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$form$2f$dist$2f$esm$2f$useIsomorphicLayoutEffect$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsomorphicLayoutEffect"])({
+        "useForm.useIsomorphicLayoutEffect": ()=>{
+            formApi.update(opts);
+        }
+    }["useForm.useIsomorphicLayoutEffect"]);
+    return extendedFormApi;
+}
+;
+ //# sourceMappingURL=useForm.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>ChevronRight
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const ChevronRight = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("ChevronRight", [
+    [
+        "path",
+        {
+            d: "m9 18 6-6-6-6",
+            key: "mthhwq"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=chevron-right.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript) <export default as ChevronRight>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ChevronRight",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Clock
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Clock = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Clock", [
+    [
+        "circle",
+        {
+            cx: "12",
+            cy: "12",
+            r: "10",
+            key: "1mglay"
+        }
+    ],
+    [
+        "polyline",
+        {
+            points: "12 6 12 12 16 14",
+            key: "68esgv"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=clock.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript) <export default as Clock>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Clock",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>LoaderCircle
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const LoaderCircle = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("LoaderCircle", [
+    [
+        "path",
+        {
+            d: "M21 12a9 9 0 1 1-6.219-8.56",
+            key: "13zald"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=loader-circle.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-client] (ecmascript) <export default as Loader2>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Loader2",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>MapPin
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const MapPin = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("MapPin", [
+    [
+        "path",
+        {
+            d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+            key: "1r0f0z"
+        }
+    ],
+    [
+        "circle",
+        {
+            cx: "12",
+            cy: "10",
+            r: "3",
+            key: "ilqhr7"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=map-pin.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "MapPin",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/navigation.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Navigation
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Navigation = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Navigation", [
+    [
+        "polygon",
+        {
+            points: "3 11 22 2 13 21 11 13 3 11",
+            key: "1ltx0t"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=navigation.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/navigation.js [app-client] (ecmascript) <export default as Navigation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Navigation",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/navigation.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/external.js [app-client] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([]);
+;
+;
+;
+;
+;
+;
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/util.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ZodParsedType",
+    ()=>ZodParsedType,
+    "getParsedType",
+    ()=>getParsedType,
+    "objectUtil",
+    ()=>objectUtil,
+    "util",
+    ()=>util
+]);
+var util;
+(function(util) {
+    util.assertEqual = (_)=>{};
+    function assertIs(_arg) {}
+    util.assertIs = assertIs;
+    function assertNever(_x) {
+        throw new Error();
+    }
+    util.assertNever = assertNever;
+    util.arrayToEnum = (items)=>{
+        const obj = {};
+        for (const item of items){
+            obj[item] = item;
+        }
+        return obj;
+    };
+    util.getValidEnumValues = (obj)=>{
+        const validKeys = util.objectKeys(obj).filter((k)=>typeof obj[obj[k]] !== "number");
+        const filtered = {};
+        for (const k of validKeys){
+            filtered[k] = obj[k];
+        }
+        return util.objectValues(filtered);
+    };
+    util.objectValues = (obj)=>{
+        return util.objectKeys(obj).map(function(e) {
+            return obj[e];
+        });
+    };
+    util.objectKeys = typeof Object.keys === "function" // eslint-disable-line ban/ban
+     ? (obj)=>Object.keys(obj) // eslint-disable-line ban/ban
+     : (object)=>{
+        const keys = [];
+        for(const key in object){
+            if (Object.prototype.hasOwnProperty.call(object, key)) {
+                keys.push(key);
+            }
+        }
+        return keys;
+    };
+    util.find = (arr, checker)=>{
+        for (const item of arr){
+            if (checker(item)) return item;
+        }
+        return undefined;
+    };
+    util.isInteger = typeof Number.isInteger === "function" ? (val)=>Number.isInteger(val) // eslint-disable-line ban/ban
+     : (val)=>typeof val === "number" && Number.isFinite(val) && Math.floor(val) === val;
+    function joinValues(array, separator = " | ") {
+        return array.map((val)=>typeof val === "string" ? `'${val}'` : val).join(separator);
+    }
+    util.joinValues = joinValues;
+    util.jsonStringifyReplacer = (_, value)=>{
+        if (typeof value === "bigint") {
+            return value.toString();
+        }
+        return value;
+    };
+})(util || (util = {}));
+var objectUtil;
+(function(objectUtil) {
+    objectUtil.mergeShapes = (first, second)=>{
+        return {
+            ...first,
+            ...second
+        };
+    };
+})(objectUtil || (objectUtil = {}));
+const ZodParsedType = util.arrayToEnum([
+    "string",
+    "nan",
+    "number",
+    "integer",
+    "float",
+    "boolean",
+    "date",
+    "bigint",
+    "symbol",
+    "function",
+    "undefined",
+    "null",
+    "array",
+    "object",
+    "unknown",
+    "promise",
+    "void",
+    "never",
+    "map",
+    "set"
+]);
+const getParsedType = (data)=>{
+    const t = typeof data;
+    switch(t){
+        case "undefined":
+            return ZodParsedType.undefined;
+        case "string":
+            return ZodParsedType.string;
+        case "number":
+            return Number.isNaN(data) ? ZodParsedType.nan : ZodParsedType.number;
+        case "boolean":
+            return ZodParsedType.boolean;
+        case "function":
+            return ZodParsedType.function;
+        case "bigint":
+            return ZodParsedType.bigint;
+        case "symbol":
+            return ZodParsedType.symbol;
+        case "object":
+            if (Array.isArray(data)) {
+                return ZodParsedType.array;
+            }
+            if (data === null) {
+                return ZodParsedType.null;
+            }
+            if (data.then && typeof data.then === "function" && data.catch && typeof data.catch === "function") {
+                return ZodParsedType.promise;
+            }
+            if (typeof Map !== "undefined" && data instanceof Map) {
+                return ZodParsedType.map;
+            }
+            if (typeof Set !== "undefined" && data instanceof Set) {
+                return ZodParsedType.set;
+            }
+            if (typeof Date !== "undefined" && data instanceof Date) {
+                return ZodParsedType.date;
+            }
+            return ZodParsedType.object;
+        default:
+            return ZodParsedType.unknown;
+    }
+};
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/ZodError.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ZodError",
+    ()=>ZodError,
+    "ZodIssueCode",
+    ()=>ZodIssueCode,
+    "quotelessJson",
+    ()=>quotelessJson
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/util.js [app-client] (ecmascript)");
+;
+const ZodIssueCode = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].arrayToEnum([
+    "invalid_type",
+    "invalid_literal",
+    "custom",
+    "invalid_union",
+    "invalid_union_discriminator",
+    "invalid_enum_value",
+    "unrecognized_keys",
+    "invalid_arguments",
+    "invalid_return_type",
+    "invalid_date",
+    "invalid_string",
+    "too_small",
+    "too_big",
+    "invalid_intersection_types",
+    "not_multiple_of",
+    "not_finite"
+]);
+const quotelessJson = (obj)=>{
+    const json = JSON.stringify(obj, null, 2);
+    return json.replace(/"([^"]+)":/g, "$1:");
+};
+class ZodError extends Error {
+    get errors() {
+        return this.issues;
+    }
+    constructor(issues){
+        super();
+        this.issues = [];
+        this.addIssue = (sub)=>{
+            this.issues = [
+                ...this.issues,
+                sub
+            ];
+        };
+        this.addIssues = (subs = [])=>{
+            this.issues = [
+                ...this.issues,
+                ...subs
+            ];
+        };
+        const actualProto = new.target.prototype;
+        if (Object.setPrototypeOf) {
+            // eslint-disable-next-line ban/ban
+            Object.setPrototypeOf(this, actualProto);
+        } else {
+            this.__proto__ = actualProto;
+        }
+        this.name = "ZodError";
+        this.issues = issues;
+    }
+    format(_mapper) {
+        const mapper = _mapper || function(issue) {
+            return issue.message;
+        };
+        const fieldErrors = {
+            _errors: []
+        };
+        const processError = (error)=>{
+            for (const issue of error.issues){
+                if (issue.code === "invalid_union") {
+                    issue.unionErrors.map(processError);
+                } else if (issue.code === "invalid_return_type") {
+                    processError(issue.returnTypeError);
+                } else if (issue.code === "invalid_arguments") {
+                    processError(issue.argumentsError);
+                } else if (issue.path.length === 0) {
+                    fieldErrors._errors.push(mapper(issue));
+                } else {
+                    let curr = fieldErrors;
+                    let i = 0;
+                    while(i < issue.path.length){
+                        const el = issue.path[i];
+                        const terminal = i === issue.path.length - 1;
+                        if (!terminal) {
+                            curr[el] = curr[el] || {
+                                _errors: []
+                            };
+                        // if (typeof el === "string") {
+                        //   curr[el] = curr[el] || { _errors: [] };
+                        // } else if (typeof el === "number") {
+                        //   const errorArray: any = [];
+                        //   errorArray._errors = [];
+                        //   curr[el] = curr[el] || errorArray;
+                        // }
+                        } else {
+                            curr[el] = curr[el] || {
+                                _errors: []
+                            };
+                            curr[el]._errors.push(mapper(issue));
+                        }
+                        curr = curr[el];
+                        i++;
+                    }
+                }
+            }
+        };
+        processError(this);
+        return fieldErrors;
+    }
+    static assert(value) {
+        if (!(value instanceof ZodError)) {
+            throw new Error(`Not a ZodError: ${value}`);
+        }
+    }
+    toString() {
+        return this.message;
+    }
+    get message() {
+        return JSON.stringify(this.issues, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].jsonStringifyReplacer, 2);
+    }
+    get isEmpty() {
+        return this.issues.length === 0;
+    }
+    flatten(mapper = (issue)=>issue.message) {
+        const fieldErrors = {};
+        const formErrors = [];
+        for (const sub of this.issues){
+            if (sub.path.length > 0) {
+                const firstEl = sub.path[0];
+                fieldErrors[firstEl] = fieldErrors[firstEl] || [];
+                fieldErrors[firstEl].push(mapper(sub));
+            } else {
+                formErrors.push(mapper(sub));
+            }
+        }
+        return {
+            formErrors,
+            fieldErrors
+        };
+    }
+    get formErrors() {
+        return this.flatten();
+    }
+}
+ZodError.create = (issues)=>{
+    const error = new ZodError(issues);
+    return error;
+};
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/ZodError.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/util.js [app-client] (ecmascript)");
+;
+;
+const errorMap = (issue, _ctx)=>{
+    let message;
+    switch(issue.code){
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type:
+            if (issue.received === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].undefined) {
+                message = "Required";
+            } else {
+                message = `Expected ${issue.expected}, received ${issue.received}`;
+            }
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_literal:
+            message = `Invalid literal value, expected ${JSON.stringify(issue.expected, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].jsonStringifyReplacer)}`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].unrecognized_keys:
+            message = `Unrecognized key(s) in object: ${__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].joinValues(issue.keys, ", ")}`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_union:
+            message = `Invalid input`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_union_discriminator:
+            message = `Invalid discriminator value. Expected ${__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].joinValues(issue.options)}`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_enum_value:
+            message = `Invalid enum value. Expected ${__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].joinValues(issue.options)}, received '${issue.received}'`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_arguments:
+            message = `Invalid function arguments`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_return_type:
+            message = `Invalid function return type`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_date:
+            message = `Invalid date`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string:
+            if (typeof issue.validation === "object") {
+                if ("includes" in issue.validation) {
+                    message = `Invalid input: must include "${issue.validation.includes}"`;
+                    if (typeof issue.validation.position === "number") {
+                        message = `${message} at one or more positions greater than or equal to ${issue.validation.position}`;
+                    }
+                } else if ("startsWith" in issue.validation) {
+                    message = `Invalid input: must start with "${issue.validation.startsWith}"`;
+                } else if ("endsWith" in issue.validation) {
+                    message = `Invalid input: must end with "${issue.validation.endsWith}"`;
+                } else {
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(issue.validation);
+                }
+            } else if (issue.validation !== "regex") {
+                message = `Invalid ${issue.validation}`;
+            } else {
+                message = "Invalid";
+            }
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small:
+            if (issue.type === "array") message = `Array must contain ${issue.exact ? "exactly" : issue.inclusive ? `at least` : `more than`} ${issue.minimum} element(s)`;
+            else if (issue.type === "string") message = `String must contain ${issue.exact ? "exactly" : issue.inclusive ? `at least` : `over`} ${issue.minimum} character(s)`;
+            else if (issue.type === "number") message = `Number must be ${issue.exact ? `exactly equal to ` : issue.inclusive ? `greater than or equal to ` : `greater than `}${issue.minimum}`;
+            else if (issue.type === "bigint") message = `Number must be ${issue.exact ? `exactly equal to ` : issue.inclusive ? `greater than or equal to ` : `greater than `}${issue.minimum}`;
+            else if (issue.type === "date") message = `Date must be ${issue.exact ? `exactly equal to ` : issue.inclusive ? `greater than or equal to ` : `greater than `}${new Date(Number(issue.minimum))}`;
+            else message = "Invalid input";
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big:
+            if (issue.type === "array") message = `Array must contain ${issue.exact ? `exactly` : issue.inclusive ? `at most` : `less than`} ${issue.maximum} element(s)`;
+            else if (issue.type === "string") message = `String must contain ${issue.exact ? `exactly` : issue.inclusive ? `at most` : `under`} ${issue.maximum} character(s)`;
+            else if (issue.type === "number") message = `Number must be ${issue.exact ? `exactly` : issue.inclusive ? `less than or equal to` : `less than`} ${issue.maximum}`;
+            else if (issue.type === "bigint") message = `BigInt must be ${issue.exact ? `exactly` : issue.inclusive ? `less than or equal to` : `less than`} ${issue.maximum}`;
+            else if (issue.type === "date") message = `Date must be ${issue.exact ? `exactly` : issue.inclusive ? `smaller than or equal to` : `smaller than`} ${new Date(Number(issue.maximum))}`;
+            else message = "Invalid input";
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].custom:
+            message = `Invalid input`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_intersection_types:
+            message = `Intersection results could not be merged`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].not_multiple_of:
+            message = `Number must be a multiple of ${issue.multipleOf}`;
+            break;
+        case __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].not_finite:
+            message = "Number must be finite";
+            break;
+        default:
+            message = _ctx.defaultError;
+            __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(issue);
+    }
+    return {
+        message
+    };
+};
+const __TURBOPACK__default__export__ = errorMap;
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/errors.js [app-client] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getErrorMap",
+    ()=>getErrorMap,
+    "setErrorMap",
+    ()=>setErrorMap
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript)");
+;
+let overrideErrorMap = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+;
+function setErrorMap(map) {
+    overrideErrorMap = map;
+}
+function getErrorMap() {
+    return overrideErrorMap;
+}
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/errors.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "defaultErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    "getErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["getErrorMap"],
+    "setErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["setErrorMap"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/errors.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/parseUtil.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "DIRTY",
+    ()=>DIRTY,
+    "EMPTY_PATH",
+    ()=>EMPTY_PATH,
+    "INVALID",
+    ()=>INVALID,
+    "OK",
+    ()=>OK,
+    "ParseStatus",
+    ()=>ParseStatus,
+    "addIssueToContext",
+    ()=>addIssueToContext,
+    "isAborted",
+    ()=>isAborted,
+    "isAsync",
+    ()=>isAsync,
+    "isDirty",
+    ()=>isDirty,
+    "isValid",
+    ()=>isValid,
+    "makeIssue",
+    ()=>makeIssue
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/errors.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript)");
+;
+;
+const makeIssue = (params)=>{
+    const { data, path, errorMaps, issueData } = params;
+    const fullPath = [
+        ...path,
+        ...issueData.path || []
+    ];
+    const fullIssue = {
+        ...issueData,
+        path: fullPath
+    };
+    if (issueData.message !== undefined) {
+        return {
+            ...issueData,
+            path: fullPath,
+            message: issueData.message
+        };
+    }
+    let errorMessage = "";
+    const maps = errorMaps.filter((m)=>!!m).slice().reverse();
+    for (const map of maps){
+        errorMessage = map(fullIssue, {
+            data,
+            defaultError: errorMessage
+        }).message;
+    }
+    return {
+        ...issueData,
+        path: fullPath,
+        message: errorMessage
+    };
+};
+const EMPTY_PATH = [];
+function addIssueToContext(ctx, issueData) {
+    const overrideMap = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["getErrorMap"])();
+    const issue = makeIssue({
+        issueData: issueData,
+        data: ctx.data,
+        path: ctx.path,
+        errorMaps: [
+            ctx.common.contextualErrorMap,
+            ctx.schemaErrorMap,
+            overrideMap,
+            overrideMap === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] ? undefined : __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+        ].filter((x)=>!!x)
+    });
+    ctx.common.issues.push(issue);
+}
+class ParseStatus {
+    constructor(){
+        this.value = "valid";
+    }
+    dirty() {
+        if (this.value === "valid") this.value = "dirty";
+    }
+    abort() {
+        if (this.value !== "aborted") this.value = "aborted";
+    }
+    static mergeArray(status, results) {
+        const arrayValue = [];
+        for (const s of results){
+            if (s.status === "aborted") return INVALID;
+            if (s.status === "dirty") status.dirty();
+            arrayValue.push(s.value);
+        }
+        return {
+            status: status.value,
+            value: arrayValue
+        };
+    }
+    static async mergeObjectAsync(status, pairs) {
+        const syncPairs = [];
+        for (const pair of pairs){
+            const key = await pair.key;
+            const value = await pair.value;
+            syncPairs.push({
+                key,
+                value
+            });
+        }
+        return ParseStatus.mergeObjectSync(status, syncPairs);
+    }
+    static mergeObjectSync(status, pairs) {
+        const finalObject = {};
+        for (const pair of pairs){
+            const { key, value } = pair;
+            if (key.status === "aborted") return INVALID;
+            if (value.status === "aborted") return INVALID;
+            if (key.status === "dirty") status.dirty();
+            if (value.status === "dirty") status.dirty();
+            if (key.value !== "__proto__" && (typeof value.value !== "undefined" || pair.alwaysSet)) {
+                finalObject[key.value] = value.value;
+            }
+        }
+        return {
+            status: status.value,
+            value: finalObject
+        };
+    }
+}
+const INVALID = Object.freeze({
+    status: "aborted"
+});
+const DIRTY = (value)=>({
+        status: "dirty",
+        value
+    });
+const OK = (value)=>({
+        status: "valid",
+        value
+    });
+const isAborted = (x)=>x.status === "aborted";
+const isDirty = (x)=>x.status === "dirty";
+const isValid = (x)=>x.status === "valid";
+const isAsync = (x)=>typeof Promise !== "undefined" && x instanceof Promise;
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/typeAliases.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([]);
+;
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript) <export default as defaultErrorMap>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "defaultErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/errorUtil.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "errorUtil",
+    ()=>errorUtil
+]);
+var errorUtil;
+(function(errorUtil) {
+    errorUtil.errToObj = (message)=>typeof message === "string" ? {
+            message
+        } : message || {};
+    // biome-ignore lint:
+    errorUtil.toString = (message)=>typeof message === "string" ? message : message?.message;
+})(errorUtil || (errorUtil = {}));
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/types.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BRAND",
+    ()=>BRAND,
+    "NEVER",
+    ()=>NEVER,
+    "Schema",
+    ()=>ZodType,
+    "ZodAny",
+    ()=>ZodAny,
+    "ZodArray",
+    ()=>ZodArray,
+    "ZodBigInt",
+    ()=>ZodBigInt,
+    "ZodBoolean",
+    ()=>ZodBoolean,
+    "ZodBranded",
+    ()=>ZodBranded,
+    "ZodCatch",
+    ()=>ZodCatch,
+    "ZodDate",
+    ()=>ZodDate,
+    "ZodDefault",
+    ()=>ZodDefault,
+    "ZodDiscriminatedUnion",
+    ()=>ZodDiscriminatedUnion,
+    "ZodEffects",
+    ()=>ZodEffects,
+    "ZodEnum",
+    ()=>ZodEnum,
+    "ZodFirstPartyTypeKind",
+    ()=>ZodFirstPartyTypeKind,
+    "ZodFunction",
+    ()=>ZodFunction,
+    "ZodIntersection",
+    ()=>ZodIntersection,
+    "ZodLazy",
+    ()=>ZodLazy,
+    "ZodLiteral",
+    ()=>ZodLiteral,
+    "ZodMap",
+    ()=>ZodMap,
+    "ZodNaN",
+    ()=>ZodNaN,
+    "ZodNativeEnum",
+    ()=>ZodNativeEnum,
+    "ZodNever",
+    ()=>ZodNever,
+    "ZodNull",
+    ()=>ZodNull,
+    "ZodNullable",
+    ()=>ZodNullable,
+    "ZodNumber",
+    ()=>ZodNumber,
+    "ZodObject",
+    ()=>ZodObject,
+    "ZodOptional",
+    ()=>ZodOptional,
+    "ZodPipeline",
+    ()=>ZodPipeline,
+    "ZodPromise",
+    ()=>ZodPromise,
+    "ZodReadonly",
+    ()=>ZodReadonly,
+    "ZodRecord",
+    ()=>ZodRecord,
+    "ZodSchema",
+    ()=>ZodType,
+    "ZodSet",
+    ()=>ZodSet,
+    "ZodString",
+    ()=>ZodString,
+    "ZodSymbol",
+    ()=>ZodSymbol,
+    "ZodTransformer",
+    ()=>ZodEffects,
+    "ZodTuple",
+    ()=>ZodTuple,
+    "ZodType",
+    ()=>ZodType,
+    "ZodUndefined",
+    ()=>ZodUndefined,
+    "ZodUnion",
+    ()=>ZodUnion,
+    "ZodUnknown",
+    ()=>ZodUnknown,
+    "ZodVoid",
+    ()=>ZodVoid,
+    "any",
+    ()=>anyType,
+    "array",
+    ()=>arrayType,
+    "bigint",
+    ()=>bigIntType,
+    "boolean",
+    ()=>booleanType,
+    "coerce",
+    ()=>coerce,
+    "custom",
+    ()=>custom,
+    "date",
+    ()=>dateType,
+    "datetimeRegex",
+    ()=>datetimeRegex,
+    "discriminatedUnion",
+    ()=>discriminatedUnionType,
+    "effect",
+    ()=>effectsType,
+    "enum",
+    ()=>enumType,
+    "function",
+    ()=>functionType,
+    "instanceof",
+    ()=>instanceOfType,
+    "intersection",
+    ()=>intersectionType,
+    "late",
+    ()=>late,
+    "lazy",
+    ()=>lazyType,
+    "literal",
+    ()=>literalType,
+    "map",
+    ()=>mapType,
+    "nan",
+    ()=>nanType,
+    "nativeEnum",
+    ()=>nativeEnumType,
+    "never",
+    ()=>neverType,
+    "null",
+    ()=>nullType,
+    "nullable",
+    ()=>nullableType,
+    "number",
+    ()=>numberType,
+    "object",
+    ()=>objectType,
+    "oboolean",
+    ()=>oboolean,
+    "onumber",
+    ()=>onumber,
+    "optional",
+    ()=>optionalType,
+    "ostring",
+    ()=>ostring,
+    "pipeline",
+    ()=>pipelineType,
+    "preprocess",
+    ()=>preprocessType,
+    "promise",
+    ()=>promiseType,
+    "record",
+    ()=>recordType,
+    "set",
+    ()=>setType,
+    "strictObject",
+    ()=>strictObjectType,
+    "string",
+    ()=>stringType,
+    "symbol",
+    ()=>symbolType,
+    "transformer",
+    ()=>effectsType,
+    "tuple",
+    ()=>tupleType,
+    "undefined",
+    ()=>undefinedType,
+    "union",
+    ()=>unionType,
+    "unknown",
+    ()=>unknownType,
+    "void",
+    ()=>voidType
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/ZodError.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__defaultErrorMap$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/locales/en.js [app-client] (ecmascript) <export default as defaultErrorMap>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/errors.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/errorUtil.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/parseUtil.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/util.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+class ParseInputLazyPath {
+    constructor(parent, value, path, key){
+        this._cachedPath = [];
+        this.parent = parent;
+        this.data = value;
+        this._path = path;
+        this._key = key;
+    }
+    get path() {
+        if (!this._cachedPath.length) {
+            if (Array.isArray(this._key)) {
+                this._cachedPath.push(...this._path, ...this._key);
+            } else {
+                this._cachedPath.push(...this._path, this._key);
+            }
+        }
+        return this._cachedPath;
+    }
+}
+const handleResult = (ctx, result)=>{
+    if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"])(result)) {
+        return {
+            success: true,
+            data: result.value
+        };
+    } else {
+        if (!ctx.common.issues.length) {
+            throw new Error("Validation failed but no issues detected.");
+        }
+        return {
+            success: false,
+            get error () {
+                if (this._error) return this._error;
+                const error = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"](ctx.common.issues);
+                this._error = error;
+                return this._error;
+            }
+        };
+    }
+};
+function processCreateParams(params) {
+    if (!params) return {};
+    const { errorMap, invalid_type_error, required_error, description } = params;
+    if (errorMap && (invalid_type_error || required_error)) {
+        throw new Error(`Can't use "invalid_type_error" or "required_error" in conjunction with custom error map.`);
+    }
+    if (errorMap) return {
+        errorMap: errorMap,
+        description
+    };
+    const customMap = (iss, ctx)=>{
+        const { message } = params;
+        if (iss.code === "invalid_enum_value") {
+            return {
+                message: message ?? ctx.defaultError
+            };
+        }
+        if (typeof ctx.data === "undefined") {
+            return {
+                message: message ?? required_error ?? ctx.defaultError
+            };
+        }
+        if (iss.code !== "invalid_type") return {
+            message: ctx.defaultError
+        };
+        return {
+            message: message ?? invalid_type_error ?? ctx.defaultError
+        };
+    };
+    return {
+        errorMap: customMap,
+        description
+    };
+}
+class ZodType {
+    get description() {
+        return this._def.description;
+    }
+    _getType(input) {
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(input.data);
+    }
+    _getOrReturnCtx(input, ctx) {
+        return ctx || {
+            common: input.parent.common,
+            data: input.data,
+            parsedType: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(input.data),
+            schemaErrorMap: this._def.errorMap,
+            path: input.path,
+            parent: input.parent
+        };
+    }
+    _processInputParams(input) {
+        return {
+            status: new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"](),
+            ctx: {
+                common: input.parent.common,
+                data: input.data,
+                parsedType: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(input.data),
+                schemaErrorMap: this._def.errorMap,
+                path: input.path,
+                parent: input.parent
+            }
+        };
+    }
+    _parseSync(input) {
+        const result = this._parse(input);
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAsync"])(result)) {
+            throw new Error("Synchronous parse encountered promise.");
+        }
+        return result;
+    }
+    _parseAsync(input) {
+        const result = this._parse(input);
+        return Promise.resolve(result);
+    }
+    parse(data, params) {
+        const result = this.safeParse(data, params);
+        if (result.success) return result.data;
+        throw result.error;
+    }
+    safeParse(data, params) {
+        const ctx = {
+            common: {
+                issues: [],
+                async: params?.async ?? false,
+                contextualErrorMap: params?.errorMap
+            },
+            path: params?.path || [],
+            schemaErrorMap: this._def.errorMap,
+            parent: null,
+            data,
+            parsedType: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(data)
+        };
+        const result = this._parseSync({
+            data,
+            path: ctx.path,
+            parent: ctx
+        });
+        return handleResult(ctx, result);
+    }
+    "~validate"(data) {
+        const ctx = {
+            common: {
+                issues: [],
+                async: !!this["~standard"].async
+            },
+            path: [],
+            schemaErrorMap: this._def.errorMap,
+            parent: null,
+            data,
+            parsedType: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(data)
+        };
+        if (!this["~standard"].async) {
+            try {
+                const result = this._parseSync({
+                    data,
+                    path: [],
+                    parent: ctx
+                });
+                return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"])(result) ? {
+                    value: result.value
+                } : {
+                    issues: ctx.common.issues
+                };
+            } catch (err) {
+                if (err?.message?.toLowerCase()?.includes("encountered")) {
+                    this["~standard"].async = true;
+                }
+                ctx.common = {
+                    issues: [],
+                    async: true
+                };
+            }
+        }
+        return this._parseAsync({
+            data,
+            path: [],
+            parent: ctx
+        }).then((result)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"])(result) ? {
+                value: result.value
+            } : {
+                issues: ctx.common.issues
+            });
+    }
+    async parseAsync(data, params) {
+        const result = await this.safeParseAsync(data, params);
+        if (result.success) return result.data;
+        throw result.error;
+    }
+    async safeParseAsync(data, params) {
+        const ctx = {
+            common: {
+                issues: [],
+                contextualErrorMap: params?.errorMap,
+                async: true
+            },
+            path: params?.path || [],
+            schemaErrorMap: this._def.errorMap,
+            parent: null,
+            data,
+            parsedType: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(data)
+        };
+        const maybeAsyncResult = this._parse({
+            data,
+            path: ctx.path,
+            parent: ctx
+        });
+        const result = await ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAsync"])(maybeAsyncResult) ? maybeAsyncResult : Promise.resolve(maybeAsyncResult));
+        return handleResult(ctx, result);
+    }
+    refine(check, message) {
+        const getIssueProperties = (val)=>{
+            if (typeof message === "string" || typeof message === "undefined") {
+                return {
+                    message
+                };
+            } else if (typeof message === "function") {
+                return message(val);
+            } else {
+                return message;
+            }
+        };
+        return this._refinement((val, ctx)=>{
+            const result = check(val);
+            const setError = ()=>ctx.addIssue({
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].custom,
+                    ...getIssueProperties(val)
+                });
+            if (typeof Promise !== "undefined" && result instanceof Promise) {
+                return result.then((data)=>{
+                    if (!data) {
+                        setError();
+                        return false;
+                    } else {
+                        return true;
+                    }
+                });
+            }
+            if (!result) {
+                setError();
+                return false;
+            } else {
+                return true;
+            }
+        });
+    }
+    refinement(check, refinementData) {
+        return this._refinement((val, ctx)=>{
+            if (!check(val)) {
+                ctx.addIssue(typeof refinementData === "function" ? refinementData(val, ctx) : refinementData);
+                return false;
+            } else {
+                return true;
+            }
+        });
+    }
+    _refinement(refinement) {
+        return new ZodEffects({
+            schema: this,
+            typeName: ZodFirstPartyTypeKind.ZodEffects,
+            effect: {
+                type: "refinement",
+                refinement
+            }
+        });
+    }
+    superRefine(refinement) {
+        return this._refinement(refinement);
+    }
+    constructor(def){
+        /** Alias of safeParseAsync */ this.spa = this.safeParseAsync;
+        this._def = def;
+        this.parse = this.parse.bind(this);
+        this.safeParse = this.safeParse.bind(this);
+        this.parseAsync = this.parseAsync.bind(this);
+        this.safeParseAsync = this.safeParseAsync.bind(this);
+        this.spa = this.spa.bind(this);
+        this.refine = this.refine.bind(this);
+        this.refinement = this.refinement.bind(this);
+        this.superRefine = this.superRefine.bind(this);
+        this.optional = this.optional.bind(this);
+        this.nullable = this.nullable.bind(this);
+        this.nullish = this.nullish.bind(this);
+        this.array = this.array.bind(this);
+        this.promise = this.promise.bind(this);
+        this.or = this.or.bind(this);
+        this.and = this.and.bind(this);
+        this.transform = this.transform.bind(this);
+        this.brand = this.brand.bind(this);
+        this.default = this.default.bind(this);
+        this.catch = this.catch.bind(this);
+        this.describe = this.describe.bind(this);
+        this.pipe = this.pipe.bind(this);
+        this.readonly = this.readonly.bind(this);
+        this.isNullable = this.isNullable.bind(this);
+        this.isOptional = this.isOptional.bind(this);
+        this["~standard"] = {
+            version: 1,
+            vendor: "zod",
+            validate: (data)=>this["~validate"](data)
+        };
+    }
+    optional() {
+        return ZodOptional.create(this, this._def);
+    }
+    nullable() {
+        return ZodNullable.create(this, this._def);
+    }
+    nullish() {
+        return this.nullable().optional();
+    }
+    array() {
+        return ZodArray.create(this);
+    }
+    promise() {
+        return ZodPromise.create(this, this._def);
+    }
+    or(option) {
+        return ZodUnion.create([
+            this,
+            option
+        ], this._def);
+    }
+    and(incoming) {
+        return ZodIntersection.create(this, incoming, this._def);
+    }
+    transform(transform) {
+        return new ZodEffects({
+            ...processCreateParams(this._def),
+            schema: this,
+            typeName: ZodFirstPartyTypeKind.ZodEffects,
+            effect: {
+                type: "transform",
+                transform
+            }
+        });
+    }
+    default(def) {
+        const defaultValueFunc = typeof def === "function" ? def : ()=>def;
+        return new ZodDefault({
+            ...processCreateParams(this._def),
+            innerType: this,
+            defaultValue: defaultValueFunc,
+            typeName: ZodFirstPartyTypeKind.ZodDefault
+        });
+    }
+    brand() {
+        return new ZodBranded({
+            typeName: ZodFirstPartyTypeKind.ZodBranded,
+            type: this,
+            ...processCreateParams(this._def)
+        });
+    }
+    catch(def) {
+        const catchValueFunc = typeof def === "function" ? def : ()=>def;
+        return new ZodCatch({
+            ...processCreateParams(this._def),
+            innerType: this,
+            catchValue: catchValueFunc,
+            typeName: ZodFirstPartyTypeKind.ZodCatch
+        });
+    }
+    describe(description) {
+        const This = this.constructor;
+        return new This({
+            ...this._def,
+            description
+        });
+    }
+    pipe(target) {
+        return ZodPipeline.create(this, target);
+    }
+    readonly() {
+        return ZodReadonly.create(this);
+    }
+    isOptional() {
+        return this.safeParse(undefined).success;
+    }
+    isNullable() {
+        return this.safeParse(null).success;
+    }
+}
+const cuidRegex = /^c[^\s-]{8,}$/i;
+const cuid2Regex = /^[0-9a-z]+$/;
+const ulidRegex = /^[0-9A-HJKMNP-TV-Z]{26}$/i;
+// const uuidRegex =
+//   /^([a-f0-9]{8}-[a-f0-9]{4}-[1-5][a-f0-9]{3}-[a-f0-9]{4}-[a-f0-9]{12}|00000000-0000-0000-0000-000000000000)$/i;
+const uuidRegex = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/i;
+const nanoidRegex = /^[a-z0-9_-]{21}$/i;
+const jwtRegex = /^[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z0-9-_]*$/;
+const durationRegex = /^[-+]?P(?!$)(?:(?:[-+]?\d+Y)|(?:[-+]?\d+[.,]\d+Y$))?(?:(?:[-+]?\d+M)|(?:[-+]?\d+[.,]\d+M$))?(?:(?:[-+]?\d+W)|(?:[-+]?\d+[.,]\d+W$))?(?:(?:[-+]?\d+D)|(?:[-+]?\d+[.,]\d+D$))?(?:T(?=[\d+-])(?:(?:[-+]?\d+H)|(?:[-+]?\d+[.,]\d+H$))?(?:(?:[-+]?\d+M)|(?:[-+]?\d+[.,]\d+M$))?(?:[-+]?\d+(?:[.,]\d+)?S)?)??$/;
+// from https://stackoverflow.com/a/46181/1550155
+// old version: too slow, didn't support unicode
+// const emailRegex = /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i;
+//old email regex
+// const emailRegex = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@((?!-)([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{1,})[^-<>()[\].,;:\s@"]$/i;
+// eslint-disable-next-line
+// const emailRegex =
+//   /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[(((25[0-5])|(2[0-4][0-9])|(1[0-9]{2})|([0-9]{1,2}))\.){3}((25[0-5])|(2[0-4][0-9])|(1[0-9]{2})|([0-9]{1,2}))\])|(\[IPv6:(([a-f0-9]{1,4}:){7}|::([a-f0-9]{1,4}:){0,6}|([a-f0-9]{1,4}:){1}:([a-f0-9]{1,4}:){0,5}|([a-f0-9]{1,4}:){2}:([a-f0-9]{1,4}:){0,4}|([a-f0-9]{1,4}:){3}:([a-f0-9]{1,4}:){0,3}|([a-f0-9]{1,4}:){4}:([a-f0-9]{1,4}:){0,2}|([a-f0-9]{1,4}:){5}:([a-f0-9]{1,4}:){0,1})([a-f0-9]{1,4}|(((25[0-5])|(2[0-4][0-9])|(1[0-9]{2})|([0-9]{1,2}))\.){3}((25[0-5])|(2[0-4][0-9])|(1[0-9]{2})|([0-9]{1,2})))\])|([A-Za-z0-9]([A-Za-z0-9-]*[A-Za-z0-9])*(\.[A-Za-z]{2,})+))$/;
+// const emailRegex =
+//   /^[a-zA-Z0-9\.\!\#\$\%\&\'\*\+\/\=\?\^\_\`\{\|\}\~\-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+// const emailRegex =
+//   /^(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])$/i;
+const emailRegex = /^(?!\.)(?!.*\.\.)([A-Z0-9_'+\-\.]*)[A-Z0-9_+-]@([A-Z0-9][A-Z0-9\-]*\.)+[A-Z]{2,}$/i;
+// const emailRegex =
+//   /^[a-z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9\-]+)*$/i;
+// from https://thekevinscott.com/emojis-in-javascript/#writing-a-regular-expression
+const _emojiRegex = `^(\\p{Extended_Pictographic}|\\p{Emoji_Component})+$`;
+let emojiRegex;
+// faster, simpler, safer
+const ipv4Regex = /^(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])$/;
+const ipv4CidrRegex = /^(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\/(3[0-2]|[12]?[0-9])$/;
+// const ipv6Regex =
+// /^(([a-f0-9]{1,4}:){7}|::([a-f0-9]{1,4}:){0,6}|([a-f0-9]{1,4}:){1}:([a-f0-9]{1,4}:){0,5}|([a-f0-9]{1,4}:){2}:([a-f0-9]{1,4}:){0,4}|([a-f0-9]{1,4}:){3}:([a-f0-9]{1,4}:){0,3}|([a-f0-9]{1,4}:){4}:([a-f0-9]{1,4}:){0,2}|([a-f0-9]{1,4}:){5}:([a-f0-9]{1,4}:){0,1})([a-f0-9]{1,4}|(((25[0-5])|(2[0-4][0-9])|(1[0-9]{2})|([0-9]{1,2}))\.){3}((25[0-5])|(2[0-4][0-9])|(1[0-9]{2})|([0-9]{1,2})))$/;
+const ipv6Regex = /^(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))$/;
+const ipv6CidrRegex = /^(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))\/(12[0-8]|1[01][0-9]|[1-9]?[0-9])$/;
+// https://stackoverflow.com/questions/7860392/determine-if-string-is-in-base64-using-javascript
+const base64Regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+// https://base64.guru/standards/base64url
+const base64urlRegex = /^([0-9a-zA-Z-_]{4})*(([0-9a-zA-Z-_]{2}(==)?)|([0-9a-zA-Z-_]{3}(=)?))?$/;
+// simple
+// const dateRegexSource = `\\d{4}-\\d{2}-\\d{2}`;
+// no leap year validation
+// const dateRegexSource = `\\d{4}-((0[13578]|10|12)-31|(0[13-9]|1[0-2])-30|(0[1-9]|1[0-2])-(0[1-9]|1\\d|2\\d))`;
+// with leap year validation
+const dateRegexSource = `((\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-((0[13578]|1[02])-(0[1-9]|[12]\\d|3[01])|(0[469]|11)-(0[1-9]|[12]\\d|30)|(02)-(0[1-9]|1\\d|2[0-8])))`;
+const dateRegex = new RegExp(`^${dateRegexSource}$`);
+function timeRegexSource(args) {
+    let secondsRegexSource = `[0-5]\\d`;
+    if (args.precision) {
+        secondsRegexSource = `${secondsRegexSource}\\.\\d{${args.precision}}`;
+    } else if (args.precision == null) {
+        secondsRegexSource = `${secondsRegexSource}(\\.\\d+)?`;
+    }
+    const secondsQuantifier = args.precision ? "+" : "?"; // require seconds if precision is nonzero
+    return `([01]\\d|2[0-3]):[0-5]\\d(:${secondsRegexSource})${secondsQuantifier}`;
+}
+function timeRegex(args) {
+    return new RegExp(`^${timeRegexSource(args)}$`);
+}
+function datetimeRegex(args) {
+    let regex = `${dateRegexSource}T${timeRegexSource(args)}`;
+    const opts = [];
+    opts.push(args.local ? `Z?` : `Z`);
+    if (args.offset) opts.push(`([+-]\\d{2}:?\\d{2})`);
+    regex = `${regex}(${opts.join("|")})`;
+    return new RegExp(`^${regex}$`);
+}
+function isValidIP(ip, version) {
+    if ((version === "v4" || !version) && ipv4Regex.test(ip)) {
+        return true;
+    }
+    if ((version === "v6" || !version) && ipv6Regex.test(ip)) {
+        return true;
+    }
+    return false;
+}
+function isValidJWT(jwt, alg) {
+    if (!jwtRegex.test(jwt)) return false;
+    try {
+        const [header] = jwt.split(".");
+        if (!header) return false;
+        // Convert base64url to base64
+        const base64 = header.replace(/-/g, "+").replace(/_/g, "/").padEnd(header.length + (4 - header.length % 4) % 4, "=");
+        const decoded = JSON.parse(atob(base64));
+        if (typeof decoded !== "object" || decoded === null) return false;
+        if ("typ" in decoded && decoded?.typ !== "JWT") return false;
+        if (!decoded.alg) return false;
+        if (alg && decoded.alg !== alg) return false;
+        return true;
+    } catch  {
+        return false;
+    }
+}
+function isValidCidr(ip, version) {
+    if ((version === "v4" || !version) && ipv4CidrRegex.test(ip)) {
+        return true;
+    }
+    if ((version === "v6" || !version) && ipv6CidrRegex.test(ip)) {
+        return true;
+    }
+    return false;
+}
+class ZodString extends ZodType {
+    _parse(input) {
+        if (this._def.coerce) {
+            input.data = String(input.data);
+        }
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].string) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].string,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const status = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"]();
+        let ctx = undefined;
+        for (const check of this._def.checks){
+            if (check.kind === "min") {
+                if (input.data.length < check.value) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                        minimum: check.value,
+                        type: "string",
+                        inclusive: true,
+                        exact: false,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "max") {
+                if (input.data.length > check.value) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                        maximum: check.value,
+                        type: "string",
+                        inclusive: true,
+                        exact: false,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "length") {
+                const tooBig = input.data.length > check.value;
+                const tooSmall = input.data.length < check.value;
+                if (tooBig || tooSmall) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    if (tooBig) {
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                            code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                            maximum: check.value,
+                            type: "string",
+                            inclusive: true,
+                            exact: true,
+                            message: check.message
+                        });
+                    } else if (tooSmall) {
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                            code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                            minimum: check.value,
+                            type: "string",
+                            inclusive: true,
+                            exact: true,
+                            message: check.message
+                        });
+                    }
+                    status.dirty();
+                }
+            } else if (check.kind === "email") {
+                if (!emailRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "email",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "emoji") {
+                if (!emojiRegex) {
+                    emojiRegex = new RegExp(_emojiRegex, "u");
+                }
+                if (!emojiRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "emoji",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "uuid") {
+                if (!uuidRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "uuid",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "nanoid") {
+                if (!nanoidRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "nanoid",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "cuid") {
+                if (!cuidRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "cuid",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "cuid2") {
+                if (!cuid2Regex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "cuid2",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "ulid") {
+                if (!ulidRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "ulid",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "url") {
+                try {
+                    new URL(input.data);
+                } catch  {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "url",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "regex") {
+                check.regex.lastIndex = 0;
+                const testResult = check.regex.test(input.data);
+                if (!testResult) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "regex",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "trim") {
+                input.data = input.data.trim();
+            } else if (check.kind === "includes") {
+                if (!input.data.includes(check.value, check.position)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        validation: {
+                            includes: check.value,
+                            position: check.position
+                        },
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "toLowerCase") {
+                input.data = input.data.toLowerCase();
+            } else if (check.kind === "toUpperCase") {
+                input.data = input.data.toUpperCase();
+            } else if (check.kind === "startsWith") {
+                if (!input.data.startsWith(check.value)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        validation: {
+                            startsWith: check.value
+                        },
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "endsWith") {
+                if (!input.data.endsWith(check.value)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        validation: {
+                            endsWith: check.value
+                        },
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "datetime") {
+                const regex = datetimeRegex(check);
+                if (!regex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        validation: "datetime",
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "date") {
+                const regex = dateRegex;
+                if (!regex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        validation: "date",
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "time") {
+                const regex = timeRegex(check);
+                if (!regex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        validation: "time",
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "duration") {
+                if (!durationRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "duration",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "ip") {
+                if (!isValidIP(input.data, check.version)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "ip",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "jwt") {
+                if (!isValidJWT(input.data, check.alg)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "jwt",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "cidr") {
+                if (!isValidCidr(input.data, check.version)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "cidr",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "base64") {
+                if (!base64Regex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "base64",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "base64url") {
+                if (!base64urlRegex.test(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        validation: "base64url",
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else {
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(check);
+            }
+        }
+        return {
+            status: status.value,
+            value: input.data
+        };
+    }
+    _regex(regex, validation, message) {
+        return this.refinement((data)=>regex.test(data), {
+            validation,
+            code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_string,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    _addCheck(check) {
+        return new ZodString({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                check
+            ]
+        });
+    }
+    email(message) {
+        return this._addCheck({
+            kind: "email",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    url(message) {
+        return this._addCheck({
+            kind: "url",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    emoji(message) {
+        return this._addCheck({
+            kind: "emoji",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    uuid(message) {
+        return this._addCheck({
+            kind: "uuid",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    nanoid(message) {
+        return this._addCheck({
+            kind: "nanoid",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    cuid(message) {
+        return this._addCheck({
+            kind: "cuid",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    cuid2(message) {
+        return this._addCheck({
+            kind: "cuid2",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    ulid(message) {
+        return this._addCheck({
+            kind: "ulid",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    base64(message) {
+        return this._addCheck({
+            kind: "base64",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    base64url(message) {
+        // base64url encoding is a modification of base64 that can safely be used in URLs and filenames
+        return this._addCheck({
+            kind: "base64url",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    jwt(options) {
+        return this._addCheck({
+            kind: "jwt",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(options)
+        });
+    }
+    ip(options) {
+        return this._addCheck({
+            kind: "ip",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(options)
+        });
+    }
+    cidr(options) {
+        return this._addCheck({
+            kind: "cidr",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(options)
+        });
+    }
+    datetime(options) {
+        if (typeof options === "string") {
+            return this._addCheck({
+                kind: "datetime",
+                precision: null,
+                offset: false,
+                local: false,
+                message: options
+            });
+        }
+        return this._addCheck({
+            kind: "datetime",
+            precision: typeof options?.precision === "undefined" ? null : options?.precision,
+            offset: options?.offset ?? false,
+            local: options?.local ?? false,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(options?.message)
+        });
+    }
+    date(message) {
+        return this._addCheck({
+            kind: "date",
+            message
+        });
+    }
+    time(options) {
+        if (typeof options === "string") {
+            return this._addCheck({
+                kind: "time",
+                precision: null,
+                message: options
+            });
+        }
+        return this._addCheck({
+            kind: "time",
+            precision: typeof options?.precision === "undefined" ? null : options?.precision,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(options?.message)
+        });
+    }
+    duration(message) {
+        return this._addCheck({
+            kind: "duration",
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    regex(regex, message) {
+        return this._addCheck({
+            kind: "regex",
+            regex: regex,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    includes(value, options) {
+        return this._addCheck({
+            kind: "includes",
+            value: value,
+            position: options?.position,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(options?.message)
+        });
+    }
+    startsWith(value, message) {
+        return this._addCheck({
+            kind: "startsWith",
+            value: value,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    endsWith(value, message) {
+        return this._addCheck({
+            kind: "endsWith",
+            value: value,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    min(minLength, message) {
+        return this._addCheck({
+            kind: "min",
+            value: minLength,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    max(maxLength, message) {
+        return this._addCheck({
+            kind: "max",
+            value: maxLength,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    length(len, message) {
+        return this._addCheck({
+            kind: "length",
+            value: len,
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message)
+        });
+    }
+    /**
+     * Equivalent to `.min(1)`
+     */ nonempty(message) {
+        return this.min(1, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message));
+    }
+    trim() {
+        return new ZodString({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                {
+                    kind: "trim"
+                }
+            ]
+        });
+    }
+    toLowerCase() {
+        return new ZodString({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                {
+                    kind: "toLowerCase"
+                }
+            ]
+        });
+    }
+    toUpperCase() {
+        return new ZodString({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                {
+                    kind: "toUpperCase"
+                }
+            ]
+        });
+    }
+    get isDatetime() {
+        return !!this._def.checks.find((ch)=>ch.kind === "datetime");
+    }
+    get isDate() {
+        return !!this._def.checks.find((ch)=>ch.kind === "date");
+    }
+    get isTime() {
+        return !!this._def.checks.find((ch)=>ch.kind === "time");
+    }
+    get isDuration() {
+        return !!this._def.checks.find((ch)=>ch.kind === "duration");
+    }
+    get isEmail() {
+        return !!this._def.checks.find((ch)=>ch.kind === "email");
+    }
+    get isURL() {
+        return !!this._def.checks.find((ch)=>ch.kind === "url");
+    }
+    get isEmoji() {
+        return !!this._def.checks.find((ch)=>ch.kind === "emoji");
+    }
+    get isUUID() {
+        return !!this._def.checks.find((ch)=>ch.kind === "uuid");
+    }
+    get isNANOID() {
+        return !!this._def.checks.find((ch)=>ch.kind === "nanoid");
+    }
+    get isCUID() {
+        return !!this._def.checks.find((ch)=>ch.kind === "cuid");
+    }
+    get isCUID2() {
+        return !!this._def.checks.find((ch)=>ch.kind === "cuid2");
+    }
+    get isULID() {
+        return !!this._def.checks.find((ch)=>ch.kind === "ulid");
+    }
+    get isIP() {
+        return !!this._def.checks.find((ch)=>ch.kind === "ip");
+    }
+    get isCIDR() {
+        return !!this._def.checks.find((ch)=>ch.kind === "cidr");
+    }
+    get isBase64() {
+        return !!this._def.checks.find((ch)=>ch.kind === "base64");
+    }
+    get isBase64url() {
+        // base64url encoding is a modification of base64 that can safely be used in URLs and filenames
+        return !!this._def.checks.find((ch)=>ch.kind === "base64url");
+    }
+    get minLength() {
+        let min = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "min") {
+                if (min === null || ch.value > min) min = ch.value;
+            }
+        }
+        return min;
+    }
+    get maxLength() {
+        let max = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "max") {
+                if (max === null || ch.value < max) max = ch.value;
+            }
+        }
+        return max;
+    }
+}
+ZodString.create = (params)=>{
+    return new ZodString({
+        checks: [],
+        typeName: ZodFirstPartyTypeKind.ZodString,
+        coerce: params?.coerce ?? false,
+        ...processCreateParams(params)
+    });
+};
+// https://stackoverflow.com/questions/3966484/why-does-modulus-operator-return-fractional-number-in-javascript/31711034#31711034
+function floatSafeRemainder(val, step) {
+    const valDecCount = (val.toString().split(".")[1] || "").length;
+    const stepDecCount = (step.toString().split(".")[1] || "").length;
+    const decCount = valDecCount > stepDecCount ? valDecCount : stepDecCount;
+    const valInt = Number.parseInt(val.toFixed(decCount).replace(".", ""));
+    const stepInt = Number.parseInt(step.toFixed(decCount).replace(".", ""));
+    return valInt % stepInt / 10 ** decCount;
+}
+class ZodNumber extends ZodType {
+    constructor(){
+        super(...arguments);
+        this.min = this.gte;
+        this.max = this.lte;
+        this.step = this.multipleOf;
+    }
+    _parse(input) {
+        if (this._def.coerce) {
+            input.data = Number(input.data);
+        }
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].number) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].number,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        let ctx = undefined;
+        const status = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"]();
+        for (const check of this._def.checks){
+            if (check.kind === "int") {
+                if (!__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].isInteger(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                        expected: "integer",
+                        received: "float",
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "min") {
+                const tooSmall = check.inclusive ? input.data < check.value : input.data <= check.value;
+                if (tooSmall) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                        minimum: check.value,
+                        type: "number",
+                        inclusive: check.inclusive,
+                        exact: false,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "max") {
+                const tooBig = check.inclusive ? input.data > check.value : input.data >= check.value;
+                if (tooBig) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                        maximum: check.value,
+                        type: "number",
+                        inclusive: check.inclusive,
+                        exact: false,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "multipleOf") {
+                if (floatSafeRemainder(input.data, check.value) !== 0) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].not_multiple_of,
+                        multipleOf: check.value,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "finite") {
+                if (!Number.isFinite(input.data)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].not_finite,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else {
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(check);
+            }
+        }
+        return {
+            status: status.value,
+            value: input.data
+        };
+    }
+    gte(value, message) {
+        return this.setLimit("min", value, true, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    gt(value, message) {
+        return this.setLimit("min", value, false, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    lte(value, message) {
+        return this.setLimit("max", value, true, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    lt(value, message) {
+        return this.setLimit("max", value, false, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    setLimit(kind, value, inclusive, message) {
+        return new ZodNumber({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                {
+                    kind,
+                    value,
+                    inclusive,
+                    message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+                }
+            ]
+        });
+    }
+    _addCheck(check) {
+        return new ZodNumber({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                check
+            ]
+        });
+    }
+    int(message) {
+        return this._addCheck({
+            kind: "int",
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    positive(message) {
+        return this._addCheck({
+            kind: "min",
+            value: 0,
+            inclusive: false,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    negative(message) {
+        return this._addCheck({
+            kind: "max",
+            value: 0,
+            inclusive: false,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    nonpositive(message) {
+        return this._addCheck({
+            kind: "max",
+            value: 0,
+            inclusive: true,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    nonnegative(message) {
+        return this._addCheck({
+            kind: "min",
+            value: 0,
+            inclusive: true,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    multipleOf(value, message) {
+        return this._addCheck({
+            kind: "multipleOf",
+            value: value,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    finite(message) {
+        return this._addCheck({
+            kind: "finite",
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    safe(message) {
+        return this._addCheck({
+            kind: "min",
+            inclusive: true,
+            value: Number.MIN_SAFE_INTEGER,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        })._addCheck({
+            kind: "max",
+            inclusive: true,
+            value: Number.MAX_SAFE_INTEGER,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    get minValue() {
+        let min = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "min") {
+                if (min === null || ch.value > min) min = ch.value;
+            }
+        }
+        return min;
+    }
+    get maxValue() {
+        let max = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "max") {
+                if (max === null || ch.value < max) max = ch.value;
+            }
+        }
+        return max;
+    }
+    get isInt() {
+        return !!this._def.checks.find((ch)=>ch.kind === "int" || ch.kind === "multipleOf" && __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].isInteger(ch.value));
+    }
+    get isFinite() {
+        let max = null;
+        let min = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "finite" || ch.kind === "int" || ch.kind === "multipleOf") {
+                return true;
+            } else if (ch.kind === "min") {
+                if (min === null || ch.value > min) min = ch.value;
+            } else if (ch.kind === "max") {
+                if (max === null || ch.value < max) max = ch.value;
+            }
+        }
+        return Number.isFinite(min) && Number.isFinite(max);
+    }
+}
+ZodNumber.create = (params)=>{
+    return new ZodNumber({
+        checks: [],
+        typeName: ZodFirstPartyTypeKind.ZodNumber,
+        coerce: params?.coerce || false,
+        ...processCreateParams(params)
+    });
+};
+class ZodBigInt extends ZodType {
+    constructor(){
+        super(...arguments);
+        this.min = this.gte;
+        this.max = this.lte;
+    }
+    _parse(input) {
+        if (this._def.coerce) {
+            try {
+                input.data = BigInt(input.data);
+            } catch  {
+                return this._getInvalidInput(input);
+            }
+        }
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].bigint) {
+            return this._getInvalidInput(input);
+        }
+        let ctx = undefined;
+        const status = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"]();
+        for (const check of this._def.checks){
+            if (check.kind === "min") {
+                const tooSmall = check.inclusive ? input.data < check.value : input.data <= check.value;
+                if (tooSmall) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                        type: "bigint",
+                        minimum: check.value,
+                        inclusive: check.inclusive,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "max") {
+                const tooBig = check.inclusive ? input.data > check.value : input.data >= check.value;
+                if (tooBig) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                        type: "bigint",
+                        maximum: check.value,
+                        inclusive: check.inclusive,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "multipleOf") {
+                if (input.data % check.value !== BigInt(0)) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].not_multiple_of,
+                        multipleOf: check.value,
+                        message: check.message
+                    });
+                    status.dirty();
+                }
+            } else {
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(check);
+            }
+        }
+        return {
+            status: status.value,
+            value: input.data
+        };
+    }
+    _getInvalidInput(input) {
+        const ctx = this._getOrReturnCtx(input);
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+            code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+            expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].bigint,
+            received: ctx.parsedType
+        });
+        return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+    }
+    gte(value, message) {
+        return this.setLimit("min", value, true, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    gt(value, message) {
+        return this.setLimit("min", value, false, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    lte(value, message) {
+        return this.setLimit("max", value, true, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    lt(value, message) {
+        return this.setLimit("max", value, false, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message));
+    }
+    setLimit(kind, value, inclusive, message) {
+        return new ZodBigInt({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                {
+                    kind,
+                    value,
+                    inclusive,
+                    message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+                }
+            ]
+        });
+    }
+    _addCheck(check) {
+        return new ZodBigInt({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                check
+            ]
+        });
+    }
+    positive(message) {
+        return this._addCheck({
+            kind: "min",
+            value: BigInt(0),
+            inclusive: false,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    negative(message) {
+        return this._addCheck({
+            kind: "max",
+            value: BigInt(0),
+            inclusive: false,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    nonpositive(message) {
+        return this._addCheck({
+            kind: "max",
+            value: BigInt(0),
+            inclusive: true,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    nonnegative(message) {
+        return this._addCheck({
+            kind: "min",
+            value: BigInt(0),
+            inclusive: true,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    multipleOf(value, message) {
+        return this._addCheck({
+            kind: "multipleOf",
+            value,
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    get minValue() {
+        let min = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "min") {
+                if (min === null || ch.value > min) min = ch.value;
+            }
+        }
+        return min;
+    }
+    get maxValue() {
+        let max = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "max") {
+                if (max === null || ch.value < max) max = ch.value;
+            }
+        }
+        return max;
+    }
+}
+ZodBigInt.create = (params)=>{
+    return new ZodBigInt({
+        checks: [],
+        typeName: ZodFirstPartyTypeKind.ZodBigInt,
+        coerce: params?.coerce ?? false,
+        ...processCreateParams(params)
+    });
+};
+class ZodBoolean extends ZodType {
+    _parse(input) {
+        if (this._def.coerce) {
+            input.data = Boolean(input.data);
+        }
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].boolean) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].boolean,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodBoolean.create = (params)=>{
+    return new ZodBoolean({
+        typeName: ZodFirstPartyTypeKind.ZodBoolean,
+        coerce: params?.coerce || false,
+        ...processCreateParams(params)
+    });
+};
+class ZodDate extends ZodType {
+    _parse(input) {
+        if (this._def.coerce) {
+            input.data = new Date(input.data);
+        }
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].date) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].date,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (Number.isNaN(input.data.getTime())) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_date
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const status = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"]();
+        let ctx = undefined;
+        for (const check of this._def.checks){
+            if (check.kind === "min") {
+                if (input.data.getTime() < check.value) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                        message: check.message,
+                        inclusive: true,
+                        exact: false,
+                        minimum: check.value,
+                        type: "date"
+                    });
+                    status.dirty();
+                }
+            } else if (check.kind === "max") {
+                if (input.data.getTime() > check.value) {
+                    ctx = this._getOrReturnCtx(input, ctx);
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                        message: check.message,
+                        inclusive: true,
+                        exact: false,
+                        maximum: check.value,
+                        type: "date"
+                    });
+                    status.dirty();
+                }
+            } else {
+                __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(check);
+            }
+        }
+        return {
+            status: status.value,
+            value: new Date(input.data.getTime())
+        };
+    }
+    _addCheck(check) {
+        return new ZodDate({
+            ...this._def,
+            checks: [
+                ...this._def.checks,
+                check
+            ]
+        });
+    }
+    min(minDate, message) {
+        return this._addCheck({
+            kind: "min",
+            value: minDate.getTime(),
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    max(maxDate, message) {
+        return this._addCheck({
+            kind: "max",
+            value: maxDate.getTime(),
+            message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+        });
+    }
+    get minDate() {
+        let min = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "min") {
+                if (min === null || ch.value > min) min = ch.value;
+            }
+        }
+        return min != null ? new Date(min) : null;
+    }
+    get maxDate() {
+        let max = null;
+        for (const ch of this._def.checks){
+            if (ch.kind === "max") {
+                if (max === null || ch.value < max) max = ch.value;
+            }
+        }
+        return max != null ? new Date(max) : null;
+    }
+}
+ZodDate.create = (params)=>{
+    return new ZodDate({
+        checks: [],
+        coerce: params?.coerce || false,
+        typeName: ZodFirstPartyTypeKind.ZodDate,
+        ...processCreateParams(params)
+    });
+};
+class ZodSymbol extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].symbol) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].symbol,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodSymbol.create = (params)=>{
+    return new ZodSymbol({
+        typeName: ZodFirstPartyTypeKind.ZodSymbol,
+        ...processCreateParams(params)
+    });
+};
+class ZodUndefined extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].undefined) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].undefined,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodUndefined.create = (params)=>{
+    return new ZodUndefined({
+        typeName: ZodFirstPartyTypeKind.ZodUndefined,
+        ...processCreateParams(params)
+    });
+};
+class ZodNull extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].null) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].null,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodNull.create = (params)=>{
+    return new ZodNull({
+        typeName: ZodFirstPartyTypeKind.ZodNull,
+        ...processCreateParams(params)
+    });
+};
+class ZodAny extends ZodType {
+    constructor(){
+        super(...arguments);
+        // to prevent instances of other classes from extending ZodAny. this causes issues with catchall in ZodObject.
+        this._any = true;
+    }
+    _parse(input) {
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodAny.create = (params)=>{
+    return new ZodAny({
+        typeName: ZodFirstPartyTypeKind.ZodAny,
+        ...processCreateParams(params)
+    });
+};
+class ZodUnknown extends ZodType {
+    constructor(){
+        super(...arguments);
+        // required
+        this._unknown = true;
+    }
+    _parse(input) {
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodUnknown.create = (params)=>{
+    return new ZodUnknown({
+        typeName: ZodFirstPartyTypeKind.ZodUnknown,
+        ...processCreateParams(params)
+    });
+};
+class ZodNever extends ZodType {
+    _parse(input) {
+        const ctx = this._getOrReturnCtx(input);
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+            code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+            expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].never,
+            received: ctx.parsedType
+        });
+        return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+    }
+}
+ZodNever.create = (params)=>{
+    return new ZodNever({
+        typeName: ZodFirstPartyTypeKind.ZodNever,
+        ...processCreateParams(params)
+    });
+};
+class ZodVoid extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].undefined) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].void,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+}
+ZodVoid.create = (params)=>{
+    return new ZodVoid({
+        typeName: ZodFirstPartyTypeKind.ZodVoid,
+        ...processCreateParams(params)
+    });
+};
+class ZodArray extends ZodType {
+    _parse(input) {
+        const { ctx, status } = this._processInputParams(input);
+        const def = this._def;
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].array) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].array,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (def.exactLength !== null) {
+            const tooBig = ctx.data.length > def.exactLength.value;
+            const tooSmall = ctx.data.length < def.exactLength.value;
+            if (tooBig || tooSmall) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                    code: tooBig ? __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big : __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                    minimum: tooSmall ? def.exactLength.value : undefined,
+                    maximum: tooBig ? def.exactLength.value : undefined,
+                    type: "array",
+                    inclusive: true,
+                    exact: true,
+                    message: def.exactLength.message
+                });
+                status.dirty();
+            }
+        }
+        if (def.minLength !== null) {
+            if (ctx.data.length < def.minLength.value) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                    minimum: def.minLength.value,
+                    type: "array",
+                    inclusive: true,
+                    exact: false,
+                    message: def.minLength.message
+                });
+                status.dirty();
+            }
+        }
+        if (def.maxLength !== null) {
+            if (ctx.data.length > def.maxLength.value) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                    maximum: def.maxLength.value,
+                    type: "array",
+                    inclusive: true,
+                    exact: false,
+                    message: def.maxLength.message
+                });
+                status.dirty();
+            }
+        }
+        if (ctx.common.async) {
+            return Promise.all([
+                ...ctx.data
+            ].map((item, i)=>{
+                return def.type._parseAsync(new ParseInputLazyPath(ctx, item, ctx.path, i));
+            })).then((result)=>{
+                return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeArray(status, result);
+            });
+        }
+        const result = [
+            ...ctx.data
+        ].map((item, i)=>{
+            return def.type._parseSync(new ParseInputLazyPath(ctx, item, ctx.path, i));
+        });
+        return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeArray(status, result);
+    }
+    get element() {
+        return this._def.type;
+    }
+    min(minLength, message) {
+        return new ZodArray({
+            ...this._def,
+            minLength: {
+                value: minLength,
+                message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+            }
+        });
+    }
+    max(maxLength, message) {
+        return new ZodArray({
+            ...this._def,
+            maxLength: {
+                value: maxLength,
+                message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+            }
+        });
+    }
+    length(len, message) {
+        return new ZodArray({
+            ...this._def,
+            exactLength: {
+                value: len,
+                message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+            }
+        });
+    }
+    nonempty(message) {
+        return this.min(1, message);
+    }
+}
+ZodArray.create = (schema, params)=>{
+    return new ZodArray({
+        type: schema,
+        minLength: null,
+        maxLength: null,
+        exactLength: null,
+        typeName: ZodFirstPartyTypeKind.ZodArray,
+        ...processCreateParams(params)
+    });
+};
+function deepPartialify(schema) {
+    if (schema instanceof ZodObject) {
+        const newShape = {};
+        for(const key in schema.shape){
+            const fieldSchema = schema.shape[key];
+            newShape[key] = ZodOptional.create(deepPartialify(fieldSchema));
+        }
+        return new ZodObject({
+            ...schema._def,
+            shape: ()=>newShape
+        });
+    } else if (schema instanceof ZodArray) {
+        return new ZodArray({
+            ...schema._def,
+            type: deepPartialify(schema.element)
+        });
+    } else if (schema instanceof ZodOptional) {
+        return ZodOptional.create(deepPartialify(schema.unwrap()));
+    } else if (schema instanceof ZodNullable) {
+        return ZodNullable.create(deepPartialify(schema.unwrap()));
+    } else if (schema instanceof ZodTuple) {
+        return ZodTuple.create(schema.items.map((item)=>deepPartialify(item)));
+    } else {
+        return schema;
+    }
+}
+class ZodObject extends ZodType {
+    constructor(){
+        super(...arguments);
+        this._cached = null;
+        /**
+         * @deprecated In most cases, this is no longer needed - unknown properties are now silently stripped.
+         * If you want to pass through unknown properties, use `.passthrough()` instead.
+         */ this.nonstrict = this.passthrough;
+        // extend<
+        //   Augmentation extends ZodRawShape,
+        //   NewOutput extends util.flatten<{
+        //     [k in keyof Augmentation | keyof Output]: k extends keyof Augmentation
+        //       ? Augmentation[k]["_output"]
+        //       : k extends keyof Output
+        //       ? Output[k]
+        //       : never;
+        //   }>,
+        //   NewInput extends util.flatten<{
+        //     [k in keyof Augmentation | keyof Input]: k extends keyof Augmentation
+        //       ? Augmentation[k]["_input"]
+        //       : k extends keyof Input
+        //       ? Input[k]
+        //       : never;
+        //   }>
+        // >(
+        //   augmentation: Augmentation
+        // ): ZodObject<
+        //   extendShape<T, Augmentation>,
+        //   UnknownKeys,
+        //   Catchall,
+        //   NewOutput,
+        //   NewInput
+        // > {
+        //   return new ZodObject({
+        //     ...this._def,
+        //     shape: () => ({
+        //       ...this._def.shape(),
+        //       ...augmentation,
+        //     }),
+        //   }) as any;
+        // }
+        /**
+         * @deprecated Use `.extend` instead
+         *  */ this.augment = this.extend;
+    }
+    _getCached() {
+        if (this._cached !== null) return this._cached;
+        const shape = this._def.shape();
+        const keys = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(shape);
+        this._cached = {
+            shape,
+            keys
+        };
+        return this._cached;
+    }
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const { status, ctx } = this._processInputParams(input);
+        const { shape, keys: shapeKeys } = this._getCached();
+        const extraKeys = [];
+        if (!(this._def.catchall instanceof ZodNever && this._def.unknownKeys === "strip")) {
+            for(const key in ctx.data){
+                if (!shapeKeys.includes(key)) {
+                    extraKeys.push(key);
+                }
+            }
+        }
+        const pairs = [];
+        for (const key of shapeKeys){
+            const keyValidator = shape[key];
+            const value = ctx.data[key];
+            pairs.push({
+                key: {
+                    status: "valid",
+                    value: key
+                },
+                value: keyValidator._parse(new ParseInputLazyPath(ctx, value, ctx.path, key)),
+                alwaysSet: key in ctx.data
+            });
+        }
+        if (this._def.catchall instanceof ZodNever) {
+            const unknownKeys = this._def.unknownKeys;
+            if (unknownKeys === "passthrough") {
+                for (const key of extraKeys){
+                    pairs.push({
+                        key: {
+                            status: "valid",
+                            value: key
+                        },
+                        value: {
+                            status: "valid",
+                            value: ctx.data[key]
+                        }
+                    });
+                }
+            } else if (unknownKeys === "strict") {
+                if (extraKeys.length > 0) {
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                        code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].unrecognized_keys,
+                        keys: extraKeys
+                    });
+                    status.dirty();
+                }
+            } else if (unknownKeys === "strip") {} else {
+                throw new Error(`Internal ZodObject error: invalid unknownKeys value.`);
+            }
+        } else {
+            // run catchall validation
+            const catchall = this._def.catchall;
+            for (const key of extraKeys){
+                const value = ctx.data[key];
+                pairs.push({
+                    key: {
+                        status: "valid",
+                        value: key
+                    },
+                    value: catchall._parse(new ParseInputLazyPath(ctx, value, ctx.path, key) //, ctx.child(key), value, getParsedType(value)
+                    ),
+                    alwaysSet: key in ctx.data
+                });
+            }
+        }
+        if (ctx.common.async) {
+            return Promise.resolve().then(async ()=>{
+                const syncPairs = [];
+                for (const pair of pairs){
+                    const key = await pair.key;
+                    const value = await pair.value;
+                    syncPairs.push({
+                        key,
+                        value,
+                        alwaysSet: pair.alwaysSet
+                    });
+                }
+                return syncPairs;
+            }).then((syncPairs)=>{
+                return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeObjectSync(status, syncPairs);
+            });
+        } else {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeObjectSync(status, pairs);
+        }
+    }
+    get shape() {
+        return this._def.shape();
+    }
+    strict(message) {
+        __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj;
+        return new ZodObject({
+            ...this._def,
+            unknownKeys: "strict",
+            ...message !== undefined ? {
+                errorMap: (issue, ctx)=>{
+                    const defaultError = this._def.errorMap?.(issue, ctx).message ?? ctx.defaultError;
+                    if (issue.code === "unrecognized_keys") return {
+                        message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].errToObj(message).message ?? defaultError
+                    };
+                    return {
+                        message: defaultError
+                    };
+                }
+            } : {}
+        });
+    }
+    strip() {
+        return new ZodObject({
+            ...this._def,
+            unknownKeys: "strip"
+        });
+    }
+    passthrough() {
+        return new ZodObject({
+            ...this._def,
+            unknownKeys: "passthrough"
+        });
+    }
+    // const AugmentFactory =
+    //   <Def extends ZodObjectDef>(def: Def) =>
+    //   <Augmentation extends ZodRawShape>(
+    //     augmentation: Augmentation
+    //   ): ZodObject<
+    //     extendShape<ReturnType<Def["shape"]>, Augmentation>,
+    //     Def["unknownKeys"],
+    //     Def["catchall"]
+    //   > => {
+    //     return new ZodObject({
+    //       ...def,
+    //       shape: () => ({
+    //         ...def.shape(),
+    //         ...augmentation,
+    //       }),
+    //     }) as any;
+    //   };
+    extend(augmentation) {
+        return new ZodObject({
+            ...this._def,
+            shape: ()=>({
+                    ...this._def.shape(),
+                    ...augmentation
+                })
+        });
+    }
+    /**
+     * Prior to zod@1.0.12 there was a bug in the
+     * inferred type of merged objects. Please
+     * upgrade if you are experiencing issues.
+     */ merge(merging) {
+        const merged = new ZodObject({
+            unknownKeys: merging._def.unknownKeys,
+            catchall: merging._def.catchall,
+            shape: ()=>({
+                    ...this._def.shape(),
+                    ...merging._def.shape()
+                }),
+            typeName: ZodFirstPartyTypeKind.ZodObject
+        });
+        return merged;
+    }
+    // merge<
+    //   Incoming extends AnyZodObject,
+    //   Augmentation extends Incoming["shape"],
+    //   NewOutput extends {
+    //     [k in keyof Augmentation | keyof Output]: k extends keyof Augmentation
+    //       ? Augmentation[k]["_output"]
+    //       : k extends keyof Output
+    //       ? Output[k]
+    //       : never;
+    //   },
+    //   NewInput extends {
+    //     [k in keyof Augmentation | keyof Input]: k extends keyof Augmentation
+    //       ? Augmentation[k]["_input"]
+    //       : k extends keyof Input
+    //       ? Input[k]
+    //       : never;
+    //   }
+    // >(
+    //   merging: Incoming
+    // ): ZodObject<
+    //   extendShape<T, ReturnType<Incoming["_def"]["shape"]>>,
+    //   Incoming["_def"]["unknownKeys"],
+    //   Incoming["_def"]["catchall"],
+    //   NewOutput,
+    //   NewInput
+    // > {
+    //   const merged: any = new ZodObject({
+    //     unknownKeys: merging._def.unknownKeys,
+    //     catchall: merging._def.catchall,
+    //     shape: () =>
+    //       objectUtil.mergeShapes(this._def.shape(), merging._def.shape()),
+    //     typeName: ZodFirstPartyTypeKind.ZodObject,
+    //   }) as any;
+    //   return merged;
+    // }
+    setKey(key, schema) {
+        return this.augment({
+            [key]: schema
+        });
+    }
+    // merge<Incoming extends AnyZodObject>(
+    //   merging: Incoming
+    // ): //ZodObject<T & Incoming["_shape"], UnknownKeys, Catchall> = (merging) => {
+    // ZodObject<
+    //   extendShape<T, ReturnType<Incoming["_def"]["shape"]>>,
+    //   Incoming["_def"]["unknownKeys"],
+    //   Incoming["_def"]["catchall"]
+    // > {
+    //   // const mergedShape = objectUtil.mergeShapes(
+    //   //   this._def.shape(),
+    //   //   merging._def.shape()
+    //   // );
+    //   const merged: any = new ZodObject({
+    //     unknownKeys: merging._def.unknownKeys,
+    //     catchall: merging._def.catchall,
+    //     shape: () =>
+    //       objectUtil.mergeShapes(this._def.shape(), merging._def.shape()),
+    //     typeName: ZodFirstPartyTypeKind.ZodObject,
+    //   }) as any;
+    //   return merged;
+    // }
+    catchall(index) {
+        return new ZodObject({
+            ...this._def,
+            catchall: index
+        });
+    }
+    pick(mask) {
+        const shape = {};
+        for (const key of __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(mask)){
+            if (mask[key] && this.shape[key]) {
+                shape[key] = this.shape[key];
+            }
+        }
+        return new ZodObject({
+            ...this._def,
+            shape: ()=>shape
+        });
+    }
+    omit(mask) {
+        const shape = {};
+        for (const key of __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(this.shape)){
+            if (!mask[key]) {
+                shape[key] = this.shape[key];
+            }
+        }
+        return new ZodObject({
+            ...this._def,
+            shape: ()=>shape
+        });
+    }
+    /**
+     * @deprecated
+     */ deepPartial() {
+        return deepPartialify(this);
+    }
+    partial(mask) {
+        const newShape = {};
+        for (const key of __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(this.shape)){
+            const fieldSchema = this.shape[key];
+            if (mask && !mask[key]) {
+                newShape[key] = fieldSchema;
+            } else {
+                newShape[key] = fieldSchema.optional();
+            }
+        }
+        return new ZodObject({
+            ...this._def,
+            shape: ()=>newShape
+        });
+    }
+    required(mask) {
+        const newShape = {};
+        for (const key of __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(this.shape)){
+            if (mask && !mask[key]) {
+                newShape[key] = this.shape[key];
+            } else {
+                const fieldSchema = this.shape[key];
+                let newField = fieldSchema;
+                while(newField instanceof ZodOptional){
+                    newField = newField._def.innerType;
+                }
+                newShape[key] = newField;
+            }
+        }
+        return new ZodObject({
+            ...this._def,
+            shape: ()=>newShape
+        });
+    }
+    keyof() {
+        return createZodEnum(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(this.shape));
+    }
+}
+ZodObject.create = (shape, params)=>{
+    return new ZodObject({
+        shape: ()=>shape,
+        unknownKeys: "strip",
+        catchall: ZodNever.create(),
+        typeName: ZodFirstPartyTypeKind.ZodObject,
+        ...processCreateParams(params)
+    });
+};
+ZodObject.strictCreate = (shape, params)=>{
+    return new ZodObject({
+        shape: ()=>shape,
+        unknownKeys: "strict",
+        catchall: ZodNever.create(),
+        typeName: ZodFirstPartyTypeKind.ZodObject,
+        ...processCreateParams(params)
+    });
+};
+ZodObject.lazycreate = (shape, params)=>{
+    return new ZodObject({
+        shape,
+        unknownKeys: "strip",
+        catchall: ZodNever.create(),
+        typeName: ZodFirstPartyTypeKind.ZodObject,
+        ...processCreateParams(params)
+    });
+};
+class ZodUnion extends ZodType {
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        const options = this._def.options;
+        function handleResults(results) {
+            // return first issue-free validation if it exists
+            for (const result of results){
+                if (result.result.status === "valid") {
+                    return result.result;
+                }
+            }
+            for (const result of results){
+                if (result.result.status === "dirty") {
+                    // add issues from dirty option
+                    ctx.common.issues.push(...result.ctx.common.issues);
+                    return result.result;
+                }
+            }
+            // return invalid
+            const unionErrors = results.map((result)=>new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"](result.ctx.common.issues));
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_union,
+                unionErrors
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (ctx.common.async) {
+            return Promise.all(options.map(async (option)=>{
+                const childCtx = {
+                    ...ctx,
+                    common: {
+                        ...ctx.common,
+                        issues: []
+                    },
+                    parent: null
+                };
+                return {
+                    result: await option._parseAsync({
+                        data: ctx.data,
+                        path: ctx.path,
+                        parent: childCtx
+                    }),
+                    ctx: childCtx
+                };
+            })).then(handleResults);
+        } else {
+            let dirty = undefined;
+            const issues = [];
+            for (const option of options){
+                const childCtx = {
+                    ...ctx,
+                    common: {
+                        ...ctx.common,
+                        issues: []
+                    },
+                    parent: null
+                };
+                const result = option._parseSync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: childCtx
+                });
+                if (result.status === "valid") {
+                    return result;
+                } else if (result.status === "dirty" && !dirty) {
+                    dirty = {
+                        result,
+                        ctx: childCtx
+                    };
+                }
+                if (childCtx.common.issues.length) {
+                    issues.push(childCtx.common.issues);
+                }
+            }
+            if (dirty) {
+                ctx.common.issues.push(...dirty.ctx.common.issues);
+                return dirty.result;
+            }
+            const unionErrors = issues.map((issues)=>new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"](issues));
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_union,
+                unionErrors
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+    }
+    get options() {
+        return this._def.options;
+    }
+}
+ZodUnion.create = (types, params)=>{
+    return new ZodUnion({
+        options: types,
+        typeName: ZodFirstPartyTypeKind.ZodUnion,
+        ...processCreateParams(params)
+    });
+};
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+//////////                                 //////////
+//////////      ZodDiscriminatedUnion      //////////
+//////////                                 //////////
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+const getDiscriminator = (type)=>{
+    if (type instanceof ZodLazy) {
+        return getDiscriminator(type.schema);
+    } else if (type instanceof ZodEffects) {
+        return getDiscriminator(type.innerType());
+    } else if (type instanceof ZodLiteral) {
+        return [
+            type.value
+        ];
+    } else if (type instanceof ZodEnum) {
+        return type.options;
+    } else if (type instanceof ZodNativeEnum) {
+        // eslint-disable-next-line ban/ban
+        return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectValues(type.enum);
+    } else if (type instanceof ZodDefault) {
+        return getDiscriminator(type._def.innerType);
+    } else if (type instanceof ZodUndefined) {
+        return [
+            undefined
+        ];
+    } else if (type instanceof ZodNull) {
+        return [
+            null
+        ];
+    } else if (type instanceof ZodOptional) {
+        return [
+            undefined,
+            ...getDiscriminator(type.unwrap())
+        ];
+    } else if (type instanceof ZodNullable) {
+        return [
+            null,
+            ...getDiscriminator(type.unwrap())
+        ];
+    } else if (type instanceof ZodBranded) {
+        return getDiscriminator(type.unwrap());
+    } else if (type instanceof ZodReadonly) {
+        return getDiscriminator(type.unwrap());
+    } else if (type instanceof ZodCatch) {
+        return getDiscriminator(type._def.innerType);
+    } else {
+        return [];
+    }
+};
+class ZodDiscriminatedUnion extends ZodType {
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const discriminator = this.discriminator;
+        const discriminatorValue = ctx.data[discriminator];
+        const option = this.optionsMap.get(discriminatorValue);
+        if (!option) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_union_discriminator,
+                options: Array.from(this.optionsMap.keys()),
+                path: [
+                    discriminator
+                ]
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (ctx.common.async) {
+            return option._parseAsync({
+                data: ctx.data,
+                path: ctx.path,
+                parent: ctx
+            });
+        } else {
+            return option._parseSync({
+                data: ctx.data,
+                path: ctx.path,
+                parent: ctx
+            });
+        }
+    }
+    get discriminator() {
+        return this._def.discriminator;
+    }
+    get options() {
+        return this._def.options;
+    }
+    get optionsMap() {
+        return this._def.optionsMap;
+    }
+    /**
+     * The constructor of the discriminated union schema. Its behaviour is very similar to that of the normal z.union() constructor.
+     * However, it only allows a union of objects, all of which need to share a discriminator property. This property must
+     * have a different value for each object in the union.
+     * @param discriminator the name of the discriminator property
+     * @param types an array of object schemas
+     * @param params
+     */ static create(discriminator, options, params) {
+        // Get all the valid discriminator values
+        const optionsMap = new Map();
+        // try {
+        for (const type of options){
+            const discriminatorValues = getDiscriminator(type.shape[discriminator]);
+            if (!discriminatorValues.length) {
+                throw new Error(`A discriminator value for key \`${discriminator}\` could not be extracted from all schema options`);
+            }
+            for (const value of discriminatorValues){
+                if (optionsMap.has(value)) {
+                    throw new Error(`Discriminator property ${String(discriminator)} has duplicate value ${String(value)}`);
+                }
+                optionsMap.set(value, type);
+            }
+        }
+        return new ZodDiscriminatedUnion({
+            typeName: ZodFirstPartyTypeKind.ZodDiscriminatedUnion,
+            discriminator,
+            options,
+            optionsMap,
+            ...processCreateParams(params)
+        });
+    }
+}
+function mergeValues(a, b) {
+    const aType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(a);
+    const bType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"])(b);
+    if (a === b) {
+        return {
+            valid: true,
+            data: a
+        };
+    } else if (aType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object && bType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object) {
+        const bKeys = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(b);
+        const sharedKeys = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectKeys(a).filter((key)=>bKeys.indexOf(key) !== -1);
+        const newObj = {
+            ...a,
+            ...b
+        };
+        for (const key of sharedKeys){
+            const sharedValue = mergeValues(a[key], b[key]);
+            if (!sharedValue.valid) {
+                return {
+                    valid: false
+                };
+            }
+            newObj[key] = sharedValue.data;
+        }
+        return {
+            valid: true,
+            data: newObj
+        };
+    } else if (aType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].array && bType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].array) {
+        if (a.length !== b.length) {
+            return {
+                valid: false
+            };
+        }
+        const newArray = [];
+        for(let index = 0; index < a.length; index++){
+            const itemA = a[index];
+            const itemB = b[index];
+            const sharedValue = mergeValues(itemA, itemB);
+            if (!sharedValue.valid) {
+                return {
+                    valid: false
+                };
+            }
+            newArray.push(sharedValue.data);
+        }
+        return {
+            valid: true,
+            data: newArray
+        };
+    } else if (aType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].date && bType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].date && +a === +b) {
+        return {
+            valid: true,
+            data: a
+        };
+    } else {
+        return {
+            valid: false
+        };
+    }
+}
+class ZodIntersection extends ZodType {
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        const handleParsed = (parsedLeft, parsedRight)=>{
+            if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAborted"])(parsedLeft) || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAborted"])(parsedRight)) {
+                return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+            }
+            const merged = mergeValues(parsedLeft.value, parsedRight.value);
+            if (!merged.valid) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_intersection_types
+                });
+                return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+            }
+            if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isDirty"])(parsedLeft) || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isDirty"])(parsedRight)) {
+                status.dirty();
+            }
+            return {
+                status: status.value,
+                value: merged.data
+            };
+        };
+        if (ctx.common.async) {
+            return Promise.all([
+                this._def.left._parseAsync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                }),
+                this._def.right._parseAsync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                })
+            ]).then(([left, right])=>handleParsed(left, right));
+        } else {
+            return handleParsed(this._def.left._parseSync({
+                data: ctx.data,
+                path: ctx.path,
+                parent: ctx
+            }), this._def.right._parseSync({
+                data: ctx.data,
+                path: ctx.path,
+                parent: ctx
+            }));
+        }
+    }
+}
+ZodIntersection.create = (left, right, params)=>{
+    return new ZodIntersection({
+        left: left,
+        right: right,
+        typeName: ZodFirstPartyTypeKind.ZodIntersection,
+        ...processCreateParams(params)
+    });
+};
+class ZodTuple extends ZodType {
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].array) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].array,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (ctx.data.length < this._def.items.length) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                minimum: this._def.items.length,
+                inclusive: true,
+                exact: false,
+                type: "array"
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const rest = this._def.rest;
+        if (!rest && ctx.data.length > this._def.items.length) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                maximum: this._def.items.length,
+                inclusive: true,
+                exact: false,
+                type: "array"
+            });
+            status.dirty();
+        }
+        const items = [
+            ...ctx.data
+        ].map((item, itemIndex)=>{
+            const schema = this._def.items[itemIndex] || this._def.rest;
+            if (!schema) return null;
+            return schema._parse(new ParseInputLazyPath(ctx, item, ctx.path, itemIndex));
+        }).filter((x)=>!!x); // filter nulls
+        if (ctx.common.async) {
+            return Promise.all(items).then((results)=>{
+                return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeArray(status, results);
+            });
+        } else {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeArray(status, items);
+        }
+    }
+    get items() {
+        return this._def.items;
+    }
+    rest(rest) {
+        return new ZodTuple({
+            ...this._def,
+            rest
+        });
+    }
+}
+ZodTuple.create = (schemas, params)=>{
+    if (!Array.isArray(schemas)) {
+        throw new Error("You must pass an array of schemas to z.tuple([ ... ])");
+    }
+    return new ZodTuple({
+        items: schemas,
+        typeName: ZodFirstPartyTypeKind.ZodTuple,
+        rest: null,
+        ...processCreateParams(params)
+    });
+};
+class ZodRecord extends ZodType {
+    get keySchema() {
+        return this._def.keyType;
+    }
+    get valueSchema() {
+        return this._def.valueType;
+    }
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].object,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const pairs = [];
+        const keyType = this._def.keyType;
+        const valueType = this._def.valueType;
+        for(const key in ctx.data){
+            pairs.push({
+                key: keyType._parse(new ParseInputLazyPath(ctx, key, ctx.path, key)),
+                value: valueType._parse(new ParseInputLazyPath(ctx, ctx.data[key], ctx.path, key)),
+                alwaysSet: key in ctx.data
+            });
+        }
+        if (ctx.common.async) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeObjectAsync(status, pairs);
+        } else {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"].mergeObjectSync(status, pairs);
+        }
+    }
+    get element() {
+        return this._def.valueType;
+    }
+    static create(first, second, third) {
+        if (second instanceof ZodType) {
+            return new ZodRecord({
+                keyType: first,
+                valueType: second,
+                typeName: ZodFirstPartyTypeKind.ZodRecord,
+                ...processCreateParams(third)
+            });
+        }
+        return new ZodRecord({
+            keyType: ZodString.create(),
+            valueType: first,
+            typeName: ZodFirstPartyTypeKind.ZodRecord,
+            ...processCreateParams(second)
+        });
+    }
+}
+class ZodMap extends ZodType {
+    get keySchema() {
+        return this._def.keyType;
+    }
+    get valueSchema() {
+        return this._def.valueType;
+    }
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].map) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].map,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const keyType = this._def.keyType;
+        const valueType = this._def.valueType;
+        const pairs = [
+            ...ctx.data.entries()
+        ].map(([key, value], index)=>{
+            return {
+                key: keyType._parse(new ParseInputLazyPath(ctx, key, ctx.path, [
+                    index,
+                    "key"
+                ])),
+                value: valueType._parse(new ParseInputLazyPath(ctx, value, ctx.path, [
+                    index,
+                    "value"
+                ]))
+            };
+        });
+        if (ctx.common.async) {
+            const finalMap = new Map();
+            return Promise.resolve().then(async ()=>{
+                for (const pair of pairs){
+                    const key = await pair.key;
+                    const value = await pair.value;
+                    if (key.status === "aborted" || value.status === "aborted") {
+                        return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                    }
+                    if (key.status === "dirty" || value.status === "dirty") {
+                        status.dirty();
+                    }
+                    finalMap.set(key.value, value.value);
+                }
+                return {
+                    status: status.value,
+                    value: finalMap
+                };
+            });
+        } else {
+            const finalMap = new Map();
+            for (const pair of pairs){
+                const key = pair.key;
+                const value = pair.value;
+                if (key.status === "aborted" || value.status === "aborted") {
+                    return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                }
+                if (key.status === "dirty" || value.status === "dirty") {
+                    status.dirty();
+                }
+                finalMap.set(key.value, value.value);
+            }
+            return {
+                status: status.value,
+                value: finalMap
+            };
+        }
+    }
+}
+ZodMap.create = (keyType, valueType, params)=>{
+    return new ZodMap({
+        valueType,
+        keyType,
+        typeName: ZodFirstPartyTypeKind.ZodMap,
+        ...processCreateParams(params)
+    });
+};
+class ZodSet extends ZodType {
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].set) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].set,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const def = this._def;
+        if (def.minSize !== null) {
+            if (ctx.data.size < def.minSize.value) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_small,
+                    minimum: def.minSize.value,
+                    type: "set",
+                    inclusive: true,
+                    exact: false,
+                    message: def.minSize.message
+                });
+                status.dirty();
+            }
+        }
+        if (def.maxSize !== null) {
+            if (ctx.data.size > def.maxSize.value) {
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].too_big,
+                    maximum: def.maxSize.value,
+                    type: "set",
+                    inclusive: true,
+                    exact: false,
+                    message: def.maxSize.message
+                });
+                status.dirty();
+            }
+        }
+        const valueType = this._def.valueType;
+        function finalizeSet(elements) {
+            const parsedSet = new Set();
+            for (const element of elements){
+                if (element.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                if (element.status === "dirty") status.dirty();
+                parsedSet.add(element.value);
+            }
+            return {
+                status: status.value,
+                value: parsedSet
+            };
+        }
+        const elements = [
+            ...ctx.data.values()
+        ].map((item, i)=>valueType._parse(new ParseInputLazyPath(ctx, item, ctx.path, i)));
+        if (ctx.common.async) {
+            return Promise.all(elements).then((elements)=>finalizeSet(elements));
+        } else {
+            return finalizeSet(elements);
+        }
+    }
+    min(minSize, message) {
+        return new ZodSet({
+            ...this._def,
+            minSize: {
+                value: minSize,
+                message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+            }
+        });
+    }
+    max(maxSize, message) {
+        return new ZodSet({
+            ...this._def,
+            maxSize: {
+                value: maxSize,
+                message: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$errorUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["errorUtil"].toString(message)
+            }
+        });
+    }
+    size(size, message) {
+        return this.min(size, message).max(size, message);
+    }
+    nonempty(message) {
+        return this.min(1, message);
+    }
+}
+ZodSet.create = (valueType, params)=>{
+    return new ZodSet({
+        valueType,
+        minSize: null,
+        maxSize: null,
+        typeName: ZodFirstPartyTypeKind.ZodSet,
+        ...processCreateParams(params)
+    });
+};
+class ZodFunction extends ZodType {
+    constructor(){
+        super(...arguments);
+        this.validate = this.implement;
+    }
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].function) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].function,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        function makeArgsIssue(args, error) {
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["makeIssue"])({
+                data: args,
+                path: ctx.path,
+                errorMaps: [
+                    ctx.common.contextualErrorMap,
+                    ctx.schemaErrorMap,
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["getErrorMap"])(),
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__defaultErrorMap$3e$__["defaultErrorMap"]
+                ].filter((x)=>!!x),
+                issueData: {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_arguments,
+                    argumentsError: error
+                }
+            });
+        }
+        function makeReturnsIssue(returns, error) {
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["makeIssue"])({
+                data: returns,
+                path: ctx.path,
+                errorMaps: [
+                    ctx.common.contextualErrorMap,
+                    ctx.schemaErrorMap,
+                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["getErrorMap"])(),
+                    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$locales$2f$en$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__defaultErrorMap$3e$__["defaultErrorMap"]
+                ].filter((x)=>!!x),
+                issueData: {
+                    code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_return_type,
+                    returnTypeError: error
+                }
+            });
+        }
+        const params = {
+            errorMap: ctx.common.contextualErrorMap
+        };
+        const fn = ctx.data;
+        if (this._def.returns instanceof ZodPromise) {
+            // Would love a way to avoid disabling this rule, but we need
+            // an alias (using an arrow function was what caused 2651).
+            // eslint-disable-next-line @typescript-eslint/no-this-alias
+            const me = this;
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(async function(...args) {
+                const error = new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"]([]);
+                const parsedArgs = await me._def.args.parseAsync(args, params).catch((e)=>{
+                    error.addIssue(makeArgsIssue(args, e));
+                    throw error;
+                });
+                const result = await Reflect.apply(fn, this, parsedArgs);
+                const parsedReturns = await me._def.returns._def.type.parseAsync(result, params).catch((e)=>{
+                    error.addIssue(makeReturnsIssue(result, e));
+                    throw error;
+                });
+                return parsedReturns;
+            });
+        } else {
+            // Would love a way to avoid disabling this rule, but we need
+            // an alias (using an arrow function was what caused 2651).
+            // eslint-disable-next-line @typescript-eslint/no-this-alias
+            const me = this;
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(function(...args) {
+                const parsedArgs = me._def.args.safeParse(args, params);
+                if (!parsedArgs.success) {
+                    throw new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"]([
+                        makeArgsIssue(args, parsedArgs.error)
+                    ]);
+                }
+                const result = Reflect.apply(fn, this, parsedArgs.data);
+                const parsedReturns = me._def.returns.safeParse(result, params);
+                if (!parsedReturns.success) {
+                    throw new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"]([
+                        makeReturnsIssue(result, parsedReturns.error)
+                    ]);
+                }
+                return parsedReturns.data;
+            });
+        }
+    }
+    parameters() {
+        return this._def.args;
+    }
+    returnType() {
+        return this._def.returns;
+    }
+    args(...items) {
+        return new ZodFunction({
+            ...this._def,
+            args: ZodTuple.create(items).rest(ZodUnknown.create())
+        });
+    }
+    returns(returnType) {
+        return new ZodFunction({
+            ...this._def,
+            returns: returnType
+        });
+    }
+    implement(func) {
+        const validatedFunc = this.parse(func);
+        return validatedFunc;
+    }
+    strictImplement(func) {
+        const validatedFunc = this.parse(func);
+        return validatedFunc;
+    }
+    static create(args, returns, params) {
+        return new ZodFunction({
+            args: args ? args : ZodTuple.create([]).rest(ZodUnknown.create()),
+            returns: returns || ZodUnknown.create(),
+            typeName: ZodFirstPartyTypeKind.ZodFunction,
+            ...processCreateParams(params)
+        });
+    }
+}
+class ZodLazy extends ZodType {
+    get schema() {
+        return this._def.getter();
+    }
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        const lazySchema = this._def.getter();
+        return lazySchema._parse({
+            data: ctx.data,
+            path: ctx.path,
+            parent: ctx
+        });
+    }
+}
+ZodLazy.create = (getter, params)=>{
+    return new ZodLazy({
+        getter: getter,
+        typeName: ZodFirstPartyTypeKind.ZodLazy,
+        ...processCreateParams(params)
+    });
+};
+class ZodLiteral extends ZodType {
+    _parse(input) {
+        if (input.data !== this._def.value) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                received: ctx.data,
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_literal,
+                expected: this._def.value
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return {
+            status: "valid",
+            value: input.data
+        };
+    }
+    get value() {
+        return this._def.value;
+    }
+}
+ZodLiteral.create = (value, params)=>{
+    return new ZodLiteral({
+        value: value,
+        typeName: ZodFirstPartyTypeKind.ZodLiteral,
+        ...processCreateParams(params)
+    });
+};
+function createZodEnum(values, params) {
+    return new ZodEnum({
+        values,
+        typeName: ZodFirstPartyTypeKind.ZodEnum,
+        ...processCreateParams(params)
+    });
+}
+class ZodEnum extends ZodType {
+    _parse(input) {
+        if (typeof input.data !== "string") {
+            const ctx = this._getOrReturnCtx(input);
+            const expectedValues = this._def.values;
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].joinValues(expectedValues),
+                received: ctx.parsedType,
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (!this._cache) {
+            this._cache = new Set(this._def.values);
+        }
+        if (!this._cache.has(input.data)) {
+            const ctx = this._getOrReturnCtx(input);
+            const expectedValues = this._def.values;
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                received: ctx.data,
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_enum_value,
+                options: expectedValues
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+    get options() {
+        return this._def.values;
+    }
+    get enum() {
+        const enumValues = {};
+        for (const val of this._def.values){
+            enumValues[val] = val;
+        }
+        return enumValues;
+    }
+    get Values() {
+        const enumValues = {};
+        for (const val of this._def.values){
+            enumValues[val] = val;
+        }
+        return enumValues;
+    }
+    get Enum() {
+        const enumValues = {};
+        for (const val of this._def.values){
+            enumValues[val] = val;
+        }
+        return enumValues;
+    }
+    extract(values, newDef = this._def) {
+        return ZodEnum.create(values, {
+            ...this._def,
+            ...newDef
+        });
+    }
+    exclude(values, newDef = this._def) {
+        return ZodEnum.create(this.options.filter((opt)=>!values.includes(opt)), {
+            ...this._def,
+            ...newDef
+        });
+    }
+}
+ZodEnum.create = createZodEnum;
+class ZodNativeEnum extends ZodType {
+    _parse(input) {
+        const nativeEnumValues = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].getValidEnumValues(this._def.values);
+        const ctx = this._getOrReturnCtx(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].string && ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].number) {
+            const expectedValues = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectValues(nativeEnumValues);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].joinValues(expectedValues),
+                received: ctx.parsedType,
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        if (!this._cache) {
+            this._cache = new Set(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].getValidEnumValues(this._def.values));
+        }
+        if (!this._cache.has(input.data)) {
+            const expectedValues = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].objectValues(nativeEnumValues);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                received: ctx.data,
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_enum_value,
+                options: expectedValues
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(input.data);
+    }
+    get enum() {
+        return this._def.values;
+    }
+}
+ZodNativeEnum.create = (values, params)=>{
+    return new ZodNativeEnum({
+        values: values,
+        typeName: ZodFirstPartyTypeKind.ZodNativeEnum,
+        ...processCreateParams(params)
+    });
+};
+class ZodPromise extends ZodType {
+    unwrap() {
+        return this._def.type;
+    }
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        if (ctx.parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].promise && ctx.common.async === false) {
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].promise,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        const promisified = ctx.parsedType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].promise ? ctx.data : Promise.resolve(ctx.data);
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(promisified.then((data)=>{
+            return this._def.type.parseAsync(data, {
+                path: ctx.path,
+                errorMap: ctx.common.contextualErrorMap
+            });
+        }));
+    }
+}
+ZodPromise.create = (schema, params)=>{
+    return new ZodPromise({
+        type: schema,
+        typeName: ZodFirstPartyTypeKind.ZodPromise,
+        ...processCreateParams(params)
+    });
+};
+class ZodEffects extends ZodType {
+    innerType() {
+        return this._def.schema;
+    }
+    sourceType() {
+        return this._def.schema._def.typeName === ZodFirstPartyTypeKind.ZodEffects ? this._def.schema.sourceType() : this._def.schema;
+    }
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        const effect = this._def.effect || null;
+        const checkCtx = {
+            addIssue: (arg)=>{
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, arg);
+                if (arg.fatal) {
+                    status.abort();
+                } else {
+                    status.dirty();
+                }
+            },
+            get path () {
+                return ctx.path;
+            }
+        };
+        checkCtx.addIssue = checkCtx.addIssue.bind(checkCtx);
+        if (effect.type === "preprocess") {
+            const processed = effect.transform(ctx.data, checkCtx);
+            if (ctx.common.async) {
+                return Promise.resolve(processed).then(async (processed)=>{
+                    if (status.value === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                    const result = await this._def.schema._parseAsync({
+                        data: processed,
+                        path: ctx.path,
+                        parent: ctx
+                    });
+                    if (result.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                    if (result.status === "dirty") return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DIRTY"])(result.value);
+                    if (status.value === "dirty") return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DIRTY"])(result.value);
+                    return result;
+                });
+            } else {
+                if (status.value === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                const result = this._def.schema._parseSync({
+                    data: processed,
+                    path: ctx.path,
+                    parent: ctx
+                });
+                if (result.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                if (result.status === "dirty") return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DIRTY"])(result.value);
+                if (status.value === "dirty") return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DIRTY"])(result.value);
+                return result;
+            }
+        }
+        if (effect.type === "refinement") {
+            const executeRefinement = (acc)=>{
+                const result = effect.refinement(acc, checkCtx);
+                if (ctx.common.async) {
+                    return Promise.resolve(result);
+                }
+                if (result instanceof Promise) {
+                    throw new Error("Async refinement encountered during synchronous parse operation. Use .parseAsync instead.");
+                }
+                return acc;
+            };
+            if (ctx.common.async === false) {
+                const inner = this._def.schema._parseSync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                });
+                if (inner.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                if (inner.status === "dirty") status.dirty();
+                // return value is ignored
+                executeRefinement(inner.value);
+                return {
+                    status: status.value,
+                    value: inner.value
+                };
+            } else {
+                return this._def.schema._parseAsync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                }).then((inner)=>{
+                    if (inner.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                    if (inner.status === "dirty") status.dirty();
+                    return executeRefinement(inner.value).then(()=>{
+                        return {
+                            status: status.value,
+                            value: inner.value
+                        };
+                    });
+                });
+            }
+        }
+        if (effect.type === "transform") {
+            if (ctx.common.async === false) {
+                const base = this._def.schema._parseSync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                });
+                if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"])(base)) return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                const result = effect.transform(base.value, checkCtx);
+                if (result instanceof Promise) {
+                    throw new Error(`Asynchronous transform encountered during synchronous parse operation. Use .parseAsync instead.`);
+                }
+                return {
+                    status: status.value,
+                    value: result
+                };
+            } else {
+                return this._def.schema._parseAsync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                }).then((base)=>{
+                    if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"])(base)) return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                    return Promise.resolve(effect.transform(base.value, checkCtx)).then((result)=>({
+                            status: status.value,
+                            value: result
+                        }));
+                });
+            }
+        }
+        __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"].assertNever(effect);
+    }
+}
+ZodEffects.create = (schema, effect, params)=>{
+    return new ZodEffects({
+        schema,
+        typeName: ZodFirstPartyTypeKind.ZodEffects,
+        effect,
+        ...processCreateParams(params)
+    });
+};
+ZodEffects.createWithPreprocess = (preprocess, schema, params)=>{
+    return new ZodEffects({
+        schema,
+        effect: {
+            type: "preprocess",
+            transform: preprocess
+        },
+        typeName: ZodFirstPartyTypeKind.ZodEffects,
+        ...processCreateParams(params)
+    });
+};
+;
+class ZodOptional extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].undefined) {
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(undefined);
+        }
+        return this._def.innerType._parse(input);
+    }
+    unwrap() {
+        return this._def.innerType;
+    }
+}
+ZodOptional.create = (type, params)=>{
+    return new ZodOptional({
+        innerType: type,
+        typeName: ZodFirstPartyTypeKind.ZodOptional,
+        ...processCreateParams(params)
+    });
+};
+class ZodNullable extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].null) {
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"])(null);
+        }
+        return this._def.innerType._parse(input);
+    }
+    unwrap() {
+        return this._def.innerType;
+    }
+}
+ZodNullable.create = (type, params)=>{
+    return new ZodNullable({
+        innerType: type,
+        typeName: ZodFirstPartyTypeKind.ZodNullable,
+        ...processCreateParams(params)
+    });
+};
+class ZodDefault extends ZodType {
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        let data = ctx.data;
+        if (ctx.parsedType === __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].undefined) {
+            data = this._def.defaultValue();
+        }
+        return this._def.innerType._parse({
+            data,
+            path: ctx.path,
+            parent: ctx
+        });
+    }
+    removeDefault() {
+        return this._def.innerType;
+    }
+}
+ZodDefault.create = (type, params)=>{
+    return new ZodDefault({
+        innerType: type,
+        typeName: ZodFirstPartyTypeKind.ZodDefault,
+        defaultValue: typeof params.default === "function" ? params.default : ()=>params.default,
+        ...processCreateParams(params)
+    });
+};
+class ZodCatch extends ZodType {
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        // newCtx is used to not collect issues from inner types in ctx
+        const newCtx = {
+            ...ctx,
+            common: {
+                ...ctx.common,
+                issues: []
+            }
+        };
+        const result = this._def.innerType._parse({
+            data: newCtx.data,
+            path: newCtx.path,
+            parent: {
+                ...newCtx
+            }
+        });
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAsync"])(result)) {
+            return result.then((result)=>{
+                return {
+                    status: "valid",
+                    value: result.status === "valid" ? result.value : this._def.catchValue({
+                        get error () {
+                            return new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"](newCtx.common.issues);
+                        },
+                        input: newCtx.data
+                    })
+                };
+            });
+        } else {
+            return {
+                status: "valid",
+                value: result.status === "valid" ? result.value : this._def.catchValue({
+                    get error () {
+                        return new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"](newCtx.common.issues);
+                    },
+                    input: newCtx.data
+                })
+            };
+        }
+    }
+    removeCatch() {
+        return this._def.innerType;
+    }
+}
+ZodCatch.create = (type, params)=>{
+    return new ZodCatch({
+        innerType: type,
+        typeName: ZodFirstPartyTypeKind.ZodCatch,
+        catchValue: typeof params.catch === "function" ? params.catch : ()=>params.catch,
+        ...processCreateParams(params)
+    });
+};
+class ZodNaN extends ZodType {
+    _parse(input) {
+        const parsedType = this._getType(input);
+        if (parsedType !== __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].nan) {
+            const ctx = this._getOrReturnCtx(input);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"])(ctx, {
+                code: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"].invalid_type,
+                expected: __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"].nan,
+                received: ctx.parsedType
+            });
+            return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+        }
+        return {
+            status: "valid",
+            value: input.data
+        };
+    }
+}
+ZodNaN.create = (params)=>{
+    return new ZodNaN({
+        typeName: ZodFirstPartyTypeKind.ZodNaN,
+        ...processCreateParams(params)
+    });
+};
+const BRAND = Symbol("zod_brand");
+class ZodBranded extends ZodType {
+    _parse(input) {
+        const { ctx } = this._processInputParams(input);
+        const data = ctx.data;
+        return this._def.type._parse({
+            data,
+            path: ctx.path,
+            parent: ctx
+        });
+    }
+    unwrap() {
+        return this._def.type;
+    }
+}
+class ZodPipeline extends ZodType {
+    _parse(input) {
+        const { status, ctx } = this._processInputParams(input);
+        if (ctx.common.async) {
+            const handleAsync = async ()=>{
+                const inResult = await this._def.in._parseAsync({
+                    data: ctx.data,
+                    path: ctx.path,
+                    parent: ctx
+                });
+                if (inResult.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+                if (inResult.status === "dirty") {
+                    status.dirty();
+                    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DIRTY"])(inResult.value);
+                } else {
+                    return this._def.out._parseAsync({
+                        data: inResult.value,
+                        path: ctx.path,
+                        parent: ctx
+                    });
+                }
+            };
+            return handleAsync();
+        } else {
+            const inResult = this._def.in._parseSync({
+                data: ctx.data,
+                path: ctx.path,
+                parent: ctx
+            });
+            if (inResult.status === "aborted") return __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+            if (inResult.status === "dirty") {
+                status.dirty();
+                return {
+                    status: "dirty",
+                    value: inResult.value
+                };
+            } else {
+                return this._def.out._parseSync({
+                    data: inResult.value,
+                    path: ctx.path,
+                    parent: ctx
+                });
+            }
+        }
+    }
+    static create(a, b) {
+        return new ZodPipeline({
+            in: a,
+            out: b,
+            typeName: ZodFirstPartyTypeKind.ZodPipeline
+        });
+    }
+}
+class ZodReadonly extends ZodType {
+    _parse(input) {
+        const result = this._def.innerType._parse(input);
+        const freeze = (data)=>{
+            if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"])(data)) {
+                data.value = Object.freeze(data.value);
+            }
+            return data;
+        };
+        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAsync"])(result) ? result.then((data)=>freeze(data)) : freeze(result);
+    }
+    unwrap() {
+        return this._def.innerType;
+    }
+}
+ZodReadonly.create = (type, params)=>{
+    return new ZodReadonly({
+        innerType: type,
+        typeName: ZodFirstPartyTypeKind.ZodReadonly,
+        ...processCreateParams(params)
+    });
+};
+////////////////////////////////////////
+////////////////////////////////////////
+//////////                    //////////
+//////////      z.custom      //////////
+//////////                    //////////
+////////////////////////////////////////
+////////////////////////////////////////
+function cleanParams(params, data) {
+    const p = typeof params === "function" ? params(data) : typeof params === "string" ? {
+        message: params
+    } : params;
+    const p2 = typeof p === "string" ? {
+        message: p
+    } : p;
+    return p2;
+}
+function custom(check, _params = {}, /**
+ * @deprecated
+ *
+ * Pass `fatal` into the params object instead:
+ *
+ * ```ts
+ * z.string().custom((val) => val.length > 5, { fatal: false })
+ * ```
+ *
+ */ fatal) {
+    if (check) return ZodAny.create().superRefine((data, ctx)=>{
+        const r = check(data);
+        if (r instanceof Promise) {
+            return r.then((r)=>{
+                if (!r) {
+                    const params = cleanParams(_params, data);
+                    const _fatal = params.fatal ?? fatal ?? true;
+                    ctx.addIssue({
+                        code: "custom",
+                        ...params,
+                        fatal: _fatal
+                    });
+                }
+            });
+        }
+        if (!r) {
+            const params = cleanParams(_params, data);
+            const _fatal = params.fatal ?? fatal ?? true;
+            ctx.addIssue({
+                code: "custom",
+                ...params,
+                fatal: _fatal
+            });
+        }
+        return;
+    });
+    return ZodAny.create();
+}
+;
+const late = {
+    object: ZodObject.lazycreate
+};
+var ZodFirstPartyTypeKind;
+(function(ZodFirstPartyTypeKind) {
+    ZodFirstPartyTypeKind["ZodString"] = "ZodString";
+    ZodFirstPartyTypeKind["ZodNumber"] = "ZodNumber";
+    ZodFirstPartyTypeKind["ZodNaN"] = "ZodNaN";
+    ZodFirstPartyTypeKind["ZodBigInt"] = "ZodBigInt";
+    ZodFirstPartyTypeKind["ZodBoolean"] = "ZodBoolean";
+    ZodFirstPartyTypeKind["ZodDate"] = "ZodDate";
+    ZodFirstPartyTypeKind["ZodSymbol"] = "ZodSymbol";
+    ZodFirstPartyTypeKind["ZodUndefined"] = "ZodUndefined";
+    ZodFirstPartyTypeKind["ZodNull"] = "ZodNull";
+    ZodFirstPartyTypeKind["ZodAny"] = "ZodAny";
+    ZodFirstPartyTypeKind["ZodUnknown"] = "ZodUnknown";
+    ZodFirstPartyTypeKind["ZodNever"] = "ZodNever";
+    ZodFirstPartyTypeKind["ZodVoid"] = "ZodVoid";
+    ZodFirstPartyTypeKind["ZodArray"] = "ZodArray";
+    ZodFirstPartyTypeKind["ZodObject"] = "ZodObject";
+    ZodFirstPartyTypeKind["ZodUnion"] = "ZodUnion";
+    ZodFirstPartyTypeKind["ZodDiscriminatedUnion"] = "ZodDiscriminatedUnion";
+    ZodFirstPartyTypeKind["ZodIntersection"] = "ZodIntersection";
+    ZodFirstPartyTypeKind["ZodTuple"] = "ZodTuple";
+    ZodFirstPartyTypeKind["ZodRecord"] = "ZodRecord";
+    ZodFirstPartyTypeKind["ZodMap"] = "ZodMap";
+    ZodFirstPartyTypeKind["ZodSet"] = "ZodSet";
+    ZodFirstPartyTypeKind["ZodFunction"] = "ZodFunction";
+    ZodFirstPartyTypeKind["ZodLazy"] = "ZodLazy";
+    ZodFirstPartyTypeKind["ZodLiteral"] = "ZodLiteral";
+    ZodFirstPartyTypeKind["ZodEnum"] = "ZodEnum";
+    ZodFirstPartyTypeKind["ZodEffects"] = "ZodEffects";
+    ZodFirstPartyTypeKind["ZodNativeEnum"] = "ZodNativeEnum";
+    ZodFirstPartyTypeKind["ZodOptional"] = "ZodOptional";
+    ZodFirstPartyTypeKind["ZodNullable"] = "ZodNullable";
+    ZodFirstPartyTypeKind["ZodDefault"] = "ZodDefault";
+    ZodFirstPartyTypeKind["ZodCatch"] = "ZodCatch";
+    ZodFirstPartyTypeKind["ZodPromise"] = "ZodPromise";
+    ZodFirstPartyTypeKind["ZodBranded"] = "ZodBranded";
+    ZodFirstPartyTypeKind["ZodPipeline"] = "ZodPipeline";
+    ZodFirstPartyTypeKind["ZodReadonly"] = "ZodReadonly";
+})(ZodFirstPartyTypeKind || (ZodFirstPartyTypeKind = {}));
+// requires TS 4.4+
+class Class {
+    constructor(..._){}
+}
+const instanceOfType = (// const instanceOfType = <T extends new (...args: any[]) => any>(
+cls, params = {
+    message: `Input not instance of ${cls.name}`
+})=>custom((data)=>data instanceof cls, params);
+const stringType = ZodString.create;
+const numberType = ZodNumber.create;
+const nanType = ZodNaN.create;
+const bigIntType = ZodBigInt.create;
+const booleanType = ZodBoolean.create;
+const dateType = ZodDate.create;
+const symbolType = ZodSymbol.create;
+const undefinedType = ZodUndefined.create;
+const nullType = ZodNull.create;
+const anyType = ZodAny.create;
+const unknownType = ZodUnknown.create;
+const neverType = ZodNever.create;
+const voidType = ZodVoid.create;
+const arrayType = ZodArray.create;
+const objectType = ZodObject.create;
+const strictObjectType = ZodObject.strictCreate;
+const unionType = ZodUnion.create;
+const discriminatedUnionType = ZodDiscriminatedUnion.create;
+const intersectionType = ZodIntersection.create;
+const tupleType = ZodTuple.create;
+const recordType = ZodRecord.create;
+const mapType = ZodMap.create;
+const setType = ZodSet.create;
+const functionType = ZodFunction.create;
+const lazyType = ZodLazy.create;
+const literalType = ZodLiteral.create;
+const enumType = ZodEnum.create;
+const nativeEnumType = ZodNativeEnum.create;
+const promiseType = ZodPromise.create;
+const effectsType = ZodEffects.create;
+const optionalType = ZodOptional.create;
+const nullableType = ZodNullable.create;
+const preprocessType = ZodEffects.createWithPreprocess;
+const pipelineType = ZodPipeline.create;
+const ostring = ()=>stringType().optional();
+const onumber = ()=>numberType().optional();
+const oboolean = ()=>booleanType().optional();
+const coerce = {
+    string: (arg)=>ZodString.create({
+            ...arg,
+            coerce: true
+        }),
+    number: (arg)=>ZodNumber.create({
+            ...arg,
+            coerce: true
+        }),
+    boolean: (arg)=>ZodBoolean.create({
+            ...arg,
+            coerce: true
+        }),
+    bigint: (arg)=>ZodBigInt.create({
+            ...arg,
+            coerce: true
+        }),
+    date: (arg)=>ZodDate.create({
+            ...arg,
+            coerce: true
+        })
+};
+;
+const NEVER = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"];
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/external.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BRAND",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BRAND"],
+    "DIRTY",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DIRTY"],
+    "EMPTY_PATH",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EMPTY_PATH"],
+    "INVALID",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["INVALID"],
+    "NEVER",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NEVER"],
+    "OK",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OK"],
+    "ParseStatus",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ParseStatus"],
+    "Schema",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Schema"],
+    "ZodAny",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodAny"],
+    "ZodArray",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodArray"],
+    "ZodBigInt",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodBigInt"],
+    "ZodBoolean",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodBoolean"],
+    "ZodBranded",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodBranded"],
+    "ZodCatch",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodCatch"],
+    "ZodDate",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodDate"],
+    "ZodDefault",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodDefault"],
+    "ZodDiscriminatedUnion",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodDiscriminatedUnion"],
+    "ZodEffects",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodEffects"],
+    "ZodEnum",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodEnum"],
+    "ZodError",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodError"],
+    "ZodFirstPartyTypeKind",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodFirstPartyTypeKind"],
+    "ZodFunction",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodFunction"],
+    "ZodIntersection",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIntersection"],
+    "ZodIssueCode",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodIssueCode"],
+    "ZodLazy",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodLazy"],
+    "ZodLiteral",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodLiteral"],
+    "ZodMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodMap"],
+    "ZodNaN",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodNaN"],
+    "ZodNativeEnum",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodNativeEnum"],
+    "ZodNever",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodNever"],
+    "ZodNull",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodNull"],
+    "ZodNullable",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodNullable"],
+    "ZodNumber",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodNumber"],
+    "ZodObject",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodObject"],
+    "ZodOptional",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodOptional"],
+    "ZodParsedType",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodParsedType"],
+    "ZodPipeline",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodPipeline"],
+    "ZodPromise",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodPromise"],
+    "ZodReadonly",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodReadonly"],
+    "ZodRecord",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodRecord"],
+    "ZodSchema",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodSchema"],
+    "ZodSet",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodSet"],
+    "ZodString",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodString"],
+    "ZodSymbol",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodSymbol"],
+    "ZodTransformer",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodTransformer"],
+    "ZodTuple",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodTuple"],
+    "ZodType",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodType"],
+    "ZodUndefined",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodUndefined"],
+    "ZodUnion",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodUnion"],
+    "ZodUnknown",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodUnknown"],
+    "ZodVoid",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZodVoid"],
+    "addIssueToContext",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addIssueToContext"],
+    "any",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["any"],
+    "array",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["array"],
+    "bigint",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["bigint"],
+    "boolean",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["boolean"],
+    "coerce",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["coerce"],
+    "custom",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["custom"],
+    "date",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["date"],
+    "datetimeRegex",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["datetimeRegex"],
+    "defaultErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defaultErrorMap"],
+    "discriminatedUnion",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["discriminatedUnion"],
+    "effect",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["effect"],
+    "enum",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["enum"],
+    "function",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["function"],
+    "getErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getErrorMap"],
+    "getParsedType",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getParsedType"],
+    "instanceof",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["instanceof"],
+    "intersection",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["intersection"],
+    "isAborted",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAborted"],
+    "isAsync",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isAsync"],
+    "isDirty",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isDirty"],
+    "isValid",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValid"],
+    "late",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["late"],
+    "lazy",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["lazy"],
+    "literal",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["literal"],
+    "makeIssue",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["makeIssue"],
+    "map",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["map"],
+    "nan",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["nan"],
+    "nativeEnum",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["nativeEnum"],
+    "never",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["never"],
+    "null",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["null"],
+    "nullable",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["nullable"],
+    "number",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["number"],
+    "object",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["object"],
+    "objectUtil",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["objectUtil"],
+    "oboolean",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["oboolean"],
+    "onumber",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["onumber"],
+    "optional",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["optional"],
+    "ostring",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ostring"],
+    "pipeline",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pipeline"],
+    "preprocess",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["preprocess"],
+    "promise",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["promise"],
+    "quotelessJson",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["quotelessJson"],
+    "record",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["record"],
+    "set",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["set"],
+    "setErrorMap",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["setErrorMap"],
+    "strictObject",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["strictObject"],
+    "string",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"],
+    "symbol",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["symbol"],
+    "transformer",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["transformer"],
+    "tuple",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["tuple"],
+    "undefined",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["undefined"],
+    "union",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["union"],
+    "unknown",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["unknown"],
+    "util",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["util"],
+    "void",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["void"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/external.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/errors.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$parseUtil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/parseUtil.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$typeAliases$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/typeAliases.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$helpers$2f$util$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/helpers/util.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/types.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$ZodError$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/ZodError.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/external.js [app-client] (ecmascript) <export * as z>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "z",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/zod/v3/external.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-label/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Label",
+    ()=>Label,
+    "Root",
+    ()=>Root
+]);
+// packages/react/label/src/Label.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+var NAME = "Label";
+var Label = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].label, {
+        ...props,
+        ref: forwardedRef,
+        onMouseDown: (event)=>{
+            const target = event.target;
+            if (target.closest("button, input, select, textarea")) return;
+            props.onMouseDown?.(event);
+            if (!event.defaultPrevented && event.detail > 1) event.preventDefault();
+        }
+    });
+});
+Label.displayName = NAME;
+var Root = Label;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Calendar
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Calendar = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Calendar", [
+    [
+        "path",
+        {
+            d: "M8 2v4",
+            key: "1cmpym"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M16 2v4",
+            key: "4m81vk"
+        }
+    ],
+    [
+        "rect",
+        {
+            width: "18",
+            height: "18",
+            x: "3",
+            y: "4",
+            rx: "2",
+            key: "1hopcy"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M3 10h18",
+            key: "8toen8"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=calendar.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Calendar",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/download.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Download
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Download = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Download", [
+    [
+        "path",
+        {
+            d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4",
+            key: "ih7n3h"
+        }
+    ],
+    [
+        "polyline",
+        {
+            points: "7 10 12 15 17 10",
+            key: "2ggqvy"
+        }
+    ],
+    [
+        "line",
+        {
+            x1: "12",
+            x2: "12",
+            y1: "15",
+            y2: "3",
+            key: "1vk2je"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=download.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/download.js [app-client] (ecmascript) <export default as Download>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Download",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/download.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/file-text.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>FileText
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const FileText = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("FileText", [
+    [
+        "path",
+        {
+            d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
+            key: "1rqfz7"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M14 2v4a2 2 0 0 0 2 2h4",
+            key: "tnqrlb"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M10 9H8",
+            key: "b1mrlr"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M16 13H8",
+            key: "t4e002"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M16 17H8",
+            key: "z1uh3a"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=file-text.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/file-text.js [app-client] (ecmascript) <export default as FileText>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "FileText",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/file-text.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-alert.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>CircleAlert
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const CircleAlert = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("CircleAlert", [
+    [
+        "circle",
+        {
+            cx: "12",
+            cy: "12",
+            r: "10",
+            key: "1mglay"
+        }
+    ],
+    [
+        "line",
+        {
+            x1: "12",
+            x2: "12",
+            y1: "8",
+            y2: "12",
+            key: "1pkeuh"
+        }
+    ],
+    [
+        "line",
+        {
+            x1: "12",
+            x2: "12.01",
+            y1: "16",
+            y2: "16",
+            key: "4dfq90"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=circle-alert.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-alert.js [app-client] (ecmascript) <export default as AlertCircle>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "AlertCircle",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-alert.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/refresh-cw.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>RefreshCw
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const RefreshCw = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("RefreshCw", [
+    [
+        "path",
+        {
+            d: "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8",
+            key: "v9h5vc"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M21 3v5h-5",
+            key: "1q7to0"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16",
+            key: "3uifl3"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M8 16H3v5",
+            key: "1cv678"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=refresh-cw.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/refresh-cw.js [app-client] (ecmascript) <export default as RefreshCw>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "RefreshCw",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$refresh$2d$cw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$refresh$2d$cw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/refresh-cw.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-progress/dist/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Indicator",
+    ()=>Indicator,
+    "Progress",
+    ()=>Progress,
+    "ProgressIndicator",
+    ()=>ProgressIndicator,
+    "Root",
+    ()=>Root,
+    "createProgressScope",
+    ()=>createProgressScope
+]);
+// packages/react/progress/src/Progress.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-context/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@radix-ui/react-primitive/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+var PROGRESS_NAME = "Progress";
+var DEFAULT_MAX = 100;
+var [createProgressContext, createProgressScope] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$context$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContextScope"])(PROGRESS_NAME);
+var [ProgressProvider, useProgressContext] = createProgressContext(PROGRESS_NAME);
+var Progress = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeProgress, value: valueProp = null, max: maxProp, getValueLabel = defaultGetValueLabel, ...progressProps } = props;
+    if ((maxProp || maxProp === 0) && !isValidMaxNumber(maxProp)) {
+        console.error(getInvalidMaxError(`${maxProp}`, "Progress"));
+    }
+    const max = isValidMaxNumber(maxProp) ? maxProp : DEFAULT_MAX;
+    if (valueProp !== null && !isValidValueNumber(valueProp, max)) {
+        console.error(getInvalidValueError(`${valueProp}`, "Progress"));
+    }
+    const value = isValidValueNumber(valueProp, max) ? valueProp : null;
+    const valueLabel = isNumber(value) ? getValueLabel(value, max) : void 0;
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(ProgressProvider, {
+        scope: __scopeProgress,
+        value,
+        max,
+        children: /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+            "aria-valuemax": max,
+            "aria-valuemin": 0,
+            "aria-valuenow": isNumber(value) ? value : void 0,
+            "aria-valuetext": valueLabel,
+            role: "progressbar",
+            "data-state": getProgressState(value, max),
+            "data-value": value ?? void 0,
+            "data-max": max,
+            ...progressProps,
+            ref: forwardedRef
+        })
+    });
+});
+Progress.displayName = PROGRESS_NAME;
+var INDICATOR_NAME = "ProgressIndicator";
+var ProgressIndicator = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["forwardRef"]((props, forwardedRef)=>{
+    const { __scopeProgress, ...indicatorProps } = props;
+    const context = useProgressContext(INDICATOR_NAME, __scopeProgress);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$primitive$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Primitive"].div, {
+        "data-state": getProgressState(context.value, context.max),
+        "data-value": context.value ?? void 0,
+        "data-max": context.max,
+        ...indicatorProps,
+        ref: forwardedRef
+    });
+});
+ProgressIndicator.displayName = INDICATOR_NAME;
+function defaultGetValueLabel(value, max) {
+    return `${Math.round(value / max * 100)}%`;
+}
+function getProgressState(value, maxValue) {
+    return value == null ? "indeterminate" : value === maxValue ? "complete" : "loading";
+}
+function isNumber(value) {
+    return typeof value === "number";
+}
+function isValidMaxNumber(max) {
+    return isNumber(max) && !isNaN(max) && max > 0;
+}
+function isValidValueNumber(value, max) {
+    return isNumber(value) && !isNaN(value) && value <= max && value >= 0;
+}
+function getInvalidMaxError(propValue, componentName) {
+    return `Invalid prop \`max\` of value \`${propValue}\` supplied to \`${componentName}\`. Only numbers greater than 0 are valid max values. Defaulting to \`${DEFAULT_MAX}\`.`;
+}
+function getInvalidValueError(propValue, componentName) {
+    return `Invalid prop \`value\` of value \`${propValue}\` supplied to \`${componentName}\`. The \`value\` prop must be:
+  - a positive number
+  - less than the value passed to \`max\` (or ${DEFAULT_MAX} if no \`max\` prop is set)
+  - \`null\` or \`undefined\` if the progress is indeterminate.
+
+Defaulting to \`null\`.`;
+}
+var Root = Progress;
+var Indicator = ProgressIndicator;
+;
+ //# sourceMappingURL=index.mjs.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>CircleCheck
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const CircleCheck = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("CircleCheck", [
+    [
+        "circle",
+        {
+            cx: "12",
+            cy: "12",
+            r: "10",
+            key: "1mglay"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m9 12 2 2 4-4",
+            key: "dzmm74"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=circle-check.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-client] (ecmascript) <export default as CheckCircle2>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CheckCircle2",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/map.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Map
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Map = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Map", [
+    [
+        "path",
+        {
+            d: "M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z",
+            key: "169xi5"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M15 5.764v15",
+            key: "1pn4in"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M9 3.236v15",
+            key: "1uimfh"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=map.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/map.js [app-client] (ecmascript) <export default as MapIcon>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "MapIcon",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/map.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/route.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Route
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Route = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Route", [
+    [
+        "circle",
+        {
+            cx: "6",
+            cy: "19",
+            r: "3",
+            key: "1kj8tv"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15",
+            key: "1d8sl"
+        }
+    ],
+    [
+        "circle",
+        {
+            cx: "18",
+            cy: "5",
+            r: "3",
+            key: "gq8acd"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=route.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/route.js [app-client] (ecmascript) <export default as Route>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Route",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$route$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$route$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/route.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/wifi.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>Wifi
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const Wifi = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("Wifi", [
+    [
+        "path",
+        {
+            d: "M12 20h.01",
+            key: "zekei9"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M2 8.82a15 15 0 0 1 20 0",
+            key: "dnpr2z"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M5 12.859a10 10 0 0 1 14 0",
+            key: "1x1e6c"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M8.5 16.429a5 5 0 0 1 7 0",
+            key: "1bycff"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=wifi.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/wifi.js [app-client] (ecmascript) <export default as Wifi>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Wifi",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wifi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wifi$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/wifi.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/wifi-off.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>WifiOff
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const WifiOff = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("WifiOff", [
+    [
+        "path",
+        {
+            d: "M12 20h.01",
+            key: "zekei9"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M8.5 16.429a5 5 0 0 1 7 0",
+            key: "1bycff"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M5 12.859a10 10 0 0 1 5.17-2.69",
+            key: "1dl1wf"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M19 12.859a10 10 0 0 0-2.007-1.523",
+            key: "4k23kn"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M2 8.82a15 15 0 0 1 4.177-2.643",
+            key: "1grhjp"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "M22 8.82a15 15 0 0 0-11.288-3.764",
+            key: "z3jwby"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m2 2 20 20",
+            key: "1ooewy"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=wifi-off.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/wifi-off.js [app-client] (ecmascript) <export default as WifiOff>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "WifiOff",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wifi$2d$off$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wifi$2d$off$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/wifi-off.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-x.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * @license lucide-react v0.454.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ __turbopack_context__.s([
+    "default",
+    ()=>CircleX
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+;
+const CircleX = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])("CircleX", [
+    [
+        "circle",
+        {
+            cx: "12",
+            cy: "12",
+            r: "10",
+            key: "1mglay"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m15 9-6 6",
+            key: "1uzhvr"
+        }
+    ],
+    [
+        "path",
+        {
+            d: "m9 9 6 6",
+            key: "z0biqf"
+        }
+    ]
+]);
+;
+ //# sourceMappingURL=circle-x.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-x.js [app-client] (ecmascript) <export default as XCircle>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "XCircle",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/lucide-react/dist/esm/icons/circle-x.js [app-client] (ecmascript)");
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/mutationObserver.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// src/mutationObserver.ts
+__turbopack_context__.s([
+    "MutationObserver",
+    ()=>MutationObserver
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$mutation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/mutation.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/notifyManager.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$subscribable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/subscribable.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/utils.js [app-client] (ecmascript)");
+;
+;
+;
+;
+var MutationObserver = class extends __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$subscribable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Subscribable"] {
+    #client;
+    #currentResult = void 0;
+    #currentMutation;
+    #mutateOptions;
+    constructor(client, options){
+        super();
+        this.#client = client;
+        this.setOptions(options);
+        this.bindMethods();
+        this.#updateResult();
+    }
+    bindMethods() {
+        this.mutate = this.mutate.bind(this);
+        this.reset = this.reset.bind(this);
+    }
+    setOptions(options) {
+        const prevOptions = this.options;
+        this.options = this.#client.defaultMutationOptions(options);
+        if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shallowEqualObjects"])(this.options, prevOptions)) {
+            this.#client.getMutationCache().notify({
+                type: "observerOptionsUpdated",
+                mutation: this.#currentMutation,
+                observer: this
+            });
+        }
+        if (prevOptions?.mutationKey && this.options.mutationKey && (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hashKey"])(prevOptions.mutationKey) !== (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hashKey"])(this.options.mutationKey)) {
+            this.reset();
+        } else if (this.#currentMutation?.state.status === "pending") {
+            this.#currentMutation.setOptions(this.options);
+        }
+    }
+    onUnsubscribe() {
+        if (!this.hasListeners()) {
+            this.#currentMutation?.removeObserver(this);
+        }
+    }
+    onMutationUpdate(action) {
+        this.#updateResult();
+        this.#notify(action);
+    }
+    getCurrentResult() {
+        return this.#currentResult;
+    }
+    reset() {
+        this.#currentMutation?.removeObserver(this);
+        this.#currentMutation = void 0;
+        this.#updateResult();
+        this.#notify();
+    }
+    mutate(variables, options) {
+        this.#mutateOptions = options;
+        this.#currentMutation?.removeObserver(this);
+        this.#currentMutation = this.#client.getMutationCache().build(this.#client, this.options);
+        this.#currentMutation.addObserver(this);
+        return this.#currentMutation.execute(variables);
+    }
+    #updateResult() {
+        const state = this.#currentMutation?.state ?? (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$mutation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getDefaultState"])();
+        this.#currentResult = {
+            ...state,
+            isPending: state.status === "pending",
+            isSuccess: state.status === "success",
+            isError: state.status === "error",
+            isIdle: state.status === "idle",
+            mutate: this.mutate,
+            reset: this.reset
+        };
+    }
+    #notify(action) {
+        __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["notifyManager"].batch(()=>{
+            if (this.#mutateOptions && this.hasListeners()) {
+                const variables = this.#currentResult.variables;
+                const onMutateResult = this.#currentResult.context;
+                const context = {
+                    client: this.#client,
+                    meta: this.options.meta,
+                    mutationKey: this.options.mutationKey
+                };
+                if (action?.type === "success") {
+                    this.#mutateOptions.onSuccess?.(action.data, variables, onMutateResult, context);
+                    this.#mutateOptions.onSettled?.(action.data, null, variables, onMutateResult, context);
+                } else if (action?.type === "error") {
+                    this.#mutateOptions.onError?.(action.error, variables, onMutateResult, context);
+                    this.#mutateOptions.onSettled?.(void 0, action.error, variables, onMutateResult, context);
+                }
+            }
+            this.listeners.forEach((listener)=>{
+                listener(this.#currentResult);
+            });
+        });
+    }
+};
+;
+ //# sourceMappingURL=mutationObserver.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/useMutation.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useMutation",
+    ()=>useMutation
+]);
+// src/useMutation.ts
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$mutationObserver$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/mutationObserver.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/notifyManager.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryClientProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/QueryClientProvider.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+function useMutation(options, queryClient) {
+    const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryClientProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useQueryClient"])(queryClient);
+    const [observer] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({
+        "useMutation.useState": ()=>new __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$mutationObserver$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MutationObserver"](client, options)
+    }["useMutation.useState"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useMutation.useEffect": ()=>{
+            observer.setOptions(options);
+        }
+    }["useMutation.useEffect"], [
+        observer,
+        options
+    ]);
+    const result = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSyncExternalStore"](__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "useMutation.useSyncExternalStore[result]": (onStoreChange)=>observer.subscribe(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["notifyManager"].batchCalls(onStoreChange))
+    }["useMutation.useSyncExternalStore[result]"], [
+        observer
+    ]), {
+        "useMutation.useSyncExternalStore[result]": ()=>observer.getCurrentResult()
+    }["useMutation.useSyncExternalStore[result]"], {
+        "useMutation.useSyncExternalStore[result]": ()=>observer.getCurrentResult()
+    }["useMutation.useSyncExternalStore[result]"]);
+    const mutate = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "useMutation.useCallback[mutate]": (variables, mutateOptions)=>{
+            observer.mutate(variables, mutateOptions).catch(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["noop"]);
+        }
+    }["useMutation.useCallback[mutate]"], [
+        observer
+    ]);
+    if (result.error && (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shouldThrowError"])(observer.options.throwOnError, [
+        result.error
+    ])) {
+        throw result.error;
+    }
+    return {
+        ...result,
+        mutate,
+        mutateAsync: result.mutate
+    };
+}
+;
+ //# sourceMappingURL=useMutation.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/queryObserver.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// src/queryObserver.ts
+__turbopack_context__.s([
+    "QueryObserver",
+    ()=>QueryObserver
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$focusManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/focusManager.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/notifyManager.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$query$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/query.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$subscribable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/subscribable.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$thenable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/thenable.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$timeoutManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/timeoutManager.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+var QueryObserver = class extends __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$subscribable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Subscribable"] {
+    constructor(client, options){
+        super();
+        this.options = options;
+        this.#client = client;
+        this.#selectError = null;
+        this.#currentThenable = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$thenable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pendingThenable"])();
+        this.bindMethods();
+        this.setOptions(options);
+    }
+    #client;
+    #currentQuery = void 0;
+    #currentQueryInitialState = void 0;
+    #currentResult = void 0;
+    #currentResultState;
+    #currentResultOptions;
+    #currentThenable;
+    #selectError;
+    #selectFn;
+    #selectResult;
+    // This property keeps track of the last query with defined data.
+    // It will be used to pass the previous data and query to the placeholder function between renders.
+    #lastQueryWithDefinedData;
+    #staleTimeoutId;
+    #refetchIntervalId;
+    #currentRefetchInterval;
+    #trackedProps = /* @__PURE__ */ new Set();
+    bindMethods() {
+        this.refetch = this.refetch.bind(this);
+    }
+    onSubscribe() {
+        if (this.listeners.size === 1) {
+            this.#currentQuery.addObserver(this);
+            if (shouldFetchOnMount(this.#currentQuery, this.options)) {
+                this.#executeFetch();
+            } else {
+                this.updateResult();
+            }
+            this.#updateTimers();
+        }
+    }
+    onUnsubscribe() {
+        if (!this.hasListeners()) {
+            this.destroy();
+        }
+    }
+    shouldFetchOnReconnect() {
+        return shouldFetchOn(this.#currentQuery, this.options, this.options.refetchOnReconnect);
+    }
+    shouldFetchOnWindowFocus() {
+        return shouldFetchOn(this.#currentQuery, this.options, this.options.refetchOnWindowFocus);
+    }
+    destroy() {
+        this.listeners = /* @__PURE__ */ new Set();
+        this.#clearStaleTimeout();
+        this.#clearRefetchInterval();
+        this.#currentQuery.removeObserver(this);
+    }
+    setOptions(options) {
+        const prevOptions = this.options;
+        const prevQuery = this.#currentQuery;
+        this.options = this.#client.defaultQueryOptions(options);
+        if (this.options.enabled !== void 0 && typeof this.options.enabled !== "boolean" && typeof this.options.enabled !== "function" && typeof (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(this.options.enabled, this.#currentQuery) !== "boolean") {
+            throw new Error("Expected enabled to be a boolean or a callback that returns a boolean");
+        }
+        this.#updateQuery();
+        this.#currentQuery.setOptions(this.options);
+        if (prevOptions._defaulted && !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shallowEqualObjects"])(this.options, prevOptions)) {
+            this.#client.getQueryCache().notify({
+                type: "observerOptionsUpdated",
+                query: this.#currentQuery,
+                observer: this
+            });
+        }
+        const mounted = this.hasListeners();
+        if (mounted && shouldFetchOptionally(this.#currentQuery, prevQuery, this.options, prevOptions)) {
+            this.#executeFetch();
+        }
+        this.updateResult();
+        if (mounted && (this.#currentQuery !== prevQuery || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(this.options.enabled, this.#currentQuery) !== (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(prevOptions.enabled, this.#currentQuery) || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveStaleTime"])(this.options.staleTime, this.#currentQuery) !== (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveStaleTime"])(prevOptions.staleTime, this.#currentQuery))) {
+            this.#updateStaleTimeout();
+        }
+        const nextRefetchInterval = this.#computeRefetchInterval();
+        if (mounted && (this.#currentQuery !== prevQuery || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(this.options.enabled, this.#currentQuery) !== (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(prevOptions.enabled, this.#currentQuery) || nextRefetchInterval !== this.#currentRefetchInterval)) {
+            this.#updateRefetchInterval(nextRefetchInterval);
+        }
+    }
+    getOptimisticResult(options) {
+        const query = this.#client.getQueryCache().build(this.#client, options);
+        const result = this.createResult(query, options);
+        if (shouldAssignObserverCurrentProperties(this, result)) {
+            this.#currentResult = result;
+            this.#currentResultOptions = this.options;
+            this.#currentResultState = this.#currentQuery.state;
+        }
+        return result;
+    }
+    getCurrentResult() {
+        return this.#currentResult;
+    }
+    trackResult(result, onPropTracked) {
+        return new Proxy(result, {
+            get: (target, key)=>{
+                this.trackProp(key);
+                onPropTracked?.(key);
+                if (key === "promise") {
+                    this.trackProp("data");
+                    if (!this.options.experimental_prefetchInRender && this.#currentThenable.status === "pending") {
+                        this.#currentThenable.reject(new Error("experimental_prefetchInRender feature flag is not enabled"));
+                    }
+                }
+                return Reflect.get(target, key);
+            }
+        });
+    }
+    trackProp(key) {
+        this.#trackedProps.add(key);
+    }
+    getCurrentQuery() {
+        return this.#currentQuery;
+    }
+    refetch({ ...options } = {}) {
+        return this.fetch({
+            ...options
+        });
+    }
+    fetchOptimistic(options) {
+        const defaultedOptions = this.#client.defaultQueryOptions(options);
+        const query = this.#client.getQueryCache().build(this.#client, defaultedOptions);
+        return query.fetch().then(()=>this.createResult(query, defaultedOptions));
+    }
+    fetch(fetchOptions) {
+        return this.#executeFetch({
+            ...fetchOptions,
+            cancelRefetch: fetchOptions.cancelRefetch ?? true
+        }).then(()=>{
+            this.updateResult();
+            return this.#currentResult;
+        });
+    }
+    #executeFetch(fetchOptions) {
+        this.#updateQuery();
+        let promise = this.#currentQuery.fetch(this.options, fetchOptions);
+        if (!fetchOptions?.throwOnError) {
+            promise = promise.catch(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["noop"]);
+        }
+        return promise;
+    }
+    #updateStaleTimeout() {
+        this.#clearStaleTimeout();
+        const staleTime = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveStaleTime"])(this.options.staleTime, this.#currentQuery);
+        if (__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isServer"] || this.#currentResult.isStale || !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidTimeout"])(staleTime)) {
+            return;
+        }
+        const time = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["timeUntilStale"])(this.#currentResult.dataUpdatedAt, staleTime);
+        const timeout = time + 1;
+        this.#staleTimeoutId = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$timeoutManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["timeoutManager"].setTimeout(()=>{
+            if (!this.#currentResult.isStale) {
+                this.updateResult();
+            }
+        }, timeout);
+    }
+    #computeRefetchInterval() {
+        return (typeof this.options.refetchInterval === "function" ? this.options.refetchInterval(this.#currentQuery) : this.options.refetchInterval) ?? false;
+    }
+    #updateRefetchInterval(nextInterval) {
+        this.#clearRefetchInterval();
+        this.#currentRefetchInterval = nextInterval;
+        if (__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isServer"] || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(this.options.enabled, this.#currentQuery) === false || !(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValidTimeout"])(this.#currentRefetchInterval) || this.#currentRefetchInterval === 0) {
+            return;
+        }
+        this.#refetchIntervalId = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$timeoutManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["timeoutManager"].setInterval(()=>{
+            if (this.options.refetchIntervalInBackground || __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$focusManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["focusManager"].isFocused()) {
+                this.#executeFetch();
+            }
+        }, this.#currentRefetchInterval);
+    }
+    #updateTimers() {
+        this.#updateStaleTimeout();
+        this.#updateRefetchInterval(this.#computeRefetchInterval());
+    }
+    #clearStaleTimeout() {
+        if (this.#staleTimeoutId) {
+            __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$timeoutManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["timeoutManager"].clearTimeout(this.#staleTimeoutId);
+            this.#staleTimeoutId = void 0;
+        }
+    }
+    #clearRefetchInterval() {
+        if (this.#refetchIntervalId) {
+            __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$timeoutManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["timeoutManager"].clearInterval(this.#refetchIntervalId);
+            this.#refetchIntervalId = void 0;
+        }
+    }
+    createResult(query, options) {
+        const prevQuery = this.#currentQuery;
+        const prevOptions = this.options;
+        const prevResult = this.#currentResult;
+        const prevResultState = this.#currentResultState;
+        const prevResultOptions = this.#currentResultOptions;
+        const queryChange = query !== prevQuery;
+        const queryInitialState = queryChange ? query.state : this.#currentQueryInitialState;
+        const { state } = query;
+        let newState = {
+            ...state
+        };
+        let isPlaceholderData = false;
+        let data;
+        if (options._optimisticResults) {
+            const mounted = this.hasListeners();
+            const fetchOnMount = !mounted && shouldFetchOnMount(query, options);
+            const fetchOptionally = mounted && shouldFetchOptionally(query, prevQuery, options, prevOptions);
+            if (fetchOnMount || fetchOptionally) {
+                newState = {
+                    ...newState,
+                    ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$query$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fetchState"])(state.data, query.options)
+                };
+            }
+            if (options._optimisticResults === "isRestoring") {
+                newState.fetchStatus = "idle";
+            }
+        }
+        let { error, errorUpdatedAt, status } = newState;
+        data = newState.data;
+        let skipSelect = false;
+        if (options.placeholderData !== void 0 && data === void 0 && status === "pending") {
+            let placeholderData;
+            if (prevResult?.isPlaceholderData && options.placeholderData === prevResultOptions?.placeholderData) {
+                placeholderData = prevResult.data;
+                skipSelect = true;
+            } else {
+                placeholderData = typeof options.placeholderData === "function" ? options.placeholderData(this.#lastQueryWithDefinedData?.state.data, this.#lastQueryWithDefinedData) : options.placeholderData;
+            }
+            if (placeholderData !== void 0) {
+                status = "success";
+                data = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["replaceData"])(prevResult?.data, placeholderData, options);
+                isPlaceholderData = true;
+            }
+        }
+        if (options.select && data !== void 0 && !skipSelect) {
+            if (prevResult && data === prevResultState?.data && options.select === this.#selectFn) {
+                data = this.#selectResult;
+            } else {
+                try {
+                    this.#selectFn = options.select;
+                    data = options.select(data);
+                    data = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["replaceData"])(prevResult?.data, data, options);
+                    this.#selectResult = data;
+                    this.#selectError = null;
+                } catch (selectError) {
+                    this.#selectError = selectError;
+                }
+            }
+        }
+        if (this.#selectError) {
+            error = this.#selectError;
+            data = this.#selectResult;
+            errorUpdatedAt = Date.now();
+            status = "error";
+        }
+        const isFetching = newState.fetchStatus === "fetching";
+        const isPending = status === "pending";
+        const isError = status === "error";
+        const isLoading = isPending && isFetching;
+        const hasData = data !== void 0;
+        const result = {
+            status,
+            fetchStatus: newState.fetchStatus,
+            isPending,
+            isSuccess: status === "success",
+            isError,
+            isInitialLoading: isLoading,
+            isLoading,
+            data,
+            dataUpdatedAt: newState.dataUpdatedAt,
+            error,
+            errorUpdatedAt,
+            failureCount: newState.fetchFailureCount,
+            failureReason: newState.fetchFailureReason,
+            errorUpdateCount: newState.errorUpdateCount,
+            isFetched: newState.dataUpdateCount > 0 || newState.errorUpdateCount > 0,
+            isFetchedAfterMount: newState.dataUpdateCount > queryInitialState.dataUpdateCount || newState.errorUpdateCount > queryInitialState.errorUpdateCount,
+            isFetching,
+            isRefetching: isFetching && !isPending,
+            isLoadingError: isError && !hasData,
+            isPaused: newState.fetchStatus === "paused",
+            isPlaceholderData,
+            isRefetchError: isError && hasData,
+            isStale: isStale(query, options),
+            refetch: this.refetch,
+            promise: this.#currentThenable,
+            isEnabled: (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(options.enabled, query) !== false
+        };
+        const nextResult = result;
+        if (this.options.experimental_prefetchInRender) {
+            const finalizeThenableIfPossible = (thenable)=>{
+                if (nextResult.status === "error") {
+                    thenable.reject(nextResult.error);
+                } else if (nextResult.data !== void 0) {
+                    thenable.resolve(nextResult.data);
+                }
+            };
+            const recreateThenable = ()=>{
+                const pending = this.#currentThenable = nextResult.promise = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$thenable$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pendingThenable"])();
+                finalizeThenableIfPossible(pending);
+            };
+            const prevThenable = this.#currentThenable;
+            switch(prevThenable.status){
+                case "pending":
+                    if (query.queryHash === prevQuery.queryHash) {
+                        finalizeThenableIfPossible(prevThenable);
+                    }
+                    break;
+                case "fulfilled":
+                    if (nextResult.status === "error" || nextResult.data !== prevThenable.value) {
+                        recreateThenable();
+                    }
+                    break;
+                case "rejected":
+                    if (nextResult.status !== "error" || nextResult.error !== prevThenable.reason) {
+                        recreateThenable();
+                    }
+                    break;
+            }
+        }
+        return nextResult;
+    }
+    updateResult() {
+        const prevResult = this.#currentResult;
+        const nextResult = this.createResult(this.#currentQuery, this.options);
+        this.#currentResultState = this.#currentQuery.state;
+        this.#currentResultOptions = this.options;
+        if (this.#currentResultState.data !== void 0) {
+            this.#lastQueryWithDefinedData = this.#currentQuery;
+        }
+        if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shallowEqualObjects"])(nextResult, prevResult)) {
+            return;
+        }
+        this.#currentResult = nextResult;
+        const shouldNotifyListeners = ()=>{
+            if (!prevResult) {
+                return true;
+            }
+            const { notifyOnChangeProps } = this.options;
+            const notifyOnChangePropsValue = typeof notifyOnChangeProps === "function" ? notifyOnChangeProps() : notifyOnChangeProps;
+            if (notifyOnChangePropsValue === "all" || !notifyOnChangePropsValue && !this.#trackedProps.size) {
+                return true;
+            }
+            const includedProps = new Set(notifyOnChangePropsValue ?? this.#trackedProps);
+            if (this.options.throwOnError) {
+                includedProps.add("error");
+            }
+            return Object.keys(this.#currentResult).some((key)=>{
+                const typedKey = key;
+                const changed = this.#currentResult[typedKey] !== prevResult[typedKey];
+                return changed && includedProps.has(typedKey);
+            });
+        };
+        this.#notify({
+            listeners: shouldNotifyListeners()
+        });
+    }
+    #updateQuery() {
+        const query = this.#client.getQueryCache().build(this.#client, this.options);
+        if (query === this.#currentQuery) {
+            return;
+        }
+        const prevQuery = this.#currentQuery;
+        this.#currentQuery = query;
+        this.#currentQueryInitialState = query.state;
+        if (this.hasListeners()) {
+            prevQuery?.removeObserver(this);
+            query.addObserver(this);
+        }
+    }
+    onQueryUpdate() {
+        this.updateResult();
+        if (this.hasListeners()) {
+            this.#updateTimers();
+        }
+    }
+    #notify(notifyOptions) {
+        __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["notifyManager"].batch(()=>{
+            if (notifyOptions.listeners) {
+                this.listeners.forEach((listener)=>{
+                    listener(this.#currentResult);
+                });
+            }
+            this.#client.getQueryCache().notify({
+                query: this.#currentQuery,
+                type: "observerResultsUpdated"
+            });
+        });
+    }
+};
+function shouldLoadOnMount(query, options) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(options.enabled, query) !== false && query.state.data === void 0 && !(query.state.status === "error" && options.retryOnMount === false);
+}
+function shouldFetchOnMount(query, options) {
+    return shouldLoadOnMount(query, options) || query.state.data !== void 0 && shouldFetchOn(query, options, options.refetchOnMount);
+}
+function shouldFetchOn(query, options, field) {
+    if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(options.enabled, query) !== false && (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveStaleTime"])(options.staleTime, query) !== "static") {
+        const value = typeof field === "function" ? field(query) : field;
+        return value === "always" || value !== false && isStale(query, options);
+    }
+    return false;
+}
+function shouldFetchOptionally(query, prevQuery, options, prevOptions) {
+    return (query !== prevQuery || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(prevOptions.enabled, query) === false) && (!options.suspense || query.state.status !== "error") && isStale(query, options);
+}
+function isStale(query, options) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveEnabled"])(options.enabled, query) !== false && query.isStaleByTime((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveStaleTime"])(options.staleTime, query));
+}
+function shouldAssignObserverCurrentProperties(observer, optimisticResult) {
+    if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shallowEqualObjects"])(observer.getCurrentResult(), optimisticResult)) {
+        return true;
+    }
+    return false;
+}
+;
+ //# sourceMappingURL=queryObserver.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/QueryErrorResetBoundary.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "QueryErrorResetBoundary",
+    ()=>QueryErrorResetBoundary,
+    "useQueryErrorResetBoundary",
+    ()=>useQueryErrorResetBoundary
+]);
+// src/QueryErrorResetBoundary.tsx
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+;
+function createValue() {
+    let isReset = false;
+    return {
+        clearReset: ()=>{
+            isReset = false;
+        },
+        reset: ()=>{
+            isReset = true;
+        },
+        isReset: ()=>{
+            return isReset;
+        }
+    };
+}
+var QueryErrorResetBoundaryContext = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"](createValue());
+var useQueryErrorResetBoundary = ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](QueryErrorResetBoundaryContext);
+var QueryErrorResetBoundary = ({ children })=>{
+    const [value] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({
+        "QueryErrorResetBoundary.useState": ()=>createValue()
+    }["QueryErrorResetBoundary.useState"]);
+    return /* @__PURE__ */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsx"])(QueryErrorResetBoundaryContext.Provider, {
+        value,
+        children: typeof children === "function" ? children(value) : children
+    });
+};
+;
+ //# sourceMappingURL=QueryErrorResetBoundary.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/errorBoundaryUtils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ensurePreventErrorBoundaryRetry",
+    ()=>ensurePreventErrorBoundaryRetry,
+    "getHasError",
+    ()=>getHasError,
+    "useClearResetErrorBoundary",
+    ()=>useClearResetErrorBoundary
+]);
+// src/errorBoundaryUtils.ts
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/utils.js [app-client] (ecmascript)");
+"use client";
+;
+;
+var ensurePreventErrorBoundaryRetry = (options, errorResetBoundary)=>{
+    if (options.suspense || options.throwOnError || options.experimental_prefetchInRender) {
+        if (!errorResetBoundary.isReset()) {
+            options.retryOnMount = false;
+        }
+    }
+};
+var useClearResetErrorBoundary = (errorResetBoundary)=>{
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useClearResetErrorBoundary.useEffect": ()=>{
+            errorResetBoundary.clearReset();
+        }
+    }["useClearResetErrorBoundary.useEffect"], [
+        errorResetBoundary
+    ]);
+};
+var getHasError = ({ result, errorResetBoundary, throwOnError, query, suspense })=>{
+    return result.isError && !errorResetBoundary.isReset() && !result.isFetching && query && (suspense && result.data === void 0 || (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shouldThrowError"])(throwOnError, [
+        result.error,
+        query
+    ]));
+};
+;
+ //# sourceMappingURL=errorBoundaryUtils.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/IsRestoringProvider.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "IsRestoringProvider",
+    ()=>IsRestoringProvider,
+    "useIsRestoring",
+    ()=>useIsRestoring
+]);
+// src/IsRestoringProvider.ts
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+"use client";
+;
+var IsRestoringContext = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"](false);
+var useIsRestoring = ()=>__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"](IsRestoringContext);
+var IsRestoringProvider = IsRestoringContext.Provider;
+;
+ //# sourceMappingURL=IsRestoringProvider.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/suspense.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// src/suspense.ts
+__turbopack_context__.s([
+    "defaultThrowOnError",
+    ()=>defaultThrowOnError,
+    "ensureSuspenseTimers",
+    ()=>ensureSuspenseTimers,
+    "fetchOptimistic",
+    ()=>fetchOptimistic,
+    "shouldSuspend",
+    ()=>shouldSuspend,
+    "willFetch",
+    ()=>willFetch
+]);
+var defaultThrowOnError = (_error, query)=>query.state.data === void 0;
+var ensureSuspenseTimers = (defaultedOptions)=>{
+    if (defaultedOptions.suspense) {
+        const MIN_SUSPENSE_TIME_MS = 1e3;
+        const clamp = (value)=>value === "static" ? value : Math.max(value ?? MIN_SUSPENSE_TIME_MS, MIN_SUSPENSE_TIME_MS);
+        const originalStaleTime = defaultedOptions.staleTime;
+        defaultedOptions.staleTime = typeof originalStaleTime === "function" ? (...args)=>clamp(originalStaleTime(...args)) : clamp(originalStaleTime);
+        if (typeof defaultedOptions.gcTime === "number") {
+            defaultedOptions.gcTime = Math.max(defaultedOptions.gcTime, MIN_SUSPENSE_TIME_MS);
+        }
+    }
+};
+var willFetch = (result, isRestoring)=>result.isLoading && result.isFetching && !isRestoring;
+var shouldSuspend = (defaultedOptions, result)=>defaultedOptions?.suspense && result.isPending;
+var fetchOptimistic = (defaultedOptions, observer, errorResetBoundary)=>observer.fetchOptimistic(defaultedOptions).catch(()=>{
+        errorResetBoundary.clearReset();
+    });
+;
+ //# sourceMappingURL=suspense.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/useBaseQuery.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useBaseQuery",
+    ()=>useBaseQuery
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+// src/useBaseQuery.ts
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/notifyManager.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryClientProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/QueryClientProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryErrorResetBoundary$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/QueryErrorResetBoundary.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$errorBoundaryUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/errorBoundaryUtils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$IsRestoringProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/IsRestoringProvider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$suspense$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/suspense.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+;
+function useBaseQuery(options, Observer, queryClient) {
+    if ("TURBOPACK compile-time truthy", 1) {
+        if (typeof options !== "object" || Array.isArray(options)) {
+            throw new Error('Bad argument type. Starting with v5, only the "Object" form is allowed when calling query related functions. Please use the error stack to find the culprit call. More info here: https://tanstack.com/query/latest/docs/react/guides/migrating-to-v5#supports-a-single-signature-one-object');
+        }
+    }
+    const isRestoring = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$IsRestoringProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIsRestoring"])();
+    const errorResetBoundary = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryErrorResetBoundary$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useQueryErrorResetBoundary"])();
+    const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryClientProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useQueryClient"])(queryClient);
+    const defaultedOptions = client.defaultQueryOptions(options);
+    client.getDefaultOptions().queries?._experimental_beforeQuery?.(defaultedOptions);
+    if ("TURBOPACK compile-time truthy", 1) {
+        if (!defaultedOptions.queryFn) {
+            console.error(`[${defaultedOptions.queryHash}]: No queryFn was passed as an option, and no default queryFn was found. The queryFn parameter is only optional when using a default queryFn. More info here: https://tanstack.com/query/latest/docs/framework/react/guides/default-query-function`);
+        }
+    }
+    defaultedOptions._optimisticResults = isRestoring ? "isRestoring" : "optimistic";
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$suspense$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ensureSuspenseTimers"])(defaultedOptions);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$errorBoundaryUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ensurePreventErrorBoundaryRetry"])(defaultedOptions, errorResetBoundary);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$errorBoundaryUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useClearResetErrorBoundary"])(errorResetBoundary);
+    const isNewCacheEntry = !client.getQueryCache().get(defaultedOptions.queryHash);
+    const [observer] = __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"]({
+        "useBaseQuery.useState": ()=>new Observer(client, defaultedOptions)
+    }["useBaseQuery.useState"]);
+    const result = observer.getOptimisticResult(defaultedOptions);
+    const shouldSubscribe = !isRestoring && options.subscribed !== false;
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSyncExternalStore"](__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
+        "useBaseQuery.useSyncExternalStore.useCallback": (onStoreChange)=>{
+            const unsubscribe = shouldSubscribe ? observer.subscribe(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$notifyManager$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["notifyManager"].batchCalls(onStoreChange)) : __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["noop"];
+            observer.updateResult();
+            return unsubscribe;
+        }
+    }["useBaseQuery.useSyncExternalStore.useCallback"], [
+        observer,
+        shouldSubscribe
+    ]), {
+        "useBaseQuery.useSyncExternalStore": ()=>observer.getCurrentResult()
+    }["useBaseQuery.useSyncExternalStore"], {
+        "useBaseQuery.useSyncExternalStore": ()=>observer.getCurrentResult()
+    }["useBaseQuery.useSyncExternalStore"]);
+    __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"]({
+        "useBaseQuery.useEffect": ()=>{
+            observer.setOptions(defaultedOptions);
+        }
+    }["useBaseQuery.useEffect"], [
+        defaultedOptions,
+        observer
+    ]);
+    if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$suspense$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["shouldSuspend"])(defaultedOptions, result)) {
+        throw (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$suspense$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fetchOptimistic"])(defaultedOptions, observer, errorResetBoundary);
+    }
+    if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$errorBoundaryUtils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getHasError"])({
+        result,
+        errorResetBoundary,
+        throwOnError: defaultedOptions.throwOnError,
+        query: client.getQueryCache().get(defaultedOptions.queryHash),
+        suspense: defaultedOptions.suspense
+    })) {
+        throw result.error;
+    }
+    ;
+    client.getDefaultOptions().queries?._experimental_afterQuery?.(defaultedOptions, result);
+    if (defaultedOptions.experimental_prefetchInRender && !__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isServer"] && (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$suspense$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["willFetch"])(result, isRestoring)) {
+        const promise = isNewCacheEntry ? // Fetch immediately on render in order to ensure `.promise` is resolved even if the component is unmounted
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$suspense$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fetchOptimistic"])(defaultedOptions, observer, errorResetBoundary) : // subscribe to the "cache promise" so that we can finalize the currentThenable once data comes in
+        client.getQueryCache().get(defaultedOptions.queryHash)?.promise;
+        promise?.catch(__TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["noop"]).finally(()=>{
+            observer.updateResult();
+        });
+    }
+    return !defaultedOptions.notifyOnChangeProps ? observer.trackResult(result) : result;
+}
+;
+ //# sourceMappingURL=useBaseQuery.js.map
+}),
+"[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/useQuery.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useQuery",
+    ()=>useQuery
+]);
+// src/useQuery.ts
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$queryObserver$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/query-core/build/modern/queryObserver.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$useBaseQuery$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/eld-logs-spotter/eld_logs_frontend/node_modules/@tanstack/react-query/build/modern/useBaseQuery.js [app-client] (ecmascript)");
+"use client";
+;
+;
+function useQuery(options, queryClient) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$useBaseQuery$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useBaseQuery"])(options, __TURBOPACK__imported__module__$5b$project$5d2f$eld$2d$logs$2d$spotter$2f$eld_logs_frontend$2f$node_modules$2f40$tanstack$2f$query$2d$core$2f$build$2f$modern$2f$queryObserver$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["QueryObserver"], queryClient);
+}
+;
+ //# sourceMappingURL=useQuery.js.map
+}),
+]);
+
+//# sourceMappingURL=1d40e_b32ed796._.js.map

@@ -1,0 +1,115 @@
+<div class="max-w-4xl mx-auto p-5 min-h-screen">
+  <!-- Header -->
+  <header class="text-center mb-10 py-8 bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-xl shadow-lg">
+    <h1 class="text-4xl md:text-5xl font-light mb-3">📄 E-Signature Service</h1>
+    <p class="text-lg md:text-xl opacity-90">Upload a PDF document to digitally sign it</p>
+  </header>
+
+  <!-- File Upload Form -->
+  <div class="bg-white rounded-xl p-8 mb-8 shadow-lg border border-gray-200">
+    <div class="space-y-6">
+      <h2 class="text-2xl font-medium text-gray-800 text-center">Upload PDF for Signing</h2>
+      
+      <!-- File Input -->
+      <div class="text-center">
+        <label for="fileInput" 
+               class="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg cursor-pointer font-medium text-base transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-blue-500/25">
+          <span class="text-lg mr-2">📁</span>
+          Choose PDF File
+        </label>
+        <input 
+          type="file" 
+          id="fileInput" 
+          accept=".pdf" 
+          (change)="onFileSelected($event)"
+          class="hidden">
+      </div>
+
+      <!-- Selected File Display -->
+      <div *ngIf="selectedFile" 
+           class="text-center mx-auto max-w-md p-4 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg text-gray-600">
+        <span class="font-medium mr-2">{{ selectedFile.name }}</span>
+        <span class="text-gray-500 text-sm">({{ formatFileSize(selectedFile.size) }})</span>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+        <!-- Upload Button -->
+        <button 
+          class="px-6 py-3 rounded-lg font-medium text-base transition-all duration-300 min-w-[140px]"
+          [class]="!selectedFile || uploading 
+            ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+            : 'bg-gradient-to-r from-green-500 to-green-600 text-white hover:-translate-y-0.5 hover:shadow-xl hover:shadow-green-500/25'"
+          [disabled]="!selectedFile || uploading"
+          (click)="uploadAndSign()">
+          <span *ngIf="uploading">🔄 Signing...</span>
+          <span *ngIf="!uploading">✍️ Sign & Upload</span>
+        </button>
+
+        <!-- Reset Button -->
+        <button 
+          *ngIf="selectedFile || uploadComplete || errorMessage"
+          class="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-medium text-base transition-all duration-300 hover:bg-gray-300 hover:-translate-y-0.5 min-w-[100px]"
+          (click)="resetForm()">
+          🔄 Reset
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="errorMessage" 
+       class="flex items-start p-5 bg-gradient-to-r from-red-50 to-red-100 border border-red-200 rounded-xl mb-5 shadow-lg">
+    <div class="text-2xl mr-4 mt-1">❌</div>
+    <div class="flex-1">
+      <h3 class="text-lg font-semibold text-red-800 mb-2">Error</h3>
+      <p class="text-red-700 leading-relaxed">{{ errorMessage }}</p>
+    </div>
+  </div>
+
+  <!-- Success Message and Metadata -->
+  <div *ngIf="uploadComplete && signingResponse" 
+       class="flex items-start p-5 bg-gradient-to-r from-green-50 to-green-100 border border-green-200 rounded-xl mb-5 shadow-lg">
+    <div class="text-2xl mr-4 mt-1">✅</div>
+    <div class="flex-1">
+      <h3 class="text-lg font-semibold text-green-800 mb-3">{{ signingResponse.message }}</h3>
+      
+      <!-- Signing Metadata -->
+      <div class="mt-5 p-5 bg-white/60 rounded-lg">
+        <h4 class="text-base font-semibold text-gray-800 mb-4">📋 Signing Details</h4>
+        <div class="space-y-3">
+          <div class="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-2 md:gap-4 items-start">
+            <label class="font-medium text-gray-600 text-sm md:text-base">Original Filename:</label>
+            <span class="text-gray-800 text-sm md:text-base">{{ signingResponse.metadata.original_filename }}</span>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-2 md:gap-4 items-start">
+            <label class="font-medium text-gray-600 text-sm md:text-base">Signed Filename:</label>
+            <span class="text-gray-800 text-sm md:text-base">{{ signingResponse.metadata.signed_filename }}</span>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-2 md:gap-4 items-start">
+            <label class="font-medium text-gray-600 text-sm md:text-base">Signed At:</label>
+            <span class="text-gray-800 text-sm md:text-base">{{ formatDate(signingResponse.metadata.signed_at) }}</span>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-2 md:gap-4 items-start">
+            <label class="font-medium text-gray-600 text-sm md:text-base">File Size:</label>
+            <span class="text-gray-800 text-sm md:text-base">{{ formatFileSize(signingResponse.metadata.file_size) }}</span>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-2 md:gap-4 items-start">
+            <label class="font-medium text-gray-600 text-sm md:text-base">Signature ID:</label>
+            <span class="font-mono bg-gray-100 px-2 py-1 rounded text-sm break-all">{{ signingResponse.metadata.signature_id }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading Indicator -->
+  <div *ngIf="uploading" class="text-center py-10">
+    <div class="w-10 h-10 border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-5"></div>
+    <p class="text-gray-600 text-lg">Processing your document...</p>
+  </div>
+</div>
